@@ -1,0 +1,19 @@
+{
+  "name": "jsdayie.github.io",
+  "version": "1.0.0",
+  "description": "The official website of JSDayIE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSDayIE/JSDayIE.github.io.git"
+  },
+  "author": "Remo H. Jansen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JSDayIE/JSDayIE.github.io/issues"
+  },
+  "homepage": "https://github.com/JSDayIE/JSDayIE.github.io#readme"
+}
