@@ -61,6 +61,12 @@ a:hover {
     text-align: center;
 }
 
+.section h1 {
+    border-bottom: 4px solid #ffc107;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
 .footer {
     text-align: center;
 }
