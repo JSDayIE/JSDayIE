@@ -9,6 +9,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 15% 0%;
+    border-bottom: 30px solid #ffc107;
 }
 
 .hero {
@@ -84,9 +85,43 @@ a:hover {
     padding: 5% 0%;
     text-align: center;
     background-color: #ffc107;
-    margin-top: 200px;
 }
 
 .footer p {
     margin-bottom: 0px;
+}
+
+.mail-list {
+    color: #ffffff;
+    background: #e8ae00;
+    clear: left;
+    font: 14px Helvetica, Arial,sans-serif;
+    width:100%;
+    margin-top: 200px;
+    padding: 2% 0%;
+}
+
+.content table {
+    width: 40%;
+    margin: auto;
+}
+
+.content thead tr {
+    border-bottom: 4px solid #ffc107;
+}
+
+.content tbody tr {
+    border-bottom: 1px solid #ffc107;
+}
+
+.content thead th {
+    padding: 10px;
+}
+
+.content tbody td {
+    padding: 10px;
+}
+
+.content img {
+    max-width: 100%;
 }
