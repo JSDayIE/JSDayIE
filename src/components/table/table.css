@@ -1,0 +1,20 @@
+.content table {
+    width: 40%;
+    margin: auto;
+}
+
+.content thead tr {
+    border-bottom: 4px solid #ffc107;
+}
+
+.content tbody tr {
+    border-bottom: 1px solid #ffc107;
+}
+
+.content thead th {
+    padding: 10px;
+}
+
+.content tbody td {
+    padding: 10px;
+}

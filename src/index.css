@@ -1,127 +1,45 @@
 body {
-    background-color: #323330;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #ffffff;
-}
-
-.bg {
-    background-image: url('../media/bg1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 15% 0%;
-    border-bottom: 30px solid #ffc107;
-}
-
-.hero {
-    width: 50%;
-    margin: 0% auto 0px auto;
-}
-
-.hero img {
-    width: 190px;
-}
-
-.hero .logo {
-    width: 25%;
-    vertical-align: top;
-}
-
-.hero .title {
-    width: 75%;
-    padding: 41px 0px 0px 10px;
-    vertical-align: top;
-}
-
-.hero h1 {
-    font-size: 113px;
-    font-weight: bold;
-    margin: 0px;
-}
-
-.hero h2 {
-    font-size: 45px;
-    margin: 0px;
-}
-
-.hero h3 {
-    font-size: 28px;
-    margin: 0px;
-    padding-left: 5px;
+  background-color: #323330;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff;
 }
 
 a {
-    color: #ffc107;
+  color: #ffc107;
 }
 
 a:hover {
-    color: #ffc107;
+  color: #ffc107;
 }
 
 .content {
-    padding-top: 100px;
-}
-
-.section {
-    padding: 25px 0px;
-    text-align: center;
-    margin-top: 100px;
-}
-
-.section h1 {
-    border-bottom: 4px solid #ffc107;
-    display: inline-block;
-    margin-bottom: 20px;
+  padding-top: 100px;
 }
 
 .section p {
-    font-size: 24px;
-}
-
-.btn {
-    text-transform: capitalize;
+  font-size: 24px;
 }
 
 .footer {
-    padding: 5% 0%;
-    text-align: center;
-    background-color: #ffc107;
+  padding: 5% 0%;
+  text-align: center;
+  background-color: #ffc107;
 }
 
 .footer p {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .mail-list {
-    color: #ffffff;
-    background: #e8ae00;
-    clear: left;
-    font: 14px Helvetica, Arial,sans-serif;
-    width:100%;
-    margin-top: 200px;
-    padding: 2% 0%;
-}
-
-.content table {
-    width: 40%;
-    margin: auto;
-}
-
-.content thead tr {
-    border-bottom: 4px solid #ffc107;
-}
-
-.content tbody tr {
-    border-bottom: 1px solid #ffc107;
-}
-
-.content thead th {
-    padding: 10px;
-}
-
-.content tbody td {
-    padding: 10px;
+  color: #ffffff;
+  background: #e8ae00;
+  clear: left;
+  font: 14px Helvetica, Arial,sans-serif;
+  width:100%;
+  margin-top: 200px;
+  padding: 2% 0%;
 }
 
 .content img {
-    max-width: 100%;
+  max-width: 100%;
 }

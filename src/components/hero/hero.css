@@ -1,0 +1,45 @@
+.hero_bg {
+  background-image: url('./bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15% 0%;
+  border-bottom: 30px solid #ffc107;
+}
+
+.hero {
+  width: 50%;
+  margin: 0% auto 0px auto;
+}
+
+.hero_img {
+  width: 190px;
+}
+
+.hero_logo {
+  width: 25%;
+  vertical-align: top;
+}
+
+.hero_title {
+  width: 75%;
+  padding: 0px 0px 0px 10px;
+  vertical-align: top;
+}
+
+.hero_h1 {
+  font-size: 113px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.hero_h2 {
+  font-size: 45px;
+  margin: 0px;
+}
+
+.hero_h3 {
+  font-size: 28px;
+  margin: 0px;
+  padding-left: 5px;
+}
+  
