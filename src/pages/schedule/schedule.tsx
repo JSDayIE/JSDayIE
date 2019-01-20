@@ -3,7 +3,7 @@ import Container from "../../lib/components/container/container";
 import Section from "../../lib/components/section/section";
 import Table from "../../lib/components/table/table";
 import { IActivityArray, ActivityArrayValidator } from "../../lib/domain/types";
-import { Remote } from "../../lib/components/remote/remote";
+import { Fetchable } from "react-fetchable";
 
 interface ScheduleProps {}
 
@@ -19,7 +19,7 @@ class Schedule extends React.Component<ScheduleProps, ScheduleState> {
             with a duration of 25 minutes each dedicated to the JavaScript
             community in Ireland.
           </p>
-          <Remote
+          <Fetchable
             url="/data/schedule.json"
             validator={ActivityArrayValidator}
             loading={() => <div>Loading...</div>}

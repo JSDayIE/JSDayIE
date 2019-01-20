@@ -2,8 +2,8 @@ import React from "react";
 import Container from "../../lib/components/container/container";
 import Section from "../../lib/components/section/section";
 import Table from "../../lib/components/table/table";
-import { ISponsorshipArray, SponsorshipArrayValidator } from "../../lib/domain/types";
-import { Remote } from "../../lib/components/remote/remote";
+import { ISponsors, SponsorsValidator, SponsorshipArrayValidator, ISponsorshipArray } from "../../lib/domain/types";
+import { Fetchable } from "react-fetchable";
 
 class Sponsors extends React.Component {
   render() {
@@ -15,78 +15,78 @@ class Sponsors extends React.Component {
             so far! Would you like to add your name to the list?
             Check out our sponsorship opportunities.
           </p>
-            <h1>Presenting Sponsor</h1>
-            <Remote
+          <Fetchable
               url="/data/sponsors.json"
-              validator={SponsorshipArrayValidator}
+              validator={SponsorsValidator}
               loading={() => <div>Loading...</div>}
               error={(e: Error) => <div>Error: {e.message}</div>}
-              success={(data: ISponsorshipArray) => {
+              success={(data: ISponsors) => {
                 return (
-                  <div>TODO</div>
+                  <React.Fragment>
+                    <h1>Presenting Sponsor</h1>
+                    {
+                      data.presenting.map(s => {
+                        return (
+                          <React.Fragment>
+                            TODO
+                          </React.Fragment>
+                        );
+                      })
+                    }
+                    <h1>Diamond Sponsor</h1>
+                    {
+                      data.diamond.map(s => {
+                        return (
+                          <React.Fragment>
+                            TODO
+                          </React.Fragment>
+                        );
+                      })
+                    }
+                    <h1>Platinum Plus Sponsors</h1>
+                    {
+                      data.platinumPlus.map(s => {
+                        return (
+                          <React.Fragment>
+                            TODO
+                          </React.Fragment>
+                        );
+                      })
+                    }
+                    <h1>Platinum Sponsors</h1>
+                    {
+                      data.platinum.map(s => {
+                        return (
+                          <React.Fragment>
+                            TODO
+                          </React.Fragment>
+                        );
+                      })
+                    }
+                    <h1>Silver Sponsors</h1>
+                    {
+                      data.silver.map(s => {
+                        return (
+                          <React.Fragment>
+                            TODO
+                          </React.Fragment>
+                        );
+                      })
+                    }
+                    <h1>Gold Sponsors</h1>
+                    {
+                      data.gold.map(s => {
+                        return (
+                          <React.Fragment>
+                            TODO
+                          </React.Fragment>
+                        );
+                      })
+                    }
+                  </React.Fragment>
                 );
               }}
-            />
-            <h1>Diamond Sponsor</h1>
-            <Remote
-              url="/data/sponsors.json"
-              validator={SponsorshipArrayValidator}
-              loading={() => <div>Loading...</div>}
-              error={(e: Error) => <div>Error: {e.message}</div>}
-              success={(data: ISponsorshipArray) => {
-                return (
-                  <div>TODO</div>
-                );
-              }}
-            />
-            <h1>Platinum Plus Sponsors</h1>
-            <Remote
-              url="/data/sponsors.json"
-              validator={SponsorshipArrayValidator}
-              loading={() => <div>Loading...</div>}
-              error={(e: Error) => <div>Error: {e.message}</div>}
-              success={(data: ISponsorshipArray) => {
-                return (
-                  <div>TODO</div>
-                );
-              }}
-            />
-            <h1>Platinum Sponsors</h1>
-            <Remote
-              url="/data/sponsors.json"
-              validator={SponsorshipArrayValidator}
-              loading={() => <div>Loading...</div>}
-              error={(e: Error) => <div>Error: {e.message}</div>}
-              success={(data: ISponsorshipArray) => {
-                return (
-                  <div>TODO</div>
-                );
-              }}
-            />
-            <h1>Silver Sponsors</h1>
-            <Remote
-              url="/data/sponsors.json"
-              validator={SponsorshipArrayValidator}
-              loading={() => <div>Loading...</div>}
-              error={(e: Error) => <div>Error: {e.message}</div>}
-              success={(data: ISponsorshipArray) => {
-                return (
-                  <div>TODO</div>
-                );
-              }}
-            />
-            <h1>Gold Sponsors</h1>
-            <Remote
-              url="/data/sponsors.json"
-              validator={SponsorshipArrayValidator}
-              loading={() => <div>Loading...</div>}
-              error={(e: Error) => <div>Error: {e.message}</div>}
-              success={(data: ISponsorshipArray) => {
-                return (
-                  <div>TODO</div>
-                );
-              }}
-            />
+          />
         </Section>
         <Section title="Would You Like to Sponsor JSdayIE?">
           <p>
@@ -94,7 +94,7 @@ class Sponsors extends React.Component {
             growth of the JavaScript community in Ireland. Please join us 
             in creating an amazing experience for each and every attendee.
           </p>
-          <Remote
+          <Fetchable
             url="/data/sponsorship.json"
             validator={SponsorshipArrayValidator}
             loading={() => <div>Loading...</div>}

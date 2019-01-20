@@ -24,3 +24,20 @@ export const SponsorshipArrayValidator = io.array(SponsorshipValidator);
 
 export type ISponsorship = io.TypeOf<typeof SponsorshipValidator>;
 export type ISponsorshipArray = io.TypeOf<typeof SponsorshipArrayValidator>;
+
+export const SponsorValidator = io.type({
+    name: io.string,
+    website: io.string,
+    logo: io.string
+});
+
+export const SponsorsValidator = io.type({
+    silver: io.array(SponsorValidator),
+    gold: io.array(SponsorValidator),
+    platinum: io.array(SponsorValidator),
+    platinumPlus: io.array(SponsorValidator),
+    diamond: io.array(SponsorValidator),
+    presenting: io.array(SponsorValidator)
+});
+
+export type ISponsors = io.TypeOf<typeof SponsorsValidator>;
