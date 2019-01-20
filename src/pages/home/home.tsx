@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Section from "../../components/section/section";
-import Button from "../../components/button/button";
-import Hero from "../../components/hero/hero";
-import Container from "../../components/container/container";
+import Section from "../../lib/components/section/section";
+import Button from "../../lib/components/button/button";
+import Hero from "../../lib/components/hero/hero";
+import Container from "../../lib/components/container/container";
 
 class Home extends Component {
   render() {

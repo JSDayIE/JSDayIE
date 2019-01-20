@@ -1,9 +1,9 @@
 import React from "react";
 import { Switch, Route, RouteComponentProps } from "react-router-dom";
-import Navbar from "../components/navbar/navbar";
-import Footer from "../components/footer/footer";
+import Navbar from "../lib/components/navbar/navbar";
+import Footer from "../lib/components/footer/footer";
 import Home from "./home/home";
-import Talks from "./talks/talks";
+import Speakers from "./speakers/speakers";
 import Schedule from "./schedule/schedule";
 import Tickets from "./tickets/tickets";
 import Venue from "./venue/venue";
@@ -19,10 +19,10 @@ interface RouteConf {
 
 const routes: RouteConf[] = [
     { isIndex: true, title: "JSDayIE 2019", path: "/", component: Home },
-    { title: "Talks", path: "/talks", component: Talks },
+    { title: "Speakers", path: "/speakers", component: Speakers },
     { title: "Schedule", path: "/schedule", component: Schedule },
-    { title: "Tickets", path: "/tickets", component: Tickets },
     { title: "Venue", path: "/venue", component: Venue },
+    { title: "Tickets", path: "/tickets", component: Tickets },
     { title: "Sponsors", path: "/sponsors", component: Sponsors },
     { title: "Code of conduct", path: "/coc", component: CoC }
 ];
@@ -33,7 +33,13 @@ class Layout extends React.Component {
             <React.Fragment>
                 <Navbar
                     items={
-                        routes.map(r => ({ href: r.path, title: r.title }))
+                        routes.map(r => {
+                            return {
+                                href: r.path,
+                                isIndex: r.isIndex,
+                                title: r.title
+                            };
+                        })
                     }
                 />
                 <Switch>

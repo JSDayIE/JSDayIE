@@ -1,20 +1,20 @@
-.content table {
-    width: 40%;
+.table_table {
     margin: auto;
+    margin-bottom: 50px;
 }
 
-.content thead tr {
+.table_thead_tr {
     border-bottom: 4px solid #ffc107;
 }
 
-.content tbody tr {
+.table_tbody_tr {
     border-bottom: 1px solid #ffc107;
 }
 
-.content thead th {
+.table_thead_th {
     padding: 10px;
 }
 
-.content tbody td {
+.table_tbody_td {
     padding: 10px;
 }

@@ -1,0 +1,20 @@
+[
+    { "startTime": "08:00", "title": "Registration & Breakfast", "minuteCount": 60 },
+    { "startTime": "09:00", "title": "Keynote", "minuteCount": 25 },
+    { "startTime": "09:30", "title": "Talk 1 (TBA)", "minuteCount": 25 },
+    { "startTime": "10:00", "title": "Talk 2 (TBA)", "minuteCount": 25 },
+    { "startTime": "10:30", "title": "Talk 3 (TBA)", "minuteCount": 25 },
+    { "startTime": "10:55", "title": "Coffee Break", "minuteCount": 15 },
+    { "startTime": "11:10", "title": "Talk 4 (TBA)", "minuteCount": 25 },
+    { "startTime": "11:40", "title": "Talk 5 (TBA)", "minuteCount": 25 },
+    { "startTime": "12:10", "title": "Talk 6 (TBA)", "minuteCount": 25 },
+    { "startTime": "12:35", "title": "Lunch, Networking & Group Pic", "minuteCount": 80 },
+    { "startTime": "14:00", "title": "Talk 7 (TBA)", "minuteCount": 25 },
+    { "startTime": "14:30", "title": "Talk 8 (TBA)", "minuteCount": 25 },
+    { "startTime": "15:00", "title": "Talk 9 (TBA)", "minuteCount": 25 },
+    { "startTime": "15:25", "title": "Coffee Break", "minuteCount": 15 },
+    { "startTime": "15:40", "title": "Talk 10 (TBA)", "minuteCount": 25 },
+    { "startTime": "16:10", "title": "Talk 11 (TBA)", "minuteCount": 25 },
+    { "startTime": "16:40", "title": "Talk 12 (TBA)", "minuteCount": 25 },
+    { "startTime": "17:10", "title": "Closing Remarks", "minuteCount": 25 }
+]

@@ -1,6 +1,6 @@
 import React from "react";
-import Container from "../../components/container/container";
-import Section from "../../components/section/section";
+import Container from "../../lib/components/container/container";
+import Section from "../../lib/components/section/section";
 
 class Venue extends React.Component {
   render() {
