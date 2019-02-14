@@ -1,5 +1,5 @@
 body {
-  background-color: #323330;
+  background-color: #100e17;
   font-family: 'Josefin Sans', sans-serif;
   color: #ffffff;
 }
@@ -40,6 +40,20 @@ a:hover {
   padding: 2% 0%;
 }
 
-.content img {
-  max-width: 100%;
+.presentingSponsor {
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+.diamondSponsor {
+  height: 250px;
+}
+
+iframe {
+  border: none;
+}
+
+.venueMediaItem {
+  width: 560px;
+  height: 315px;
 }

@@ -5,6 +5,29 @@ import Table from "../../lib/components/table/table";
 import { ISponsors, SponsorsValidator, SponsorshipArrayValidator, ISponsorshipArray } from "../../lib/domain/types";
 import { Fetchable } from "react-fetchable";
 
+interface SponsorGroupProps {
+  group: keyof ISponsors;
+  sponsors: ISponsors;
+  label: string;
+}
+
+function SponsorGroup({ group, sponsors, label }: SponsorGroupProps) {
+  const sponsorsInGroup = sponsors[group];
+  return (
+    <React.Fragment>
+      {sponsorsInGroup.length > 0 ? <h1>{label}</h1> : null}
+      {
+        sponsorsInGroup.map(s => (
+          <a title={s.name} href={s.web}>
+            <img className={`${group}Sponsor`} src={s.logo} />
+          </a>
+        ))
+      } 
+    </React.Fragment>
+  );
+  <h1>Presenting Sponsor</h1>
+}
+
 class Sponsors extends React.Component {
   render() {
     return (
@@ -23,72 +46,18 @@ class Sponsors extends React.Component {
               success={(data: ISponsors) => {
                 return (
                   <React.Fragment>
-                    <h1>Presenting Sponsor</h1>
-                    {
-                      data.presenting.map(s => {
-                        return (
-                          <React.Fragment>
-                            TODO
-                          </React.Fragment>
-                        );
-                      })
-                    }
-                    <h1>Diamond Sponsor</h1>
-                    {
-                      data.diamond.map(s => {
-                        return (
-                          <React.Fragment>
-                            TODO
-                          </React.Fragment>
-                        );
-                      })
-                    }
-                    <h1>Platinum Plus Sponsors</h1>
-                    {
-                      data.platinumPlus.map(s => {
-                        return (
-                          <React.Fragment>
-                            TODO
-                          </React.Fragment>
-                        );
-                      })
-                    }
-                    <h1>Platinum Sponsors</h1>
-                    {
-                      data.platinum.map(s => {
-                        return (
-                          <React.Fragment>
-                            TODO
-                          </React.Fragment>
-                        );
-                      })
-                    }
-                    <h1>Silver Sponsors</h1>
-                    {
-                      data.silver.map(s => {
-                        return (
-                          <React.Fragment>
-                            TODO
-                          </React.Fragment>
-                        );
-                      })
-                    }
-                    <h1>Gold Sponsors</h1>
-                    {
-                      data.gold.map(s => {
-                        return (
-                          <React.Fragment>
-                            TODO
-                          </React.Fragment>
-                        );
-                      })
-                    }
+                    <SponsorGroup group="presenting" label="Presenting Sponsor" sponsors={data} />
+                    <SponsorGroup group="diamond" label="Diamond Sponsor" sponsors={data} />
+                    <SponsorGroup group="platinumPlus" label="Platinum Plus Sponsor" sponsors={data} />
+                    <SponsorGroup group="platinum" label="Platinum Sponsors" sponsors={data} />
+                    <SponsorGroup group="silver" label="Silver Sponsors" sponsors={data} />
+                    <SponsorGroup group="gold" label="Gold Sponsors" sponsors={data} />
                   </React.Fragment>
                 );
               }}
           />
         </Section>
-        <Section title="Would You Like to Sponsor JSdayIE?">
+        <Section title="Would You Like to Sponsor JSdayIE 2019?">
           <p>
             Sponsoring JSDayIE is a great way to contribute to the healthy
             growth of the JavaScript community in Ireland. Please join us 
@@ -126,8 +95,8 @@ class Sponsors extends React.Component {
           />
           <p>
             Sponsoring offers a unique opportunity to expose your brand
-            and find talent and profiles in Ireland specialized in
-            JavaScript technologies.
+            and find talent and profiles specialized in JavaScript technologies
+            in Ireland.
           </p>
         </Section>
       </Container>

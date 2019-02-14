@@ -15,9 +15,8 @@ class Schedule extends React.Component<ScheduleProps, ScheduleState> {
       <Container>
         <Section title="Schedule">
           <p>
-            JSDayIE is a single-track 1-day event featuring 12 amazing talks
-            with a duration of 25 minutes each dedicated to the JavaScript
-            community in Ireland.
+            JSDayIE is a single-track 1-day tech conference featuring 12
+            talks from some of the best JavaScript professionals in Ireland!
           </p>
           <Fetchable
             url="/data/schedule.json"

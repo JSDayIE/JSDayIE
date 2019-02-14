@@ -1,9 +1,27 @@
 .hero_bg {
-  background-image: url('./bg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0.8);
   padding: 15% 0%;
   border-bottom: 30px solid #ffc107;
+  height: 730px;
+}
+
+.videoBg {
+  position: absolute;
+  z-index: -1; top: 0px;
+  left: 0px;
+  height: 760px;
+  width: 100vw;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.videoBg video {
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left:0px;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .hero {
@@ -33,13 +51,15 @@
 }
 
 .hero_h2 {
-  font-size: 45px;
+  font-size: 28px;
   margin: 0px;
+  text-align: center;
 }
 
 .hero_h3 {
   font-size: 28px;
   margin: 0px;
   padding-left: 5px;
+  text-align: center;
 }
   

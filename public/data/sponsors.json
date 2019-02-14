@@ -12,9 +12,9 @@
 
     ],
     "diamond": [
-
+        { "name": "Wolk Software", "web": "http://www.wolksoftware.com", "logo": "http://www.logospng.com/images/123/the-next-billion-new-york-123900.png" }
     ],
     "presenting": [
-
+        { "name": "Wolk Software", "web": "http://www.wolksoftware.com", "logo": "/media/wolk_software_logo.png" }
     ]
 }

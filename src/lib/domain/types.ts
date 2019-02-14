@@ -2,8 +2,8 @@ import * as io from "io-ts";
 
 export const ActivityValidator = io.type({
     startTime: io.string,
-    title: io.string,
-    minuteCount: io.number
+    endTime: io.string,
+    title: io.string
 });
 
 export const ActivityArrayValidator = io.array(ActivityValidator);
@@ -27,7 +27,7 @@ export type ISponsorshipArray = io.TypeOf<typeof SponsorshipArrayValidator>;
 
 export const SponsorValidator = io.type({
     name: io.string,
-    website: io.string,
+    web: io.string,
     logo: io.string
 });
 
