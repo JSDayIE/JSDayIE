@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../../lib/components/container/container";
 import Section from "../../lib/components/section/section";
 import Table from "../../lib/components/table/table";
-import { IActivityArray, ActivityArrayValidator } from "../../lib/domain/types";
+import { ActivityArray, activityArrayValidator } from "../../lib/domain/types";
 import { Fetchable } from "react-fetchable";
 
 interface ScheduleProps {}
@@ -20,10 +20,10 @@ class Schedule extends React.Component<ScheduleProps, ScheduleState> {
           </p>
           <Fetchable
             url="/data/schedule.json"
-            validator={ActivityArrayValidator}
+            validator={activityArrayValidator}
             loading={() => <div>Loading...</div>}
             error={(e: Error) => <div>Error: {e.message}</div>}
-            success={(data: IActivityArray) => {
+            success={(data: ActivityArray) => {
               return (
                 <Table
                   headers={["Time", "Activity"]}

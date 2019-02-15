@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../../lib/components/container/container";
 import Section from "../../lib/components/section/section";
 import Table from "../../lib/components/table/table";
-import { ISponsors, SponsorsValidator, SponsorshipArrayValidator, ISponsorshipArray } from "../../lib/domain/types";
+import { ISponsors, SponsorsValidator, sponsorsingPackageArrayValidator, SponsorsingPackageArray } from "../../lib/domain/types";
 import { Fetchable } from "react-fetchable";
 
 interface SponsorGroupProps {
@@ -34,9 +34,8 @@ class Sponsors extends React.Component {
       <Container>
         <Section title="A shout out to our amazing sponsors!">
           <p>
-            These organizations have been instrumental in shaping TSConf
-            so far! Would you like to add your name to the list?
-            Check out our sponsorship opportunities.
+            JSDayIE 2019 would not be possible without the support of the following organizations.
+            Would you like to add your name to the list? Check out our sponsorship opportunities!
           </p>
           <Fetchable
               url="/data/sponsors.json"
@@ -50,8 +49,9 @@ class Sponsors extends React.Component {
                     <SponsorGroup group="diamond" label="Diamond Sponsor" sponsors={data} />
                     <SponsorGroup group="platinumPlus" label="Platinum Plus Sponsor" sponsors={data} />
                     <SponsorGroup group="platinum" label="Platinum Sponsors" sponsors={data} />
-                    <SponsorGroup group="silver" label="Silver Sponsors" sponsors={data} />
                     <SponsorGroup group="gold" label="Gold Sponsors" sponsors={data} />
+                    <SponsorGroup group="silver" label="Silver Sponsors" sponsors={data} />
+                    <SponsorGroup group="media" label="Media Sponsors" sponsors={data} />
                   </React.Fragment>
                 );
               }}
@@ -65,10 +65,10 @@ class Sponsors extends React.Component {
           </p>
           <Fetchable
             url="/data/sponsorship.json"
-            validator={SponsorshipArrayValidator}
+            validator={sponsorsingPackageArrayValidator}
             loading={() => <div>Loading...</div>}
             error={(e: Error) => <div>Error: {e.message}</div>}
-            success={(data: ISponsorshipArray) => {
+            success={(data: SponsorsingPackageArray) => {
               return (
                 <Table
                   headers={[
@@ -93,9 +93,10 @@ class Sponsors extends React.Component {
               );
             }}
           />
+          <p>* Fees are displayed excluding 23% VAT</p>
           <p>
             Sponsoring offers a unique opportunity to expose your brand
-            and find talent and profiles specialized in JavaScript technologies
+            and find talent specialized in JavaScript technologies
             in Ireland.
           </p>
         </Section>

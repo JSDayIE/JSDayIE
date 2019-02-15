@@ -1,11 +1,11 @@
 [
     {
-        "title": "Price (EUR)",
-        "silver": "500",
-        "gold": "1000",
-        "platinum": "1500",
-        "platinumPlus": "2000",
-        "diamond": "3000"
+        "title": "Price (EUR)*",
+        "silver": "1000",
+        "gold": "1500",
+        "platinum": "3000",
+        "platinumPlus": "4000",
+        "diamond": "5000"
     },
     {
         "title": "Logo on the web",
@@ -40,7 +40,7 @@
         "diamond": "✓"
     },
     {
-        "title": "Table with roll up",
+        "title": "Display a Roll-up banner stand",
         "silver": "",
         "gold": "",
         "platinum": "✓",

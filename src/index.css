@@ -26,6 +26,10 @@ a:hover {
   background-color: #ffc107;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255, 1);
+}
+
 .footer p {
   margin-bottom: 0px;
 }

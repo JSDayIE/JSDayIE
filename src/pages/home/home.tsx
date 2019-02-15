@@ -3,6 +3,10 @@ import Section from "../../lib/components/section/section";
 import Button from "../../lib/components/button/button";
 import Hero from "../../lib/components/hero/hero";
 import Container from "../../lib/components/container/container";
+import Tickets from "../tickets/tickets";
+import Sponsors from "../sponsors/sponsors";
+import Venue from "../venue/venue";
+import Schedule from "../schedule/schedule";
 
 class Home extends Component {
   render() {
@@ -39,27 +43,10 @@ class Home extends Component {
                 <Button>Learn more about the CFP</Button>
             </Section>
 
-            <Section title="Schedule">
-                <p>
-                    JSDayIE is a single-track 1-day event featuring 12 talks
-                    dedicated to the JavaScript community in Ireland.
-                </p>
-                
-            </Section>
-
-            <Section title="Tickets">
-                <p>// TODO</p>
-            </Section>
-
-            <Section title="Venue">
-                <p>// TODO</p>
-            </Section>
-
-            <Section title="Sponsors">
-                <p>Is your activity connected with JavaScript?</p>
-                <p>Do you want a prominent role in the making of jsDay?</p>
-                <Button>Learn more about the available sponsorship opportunities</Button>
-            </Section>
+            <Schedule/>
+            <Tickets/>
+            <Venue/>
+            <Sponsors />
 
             <Section title="Code of Conduct">
                 <p>JSDayIE is a community conference intended for networking and collaboration in the developer community. We value the participation of each member of the community and want all attendees to have an enjoyable and fulfilling experience.</p>

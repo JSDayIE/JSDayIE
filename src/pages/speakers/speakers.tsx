@@ -1,6 +1,9 @@
 import React from "react";
 import Container from "../../lib/components/container/container";
 import Section from "../../lib/components/section/section";
+import { Fetchable } from "react-fetchable";
+import { speakerArrayValidator, SpeakerArray } from "../../lib/domain/types";
+import { Speaker } from "./speaker";
 
 class Speakers extends React.Component {
   render() {
@@ -8,8 +11,27 @@ class Speakers extends React.Component {
       <Container>
         <Section title="Speakers">
           <p>
-            We have selected the best speakers to tell us their experience with Javascript.
+            JSDayIE features 12 talks from some of the best JavaScript professionals in Ireland.
           </p>
+          <Fetchable
+              url="/data/speakers.json"
+              validator={speakerArrayValidator}
+              loading={() => <div>Loading...</div>}
+              error={(e: Error) => <div>Error: {e.message}</div>}
+              success={
+                data => (
+                  <div className="row">
+                    {
+                      data.map(s => (
+                        <div className="col-md-4">
+                          <Speaker details={s} />
+                        </div>
+                      ))
+                    }
+                  </div>
+                )
+              }
+          />
         </Section>
       </Container>
     );
