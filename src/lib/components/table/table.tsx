@@ -6,7 +6,7 @@ interface TableProps {
     rows: string[][];
 }
 
-class Table extends React.Component<TableProps> {
+export class Table extends React.Component<TableProps> {
     public render() {
         return (
             <table className="table_table">
@@ -48,5 +48,3 @@ class Table extends React.Component<TableProps> {
         );
     }
 }
-
-export default Table;

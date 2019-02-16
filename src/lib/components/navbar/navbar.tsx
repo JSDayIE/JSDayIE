@@ -68,5 +68,3 @@ export class Navbar extends React.Component<NavbarProps> {
     }
 
 }
-
-export default Navbar;

@@ -1,8 +1,7 @@
 import React from "react";
-import Container from "../../../lib/components/container/container";
-import Section from "../../../lib/components/section/section";
-import Table from "../../../lib/components/table/table";
-import Button from "../../../lib/components/button/button";
+import { Section } from "../../../lib/components/section/section";
+import { Table } from "../../../lib/components/table/table";
+import { Button } from "../../../lib/components/button/button";
 import { ISponsors, SponsorsValidator, sponsorsingPackageArrayValidator, SponsorsingPackageArray } from "../../../lib/domain/types";
 import { Fetchable } from "react-fetchable";
 
@@ -26,13 +25,12 @@ function SponsorGroup({ group, sponsors, label }: SponsorGroupProps) {
       } 
     </React.Fragment>
   );
-  <h1>Presenting Sponsor</h1>
 }
 
-class Sponsors extends React.Component {
+export class Sponsors extends React.Component {
   render() {
     return (
-      <Container>
+      <React.Fragment>
         <Section title="A shout out to our amazing sponsors!">
           <p>
             JSDayIE 2019 would not be possible without the support of the following organizations.
@@ -100,11 +98,9 @@ class Sponsors extends React.Component {
             and find talent specialized in JavaScript technologies
             in Ireland.
           </p>
+          <Button>Become a sponsor now!</Button>
         </Section>
-        <Button>Become a sponsor now!</Button>
-      </Container>
+      </React.Fragment>
     );
   }
 }
-
-export default Sponsors;

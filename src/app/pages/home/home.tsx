@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import Section from "../../../lib/components/section/section";
-import Hero from "../../../lib/components/hero/hero";
-import Container from "../../../lib/components/container/container";
-import Tickets from "../tickets/tickets";
-import Sponsors from "../sponsors/sponsors";
+import { Section } from "../../../lib/components";
+import { Hero } from "../../../lib/components";
+import { Container } from "../../../lib/components";
+import { Tickets } from "../tickets/tickets";
+import { Sponsors } from "../sponsors/sponsors";
 import { Venue } from "../venue/venue";
-import Schedule from "../schedule/schedule";
+import { Schedule } from "../schedule/schedule";
 import { CoC } from "../coc/coc";
 import { Talks } from "../talks/talks";
 import { Speakers } from "../speakers/speakers";
 
-class Home extends Component {
+export class Home extends Component {
   render() {
     return (
       <React.Fragment>
@@ -33,5 +33,3 @@ class Home extends Component {
     );
   }
 }
-
-export default Home;

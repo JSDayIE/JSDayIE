@@ -38,7 +38,8 @@ export const SponsorsValidator = io.type({
     platinumPlus: io.array(sponsorValidator),
     diamond: io.array(sponsorValidator),
     presenting: io.array(sponsorValidator),
-    media: io.array(sponsorValidator)
+    media: io.array(sponsorValidator),
+    community: io.array(sponsorValidator)
 });
 
 export type ISponsors = io.TypeOf<typeof SponsorsValidator>;

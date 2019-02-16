@@ -1,6 +1,6 @@
 import React from "react";
-import Section from "../../../lib/components/section/section";
-import Button from "../../../lib/components/button/button";
+import { Section } from "../../../lib/components";
+import { Button } from "../../../lib/components";
 
 export class Talks extends React.Component {
   render() {

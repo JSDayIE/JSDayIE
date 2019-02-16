@@ -15,7 +15,7 @@ function VideoBg() {
     );
 }
 
-class Hero extends React.Component {
+export class Hero extends React.Component {
     public render() {
         return (
             <div>
@@ -62,5 +62,3 @@ class Hero extends React.Component {
         );
     }
 }
-
-export default Hero;

@@ -1,5 +1,5 @@
 import React from "react";
-import Section from "../../../lib/components/section/section";
+import { Section } from "../../../lib/components";
 
 export class Venue extends React.Component {
   render() {

@@ -6,7 +6,7 @@ interface FooterProps {
     href: string;
 }
 
-class Footer extends React.Component<FooterProps> {
+export class Footer extends React.Component<FooterProps> {
     public render() {
         const currentYear = new Date().getFullYear();
         return (
@@ -64,5 +64,3 @@ class Footer extends React.Component<FooterProps> {
         );
     }
 }
-
-export default Footer;

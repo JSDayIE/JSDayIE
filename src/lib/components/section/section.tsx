@@ -5,7 +5,7 @@ interface SectionProps {
     title: string;
 }
 
-class Section extends React.Component<SectionProps> {
+export class Section extends React.Component<SectionProps> {
     public render() {
         return (
             <div className="section">
@@ -17,5 +17,3 @@ class Section extends React.Component<SectionProps> {
         );
     }
 }
-
-export default Section;
