@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
-import Layout from "./pages/layout";
-import * as serviceWorker from "./serviceWorker";
-import "./index.css";
+import Layout from "./app/pages/layout";
+import * as serviceWorker from "./app/serviceWorker";
+import "./app/index.css";
 
 ReactDOM.render(
     (

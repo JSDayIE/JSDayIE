@@ -1,8 +1,9 @@
 import React from "react";
-import Container from "../../lib/components/container/container";
-import Section from "../../lib/components/section/section";
-import Table from "../../lib/components/table/table";
-import { ISponsors, SponsorsValidator, sponsorsingPackageArrayValidator, SponsorsingPackageArray } from "../../lib/domain/types";
+import Container from "../../../lib/components/container/container";
+import Section from "../../../lib/components/section/section";
+import Table from "../../../lib/components/table/table";
+import Button from "../../../lib/components/button/button";
+import { ISponsors, SponsorsValidator, sponsorsingPackageArrayValidator, SponsorsingPackageArray } from "../../../lib/domain/types";
 import { Fetchable } from "react-fetchable";
 
 interface SponsorGroupProps {
@@ -100,6 +101,7 @@ class Sponsors extends React.Component {
             in Ireland.
           </p>
         </Section>
+        <Button>Become a sponsor now!</Button>
       </Container>
     );
   }

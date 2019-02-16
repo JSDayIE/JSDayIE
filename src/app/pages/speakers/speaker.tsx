@@ -1,5 +1,5 @@
 import React from "react";
-import { ISpeaker } from "../../lib/domain/types";
+import { ISpeaker } from "../../../lib/domain/types";
 import "./speaker.css";
 
 interface SpeakerProps {

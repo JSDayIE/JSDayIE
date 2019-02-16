@@ -1,8 +1,8 @@
 import React from "react";
-import Container from "../../lib/components/container/container";
-import Section from "../../lib/components/section/section";
-import Table from "../../lib/components/table/table";
-import { ActivityArray, activityArrayValidator } from "../../lib/domain/types";
+import Container from "../../../lib/components/container/container";
+import Section from "../../../lib/components/section/section";
+import Table from "../../../lib/components/table/table";
+import { ActivityArray, activityArrayValidator } from "../../../lib/domain/types";
 import { Fetchable } from "react-fetchable";
 
 interface ScheduleProps {}

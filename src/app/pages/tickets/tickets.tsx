@@ -1,10 +1,10 @@
 import React from "react";
-import Container from "../../lib/components/container/container";
-import Section from "../../lib/components/section/section";
+import Container from "../../../lib/components/container/container";
+import Section from "../../../lib/components/section/section";
 import { Fetchable } from "react-fetchable";
-import Table from "../../lib/components/table/table";
-import { ticketArrayValidator } from "../../lib/domain/types";
-import Button from "../../lib/components/button/button";
+import Table from "../../../lib/components/table/table";
+import { ticketArrayValidator } from "../../../lib/domain/types";
+import Button from "../../../lib/components/button/button";
 
 class Tickets extends React.Component {
   render() {

@@ -1,14 +1,14 @@
 import React from "react";
 import { Switch, Route, RouteComponentProps } from "react-router-dom";
-import Navbar from "../lib/components/navbar/navbar";
-import Footer from "../lib/components/footer/footer";
+import Navbar from "../../lib/components/navbar/navbar";
+import Footer from "../../lib/components/footer/footer";
 import Home from "./home/home";
-import Speakers from "./speakers/speakers";
+import { Speakers } from "./speakers/speakers";
 import Schedule from "./schedule/schedule";
 import Tickets from "./tickets/tickets";
-import Venue from "./venue/venue";
+import { Venue } from "./venue/venue";
 import Sponsors from "./sponsors/sponsors";
-import CoC from "./coc/coc";
+import { CoC } from "./coc/coc";
 
 interface RouteConf {
     isIndex?: boolean;

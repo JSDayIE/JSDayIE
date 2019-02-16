@@ -1,11 +1,10 @@
 import React from "react";
-import Container from "../../lib/components/container/container";
-import Section from "../../lib/components/section/section";
+import Section from "../../../lib/components/section/section";
 
-class Venue extends React.Component {
+export class Venue extends React.Component {
   render() {
     return (
-      <Container>
+      <React.Fragment>
         <Section title="The event venue">
           <p>
             JSDayIE 2019 will be hosted at The Round Room at the The Mansion House in Dublin, Ireland.
@@ -74,9 +73,7 @@ class Venue extends React.Component {
             go-to destination for locals and visitors to the city.
           </p>
         </Section>
-      </Container>
+      </React.Fragment>
     );
   }
 }
-
-export default Venue;

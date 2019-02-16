@@ -1,6 +1,5 @@
 import React from "react";
 import "./hero.css";
-import logo from "./jslogo.png";
 
 function VideoBg() {
     return (
@@ -26,7 +25,7 @@ class Hero extends React.Component {
                             <tbody>
                                 <tr>
                                     <td className="hero_logo">
-                                        <img src={logo} className="hero_img" />
+                                        <img src="/media/jslogo.png" className="hero_img" />
                                     </td>
                                     <td className="hero_title">
                                         <table>

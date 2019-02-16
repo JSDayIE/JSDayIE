@@ -1,11 +1,10 @@
 import React from "react";
-import Container from "../../lib/components/container/container";
-import Section from "../../lib/components/section/section";
+import Section from "../../../lib/components/section/section";
+import Button from "../../../lib/components/button/button";
 
-class CoC extends React.Component {
+export class CoC extends React.Component {
   render() {
     return (
-      <Container>
         <Section title="Code of Conduct">
           <p>
             JSDayIE is a community conference intended for networking and
@@ -26,10 +25,8 @@ class CoC extends React.Component {
           <p>
             Organizers will enforce this code throughout the event.
           </p>
+          <Button>Submit your proposal</Button>
         </Section>
-      </Container>
     );
   }
 }
-
-export default CoC;

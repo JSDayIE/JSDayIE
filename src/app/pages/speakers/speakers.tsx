@@ -1,11 +1,11 @@
 import React from "react";
-import Container from "../../lib/components/container/container";
-import Section from "../../lib/components/section/section";
+import Container from "../../../lib/components/container/container";
+import Section from "../../../lib/components/section/section";
 import { Fetchable } from "react-fetchable";
-import { speakerArrayValidator, SpeakerArray } from "../../lib/domain/types";
+import { speakerArrayValidator, SpeakerArray } from "../../../lib/domain/types";
 import { Speaker } from "./speaker";
 
-class Speakers extends React.Component {
+export class Speakers extends React.Component {
   render() {
     return (
       <Container>
@@ -37,5 +37,3 @@ class Speakers extends React.Component {
     );
   }
 }
-
-export default Speakers;
