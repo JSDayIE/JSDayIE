@@ -1,5 +1,6 @@
 import React from "react";
-import { Section, Button, Table } from "../../../lib/components";
+import { Section, Table, Link } from "../../../lib/components";
+import { PATHS } from "../../config/routing";
 
 export class Talks extends React.Component {
   render() {
@@ -29,8 +30,7 @@ export class Talks extends React.Component {
         />
         <br/>
         <div className="btnGroup">
-            <Button>Submit your proposal</Button>
-            <Button>Learn more about the CFP</Button>
+            <Link to={PATHS.cfp}>Submit your proposal now!</Link>
         </div>
     </Section>
     );

@@ -7,6 +7,7 @@ import { Venue } from "../pages/venue/venue";
 import { Sponsors } from "../pages/sponsors/sponsors";
 import { CoC } from "../pages/coc/coc";
 import { CoCDetails } from "../pages/coc/coc_details";
+import { Cfp } from "../pages/cfp/cfp";
 
 interface RouteConf {
     isIndex?: boolean;
@@ -21,6 +22,7 @@ export const PATHS = {
     speakers: "/speakers",
     schedule: "/schedule",
     venue: "/venue",
+    cfp: "/cfp",
     tickets: "/tickets",
     sponsors: "/sponsors",
     coc: "/coc",
@@ -32,6 +34,7 @@ export const routes: RouteConf[] = [
     { title: "Speakers", path: PATHS.speakers, component: Speakers },
     { title: "Schedule", path: PATHS.schedule, component: Schedule },
     { title: "Venue", path: PATHS.venue, component: Venue },
+    { title: "Call for papers", path: PATHS.cfp, component: Cfp },
     { title: "Tickets", path: PATHS.tickets, component: Tickets },
     { title: "Sponsors", path: PATHS.sponsors, component: Sponsors },
     { title: "Code of conduct", path: PATHS.coc, component: CoC },

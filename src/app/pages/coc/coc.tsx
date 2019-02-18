@@ -1,5 +1,5 @@
 import React from "react";
-import { Section, Button, Link } from "../../../lib/components";
+import { Section, Link } from "../../../lib/components";
 import { PATHS } from "../../config/routing";
 
 export class CoC extends React.Component {
