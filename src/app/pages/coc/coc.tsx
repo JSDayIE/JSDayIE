@@ -1,11 +1,11 @@
 import React from "react";
-import { Section } from "../../../lib/components";
-import { Button } from "../../../lib/components";
+import { Section, Button, Link } from "../../../lib/components";
+import { PATHS } from "../../config/routing";
 
 export class CoC extends React.Component {
   render() {
     return (
-        <Section title="Code of Conduct">
+        <Section title="Code of Conduct" size={1}>
           <p>
             JSDayIE is a community conference intended for networking and
             collaboration in the developer community. We value the participation
@@ -25,7 +25,9 @@ export class CoC extends React.Component {
           <p>
             Organizers will enforce this code throughout the event.
           </p>
-          <Button>Submit your proposal</Button>
+          <div className="btnGroup">
+            <Link to={PATHS.cocDetails}>Learn more about our code of conduct</Link>
+          </div>
         </Section>
     );
   }

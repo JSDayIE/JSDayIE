@@ -16,10 +16,6 @@ a:hover {
   padding-top: 100px;
 }
 
-.section p {
-  font-size: 24px;
-}
-
 .footer {
   padding: 5% 0%;
   text-align: center;
@@ -60,4 +56,19 @@ iframe {
 .venueMediaItem {
   width: 560px;
   height: 315px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.iconroup button {
+  margin-left: 5px;
+  border-radius: 50%;
+  padding-top: 12px;
+  border: none;
+}
+
+.btnGroup button {
+  margin-left: 5px;
 }

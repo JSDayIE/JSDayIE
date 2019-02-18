@@ -19,7 +19,7 @@ export class Navbar extends React.Component<NavbarProps> {
             throw new Error("Only one of the items can be the index route!");
         }
         return (
-            <nav className="navbar navbar-expand-lg navbar-dark bg-warning">
+            <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-warning">
                 <div className="container">
                     <button
                         className="navbar-toggler"
@@ -43,6 +43,11 @@ export class Navbar extends React.Component<NavbarProps> {
                     }
                     <div className="collapse navbar-collapse">
                         {this._renderItems(this.props.items)}
+                        <form className="form-inline my-2 my-lg-0">
+                            <button className="btn btn-outline-light">
+                                GET TICKETS
+                            </button>
+                        </form>
                     </div>
                 </div>
             </nav>

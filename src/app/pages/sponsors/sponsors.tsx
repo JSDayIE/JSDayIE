@@ -2,8 +2,26 @@ import React from "react";
 import { Section } from "../../../lib/components/section/section";
 import { Table } from "../../../lib/components/table/table";
 import { Button } from "../../../lib/components/button/button";
-import { ISponsors, SponsorsValidator, sponsorsingPackageArrayValidator, SponsorsingPackageArray } from "../../../lib/domain/types";
+import { ISponsors, sponsorsValidator, sponsorsingPackageArrayValidator, SponsorsingPackageArray, ISponsor } from "../../../lib/domain/types";
 import { Fetchable } from "react-fetchable";
+import { Card, CardBody } from "../../../lib/components";
+
+
+interface SponsorProps {
+  details: ISponsor;
+}
+
+function Sponsor(props: SponsorProps) {
+  return (
+    <Card>
+      <CardBody>
+        <a title={props.details.name} href={props.details.web}>
+          <img src={props.details.logo} />
+        </a>
+      </CardBody>
+    </Card>
+  );
+}
 
 interface SponsorGroupProps {
   group: keyof ISponsors;
@@ -16,13 +34,7 @@ function SponsorGroup({ group, sponsors, label }: SponsorGroupProps) {
   return (
     <React.Fragment>
       {sponsorsInGroup.length > 0 ? <h1>{label}</h1> : null}
-      {
-        sponsorsInGroup.map(s => (
-          <a title={s.name} href={s.web}>
-            <img className={`${group}Sponsor`} src={s.logo} />
-          </a>
-        ))
-      } 
+      {sponsorsInGroup.map(s => <Sponsor details={s}></Sponsor>)} 
     </React.Fragment>
   );
 }
@@ -31,14 +43,14 @@ export class Sponsors extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Section title="A shout out to our amazing sponsors!">
+        <Section title="A shout out to our amazing sponsors!" size={1}>
           <p>
             JSDayIE 2019 would not be possible without the support of the following organizations.
             Would you like to add your name to the list? Check out our sponsorship opportunities!
           </p>
           <Fetchable
               url="/data/sponsors.json"
-              validator={SponsorsValidator}
+              validator={sponsorsValidator}
               loading={() => <div>Loading...</div>}
               error={(e: Error) => <div>Error: {e.message}</div>}
               success={(data: ISponsors) => {
@@ -56,7 +68,7 @@ export class Sponsors extends React.Component {
               }}
           />
         </Section>
-        <Section title="Would You Like to Sponsor JSdayIE 2019?">
+        <Section title="Would You Like to Sponsor JSdayIE 2019?" size={1}>
           <p>
             Sponsoring JSDayIE is a great way to contribute to the healthy
             growth of the JavaScript community in Ireland. Please join us 

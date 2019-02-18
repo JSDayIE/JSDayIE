@@ -5,7 +5,7 @@ export class Venue extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Section title="The event venue">
+        <Section title="The event venue" size={1}>
           <p>
             JSDayIE 2019 will be hosted at The Round Room at the The Mansion House in Dublin, Ireland.
           </p>
@@ -41,7 +41,7 @@ export class Venue extends React.Component {
             the heart of Dublin and it is equiped with state-of-the-art lighting and audio visual systems.
           </p>
         </Section>
-        <Section title="The after party venue">
+        <Section title="The after party venue" size={1}>
           <p>
             The after party will take place in just 100 meters away from The Round Room at Cafe en Seine.
           </p>

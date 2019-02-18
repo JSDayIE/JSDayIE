@@ -5,3 +5,5 @@ export { Hero } from "./hero/hero";
 export { Navbar } from "./navbar/navbar";
 export { Button } from "./button/button";
 export { Section } from "./section/section";
+export { Card, CardBody, CardHeader, CardFooter } from "./card/card";
+export { Link } from "./link/link";

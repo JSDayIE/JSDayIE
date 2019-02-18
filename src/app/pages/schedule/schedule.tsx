@@ -1,8 +1,7 @@
 import React from "react";
-import { Section } from "../../../lib/components";
-import { Table } from "../../../lib/components";
-import { ActivityArray, activityArrayValidator } from "../../../lib/domain/types";
 import { Fetchable } from "react-fetchable";
+import { Section, Table } from "../../../lib/components";
+import { ActivityArray, activityArrayValidator } from "../../../lib/domain/types";
 
 interface ScheduleProps {}
 
@@ -11,7 +10,7 @@ interface ScheduleState {}
 export class Schedule extends React.Component<ScheduleProps, ScheduleState> {
   public render() {
     return (
-      <Section title="Schedule">
+      <Section title="Schedule" size={1}>
         <p>
           JSDayIE is a single-track 1-day tech conference featuring 12
           talks from some of the best JavaScript professionals in Ireland!

@@ -1,13 +1,44 @@
 [
     {
+        "name": "Giacomo Rebonato",
+        "twitter": "GiacomoRebonato",
+        "pic": "/media/giacomo_rebonato.jpg",
+        "web": "http://www.remojansen.com",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+        "name": "Sara Stamenov",
+        "twitter": "SaraStamenov",
+        "pic": "/media/sara_stamenov.jpeg",
+        "web": "http://www.remojansen.com",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+        "name": "David Gonzalez",
+        "twitter": "dagonzago",
+        "pic": "/media/david_gonzalez.jpg",
+        "web": "http://www.remojansen.com",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+        "name": "Diana Falkowska",
+        "twitter": "diana_falkowska",
+        "pic": "/media/diana_falkowska.jpg",
+        "web": "http://www.remojansen.com",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+        "name": "Luciano Mammino",
+        "twitter": "loige",
+        "pic": "/media/luciano_mammino.jpg",
+        "web": "http://www.remojansen.com",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
         "name": "Remo H. Jansen",
         "twitter": "remohjansen",
-        "pic": "",
+        "pic": "/media/remo_jansen.jpg",
         "web": "http://www.remojansen.com",
-        "bio": "",
-        "role": "CEO",
-        "org": "Wolk Software",
-        "orgWeb": "",
-        "orgLogo": ""
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }
 ]

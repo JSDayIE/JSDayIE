@@ -31,7 +31,9 @@ export const sponsorValidator = io.type({
     logo: io.string
 });
 
-export const SponsorsValidator = io.type({
+export type ISponsor = io.TypeOf<typeof sponsorValidator>;
+
+export const sponsorsValidator = io.type({
     silver: io.array(sponsorValidator),
     gold: io.array(sponsorValidator),
     platinum: io.array(sponsorValidator),
@@ -42,18 +44,14 @@ export const SponsorsValidator = io.type({
     community: io.array(sponsorValidator)
 });
 
-export type ISponsors = io.TypeOf<typeof SponsorsValidator>;
+export type ISponsors = io.TypeOf<typeof sponsorsValidator>;
 
 export const speakerValidator = io.type({
     name: io.string,
     twitter: io.string,
     pic: io.string,
     web: io.string,
-    bio: io.string,
-    role: io.string,
-    org: io.string,
-    orgWeb: io.string,
-    orgLogo: io.string
+    bio: io.string
 });
 
 export const speakerArrayValidator = io.array(speakerValidator);
