@@ -34,7 +34,7 @@ export const routes: RouteConf[] = [
     { title: "Speakers", path: PATHS.speakers, component: Speakers },
     { title: "Schedule", path: PATHS.schedule, component: Schedule },
     { title: "Venue", path: PATHS.venue, component: Venue },
-    { title: "Call for papers", path: PATHS.cfp, component: Cfp },
+    { displayInNavBar: false, title: "Call for papers", path: PATHS.cfp, component: Cfp },
     { title: "Tickets", path: PATHS.tickets, component: Tickets },
     { title: "Sponsors", path: PATHS.sponsors, component: Sponsors },
     { title: "Code of conduct", path: PATHS.coc, component: CoC },
