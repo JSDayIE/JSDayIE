@@ -2,42 +2,9 @@ import React from "react";
 import { Section } from "../../../lib/components/section/section";
 import { Table } from "../../../lib/components/table/table";
 import { Button } from "../../../lib/components/button/button";
-import { ISponsors, sponsorsValidator, sponsorsingPackageArrayValidator, SponsorsingPackageArray, ISponsor } from "../../../lib/domain/types";
+import { ISponsors, sponsorsValidator, sponsorsingPackageArrayValidator, SponsorsingPackageArray } from "../../../lib/domain/types";
 import { Fetchable } from "react-fetchable";
-import { Card, CardBody } from "../../../lib/components";
-
-
-interface SponsorProps {
-  details: ISponsor;
-}
-
-function Sponsor(props: SponsorProps) {
-  return (
-    <Card>
-      <CardBody>
-        <a title={props.details.name} href={props.details.web}>
-          <img src={props.details.logo} />
-        </a>
-      </CardBody>
-    </Card>
-  );
-}
-
-interface SponsorGroupProps {
-  group: keyof ISponsors;
-  sponsors: ISponsors;
-  label: string;
-}
-
-function SponsorGroup({ group, sponsors, label }: SponsorGroupProps) {
-  const sponsorsInGroup = sponsors[group];
-  return (
-    <React.Fragment>
-      {sponsorsInGroup.length > 0 ? <h1>{label}</h1> : null}
-      {sponsorsInGroup.map(s => <Sponsor details={s}></Sponsor>)} 
-    </React.Fragment>
-  );
-}
+import { SponsorGroup } from "./sponsor_group";
 
 export class Sponsors extends React.Component {
   render() {

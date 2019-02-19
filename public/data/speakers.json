@@ -1,44 +1,64 @@
 [
     {
         "name": "Giacomo Rebonato",
-        "twitter": "GiacomoRebonato",
         "pic": "/media/giacomo_rebonato.jpg",
-        "web": "http://www.remojansen.com",
-        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "links": {
+            "twitter": "https://twitter.com/GiacomoRebonato",
+            "medium": "https://medium.com/@GiacomoRebonato",
+            "linkedin": "https://www.linkedin.com/in/giacomorebonato/",
+            "github": "https://github.com/giacomorebonato"
+        }
     },
     {
         "name": "Sara Stamenov",
-        "twitter": "SaraStamenov",
         "pic": "/media/sara_stamenov.jpeg",
-        "web": "http://www.remojansen.com",
-        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "links": {
+            "twitter": "https://twitter.com/SaraStamenov",
+            "linkedin": "https://www.linkedin.com/in/sarastamenov/"
+        }
     },
     {
         "name": "David Gonzalez",
-        "twitter": "dagonzago",
         "pic": "/media/david_gonzalez.jpg",
-        "web": "http://www.remojansen.com",
-        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "links": {
+            "twitter": "https://twitter.com/dagonzago",
+            "linkedin": "https://www.linkedin.com/in/david-gonzalez-microservices/",
+            "github": "https://github.com/dgonzalez"
+        }
     },
     {
         "name": "Diana Falkowska",
-        "twitter": "diana_falkowska",
         "pic": "/media/diana_falkowska.jpg",
-        "web": "http://www.remojansen.com",
-        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "links": {
+            "twitter": "https://twitter.com/diana_falkowska",
+            "github": "https://github.com/dianafa",
+            "linkedin": "https://www.linkedin.com/in/dianafa/"
+        }
     },
     {
         "name": "Luciano Mammino",
-        "twitter": "loige",
         "pic": "/media/luciano_mammino.jpg",
-        "web": "http://www.remojansen.com",
-        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "links": {
+            "web": "https://loige.co/",
+            "twitter": "https://twitter.com/loige",
+            "linkedin": "https://www.linkedin.com/in/lucianomammino/",
+            "medium": "https://medium.com/@loige"
+        }
     },
     {
         "name": "Remo H. Jansen",
-        "twitter": "remohjansen",
         "pic": "/media/remo_jansen.jpg",
-        "web": "http://www.remojansen.com",
-        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "links": {
+            "web": "http://www.remojansen.com",
+            "twitter": "https://twitter.com/remohjansen",
+            "linkedin": "https://www.linkedin.com/in/remojansen/",
+            "github": "https://github.com/remojansen"
+        }
     }
 ]

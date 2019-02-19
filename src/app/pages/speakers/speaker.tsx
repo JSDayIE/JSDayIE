@@ -1,6 +1,7 @@
 import React from "react";
 import { ISpeaker } from "../../../lib/domain/types";
 import { Card, CardBody, CardHeader, CardFooter, Button } from "../../../lib/components";
+import { GithubIcon, LinkedinIcon, WebIcon, TwitterIcon, MediumIcon } from "./social_icons";
 import "./speaker.css";
 
 interface SpeakerProps {
@@ -21,11 +22,11 @@ export class Speaker extends React.Component<SpeakerProps> {
           </CardBody>
           <CardFooter>
             <div className="iconroup">
-              <Button><i className="fas fa-globe-europe"></i></Button>
-              <Button><i className="fab fa-twitter"></i></Button>
-              <Button><i className="fab fa-github"></i></Button>
-              <Button><i className="fab fa-linkedin-in"></i></Button>
-              <Button><i className="fab fa-medium-m"></i></Button>
+              <WebIcon links={this.props.details.links} />
+              <TwitterIcon links={this.props.details.links} />
+              <GithubIcon links={this.props.details.links} />
+              <MediumIcon links={this.props.details.links} />
+              <LinkedinIcon links={this.props.details.links} />
             </div>
           </CardFooter>
         </Card>

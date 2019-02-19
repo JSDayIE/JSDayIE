@@ -1,5 +1,6 @@
 import React from "react";
 import { Section } from "../../../lib/components";
+import { VenueMedia } from "./venue_media";
 
 export class Venue extends React.Component {
   render() {
@@ -9,32 +10,12 @@ export class Venue extends React.Component {
           <p>
             JSDayIE 2019 will be hosted at The Round Room at the The Mansion House in Dublin, Ireland.
           </p>
-          <div className="row">
-            <div className="col-md-6">
-              <img className="venueMediaItem" src="/media/venue1.png" />
-            </div>
-            <div className="col-md-6">
-              <iframe
-                className="venueMediaItem"
-                src="https://www.youtube.com/embed/X-6Q6OxY4fg?controls=0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              >
-              </iframe>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-6">
-              <iframe
-                className="venueMediaItem"
-                src="https://www.youtube.com/embed/EMX22h9zpOc?controls=0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              >
-              </iframe>
-            </div>
-            <div className="col-md-6">
-              <img className="venueMediaItem" src="/media/venue2.jpg" />
-            </div>
-          </div>
+          <VenueMedia
+            topLeft={{ type: "image", url: "/media/venue1.png"}}
+            topRight={{ type: "video", url: "https://www.youtube.com/embed/X-6Q6OxY4fg?controls=0"}}
+            bottonLeft={{ type: "video", url: "https://www.youtube.com/embed/EMX22h9zpOc?controls=0"}}
+            bottonRight={{ type: "image", url: "/media/venue2.jpg"}}
+          />
           <br/>
           <p>
             The Mansion House has been the official residence of the Lord Mayor of Dublin since 1715 and t is located in Dawson Street, right in
@@ -45,26 +26,12 @@ export class Venue extends React.Component {
           <p>
             The after party will take place in just 100 meters away from The Round Room at Cafe en Seine.
           </p>
-          <div className="row">
-            <div className="col-md-6">
-              <img className="venueMediaItem" src="/media/after-venue-2.jpg" />
-            </div>
-            <div className="col-md-6">
-              <iframe
-                className="venueMediaItem"
-                src="https://www.youtube.com/embed/SPxqF3vIxeA?controls=0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              ></iframe>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-6">
-              <img className="venueMediaItem" src="/media/after-venue.jpg" />
-            </div>
-            <div className="col-md-6">
-              <img className="venueMediaItem" src="/media/after-venue-3.jpg" />
-            </div>
-          </div>
+          <VenueMedia
+            topLeft={{ type: "image", url: "/media/after-venue-2.jpg"}}
+            topRight={{ type: "video", url: "https://www.youtube.com/embed/SPxqF3vIxeA?controls=0"}}
+            bottonLeft={{ type: "image", url: "/media/after-venue.jpg"}}
+            bottonRight={{ type: "image", url: "/media/after-venue-3.jpg"}}
+          />
           <br/>
           <p>
             Cafe en Seine, one of Dublin’s most iconic and stunning venues.

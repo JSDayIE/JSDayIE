@@ -46,12 +46,19 @@ export const sponsorsValidator = io.type({
 
 export type ISponsors = io.TypeOf<typeof sponsorsValidator>;
 
+export const speakerLinksValidator = io.partial({
+    twitter: io.string,
+    web: io.string,
+    github: io.string,
+    medium: io.string,
+    linkedin: io.string
+});
+
 export const speakerValidator = io.type({
     name: io.string,
-    twitter: io.string,
     pic: io.string,
-    web: io.string,
-    bio: io.string
+    bio: io.string,
+    links: speakerLinksValidator
 });
 
 export const speakerArrayValidator = io.array(speakerValidator);
