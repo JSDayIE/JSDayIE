@@ -12,6 +12,7 @@
 .price {
     font-size: 50px;
     font-weight: 400;
+    color: #ffc107;
 }
 
 .card-footer p, .card-body p {
@@ -22,4 +23,12 @@
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.card-footer {
+    border-top: 1px solid rgba(255, 193, 7, 0.125);
+}
+
+.card-header {
+    border-bottom: 1px solid rgba(255, 193, 7, 0.125);
 }

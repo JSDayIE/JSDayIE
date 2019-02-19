@@ -1,4 +1,4 @@
 [
-    { "type": "Early Bird", "price": "145€" },
-    { "type": "Regular", "price": "195€" }
+    { "type": "Early Bird", "price": "145€*" },
+    { "type": "Regular", "price": "195€*" }
 ]

@@ -20,6 +20,7 @@ export function Ticket(props: TickerProps) {
           <li>✓ Welcome Pack</li>
           <li>✓ 12 Talks</li>
           <li>✓ Breakfast & Lunch</li>
+          <li>✓ Access to the after party</li>
         </ul>
       </CardBody>
       <CardFooter>

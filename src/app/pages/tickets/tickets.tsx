@@ -29,6 +29,7 @@ export class Tickets extends React.Component {
                     ))
                   }
                 </div>
+                <p>* Fees are displayed excluding 23% VAT</p>
                 <Button>Get your ticket now!</Button>
               </React.Fragment>
             );

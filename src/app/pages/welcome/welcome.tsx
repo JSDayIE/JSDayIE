@@ -4,7 +4,7 @@ import { Section } from "../../../lib/components";
 export class Welcome extends React.Component {
   render() {
     return (
-        <Section title="Home" size={1}>
+        <Section title="Welcome to JSdayIE 2019!" size={1}>
             <p>
                 JSDayIE 2019 is a 1-day single track tech conference dedicated to
                 the JavaScript community in Ireland featuring some of the best

@@ -13,7 +13,17 @@ export function SponsorGroup({ group, sponsors, label }: SponsorGroupProps) {
   return (
     <React.Fragment>
       {sponsorsInGroup.length > 0 ? <h1>{label}</h1> : null}
-      {sponsorsInGroup.map(s => <Sponsor details={s}></Sponsor>)} 
+      <div className="row justify-content-md-center">
+        {
+          sponsorsInGroup.map(s => {
+            return (
+              <div className="col-md-4">
+                <Sponsor details={s}></Sponsor>
+              </div>
+            );
+          })
+          } 
+      </div>
     </React.Fragment>
   );
 }
