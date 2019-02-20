@@ -72,3 +72,9 @@ img {
 .btnGroup button {
   margin-left: 5px;
 }
+
+.btn-outline-light:hover {
+  color: #ffc107;
+  background-color: #100e17;
+  border-color: #100e17;
+}
