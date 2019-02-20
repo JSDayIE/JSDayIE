@@ -8,6 +8,7 @@ import { CoC } from "../coc/coc";
 import { Talks } from "../talks/talks";
 import { Speakers } from "../speakers/speakers";
 import { Welcome } from "../welcome/welcome";
+import { Newsletter } from "../newsletter/newsletter";
 
 export class Home extends Component {
   render() {
@@ -22,6 +23,7 @@ export class Home extends Component {
         <Venue/>
         <Sponsors />
         <CoC/>
+        <Newsletter/>
       </React.Fragment>
     );
   }

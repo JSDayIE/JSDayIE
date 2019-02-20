@@ -20,6 +20,7 @@ a:hover {
   padding: 5% 0%;
   text-align: center;
   background-color: #ffc107;
+  margin-top: 150px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -71,4 +72,23 @@ img {
 
 .btnGroup button {
   margin-left: 5px;
+}
+
+.email {
+  height: 70px;
+  max-height: 70px;
+  border-radius: 80px;
+  padding-left: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 400px;
+  margin-bottom: 30px;
+  border: none;
+}
+
+.email:focus {
+  outline: none;
+}
+.pageBody {
+  min-height: 500px;
 }

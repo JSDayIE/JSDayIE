@@ -10,6 +10,7 @@ import { CoCDetails } from "../pages/coc/coc_details";
 import { Cfp } from "../pages/cfp/cfp";
 import { Blog } from "../pages/blog/blog";
 import { BlogEntry } from "../pages/blog/blog_entry";
+import { Newsletter } from "../pages/newsletter/newsletter";
 
 interface RouteConf {
     isIndex?: boolean;
@@ -30,7 +31,8 @@ export const PATHS = {
     coc: "/coc",
     cocDetails: "/coc_details",
     blog: "/blog",
-    blogEntry: "/blog_entry"
+    blogEntry: "/blog_entry",
+    newsletter: "/newsletter"
 };
 
 export const routes: RouteConf[] = [
@@ -44,5 +46,6 @@ export const routes: RouteConf[] = [
     { title: "Blog", path: PATHS.blog, component: Blog },
     { displayInNavBar: false, title: "Blog Entry", path: PATHS.blogEntry, component: BlogEntry },
     { title: "Code of conduct", path: PATHS.coc, component: CoC },
+    { title: "Newsletter", path: PATHS.newsletter, component: Newsletter },
     { displayInNavBar: false, title: "Code of conduct - Details", path: PATHS.cocDetails, component: CoCDetails }
 ];
