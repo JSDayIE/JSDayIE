@@ -1,7 +1,5 @@
 import React from "react";
-import { Section } from "../../../lib/components/section/section";
-import { Table } from "../../../lib/components/table/table";
-import { Button } from "../../../lib/components/button/button";
+import { Section, Table, Button, Container } from "../../../lib/components";
 import { ISponsors, sponsorsValidator, sponsorsingPackageArrayValidator, SponsorsingPackageArray } from "../../../lib/domain/types";
 import { Fetchable } from "react-fetchable";
 import { SponsorGroup } from "./sponsor_group";
@@ -9,7 +7,7 @@ import { SponsorGroup } from "./sponsor_group";
 export class Sponsors extends React.Component {
   render() {
     return (
-      <React.Fragment>
+      <Container>
         <Section title="A shout out to our amazing sponsors!" size={1}>
           <p>
             JSDayIE 2019 would not be possible without the support of the following organizations.
@@ -79,7 +77,7 @@ export class Sponsors extends React.Component {
           </p>
           <Button>Become a sponsor now!</Button>
         </Section>
-      </React.Fragment>
+      </Container>
     );
   }
 }

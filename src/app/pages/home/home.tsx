@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Hero } from "../../../lib/components";
-import { Container } from "../../../lib/components";
 import { Tickets } from "../tickets/tickets";
 import { Sponsors } from "../sponsors/sponsors";
 import { Venue } from "../venue/venue";
@@ -15,16 +14,14 @@ export class Home extends Component {
     return (
       <React.Fragment>
         <Hero/>
-        <Container>
-            <Welcome/>
-            <Talks/>
-            <Speakers/>
-            <Schedule/>
-            <Tickets/>
-            <Venue/>
-            <Sponsors />
-            <CoC/>
-        </Container>
+        <Welcome/>
+        <Talks/>
+        <Speakers/>
+        <Schedule/>
+        <Tickets/>
+        <Venue/>
+        <Sponsors />
+        <CoC/>
       </React.Fragment>
     );
   }

@@ -1,11 +1,11 @@
 import React from "react";
-import { Section } from "../../../lib/components";
+import { Section, Container } from "../../../lib/components";
 import { VenueMedia } from "./venue_media";
 
 export class Venue extends React.Component {
   render() {
     return (
-      <React.Fragment>
+      <Container>
         <Section title="The event venue" size={1}>
           <p>
             JSDayIE 2019 will be hosted at The Round Room at the The Mansion House in Dublin, Ireland.
@@ -40,7 +40,7 @@ export class Venue extends React.Component {
             go-to destination for locals and visitors to the city.
           </p>
         </Section>
-      </React.Fragment>
+      </Container>
     );
   }
 }

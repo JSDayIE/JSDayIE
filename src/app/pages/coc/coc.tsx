@@ -1,10 +1,11 @@
 import React from "react";
-import { Section, Link } from "../../../lib/components";
+import { Section, Link, Container } from "../../../lib/components";
 import { PATHS } from "../../config/routing";
 
 export class CoC extends React.Component {
   render() {
     return (
+      <Container>
         <Section title="Code of Conduct" size={1}>
           <p>
             JSDayIE is a community conference intended for networking and
@@ -29,6 +30,7 @@ export class CoC extends React.Component {
             <Link to={PATHS.cocDetails}>Learn more about our code of conduct</Link>
           </div>
         </Section>
+      </Container>
     );
   }
 }

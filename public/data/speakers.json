@@ -1,6 +1,6 @@
 [
     {
-        "hide": "true",
+        "hide": true,
         "name": "Giacomo Rebonato",
         "pic": "/media/giacomo_rebonato.jpg",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -12,7 +12,7 @@
         }
     },
     {
-        "hide": "true",
+        "hide": true,
         "name": "Sara Stamenov",
         "pic": "/media/sara_stamenov.jpeg",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -22,7 +22,7 @@
         }
     },
     {
-        "hide": "true",
+        "hide": true,
         "name": "David Gonzalez",
         "pic": "/media/david_gonzalez.jpg",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -33,7 +33,7 @@
         }
     },
     {
-        "hide": "true",
+        "hide": true,
         "name": "Diana Falkowska",
         "pic": "/media/diana_falkowska.jpg",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -44,7 +44,7 @@
         }
     },
     {
-        "hide": "true",
+        "hide": true,
         "name": "Luciano Mammino",
         "pic": "/media/luciano_mammino.jpg",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -56,7 +56,7 @@
         }
     },
     {
-        "hide": "true",
+        "hide": true,
         "name": "Christos Koutsiaris",
         "pic": "/media/christos_koutsiaris.jpg",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -67,7 +67,7 @@
         }
     },
     {
-        "hide": "true",
+        "hide": true,
         "name": "Guilherme Oenning",
         "pic": "/media/guilherme_oenning.png",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -79,7 +79,7 @@
         }
     },
     {
-        "hide": "true",
+        "hide": true,
         "name": "Tasos Piotopoulos",
         "pic": "/media/tasos_piotopoulos.jpg",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -91,7 +91,16 @@
         }
     },
     {
-        "hide": "true",
+        "hide": true,
+        "name": "Daniel Jimenez Garcia",
+        "pic": "/media/daniel_jimenez_garcia.jpg",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/daniel-jg/"
+        }
+    },
+    {
+        "hide": true,
         "name": "Remo H. Jansen",
         "pic": "/media/remo_jansen.jpg",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",

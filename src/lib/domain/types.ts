@@ -58,7 +58,8 @@ export const speakerValidator = io.type({
     name: io.string,
     pic: io.string,
     bio: io.string,
-    links: speakerLinksValidator
+    links: speakerLinksValidator,
+    hide: io.boolean
 });
 
 export const speakerArrayValidator = io.array(speakerValidator);
