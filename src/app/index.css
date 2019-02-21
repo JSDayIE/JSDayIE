@@ -74,6 +74,12 @@ img {
   margin-left: 5px;
 }
 
+.btn-outline-light:hover {
+  color: #ffc107;
+  background-color: #100e17;
+  border-color: #100e17;
+}
+
 .email {
   height: 70px;
   max-height: 70px;
@@ -89,6 +95,7 @@ img {
 .email:focus {
   outline: none;
 }
+
 .pageBody {
   min-height: 500px;
 }

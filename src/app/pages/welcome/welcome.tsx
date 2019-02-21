@@ -15,7 +15,7 @@ export class Welcome extends React.Component {
             </p>
             <p>
                 JSDayIE is conference run by the JavaScript community for the developer
-                community. RebelCon is hosted by Wolk Software with support for the
+                community. JSDayIE is hosted by Wolk Software with support for the
                 initiative from our sponsors.
             </p>
         </Section>

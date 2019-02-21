@@ -92,11 +92,42 @@
     },
     {
         "hide": true,
+        "name": "Elizabet Oliveira",
+        "pic": "/media/elizabet_oliveira.jpg",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "links": {
+            "web": "https://www.miukimiu.com/",
+            "twitter": "https://twitter.com/miuki_miu",
+            "linkedin": "https://www.linkedin.com/in/elizabetoliveira/",
+            "github": "https://github.com/miukimiu",
+            "medium": "https://medium.com/@miukimiu"
+        }
+    },
+    {
+        "hide": true,
+        "name": "Clare Dillon",
+        "pic": "/media/clare_dillon.jpg",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/claredillon/"
+        }
+    },
+    {
+        "hide": true,
         "name": "Daniel Jimenez Garcia",
         "pic": "/media/daniel_jimenez_garcia.jpg",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "links": {
             "linkedin": "https://www.linkedin.com/in/daniel-jg/"
+        }
+    },
+    {
+        "hide": true,
+        "name": "Cathriona Hallahan",
+        "pic": "/media/cathriona_hallahan.jpeg",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/cathrionahallahan/"
         }
     },
     {

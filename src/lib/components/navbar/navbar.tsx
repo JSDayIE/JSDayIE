@@ -45,7 +45,7 @@ export class Navbar extends React.Component<NavbarProps> {
                         {this._renderItems(this.props.items)}
                         <form className="form-inline my-2 my-lg-0">
                             <button className="btn btn-outline-light">
-                                GET TICKETS
+                                <i className="fas fa-shopping-cart"></i> GET TICKETS
                             </button>
                         </form>
                     </div>

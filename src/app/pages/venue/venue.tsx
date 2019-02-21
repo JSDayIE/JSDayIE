@@ -1,5 +1,5 @@
 import React from "react";
-import { Section, Container } from "../../../lib/components";
+import { Section, Container, Button } from "../../../lib/components";
 import { VenueMedia } from "./venue_media";
 
 export class Venue extends React.Component {
@@ -21,6 +21,7 @@ export class Venue extends React.Component {
             The Mansion House has been the official residence of the Lord Mayor of Dublin since 1715 and t is located in Dawson Street, right in
             the heart of Dublin and it is equiped with state-of-the-art lighting and audio visual systems.
           </p>
+          <Button>Learn more about The Mansion House</Button>
         </Section>
         <Section title="The after party venue" size={1}>
           <p>
@@ -39,6 +40,7 @@ export class Venue extends React.Component {
             Cafe en Seine was established in 1993 and quickly became a
             go-to destination for locals and visitors to the city.
           </p>
+          <Button>Learn more about Cafe en Seine</Button>
         </Section>
       </Container>
     );
