@@ -8,6 +8,7 @@ import { Sponsors } from "../pages/sponsors/sponsors";
 import { CoC } from "../pages/coc/coc";
 import { CoCDetails } from "../pages/coc/coc_details";
 import { Cfp } from "../pages/cfp/cfp";
+import { CfpDetails } from "../pages/cfp/cfp_details";
 import { Blog } from "../pages/blog/blog";
 import { BlogEntry } from "../pages/blog/blog_entry";
 import { Newsletter } from "../pages/newsletter/newsletter";
@@ -26,6 +27,7 @@ export const PATHS = {
     schedule: "/schedule",
     venue: "/venue",
     cfp: "/cfp",
+    cfpDetails: "/cfp_details",
     tickets: "/tickets",
     sponsors: "/sponsors",
     coc: "/coc",
@@ -37,10 +39,11 @@ export const PATHS = {
 
 export const routes: RouteConf[] = [
     { isIndex: true, title: "JSDayIE 2019", path: PATHS.home, component: Home },
-    { title: "Speakers", path: PATHS.speakers, component: Speakers },
+    { title: "Call for Proposals", path: PATHS.cfp, component: Cfp },
+    { displayInNavBar: false, title: "Speakers", path: PATHS.speakers, component: Speakers },
     { title: "Schedule", path: PATHS.schedule, component: Schedule },
     { title: "Venue", path: PATHS.venue, component: Venue },
-    { displayInNavBar: false, title: "Call for papers", path: PATHS.cfp, component: Cfp },
+    { displayInNavBar: false, title: "Call for Proposals - Details", path: PATHS.cfpDetails, component: CfpDetails },
     { title: "Tickets", path: PATHS.tickets, component: Tickets },
     { title: "Sponsors", path: PATHS.sponsors, component: Sponsors },
     { title: "Blog", path: PATHS.blog, component: Blog },

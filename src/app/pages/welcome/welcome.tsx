@@ -7,16 +7,19 @@ export class Welcome extends React.Component {
       <Container>
         <Section title="Welcome to JSdayIE 2019!" size={1}>
             <p>
-                JSDayIE 2019 is a 1-day single track tech conference dedicated to
-                the JavaScript community in Ireland featuring some of the best
-                JavaScript profesionals and organizations in Ireland. JSDayIE is
-                the first JavaScript conference in Ireland and will take place
-                in 2019, on September 20th at the Mansion House in Dawson Street, Dublin.
+              JSDayIE 2019 is a 1-day single track tech conference dedicated to
+              the JavaScript community in Ireland featuring over 450 attendees and
+              some of the best JavaScript profesionals and organizations in Ireland.
             </p>
             <p>
-                JSDayIE is conference run by the JavaScript community for the developer
-                community. JSDayIE is hosted by Wolk Software with support for the
-                initiative from our sponsors.
+              JSDayIE is the first JavaScript conference in Ireland and will take place
+              in 2019, on September 20th at The Round Room at the Mansion House in
+              Dawson Street, Dublin.
+            </p>
+            <p>
+              JSDayIE is a day to celebrate the JavaScript community in Ireland and it
+              is presented by <a href="http://www.wolksoftware.com">Wolk Software</a> with
+              support for the initiative from our sponsors.
             </p>
         </Section>
       </Container>

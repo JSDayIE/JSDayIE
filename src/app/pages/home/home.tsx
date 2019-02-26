@@ -5,10 +5,10 @@ import { Sponsors } from "../sponsors/sponsors";
 import { Venue } from "../venue/venue";
 import { Schedule } from "../schedule/schedule";
 import { CoC } from "../coc/coc";
-import { Talks } from "../talks/talks";
-import { Speakers } from "../speakers/speakers";
+import { Cfp } from "../cfp/cfp";
 import { Welcome } from "../welcome/welcome";
 import { Newsletter } from "../newsletter/newsletter";
+import { BlogPreview } from "../blog/blog";
 
 export class Home extends Component {
   render() {
@@ -16,13 +16,13 @@ export class Home extends Component {
       <React.Fragment>
         <Hero/>
         <Welcome/>
-        <Talks/>
-        <Speakers/>
+        <Cfp/>
         <Schedule/>
         <Tickets/>
         <Venue/>
         <Sponsors />
         <CoC/>
+        <BlogPreview/>
         <Newsletter/>
       </React.Fragment>
     );

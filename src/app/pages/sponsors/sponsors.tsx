@@ -75,7 +75,9 @@ export class Sponsors extends React.Component {
             and find talent specialized in JavaScript technologies
             in Ireland.
           </p>
-          <Button>Become a sponsor now!</Button>
+          <Button href="mailto:hello@jsday.org">
+            Contact us to become a sponsor now!
+          </Button>
         </Section>
       </Container>
     );

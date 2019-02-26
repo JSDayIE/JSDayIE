@@ -75,4 +75,16 @@ export const ticketValidator = io.type({
 export const ticketArrayValidator = io.array(ticketValidator);
 
 export type ITicket = io.TypeOf<typeof ticketValidator>;
-export type TicketArray = io.TypeOf<typeof ticketValidator>;
+export type TicketArray = io.TypeOf<typeof ticketArrayValidator>;
+
+export const blogEntryValidator = io.type({
+    date: io.string,
+    title: io.string,
+    summary: io.string,
+    contentUrl: io.string
+});
+
+export const blogEntryArrayValidator = io.array(blogEntryValidator);
+
+export type IBlogEntry = io.TypeOf<typeof blogEntryValidator>;
+export type BlogEntryArray = io.TypeOf<typeof blogEntryArrayValidator>;

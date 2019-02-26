@@ -43,7 +43,7 @@ export class Navbar extends React.Component<NavbarProps> {
                     }
                     <div className="collapse navbar-collapse">
                         {this._renderItems(this.props.items)}
-                        <form className="form-inline my-2 my-lg-0">
+                        <form className="form-inline my-2 my-lg-0 hide">
                             <button className="btn btn-outline-light">
                                 <i className="fas fa-shopping-cart"></i> GET TICKETS
                             </button>

@@ -18,30 +18,36 @@ export class Venue extends React.Component {
           />
           <br/>
           <p>
-            The Mansion House has been the official residence of the Lord Mayor of Dublin since 1715 and t is located in Dawson Street, right in
-            the heart of Dublin and it is equiped with state-of-the-art lighting and audio visual systems.
+            The Round Room at the The Mansion House is located in Dawson Street, right in the heart
+            of Dublin and it is equiped with state-of-the-art lighting and audio visual systems.
           </p>
-          <Button>Learn more about The Mansion House</Button>
+          <Button href="https://www.theconferenceandeventsvenue.ie/our-venues/the-round-room/">
+            Learn more about The Round Room at the The Mansion House
+          </Button>
         </Section>
-        <Section title="The after party venue" size={1}>
-          <p>
-            The after party will take place in just 100 meters away from The Round Room at Cafe en Seine.
-          </p>
-          <VenueMedia
-            topLeft={{ type: "image", url: "/media/after-venue-2.jpg"}}
-            topRight={{ type: "video", url: "https://www.youtube.com/embed/SPxqF3vIxeA?controls=0"}}
-            bottonLeft={{ type: "image", url: "/media/after-venue.jpg"}}
-            bottonRight={{ type: "image", url: "/media/after-venue-3.jpg"}}
-          />
-          <br/>
-          <p>
-            Cafe en Seine, one of Dublin’s most iconic and stunning venues.
-            Nestled in the heart of Dublin’s city centre on Dawson Street,
-            Cafe en Seine was established in 1993 and quickly became a
-            go-to destination for locals and visitors to the city.
-          </p>
-          <Button>Learn more about Cafe en Seine</Button>
-        </Section>
+        <div className="hide">
+          <Section title="The after party venue" size={1}>
+            <p>
+              The after party will take place in just 100 meters away from The Round Room at Cafe en Seine.
+            </p>
+            <VenueMedia
+              topLeft={{ type: "image", url: "/media/after-venue-2.jpg"}}
+              topRight={{ type: "video", url: "https://www.youtube.com/embed/SPxqF3vIxeA?controls=0"}}
+              bottonLeft={{ type: "image", url: "/media/after-venue.jpg"}}
+              bottonRight={{ type: "image", url: "/media/after-venue-3.jpg"}}
+            />
+            <br/>
+            <p>
+              Cafe en Seine, one of Dublin’s most iconic and stunning venues.
+              Nestled in the heart of Dublin’s city centre on Dawson Street,
+              Cafe en Seine was established in 1993 and quickly became a
+              go-to destination for locals and visitors to the city.
+            </p>
+            <Button href="https://www.cafeenseine.ie/">
+                Learn more about Cafe en Seine
+            </Button>
+          </Section>
+        </div>
       </Container>
     );
   }

@@ -24,6 +24,7 @@ export function SponsorGroup({ group, sponsors, label }: SponsorGroupProps) {
           })
           } 
       </div>
+      <br/><br/><br/>
     </React.Fragment>
   );
 }

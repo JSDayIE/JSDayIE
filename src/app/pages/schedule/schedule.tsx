@@ -30,6 +30,26 @@ export class Schedule extends React.Component<ScheduleProps, ScheduleState> {
               );
             }}
           />
+          <div className="hide">
+            <p>
+              JSDayIE 2019 also features an after-party
+              full of activities at Cafe en Seine!
+            </p>
+            <Fetchable
+              url="/data/after_party.json"
+              validator={activityArrayValidator}
+              loading={() => <div>Loading...</div>}
+              error={(e: Error) => <div>Error: {e.message}</div>}
+              success={(data: ActivityArray) => {
+                return (
+                  <Table
+                    headers={["Time", "Activity"]}
+                    rows={data.map(a => [`${a.startTime}`, a.title])}
+                  />
+                );
+              }}
+            />
+          </div>
         </Section>
       </Container>
     );

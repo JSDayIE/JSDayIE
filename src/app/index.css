@@ -97,5 +97,30 @@ img {
 }
 
 .pageBody {
-  min-height: 500px;
+  min-height: 600px;
+}
+
+.social {
+  margin-top: 40px;
+}
+
+.network .btn {
+  font-size: 40px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  padding-top: 15px;
+  border: none;
+}
+
+.social .network {
+  text-align: center;
+}
+
+.blog_entry_preview_title {
+  color: #ffc107;
+}
+
+.hide {
+  display: none;
 }

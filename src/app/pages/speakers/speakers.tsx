@@ -23,7 +23,7 @@ export class Speakers extends React.Component {
                     const isDemo = queryString[0] === "demo" && queryString[1] === "true";
                     const visibleSpeakers = isDemo ? data : data.filter(s => s.hide === false);
                     if (visibleSpeakers.length === 0) {
-                      return <p>The speakers will be announced here very soon!</p>;
+                      return <p>The speakers will be announced in May 2019!</p>;
                     } else {
                       return (
                         <div className="row">

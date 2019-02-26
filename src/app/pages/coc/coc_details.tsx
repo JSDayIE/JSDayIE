@@ -55,7 +55,8 @@ export class CoCDetails extends React.Component {
               If you are being harassed, notice that someone else is being harassed, or
               have any other concerns, please contact a member of conference staff
               immediately. Conference staff can be identified as they'll be wearing
-              branded clothing and/or badges.
+              branded clothing and/or badges. You can also reach the organizers
+              at <a href="mailto:hello@jsday.org">hello@jsday.org</a>.
             </p>
             <p>
               Conference staff will be happy to help participants contact hotel/venue
@@ -67,12 +68,6 @@ export class CoCDetails extends React.Component {
               We expect participants to follow these rules at conference and workshop
               venues and conference-related social events.
             </p>
-          </Section>
-          <Section title="Please report CoC infringements" size={2}>
-            <p>
-              Please let us know if you experience or witnes an code of confuct infringement.
-            </p>
-            <Button>Report a CoC infringement</Button>
           </Section>
         </Section>
       </Container>
