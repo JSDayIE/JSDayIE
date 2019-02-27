@@ -18,7 +18,7 @@ export class Cfp extends React.Component {
           <p>Do not think about it, submit your proposal now!</p>
           <br/>
           <div className="btnGroup">
-              <Link to={PATHS.cfpDetails}>Learn more about the call for proposals</Link>
+              <Link to={PATHS.cfpDetails}>Learn more about the CFP</Link>
           </div>
         </Section>
       </Container>

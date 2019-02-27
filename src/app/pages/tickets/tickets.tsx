@@ -3,6 +3,8 @@ import { Fetchable } from "react-fetchable";
 import { Section, Button, Container } from "../../../lib/components";
 import { ticketArrayValidator } from "../../../lib/domain/types";
 import { Ticket } from "./ticket";
+import { PATHS } from "../../config/routing";
+import { Link } from "react-router-dom";
 
 export class Tickets extends React.Component {
   render() {
@@ -22,15 +24,17 @@ export class Tickets extends React.Component {
                 <React.Fragment>
                   <div className="row">
                     {
-                      data.map(t => (
-                        <div className="col-md-6">
-                          <Ticket details={t}/>
+                      data.map((ticket, ticketIndex) => (
+                        <div key={ticketIndex} className="col-md-4">
+                          <Ticket details={ticket}/>
                         </div>
                       ))
                     }
                   </div>
                   <p>* Fees are displayed excluding 23% VAT</p>
-                  <Button>Get your ticket now!</Button>
+                  <p>
+                    The tickets will be available very soon! Subscribe to our <Link to={PATHS.newsletter}>newsletter</Link> or follow us on <a target="_blank" href="https://twitter.com/JSDayIE">Twitter</a>, <a target="_blank" href="https://www.facebook.com/Jsdayie-336263463661254">Facebook</a> or <a target="_blank" href="https://www.linkedin.com/company/jsdayie">LinkedIn</a> to be notified when the tickets become available!
+                  </p>
                 </React.Fragment>
               );
             }}

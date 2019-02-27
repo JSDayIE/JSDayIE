@@ -16,6 +16,9 @@ function BlogEntryPreview(props: BlogEntryPreviewProps) {
         {new Date(Date.parse(props.details.date)).toUTCString()}
       </CardHeader>
       <CardBody>
+        <img src={props.details.thumbnail}/>
+        <br/>
+        <br/>
         <p>{props.details.summary}</p>
       </CardBody>
       <CardFooter>
@@ -50,8 +53,8 @@ export function BlogPosts(props: BlogPostsProps) {
             return (
               <div className="row">
                 {
-                  entries.map(blogEntry => (
-                    <div className="col-md-6">
+                  entries.map((blogEntry, blogEntryIndex) => (
+                    <div key={blogEntryIndex} className="col-md-6">
                       <BlogEntryPreview details={blogEntry} />
                     </div>
                   ))

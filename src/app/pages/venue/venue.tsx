@@ -22,7 +22,7 @@ export class Venue extends React.Component {
             of Dublin and it is equiped with state-of-the-art lighting and audio visual systems.
           </p>
           <Button href="https://www.theconferenceandeventsvenue.ie/our-venues/the-round-room/">
-            Learn more about The Round Room at the The Mansion House
+            Learn more about The Round Room
           </Button>
         </Section>
         <div className="hide">

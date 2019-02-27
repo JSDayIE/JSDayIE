@@ -27,7 +27,7 @@ export class CoC extends React.Component {
             Organizers will enforce this code throughout the event.
           </p>
           <div className="btnGroup">
-            <Link to={PATHS.cocDetails}>Learn more about our code of conduct</Link>
+            <Link to={PATHS.cocDetails}>Learn more about our CoC</Link>
           </div>
         </Section>
       </Container>

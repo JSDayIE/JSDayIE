@@ -25,23 +25,23 @@ export class Navbar extends React.Component<NavbarProps> {
                         className="navbar-toggler"
                         type="button"
                         data-toggle="collapse"
-                        data-target="#navbarTogglerDemo03"
-                        aria-controls="navbarTogglerDemo03"
+                        data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    {
-                        (indexItems.length === 1) ?
-                            (
-                                <Link className="navbar-brand" to={indexItems[0].href} >
-                                    {indexItems[0].title}
-                                </Link>
-                            ) :
-                            null
-                    }
-                    <div className="collapse navbar-collapse">
+                    <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                        {
+                            (indexItems.length === 1) ?
+                                (
+                                    <Link className="navbar-brand" to={indexItems[0].href} >
+                                        {indexItems[0].title}
+                                    </Link>
+                                ) :
+                                null
+                        }
                         {this._renderItems(this.props.items)}
                         <form className="form-inline my-2 my-lg-0 hide">
                             <button className="btn btn-outline-light">

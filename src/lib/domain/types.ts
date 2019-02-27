@@ -81,7 +81,8 @@ export const blogEntryValidator = io.type({
     date: io.string,
     title: io.string,
     summary: io.string,
-    contentUrl: io.string
+    contentUrl: io.string,
+    thumbnail: io.string
 });
 
 export const blogEntryArrayValidator = io.array(blogEntryValidator);

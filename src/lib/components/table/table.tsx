@@ -9,10 +9,12 @@ interface TableProps {
 export class Table extends React.Component<TableProps> {
     public render() {
         return (
-            <table className="table_table">
-                {this._renderHeader(this.props.headers)}
-                {this._renderBody(this.props.rows)}
-            </table>
+            <div className="table-responsive">
+                <table className="table_table">
+                    {this._renderHeader(this.props.headers)}
+                    {this._renderBody(this.props.rows)}
+                </table>
+            </div>
         );
     }
     private _renderHeader(headers: string[]) {

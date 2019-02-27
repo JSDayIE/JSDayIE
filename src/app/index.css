@@ -18,7 +18,6 @@ a:hover {
 
 .footer {
   padding: 5% 0%;
-  text-align: center;
   background-color: #ffc107;
   margin-top: 150px;
 }
@@ -29,6 +28,24 @@ a:hover {
 
 .footer p {
   margin-bottom: 0px;
+  font-size: 20px;
+  padding-right: 10%;
+  margin-bottom: 10px;
+}
+
+.footer i {
+  font-size: 35px;
+}
+
+.footer a {
+  color: #ffffff;
+  font-size: 20px
+}
+
+.footer h1 {
+  font-weight: 700;
+  font-size: 22px;
+  margin: 0 0 .8rem 0
 }
 
 .mail-list {
@@ -52,11 +69,6 @@ a:hover {
 
 iframe {
   border: none;
-}
-
-.venueMediaItem {
-  width: 560px;
-  height: 315px;
 }
 
 img {
@@ -90,6 +102,7 @@ img {
   width: 400px;
   margin-bottom: 30px;
   border: none;
+  max-width: 100%;
 }
 
 .email:focus {
@@ -100,27 +113,56 @@ img {
   min-height: 600px;
 }
 
-.social {
-  margin-top: 40px;
-}
-
-.network .btn {
-  font-size: 40px;
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-  padding-top: 15px;
-  border: none;
-}
-
-.social .network {
-  text-align: center;
-}
-
 .blog_entry_preview_title {
   color: #ffc107;
 }
 
 .hide {
   display: none;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.venueMediaItem {
+  width: 560px;
+  height: 315px;
+  max-width: 100%;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+
+  .hero_h2 {
+    font-size: 15px;
+  }
+
+  .hero_h3 {
+    font-size: 15px;
+  }
+
+  .hero_h1 {
+    font-size: 50px;
+  }
+
+  .hero_img {
+    width: 90px;
+  }
+
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
 }

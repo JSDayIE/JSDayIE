@@ -1,4 +1,5 @@
 [
+    { "type": "Super Early Bird", "price": "95€*" },
     { "type": "Early Bird", "price": "145€*" },
     { "type": "Regular", "price": "195€*" }
 ]

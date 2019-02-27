@@ -47,33 +47,6 @@ export class Newsletter extends React.Component {
               </div>
           </form>
         </Section>
-        <Section title="Follow us!" size={1}>
-          <p>
-            Join the conversation on our social media channels to stay up-to-date on JSDayIE.
-          </p>
-          <div className="row social">
-            <div className="col-md-3 network">
-              <Button href="https://twitter.com/JSDayIE">
-                <i className="fab fa-twitter"></i>
-              </Button>
-            </div>
-            <div className="col-md-3 network">
-              <Button href="https://www.youtube.com/channel/UCUPILOYOw8pbBWuKEaqI1EQ">
-                <i className="fab fa-youtube"></i>
-              </Button>
-            </div>
-            <div className="col-md-3 network">
-              <Button href="https://www.facebook.com/Jsdayie-336263463661254">
-                <i className="fab fa-facebook"></i>
-              </Button>
-            </div>
-            <div className="col-md-3 network">
-              <Button href="https://www.linkedin.com/company/jsdayie">
-                <i className="fab fa-linkedin-in"></i>
-              </Button>
-            </div>
-          </div>
-        </Section>
       </Container>
     );
   }

@@ -1,15 +1,15 @@
 .hero_bg {
   background-color: rgba(0,0,0,0.8);
-  padding: 17.5% 0% 12.5% 0%;
+  padding: 22% 0% 12.5% 0%;
   border-bottom: 30px solid #ffc107;
-  height: 760px;
+  height: 890px;
 }
 
 .videoBg {
   position: absolute;
   z-index: -1; top: 0px;
   left: 0px;
-  height: 760px;
+  height: 890px;
   width: 98.8vw;
   opacity: 1;
   overflow: hidden;
@@ -63,4 +63,16 @@
   padding-left: 5px;
   text-align: center;
 }
-  
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+ 
+  .hero_bg {
+    height: 300px;
+  }
+
+  .videoBg {
+    height: 300px;
+  }
+
+}
