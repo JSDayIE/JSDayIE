@@ -145,8 +145,12 @@ img {
   margin-bottom: 20px;
 }
 
+.markdown p {
+  font-size: 24px;
+}
+
 .markdown img {
-  width: 50%;
+  max-height: 300px;
 }
 
 /* Small devices (landscape phones, 576px and up) */

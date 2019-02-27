@@ -1,17 +1,28 @@
 # Introducing JSDayIE 2019!
 
-### The first tech conference dedicated exclusively to the JavaScript and its community in Ireland!
+Welcome to the official announcement of JSDayIE 2019! 
+We are very excited to introduce the very first JavaScript conference in Ireland.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+JSDayIE 2019 is going to be a day dedicated to the JavaScript community in Ireland with over 450 attendees. The goal of the event is to bring together the JavaScript community for one day and showcase some of the best and more innovative work done by the members of the JavaScript community in Ireland.
 
 ![](/media/sticker_2019.png)
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+JSDayIE is presented by [Wolk Software](http://www.wolksoftware.com/). Wolk Software is an Ireland based startup dedicated to empowering developers and teams to achieve their best through consultancy and training services and technical publications and events.
 
-![](/media/js_galaxy_2019.png)
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+JSDayIE 2019 will take place on **September 20th, 2019** at The Round Room at the Mansion House in Dawson Street, right in the heart of Dublin.
 
 ![](/media/venue1.png)
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+JSDayIE is a single-track 1-day tech conference featuring talks from a diverse range of JavaScript-related technical topics. The talks will focus on JavaScript best practices, lessons learned, front-end JavaScript frameworks and libraries like React, Vue, and Angular, Node.js and GraphQL development, JavaScript performance, JavaScript flavors such as TypeScript or Reason ML and emerging technologies such as Web Assembly and Progressive Web Apps.
+
+![](/media/js_galaxy_2019.png)
+
+We are working together with the JavaScript communities in Ireland such as Node.js Dublin, React Dublin, CorkJS, BelfastJS, DublinJS, Dublin TypeScript and many others to ensure that everybody is represented in this event. 
+
+We are also taking an active part in promoting inclusivity and openness, not only at our conference but in the design and tech scene overall. We’re working together with communities such as Woman Who Code towards having a diverse lineup of speakers.
+
+We are currently looking for speakers. If you want to give a talk, Please visit the [call for proposals page](/cfp) to learn how to submit your proposal now!
+
+We are also currently looking for sponsors. Sponsoring JSDayIE is a great way to contribute to the healthy growth of the JavaScript community in Ireland and offers a unique opportunity to expose your brand and find talent specialized in JavaScript technologies in Ireland. If you would like your company to sponsor JSDayIE 2019, please visit the [sponsors page](/sponsors).
+
+ The tickets will be available very soon!. Subscribe to our [Newsletter](/newsletter) or follow us on [Twitter](https://twitter.com/jsdayireland), [Facebook](https://www.facebook.com/Jsdayie-336263463661254) or [LinkedIn](https://www.linkedin.com/company/jsdayie) to be notified when the tickets become available and other important updates!

@@ -5,7 +5,7 @@ export class CoCDetails extends React.Component {
   render() {
     return (
       <Container>
-        <Section title="Code of Conduct" size={1}>
+        <Section title="Code of conduct" size={1}>
           <p>
             All attendees, speakers, sponsors and volunteers at our conference
             are required to agree with the following code of conduct. Organisers

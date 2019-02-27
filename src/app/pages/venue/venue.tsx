@@ -8,7 +8,7 @@ export class Venue extends React.Component {
       <Container>
         <Section title="The event venue" size={1}>
           <p>
-            JSDayIE 2019 will be hosted at The Round Room at the The Mansion House in Dublin, Ireland.
+            JSDayIE 2019 will be hosted at The Round Room at The Mansion House in Dublin, Ireland.
           </p>
           <VenueMedia
             topLeft={{ type: "image", url: "/media/venue1.png"}}
@@ -18,8 +18,8 @@ export class Venue extends React.Component {
           />
           <br/>
           <p>
-            The Round Room at the The Mansion House is located in Dawson Street, right in the heart
-            of Dublin and it is equiped with state-of-the-art lighting and audio visual systems.
+            The Round Room at The Mansion House is located in Dawson Street, right in the heart
+            of Dublin and it is equipped with state-of-the-art lighting and audiovisual systems.
           </p>
           <Button href="https://www.theconferenceandeventsvenue.ie/our-venues/the-round-room/">
             Learn more about The Round Room

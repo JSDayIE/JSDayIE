@@ -25,7 +25,7 @@ export function Ticket(props: TickerProps) {
       </CardBody>
       <CardFooter>
         <p>
-          Early bird ticket for JSDayIE on September 20th 2019.
+          Early bird ticket for JSDayIE on September 20th, 2019.
           Please note that the ticket is NOT REFUNDABLE.
         </p>
       </CardFooter>

@@ -6,7 +6,7 @@ export class CoC extends React.Component {
   render() {
     return (
       <Container>
-        <Section title="Code of Conduct" size={1}>
+        <Section title="Code of conduct" size={1}>
           <p>
             JSDayIE is a community conference intended for networking and
             collaboration in the developer community. We value the participation
