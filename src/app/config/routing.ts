@@ -33,7 +33,7 @@ export const PATHS = {
     coc: "/coc",
     cocDetails: "/coc_details",
     blog: "/blog",
-    blogEntry: "/blog_entry",
+    blogEntry: "/blog_entry/:id",
     newsletter: "/newsletter"
 };
 
@@ -48,7 +48,7 @@ export const routes: RouteConf[] = [
     { title: "Sponsors", path: PATHS.sponsors, component: Sponsors },
     { title: "Blog", path: PATHS.blog, component: Blog },
     { displayInNavBar: false, title: "Blog Entry", path: PATHS.blogEntry, component: BlogEntry },
-    { title: "Code of conduct", path: PATHS.coc, component: CoC },
     { title: "Newsletter", path: PATHS.newsletter, component: Newsletter },
+    { title: "Code of conduct", path: PATHS.coc, component: CoC },
     { displayInNavBar: false, title: "Code of conduct - Details", path: PATHS.cocDetails, component: CoCDetails }
 ];

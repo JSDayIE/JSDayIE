@@ -29,22 +29,22 @@ export class Footer extends React.Component<FooterProps> {
                             <h1>Follow us!</h1>
                             <div className="row">
                                 <div className="col-3">
-                                    <a href="https://twitter.com/JSDayIE">
+                                    <a target="_blank" href="https://twitter.com/JSDayIE">
                                         <i className="fab fa-twitter"></i>
                                     </a>
                                 </div>
                                 <div className="col-3">
-                                    <a href="https://www.youtube.com/channel/UCUPILOYOw8pbBWuKEaqI1EQ">
+                                    <a target="_blank" href="https://www.youtube.com/channel/UCUPILOYOw8pbBWuKEaqI1EQ">
                                         <i className="fab fa-youtube"></i>
                                     </a>
                                 </div>
                                 <div className="col-3">
-                                    <a href="https://www.facebook.com/Jsdayie-336263463661254">
+                                    <a target="_blank" href="https://www.facebook.com/Jsdayie-336263463661254">
                                         <i className="fab fa-facebook"></i>
                                     </a>
                                 </div>
                                 <div className="col-3">
-                                    <a href="https://www.linkedin.com/company/jsdayie">
+                                    <a target="_blank" href="https://www.linkedin.com/company/jsdayie">
                                         <i className="fab fa-linkedin-in"></i>
                                     </a>
                                 </div>

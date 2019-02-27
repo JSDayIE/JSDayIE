@@ -131,6 +131,10 @@ img {
   max-width: 100%;
 }
 
+.center {
+  text-align: center;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {  
 

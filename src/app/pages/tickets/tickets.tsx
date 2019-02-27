@@ -33,7 +33,7 @@ export class Tickets extends React.Component {
                   </div>
                   <p>* Fees are displayed excluding 23% VAT</p>
                   <p>
-                    The tickets will be available very soon! Subscribe to our <Link to={PATHS.newsletter}>newsletter</Link> or follow us on <a target="_blank" href="https://twitter.com/JSDayIE">Twitter</a>, <a target="_blank" href="https://www.facebook.com/Jsdayie-336263463661254">Facebook</a> or <a target="_blank" href="https://www.linkedin.com/company/jsdayie">LinkedIn</a> to be notified when the tickets become available!
+                    The tickets will be available very soon! Subscribe to our <Link to={PATHS.newsletter}>Newsletter</Link> or follow us on <a target="_blank" href="https://twitter.com/JSDayIE">Twitter</a>, <a target="_blank" href="https://www.facebook.com/Jsdayie-336263463661254">Facebook</a> or <a target="_blank" href="https://www.linkedin.com/company/jsdayie">LinkedIn</a> to be notified when the tickets become available!
                   </p>
                 </React.Fragment>
               );

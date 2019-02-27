@@ -1,5 +1,7 @@
 import React from "react";
 import { Section, Container, Table } from "../../../lib/components";
+import { Link } from "react-router-dom";
+import { PATHS } from "../../config/routing";
 
 export class CfpDetails extends React.Component {
   render() {
@@ -7,7 +9,7 @@ export class CfpDetails extends React.Component {
       <Container>
         <Section title="Call for Proposals" size={1}>
           <p>
-              TODO
+              TODO 
           </p>
           <Table
               headers={[
@@ -22,6 +24,9 @@ export class CfpDetails extends React.Component {
                   ]
                 }
           />
+          <p>
+            The CFP will be available the 1st of March! Subscribe to our <Link to={PATHS.newsletter}>Newsletter</Link> or follow us on <a target="_blank" href="https://twitter.com/JSDayIE">Twitter</a>, <a target="_blank" href="https://www.facebook.com/Jsdayie-336263463661254">Facebook</a> or <a target="_blank" href="https://www.linkedin.com/company/jsdayie">LinkedIn</a> to be notified when the tickets become available!
+          </p>
         </Section>
       </Container>
     );

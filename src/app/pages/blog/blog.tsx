@@ -22,9 +22,7 @@ function BlogEntryPreview(props: BlogEntryPreviewProps) {
         <p>{props.details.summary}</p>
       </CardBody>
       <CardFooter>
-        <Button>
-          Read more
-        </Button>
+        <Link to={PATHS.blogEntry.replace(":id", props.details.id)}>Read more</Link>
       </CardFooter>
     </Card>
   );
@@ -71,7 +69,9 @@ export function BlogPreview() {
   return (
     <Container>
       <BlogPosts limit={2} />
-      <Link to={PATHS.blog}>Visit our blog</Link>
+      <div className="center">
+        <Link to={PATHS.blog}>Visit our blog</Link>
+      </div>
     </Container>
   );
 }
