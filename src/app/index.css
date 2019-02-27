@@ -135,6 +135,20 @@ img {
   text-align: center;
 }
 
+.markdown {
+  text-align: center;
+}
+
+.markdown h1 {
+  border-bottom: 4px solid #ffc107;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.markdown img {
+  width: 50%;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {  
 

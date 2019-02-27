@@ -33,7 +33,7 @@ export class Sponsors extends React.Component {
               }}
           />
         </Section>
-        <Section title="Would You Like to Sponsor JSdayIE 2019?" size={1}>
+        <Section title="Would you like to sponsor JSdayIE 2019?" size={1}>
           <p>
             Sponsoring JSDayIE is a great way to contribute to the healthy
             growth of the JavaScript community in Ireland. Please join us 

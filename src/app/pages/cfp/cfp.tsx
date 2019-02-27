@@ -6,7 +6,7 @@ export class Cfp extends React.Component {
   render() {
     return (
       <Container>
-        <Section title="Call for Proposals"  size={1}>
+        <Section title="Call for proposals"  size={1}>
           <p>
               JSDayIE brings together the Ireland JavaScript community for one
               day full of talks on GraphQL, DevOps, machine learning, accessibility,
@@ -14,6 +14,7 @@ export class Cfp extends React.Component {
               Vue, and Angular, Node.js, web performance, progressive Web Apps and
               much more.
           </p>
+          <img src="/media/js_galaxy_2019.png"/>
           <p>Do you want to give a talk?</p>
           <p>Do not think about it, submit your proposal now!</p>
           <br/>
