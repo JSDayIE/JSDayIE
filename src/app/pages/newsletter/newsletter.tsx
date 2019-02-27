@@ -1,8 +1,20 @@
 import React from "react";
-import { Section, Container, Button } from "../../../lib/components";
+import { Section, Container } from "../../../lib/components";
 
-export class Newsletter extends React.Component {
-  render() {
+interface NewsletterProps {}
+
+interface NewsletterState {
+  email: string;
+}
+
+export class Newsletter extends React.Component<NewsletterProps, NewsletterState> {
+  public constructor(props: NewsletterProps) {
+    super(props);
+    this.state = {
+      email: ""
+    };
+  }
+  public render() {
     return (
       <Container>
         <Section title="Newsletter" size={1}>
@@ -18,20 +30,18 @@ export class Newsletter extends React.Component {
                   <p>Don't miss any update about JSDayIE subscribe to our newsletter.</p>
                   <input
                       type="email"
-                      value=""
+                      value={this.state.email}
                       name="EMAIL"
                       className="email"
                       id="mce-EMAIL"
                       placeholder="Type your email address"
-                      onChange={() => void(0)}
+                      onChange={(e) => this.setState({ email: e.target.value })}
                   />
                   <br/>
                   <div style={{position: "absolute", left: "-5000px" }} aria-hidden="true">
                       <input
                           type="text"
                           name="b_b4348a611b9d5932915880916_4c43f518fc"
-                          value=""
-                          onChange={() => void(0)}
                       />
                   </div>
                   <div className="clear">
