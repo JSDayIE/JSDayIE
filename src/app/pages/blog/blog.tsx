@@ -1,6 +1,6 @@
 import React from "react";
 import { Fetchable } from "react-fetchable";
-import { Section, Card, CardHeader, CardBody, CardFooter, Container, Button, Link } from "../../../lib/components";
+import { Spinner, Section, Card, CardHeader, CardBody, CardFooter, Container, Button, Link } from "../../../lib/components";
 import { blogEntryArrayValidator, BlogEntryArray, IBlogEntry } from "../../../lib/domain/types";
 import { PATHS } from "../../config/routing";
 
@@ -39,7 +39,7 @@ export function BlogPosts(props: BlogPostsProps) {
       <Fetchable
           url="/data/blog_entries.json"
           validator={blogEntryArrayValidator}
-          loading={() => <div>Loading...</div>}
+          loading={() => <Spinner size={100}/>}
           error={(e: Error) => <div>Error: {e.message}</div>}
           success={(blogEntries: BlogEntryArray) => {
 

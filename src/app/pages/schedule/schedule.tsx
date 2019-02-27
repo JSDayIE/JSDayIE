@@ -1,6 +1,6 @@
 import React from "react";
 import { Fetchable } from "react-fetchable";
-import { Section, Table, Container } from "../../../lib/components";
+import { Section, Table, Container, Spinner } from "../../../lib/components";
 import { ActivityArray, activityArrayValidator } from "../../../lib/domain/types";
 
 interface ScheduleProps {}
@@ -19,7 +19,7 @@ export class Schedule extends React.Component<ScheduleProps, ScheduleState> {
           <Fetchable
             url="/data/schedule.json"
             validator={activityArrayValidator}
-            loading={() => <div>Loading...</div>}
+            loading={() => <Spinner size={100}/>}
             error={(e: Error) => <div>Error: {e.message}</div>}
             success={(data: ActivityArray) => {
               return (
@@ -38,7 +38,7 @@ export class Schedule extends React.Component<ScheduleProps, ScheduleState> {
             <Fetchable
               url="/data/after_party.json"
               validator={activityArrayValidator}
-              loading={() => <div>Loading...</div>}
+              loading={() => <Spinner size={100}/>}
               error={(e: Error) => <div>Error: {e.message}</div>}
               success={(data: ActivityArray) => {
                 return (

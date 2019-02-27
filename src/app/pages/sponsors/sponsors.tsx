@@ -1,5 +1,5 @@
 import React from "react";
-import { Section, Table, Button, Container } from "../../../lib/components";
+import { Spinner, Section, Table, Button, Container } from "../../../lib/components";
 import { ISponsors, sponsorsValidator, sponsorsingPackageArrayValidator, SponsorsingPackageArray } from "../../../lib/domain/types";
 import { Fetchable } from "react-fetchable";
 import { SponsorGroup } from "./sponsor_group";
@@ -16,7 +16,7 @@ export class Sponsors extends React.Component {
           <Fetchable
               url="/data/sponsors.json"
               validator={sponsorsValidator}
-              loading={() => <div>Loading...</div>}
+              loading={() => <Spinner size={100}/>}
               error={(e: Error) => <div>Error: {e.message}</div>}
               success={(data: ISponsors) => {
                 return (
@@ -42,7 +42,7 @@ export class Sponsors extends React.Component {
           <Fetchable
             url="/data/sponsorship.json"
             validator={sponsorsingPackageArrayValidator}
-            loading={() => <div>Loading...</div>}
+            loading={() => <Spinner size={100}/>}
             error={(e: Error) => <div>Error: {e.message}</div>}
             success={(data: SponsorsingPackageArray) => {
               return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Fetchable } from "react-fetchable";
-import { Section, Button, Container } from "../../../lib/components";
+import { Section, Spinner, Container } from "../../../lib/components";
 import { ticketArrayValidator } from "../../../lib/domain/types";
 import { Ticket } from "./ticket";
 import { PATHS } from "../../config/routing";
@@ -17,7 +17,7 @@ export class Tickets extends React.Component {
           <Fetchable
             url="/data/tickets.json"
             validator={ticketArrayValidator}
-            loading={() => <div>Loading...</div>}
+            loading={() => <Spinner size={100}/>}
             error={(e: Error) => <div>Error: {e.message}</div>}
             success={data => {
               return (

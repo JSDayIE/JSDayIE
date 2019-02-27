@@ -17,4 +17,7 @@ export class BlogEntry extends React.Component {
         <div>TODO</div>
     );
   }
+  private async _fetchPost() {
+    
+  }
 }
