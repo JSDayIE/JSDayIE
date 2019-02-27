@@ -3,7 +3,7 @@ import "./table.css";
 
 interface TableProps {
     headers: string[];
-    rows: string[][];
+    rows: (JSX.Element|string)[][];
 }
 
 export class Table extends React.Component<TableProps> {
@@ -30,7 +30,7 @@ export class Table extends React.Component<TableProps> {
             </thead>
         );
     }
-    private _renderBody(rows: string[][]) {
+    private _renderBody(rows: (JSX.Element|string)[][]) {
         return (
             <tbody>
                 {

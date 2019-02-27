@@ -20,11 +20,13 @@ class Layout extends React.Component {
                     }
                 />
                 <Switch>
-                    <div className="pageBody">
-                        {
-                            routes.map((r, i) => <Route exact path={r.path} component={r.component} key={i} />)
-                        }
-                    </div>
+                    <React.Fragment>
+                        <div className="pageBody">
+                            {
+                                routes.map((r, i) => <Route exact path={r.path} component={r.component} key={i} />)
+                            }
+                        </div>
+                    </React.Fragment>
                 </Switch>
                 <Footer
                     name="Wolk Software Limited"

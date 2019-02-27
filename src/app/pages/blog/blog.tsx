@@ -13,7 +13,7 @@ function BlogEntryPreview(props: BlogEntryPreviewProps) {
     <Card>
       <CardHeader>
         <h3 className="blog_entry_preview_title">{props.details.title}</h3>
-        {new Date(Date.parse(props.details.date)).toUTCString()}
+        {new Date(Date.parse(props.details.date)).toDateString()}
       </CardHeader>
       <CardBody>
         <img src={props.details.thumbnail}/>
