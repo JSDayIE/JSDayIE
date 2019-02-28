@@ -25,4 +25,4 @@ We are currently looking for speakers. If you want to give a talk, Please visit 
 
 We are also currently looking for sponsors. Sponsoring JSDayIE is a great way to contribute to the healthy growth of the JavaScript community in Ireland and offers a unique opportunity to expose your brand and find talent specialized in JavaScript technologies in Ireland. If you would like your company to sponsor JSDayIE 2019, please visit the [sponsors page](/sponsors).
 
-The tickets will be available very soon!. Subscribe to our [Newsletter](/newsletter) or follow us on [Twitter](https://twitter.com/jsdayireland), [Facebook](https://www.facebook.com/Jsdayie-336263463661254) or [LinkedIn](https://www.linkedin.com/company/jsdayie) to be notified when the tickets become available and other important updates!
+The tickets will be available very soon!. Subscribe to our [Newsletter](/newsletter) or follow us on [Twitter](https://twitter.com/JSDayIE), [Facebook](https://www.facebook.com/Jsdayie-336263463661254) or [LinkedIn](https://www.linkedin.com/company/jsdayie) to be notified when the tickets become available and other important updates!
