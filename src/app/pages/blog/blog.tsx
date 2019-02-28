@@ -46,12 +46,13 @@ export function BlogPosts(props: BlogPostsProps) {
             const entries = props.limit !== undefined && blogEntries.length > props.limit ?
               blogEntries.slice(0, props.limit) : blogEntries;
 
-            entries.sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
+            const sortedEntries = entries.filter(p => p.visible === true)
+              .sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
 
             return (
               <div className="row">
                 {
-                  entries.map((blogEntry, blogEntryIndex) => (
+                  sortedEntries.map((blogEntry, blogEntryIndex) => (
                     <div key={blogEntryIndex} className="col-md-6">
                       <BlogEntryPreview details={blogEntry} />
                     </div>

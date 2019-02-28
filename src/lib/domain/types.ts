@@ -78,6 +78,7 @@ export type ITicket = io.TypeOf<typeof ticketValidator>;
 export type TicketArray = io.TypeOf<typeof ticketArrayValidator>;
 
 export const blogEntryValidator = io.type({
+    visible: io.boolean,
     id: io.string,
     date: io.string,
     title: io.string,
