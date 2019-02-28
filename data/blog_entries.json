@@ -1,9 +1,26 @@
 [
     {
+        "visible": true,
         "id": "introducing_jsdayie_2019",
-        "date": "2019-02-26T07:10:13.369Z",
+        "date": "2019-02-28T18:00:00.000Z",
         "title": "Introducing JSDayIE 2019!",
         "summary": "Introducing JSDayIE 2019: The first tech conference dedicated exclusively to the JavaScript and its community in Ireland!",
         "thumbnail": "/media/blog_post_1.png"
+    },
+    {
+        "visible": false,
+        "id": "jsdayie_2019_cfp_now_open",
+        "date": "2019-03-01T10:00:00.000Z",
+        "title": "JSDayIE 2019 CFP now open!",
+        "summary": "The JSDayIE 2019 CFP is now open! Don’t miss out on this opportunity to share your story and your expertise with the rest of the JS community",
+        "thumbnail": "/media/blog_post_2.png"
+    },
+    {
+        "visible": false,
+        "id": "ten_reasons_to_sponsor_jsdayie_2019",
+        "date": "2019-03-06T18:00:00.000Z",
+        "title": "10 Reasons to sponsor JSDayIE 2019",
+        "summary": "Sponsoring JSDayIE offers a unique opportunity to expose your brand and find talent specialized in JavaScript technologies in Ireland",
+        "thumbnail": "/media/blog_post_3.png"
     }
 ]
