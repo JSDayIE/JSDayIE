@@ -29,7 +29,7 @@ export class Footer extends React.Component<FooterProps> {
                             <h1>Follow us!</h1>
                             <div className="row">
                                 <div className="col-3">
-                                    <a target="_blank" href="https://twitter.com/jsdayireland">
+                                    <a target="_blank" href="https://twitter.com/JSDayIE">
                                         <i className="fab fa-twitter"></i>
                                     </a>
                                 </div>

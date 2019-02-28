@@ -27,7 +27,7 @@ export class CfpDetails extends React.Component {
                 }
           />
           <p>
-            The CFP will be available the 1st of March! Subscribe to our <Link to={PATHS.newsletter}>Newsletter</Link> or follow us on <a target="_blank" href="https://twitter.com/jsdayireland">Twitter</a>, <a target="_blank" href="https://www.facebook.com/Jsdayie-336263463661254">Facebook</a> or <a target="_blank" href="https://www.linkedin.com/company/jsdayie">LinkedIn</a> to be notified about important updates!
+            The CFP will be available the 1st of March! Subscribe to our <Link to={PATHS.newsletter}>Newsletter</Link> or follow us on <a target="_blank" href="https://twitter.com/JSDayIE">Twitter</a>, <a target="_blank" href="https://www.facebook.com/Jsdayie-336263463661254">Facebook</a> or <a target="_blank" href="https://www.linkedin.com/company/jsdayie">LinkedIn</a> to be notified about important updates!
           </p>
           <Section title="Topics" size={2}>
             <p>
