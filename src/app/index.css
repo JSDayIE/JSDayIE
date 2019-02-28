@@ -5,11 +5,11 @@ body {
 }
 
 a {
-  color: #ffc107;
+  color: #f9bb00;
 }
 
 a:hover {
-  color: #ffc107;
+  color: #f9bb00;
 }
 
 .content {
@@ -18,7 +18,7 @@ a:hover {
 
 .footer {
   padding: 5% 0%;
-  background-color: #ffc107;
+  background-color: #f9bb00;
   margin-top: 150px;
 }
 
@@ -87,7 +87,7 @@ img {
 }
 
 .btn-outline-light:hover {
-  color: #ffc107;
+  color: #f9bb00;
   background-color: #100e17;
   border-color: #100e17;
 }
@@ -114,7 +114,7 @@ img {
 }
 
 .blog_entry_preview_title {
-  color: #ffc107;
+  color: #f9bb00;
 }
 
 .hide {
@@ -140,7 +140,7 @@ img {
 }
 
 .markdown h1 {
-  border-bottom: 4px solid #ffc107;
+  border-bottom: 4px solid #f9bb00;
   display: inline-block;
   margin-bottom: 20px;
 }

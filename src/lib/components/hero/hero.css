@@ -1,7 +1,6 @@
 .hero_bg {
-  background-color: rgba(0,0,0,0.8);
-  padding: 22% 0% 12.5% 0%;
-  border-bottom: 30px solid #ffc107;
+  padding: 12.5% 0% 12.5% 0%;
+  border-bottom: 1px solid #f9bb00;
   height: 890px;
 }
 
@@ -10,7 +9,7 @@
   z-index: -1; top: 0px;
   left: 0px;
   height: 890px;
-  width: 98.8vw;
+  width: 99.4vw;
   opacity: 1;
   overflow: hidden;
 }
@@ -73,6 +72,10 @@
 
   .videoBg {
     height: 300px;
+  }
+
+  .hero {
+    margin-top: 50px;
   }
 
 }

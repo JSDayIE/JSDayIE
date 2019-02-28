@@ -2,17 +2,22 @@ import React from "react";
 import "./hero.css";
 
 function VideoBg() {
-    return (
-        <div className="videoBg">
-            <video
-                poster="/media/bg.png"
-                src="/media/video.webm"
-                autoPlay={true}
-                loop={true}
-                muted={true}
-            />
-        </div>
-    );
+    if (window.innerWidth > 576) {
+        return (
+            <div className="videoBg">
+                <video
+                    poster="/media/bg.png"
+                    src="/media/video.webm"
+                    autoPlay={true}
+                    loop={true}
+                    muted={true}
+                />
+            </div>
+        );
+    }
+    else {
+        return null;
+    }
 }
 
 export class Hero extends React.Component {

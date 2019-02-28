@@ -4,11 +4,11 @@
 }
 
 .table_thead_tr {
-    border-bottom: 4px solid #ffc107;
+    border-bottom: 4px solid #f9bb00;
 }
 
 .table_tbody_tr {
-    border-bottom: 1px solid #ffc107;
+    border-bottom: 1px solid #f9bb00;
 }
 
 .table_thead_th {
