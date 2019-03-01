@@ -1,5 +1,5 @@
 import React from "react";
-import { Section, Container, Table } from "../../../lib/components";
+import { Section, Container, Table, Button } from "../../../lib/components";
 import { Link } from "react-router-dom";
 import { PATHS } from "../../config/routing";
 
@@ -10,7 +10,7 @@ export class CfpDetails extends React.Component {
         <Section title="Call for proposals" size={1}>
           <p>
             We’re excited to welcome the JavaScript community to submit talks for JSDayIE 2019
-            that will take place on September 20th 2019. This Call for Proposals <b>closes on May 15th 2019</b>.
+            that will take place on September 20th 2019. This Call for Proposals <b>closes on April 15th, 2019</b>.
             Here are some important dates that you should remember!
           </p>
           <Table
@@ -26,9 +26,8 @@ export class CfpDetails extends React.Component {
                   ]
                 }
           />
-          <p>
-            The CFP will be available the 1st of March! Subscribe to our <Link to={PATHS.newsletter}>Newsletter</Link> or follow us on <a target="_blank" href="https://twitter.com/JSDayIE">Twitter</a>, <a target="_blank" href="https://www.facebook.com/Jsdayie-336263463661254">Facebook</a> or <a target="_blank" href="https://www.linkedin.com/company/jsdayie">LinkedIn</a> to be notified about important updates!
-          </p>
+          <p>Do you want to give a talk? Do not think about it, submit your proposal now!</p>
+          <Button href="https://goo.gl/forms/QYiMwHEGyfXMdLy33">Submit your proposal now!</Button>
           <Section title="Topics" size={2}>
             <p>
                 JSDayIE is a single track 1-day conference dedicated to the entire JS ecosystem and its

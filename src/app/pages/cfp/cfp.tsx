@@ -1,5 +1,5 @@
 import React from "react";
-import { Section, Link, Container } from "../../../lib/components";
+import { Section, Link, Container, Button } from "../../../lib/components";
 import { PATHS } from "../../config/routing";
 
 export class Cfp extends React.Component {
@@ -16,11 +16,10 @@ export class Cfp extends React.Component {
           </p>
           <img src="/media/js_galaxy_2019.png"/>
           <p>Do you want to give a talk?</p>
+          <Link to={PATHS.cfpDetails}>Learn more about the CFP</Link>
+          <br/><br/>
           <p>Do not think about it, submit your proposal now!</p>
-          <br/>
-          <div className="btnGroup">
-              <Link to={PATHS.cfpDetails}>Learn more about the CFP</Link>
-          </div>
+          <Button href="https://goo.gl/forms/QYiMwHEGyfXMdLy33">Submit your proposal now!</Button>
         </Section>
       </Container>
     );

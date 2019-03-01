@@ -82,7 +82,7 @@ img {
   border: none;
 }
 
-.btnGroup button {
+.btnGroup .btn {
   margin-left: 5px;
 }
 
@@ -139,7 +139,7 @@ img {
   text-align: center;
 }
 
-.markdown h1 {
+.markdown h1, .markdown h2  {
   border-bottom: 4px solid #f9bb00;
   display: inline-block;
   margin-bottom: 20px;

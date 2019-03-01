@@ -8,7 +8,7 @@
         "thumbnail": "/media/blog_post_1.png"
     },
     {
-        "visible": false,
+        "visible": true,
         "id": "jsdayie_2019_cfp_now_open",
         "date": "2019-03-01T10:00:00.000Z",
         "title": "JSDayIE 2019 CFP now open!",
