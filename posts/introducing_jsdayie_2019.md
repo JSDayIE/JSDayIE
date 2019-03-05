@@ -7,6 +7,8 @@ JSDayIE 2019 is going to be a day dedicated to the JavaScript community in Irela
 
 ![](/media/sticker_2019.png)
 
+*The JSDayIE 2019 logo above is based on the Dublin logo design by [Kieran Sheehan](https://twitter.com/KSheehan77) and it is licensed under the Creative Commons Attribution-NoDerivatives license.*
+
 JSDayIE is presented by [Wolk Software](http://www.wolksoftware.com/). Wolk Software is an Ireland based startup dedicated to empowering developers and teams to achieve their best through consultancy and training services and technical publications and events.
 
 JSDayIE 2019 will take place on **September 20th, 2019** at The Round Room at the Mansion House in Dawson Street, right in the heart of Dublin.
