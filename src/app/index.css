@@ -136,13 +136,15 @@ img {
 }
 
 .markdown {
-  text-align: center;
+  text-align: left;
 }
 
 .markdown h1, .markdown h2  {
   border-bottom: 4px solid #f9bb00;
-  display: inline-block;
+  display: table;
+  margin: auto;
   margin-bottom: 20px;
+  margin-top: 100px;
 }
 
 .markdown p {
@@ -160,6 +162,8 @@ img {
 
 .markdown img {
   max-height: 300px;
+  display: table;
+  margin: auto;
 }
 
 /* Small devices (landscape phones, 576px and up) */
