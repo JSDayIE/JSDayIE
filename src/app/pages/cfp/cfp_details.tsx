@@ -60,7 +60,7 @@ export class CfpDetails extends React.Component {
           </Section>
           <Section title="Selection process" size={2}>
             <p>
-              We are expecting to receive a largne number of proposals for JSDayIE 2019. With this in mind,
+              We are expecting to receive a large number of proposals for JSDayIE 2019. With this in mind,
               we created a team subject matter experts that will go through the proposals and will decide
               what to include in the conference agenda.
             </p>
@@ -88,7 +88,7 @@ export class CfpDetails extends React.Component {
                         ["Speaker dinners the night before the event"],
                         ["Free entrance at the conference"],
                         ["Extra ticket, in case somebody is joining you"],
-                        ["An special surprise gift in your conference welcome pack"]
+                        ["A special surprise gift in your conference welcome pack"]
                     ]
                   }
             />
