@@ -14,7 +14,7 @@ export class Schedule extends React.Component<ScheduleProps, ScheduleState> {
         <Section title="Schedule" size={1}>
           <p>
             JSDayIE is a single-track 1-day tech conference featuring 12
-            talks from some of the best JavaScript professionals in Ireland!
+            talks from some of the best JavaScript professionals!
           </p>
           <Fetchable
             url="/data/schedule.json"

@@ -9,7 +9,7 @@ export class Welcome extends React.Component {
             <p>
               JSDayIE 2019 is a 1-day single track tech conference dedicated to
               the JavaScript community in Ireland featuring over 450 attendees and
-              some of the best JavaScript professionals and organizations in Ireland.
+              some of the best JavaScript professionals and organizations.
             </p>
             <p>
               JSDayIE is the first JavaScript conference in Ireland and will take place

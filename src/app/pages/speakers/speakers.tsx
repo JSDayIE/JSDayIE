@@ -10,7 +10,7 @@ export class Speakers extends React.Component {
       <Container>
         <Section title="Speakers" size={1}>
           <p>
-            JSDayIE features 12 talks from some of the best JavaScript professionals in Ireland.
+            JSDayIE features 12 talks from some of the best JavaScript professionals.
           </p>
           <Fetchable
               url="/data/speakers.json"

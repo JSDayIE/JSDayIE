@@ -26,6 +26,7 @@ export type ISponsorsingPackage = io.TypeOf<typeof sponsorsingPackageValidator>;
 export type SponsorsingPackageArray = io.TypeOf<typeof sponsorsingPackageArrayValidator>;
 
 export const sponsorValidator = io.type({
+    hide: io.boolean,
     name: io.string,
     web: io.string,
     logo: io.string

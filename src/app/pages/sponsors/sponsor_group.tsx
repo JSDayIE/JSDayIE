@@ -10,14 +10,15 @@ interface SponsorGroupProps {
 
 export function SponsorGroup({ group, sponsors, label }: SponsorGroupProps) {
   const sponsorsInGroup = sponsors[group];
+  const visibleSponsorsInGroup = sponsorsInGroup.filter((sponsor) => sponsor.hide === false);
   return (
     <React.Fragment>
-      {sponsorsInGroup.length > 0 ? <h1>{label}</h1> : null}
+      {visibleSponsorsInGroup.length > 0 ? <h1 className="sponsor_group_title">{label}</h1> : null}
       <div className="row justify-content-md-center">
         {
-          sponsorsInGroup.map((s, k) => {
+          visibleSponsorsInGroup.map((s, k) => {
             return (
-              <div key={k} className="col-md-4">
+              <div key={k} className="col-md-3 sponsor_group">
                 <Sponsor details={s}></Sponsor>
               </div>
             );

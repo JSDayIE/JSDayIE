@@ -149,6 +149,15 @@ img {
   font-size: 24px;
 }
 
+.sponsor_group img{
+  max-height: 200px;
+  margin-bottom: 20px;
+}
+
+.sponsor_group_title {
+  margin-top: 60px;
+}
+
 .markdown img {
   max-height: 300px;
 }

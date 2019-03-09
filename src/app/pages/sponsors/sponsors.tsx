@@ -23,11 +23,12 @@ export class Sponsors extends React.Component {
                   <React.Fragment>
                     <SponsorGroup group="presenting" label="Presenting Sponsor" sponsors={data} />
                     <SponsorGroup group="diamond" label="Diamond Sponsor" sponsors={data} />
-                    <SponsorGroup group="platinumPlus" label="Platinum Plus Sponsor" sponsors={data} />
+                    <SponsorGroup group="platinumPlus" label="Platinum Plus Sponsors" sponsors={data} />
                     <SponsorGroup group="platinum" label="Platinum Sponsors" sponsors={data} />
                     <SponsorGroup group="gold" label="Gold Sponsors" sponsors={data} />
                     <SponsorGroup group="silver" label="Silver Sponsors" sponsors={data} />
                     <SponsorGroup group="media" label="Media Sponsors" sponsors={data} />
+                    <SponsorGroup group="community" label="Community Partners" sponsors={data} />
                   </React.Fragment>
                 );
               }}
