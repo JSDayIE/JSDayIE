@@ -26,7 +26,7 @@ Get a unique chance to access a pool of experienced JavaScript engineers. Meet y
 
 ## 5. Communicate efficiently with top industry professionals
 
-We expect 70% of our attendees to be intermediate level developers with years of expertise and 20% to be experts, holding senior and decision-making positions. Hiring selling, investing or growing your network - it is a party that can not be missed.
+We expect 70% of our attendees to be intermediate level developers with years of expertise and 20% to be experts, holding senior and decision-making positions. Hiring, selling, investing or growing your network - it is a party that can not be missed.
 
 ## 6. Reaffirm confidence among existing clients
 
