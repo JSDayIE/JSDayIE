@@ -59,7 +59,7 @@
             "logo": "/media/community_sponsors/dublinjs.png"
         },
         {
-            "hide": false,
+            "hide": true,
             "name": "BelfastJS",
             "web": "https://www.meetup.com/Belfast-JS/",
             "logo": "/media/community_sponsors/belfastjs.png"
@@ -89,13 +89,13 @@
             "logo": "/media/community_sponsors/wwc_dublin.jpg"
         },
         {
-            "hide": false,
+            "hide": true,
             "name": "Dublin VueJS",
             "web": "https://www.meetup.com/DublinVueJS/",
             "logo": "/media/community_sponsors/dublin_vuejs.jpg"
         },
         {
-            "hide": false,
+            "hide": true,
             "name": "Dublin UX",
             "web": "https://www.meetup.com/Dublin-UX/",
             "logo": "/media/community_sponsors/dublin_ux.png"
@@ -107,43 +107,43 @@
             "logo": "/media/community_sponsors/nodejs_dublin.png"
         },
         {
-            "hide": false,
+            "hide": true,
             "name": "Angular Dublin",
             "web": "https://www.meetup.com/AngularJSDublin/",
             "logo": "/media/community_sponsors/angular_dublin.png"
         },
         {
-            "hide": false,
+            "hide": true,
             "name": "Nodeschool Dublin",
             "web": "https://www.meetup.com/Nodeschool-Dublin-Meetup/",
             "logo": "/media/community_sponsors/nodeschool-dublin.png"
         },
         {
-            "hide": false,
+            "hide": true,
             "name": "ReactJS Dublin",
             "web": "https://www.meetup.com/ReactJS-Dublin/",
             "logo": "/media/community_sponsors/reactjs_dublin.png"
         },
         {
-            "hide": false,
+            "hide": true,
             "name": "ReasonML Dublin",
             "web": "https://www.meetup.com/ReasonML-Dublin/",
             "logo": "/media/community_sponsors/reasonml_dublin.png"
         },
         {
-            "hide": false,
+            "hide": true,
             "name": "ELM Dublin",
             "web": "https://www.meetup.com/Elm-User-Group-Dublin/",
             "logo": "/media/community_sponsors/elm_dublin.png"
         },
         {
-            "hide": false,
+            "hide": true,
             "name": "GDC Dublin",
             "web": "https://www.meetup.com/GDG-Dublin/",
             "logo": "/media/community_sponsors/gdc_dublin.png"
         },
         {
-            "hide": false,
+            "hide": true,
             "name": "Corkdev.io",
             "web": "https://www.meetup.com/corkdev-io/",
             "logo": "/media/community_sponsors/cork_dev_io.png"

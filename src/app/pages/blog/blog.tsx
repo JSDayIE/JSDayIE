@@ -43,16 +43,16 @@ export function BlogPosts(props: BlogPostsProps) {
           error={(e: Error) => <div>Error: {e.message}</div>}
           success={(blogEntries: BlogEntryArray) => {
 
-            const entries = props.limit !== undefined && blogEntries.length > props.limit ?
-              blogEntries.slice(0, props.limit) : blogEntries;
+            const sortedEntries = blogEntries.filter(p => p.visible === true)
+              .sort((a, b) => new Date(Date.parse(b.date)).getTime() - new Date(Date.parse(a.date)).getTime());
 
-            const sortedEntries = entries.filter(p => p.visible === true)
-              .sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
+            const entries = props.limit !== undefined && sortedEntries.length > props.limit ?
+              sortedEntries.slice(0, props.limit) : sortedEntries;
 
             return (
               <div className="row">
                 {
-                  sortedEntries.map((blogEntry, blogEntryIndex) => (
+                  entries.map((blogEntry, blogEntryIndex) => (
                     <div key={blogEntryIndex} className="col-md-6">
                       <BlogEntryPreview details={blogEntry} />
                     </div>
