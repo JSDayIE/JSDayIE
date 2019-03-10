@@ -22,7 +22,7 @@ Sponsoring gives your business authority in your industry, and this boosts your 
 
 ## 4. Find the best JavaScript talent
  
-Get a unique chance to access a pool of experienced JavaScript engineers. Meet your potential hires in person. Industry events attract high-caliber attendees, some of whom may be looking to advance their careers when an opportunity arises, and by Sponsoring you are better positioned to attract those talented and experienced professionals to join to your company. 
+Get a unique chance to access a pool of experienced JavaScript engineers. Meet your potential hires in person. Industry events attract high-caliber attendees, some of whom may be looking to advance their careers when an opportunity arises, and by Sponsoring you are better positioned to attract those talented and experienced professionals to your company. 
 
 ## 5. Communicate efficiently with top industry professionals
 
