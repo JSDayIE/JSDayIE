@@ -36,13 +36,13 @@ There is a chance that you will have the opportunity to speak with some of your 
 
 ## 7. Distract your competition
 
-If you are Sponsoring and your competitor are not, you not only have a distinct advantage, but often your competitors spend more time obsessing over your superior visibility and who is visiting your exhibit space, than networking for themselves, further enhancing your advantage. 
+If you are Sponsoring and your competitors are not, you not only have a distinct advantage, but often your competitors spend more time obsessing over your superior visibility and who is visiting your exhibit space, than networking for themselves, further enhancing your advantage. 
 
 ## 8. Benefit from pre-event & post-event exposure
 
 While some conferences do more of this than others, an often overlooked advantage of Sponsorships packages is the brand recognition and visibility your company receives before the event even happens and follow up publicity. Sometimes, if you sign up early, you can benefit from months of additional recognition, which encourages even those not attending the event itself to research your company online and reach out for more information. In JSDayIE we work hard to ensure that your brand benefits from Sponsoring for many months before and after the event.
 
-## 9. Present your products & technologies to relevant audience
+## 9. Present your products & technologies to a relevant audience
 
 Sponsoring JSDayIE is a great way to generate quality leads because they’re full of people actively interested in learning and improving aspects of their business operations. Many of the people who attend our events are interested in learning more about new technologies, services, and solutions. 
 
