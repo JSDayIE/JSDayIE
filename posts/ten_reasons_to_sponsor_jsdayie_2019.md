@@ -32,7 +32,7 @@ We expect 70% of our attendees to be intermediate level developers with years of
 
 Having a significant presence at JSDayIE shows your existing customers that your company is strong, reaffirming their confidence in doing business with you. This is also important for national and international clients that do not see you face to face that often. 
 
-There is a chance you will have the opportunity to speak with some of your current customers during the event. This will give you a great chance to reconnect and get feedback on how your service or product is performing. You can also use JsDayIE as an opportunity to educate your customers about any upcoming upgrades or releases.
+There is a chance that you will have the opportunity to speak with some of your current customers during the event. This will give you a great chance to reconnect and get feedback on how your service or product is performing. You can also use JsDayIE as an opportunity to educate your customers about any upcoming upgrades or releases.
 
 ## 7. Distract your competition
 
