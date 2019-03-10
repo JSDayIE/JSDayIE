@@ -95,7 +95,7 @@
             "logo": "/media/community_sponsors/dublin_vuejs.jpg"
         },
         {
-            "hide": true,
+            "hide": false,
             "name": "Dublin UX",
             "web": "https://www.meetup.com/Dublin-UX/",
             "logo": "/media/community_sponsors/dublin_ux.png"
