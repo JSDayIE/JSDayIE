@@ -16,11 +16,19 @@
         "thumbnail": "/media/blog_post_2.png"
     },
     {
-        "visible": false,
+        "visible": true,
         "id": "ten_reasons_to_sponsor_jsdayie_2019",
-        "date": "2019-03-06T18:00:00.000Z",
+        "date": "2019-03-10T16:28:31.639Z",
         "title": "10 Reasons to sponsor JSDayIE 2019",
         "summary": "Sponsoring JSDayIE offers a unique opportunity to expose your brand and find talent specialized in JavaScript technologies in Ireland",
         "thumbnail": "/media/blog_post_3.png"
+    },
+    {
+        "visible": false,
+        "id": "sponsor_spotlight_stelfox",
+        "date": "2019-03-12T16:28:31.639Z",
+        "title": "Sponsor Spotlight: Stelfox",
+        "summary": "Meet our Platinum Plus sponsor: Stelfox. Stelfox IT Recruitment is a technology specialist recruitment agency based in Dublin, Galway, Cork and Berlin",
+        "thumbnail": "/media/blog_post_4.png"
     }
 ]

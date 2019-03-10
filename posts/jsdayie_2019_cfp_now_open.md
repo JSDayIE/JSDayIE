@@ -6,13 +6,13 @@ The JSDayIE 2019 CFP is now open! We’re excited to welcome the JavaScript comm
 
 We are looking for a multitude of topics and perspectives but most of all we value:
 
-**Original topics**, presented for the first time
+- **Original topics**, presented for the first time
 
-**Practical ideas** that attendees can apply at work the next day
+- **Practical ideas** that attendees can apply at work the next day
 
-**Trends and hot topics** which are relevant in 2019 and beyond
+- **Trends and hot topics** which are relevant in 2019 and beyond
 
-**Fresh perspectives** on the JS ecosystem
+- **Fresh perspectives** on the JS ecosystem
 
 We don't have a specific theme for JSDayIE. Instead, we’re aiming to select talks that are interesting for as many JavaScript developers as possible. Our audience skill level is intermediate to advanced.
 

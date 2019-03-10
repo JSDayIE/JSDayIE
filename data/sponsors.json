@@ -1,26 +1,152 @@
 {
     "silver": [
-        
+        { 
+            "hide": true,
+            "name": "Intercom",
+            "web": "https://www.stelfox.com/",
+            "logo": "/media/sponsors_2019/intercom.png"
+        },
+        { 
+            "hide": true,
+            "name": "Aon",
+            "web": "https://www.stelfox.com/",
+            "logo": "/media/sponsors_2019/aon.jpg"
+        }
     ],
     "gold": [
-        
+        { 
+            "hide": true,
+            "name": "QStream",
+            "web": "https://www.stelfox.com/",
+            "logo": "/media/sponsors_2019/qstream.png"
+        }
     ],
     "platinum": [
         
     ],
     "platinumPlus": [
-
+        { 
+            "hide": false,
+            "name": "Stelfox",
+            "web": "https://www.stelfox.com/",
+            "logo": "/media/sponsors_2019/stelfox.png"
+        }
     ],
     "diamond": [
-        
+        { 
+            "hide": true,
+            "name": "Microsoft",
+            "web": "https://developer.microsoft.com/en-us/",
+            "logo": "/media/sponsors_2019/microsoft.png"
+        }
     ],
     "presenting": [
-        { "name": "Wolk Software", "web": "http://www.wolksoftware.com", "logo": "/media/wolk_software_logo.png" }
+        {
+            "hide": false,
+            "name": "Wolk Software",
+            "web": "http://www.wolksoftware.com",
+            "logo": "/media/wolk_software_logo.png"
+        }
     ],
     "media": [
         
     ],
     "community": [
-        
+        {
+            "hide": false,
+            "name": "DublinJS",
+            "web": "https://www.meetup.com/DublinJS/",
+            "logo": "/media/community_sponsors/dublinjs.png"
+        },
+        {
+            "hide": true,
+            "name": "BelfastJS",
+            "web": "https://www.meetup.com/Belfast-JS/",
+            "logo": "/media/community_sponsors/belfastjs.png"
+        },
+        {
+            "hide": false,
+            "name": "CorkJS",
+            "web": "https://www.meetup.com/Cork-JavaScript-Meetup/",
+            "logo": "/media/community_sponsors/corkjs.jpeg"
+        },
+        {
+            "hide": false,
+            "name": "Dublin TypeScript",
+            "web": "https://www.meetup.com/Dublin-TypeScript-Meetup/",
+            "logo": "/media/community_sponsors/dublin_typescript.jpg"
+        },
+        {
+            "hide": false,
+            "name": "Ember.js Dublin",
+            "web": "https://www.meetup.com/emberjsdublin/",
+            "logo": "/media/community_sponsors/ember_dublin.jpeg"
+        },
+        {
+            "hide": false,
+            "name": "Women Who Code",
+            "web": "https://www.meetup.com/Women-Who-Code-Dublin/",
+            "logo": "/media/community_sponsors/wwc_dublin.jpg"
+        },
+        {
+            "hide": true,
+            "name": "Dublin VueJS",
+            "web": "https://www.meetup.com/DublinVueJS/",
+            "logo": "/media/community_sponsors/dublin_vuejs.jpg"
+        },
+        {
+            "hide": true,
+            "name": "Dublin UX",
+            "web": "https://www.meetup.com/Dublin-UX/",
+            "logo": "/media/community_sponsors/dublin_ux.png"
+        },
+        {
+            "hide": false,
+            "name": "Dublin Node.js",
+            "web": "https://www.meetup.com/Dublin-Node-js-Meetup/",
+            "logo": "/media/community_sponsors/nodejs_dublin.png"
+        },
+        {
+            "hide": true,
+            "name": "Angular Dublin",
+            "web": "https://www.meetup.com/AngularJSDublin/",
+            "logo": "/media/community_sponsors/angular_dublin.png"
+        },
+        {
+            "hide": true,
+            "name": "Nodeschool Dublin",
+            "web": "https://www.meetup.com/Nodeschool-Dublin-Meetup/",
+            "logo": "/media/community_sponsors/nodeschool-dublin.png"
+        },
+        {
+            "hide": false,
+            "name": "ReactJS Dublin",
+            "web": "https://www.meetup.com/ReactJS-Dublin/",
+            "logo": "/media/community_sponsors/reactjs_dublin.png"
+        },
+        {
+            "hide": true,
+            "name": "ReasonML Dublin",
+            "web": "https://www.meetup.com/ReasonML-Dublin/",
+            "logo": "/media/community_sponsors/reasonml_dublin.png"
+        },
+        {
+            "hide": true,
+            "name": "ELM Dublin",
+            "web": "https://www.meetup.com/Elm-User-Group-Dublin/",
+            "logo": "/media/community_sponsors/elm_dublin.png"
+        },
+        {
+            "hide": true,
+            "name": "GDC Dublin",
+            "web": "https://www.meetup.com/GDG-Dublin/",
+            "logo": "/media/community_sponsors/gdc_dublin.png"
+        },
+        {
+            "hide": true,
+            "name": "Corkdev.io",
+            "web": "https://www.meetup.com/corkdev-io/",
+            "logo": "/media/community_sponsors/cork_dev_io.png"
+        }
     ]
 }
