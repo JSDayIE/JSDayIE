@@ -2,7 +2,7 @@
 
 Hi everyone! We are very pleased to publicly announce our first sponsor: **Stelfox**
 
-![](/media/sponsors_2019/stelfox.png)
+![](/media/blog/stelfox_group_logo.jpg)
 
 We started some conversations with Stelfox long before the event was publicly announced and the team was very supportive about this initiative from a very early stage.  The Stelfox support has encouraged us to take the risks necessary to organize a big tech conference such as JSDayIE.
 

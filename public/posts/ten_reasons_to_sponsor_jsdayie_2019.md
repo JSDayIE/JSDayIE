@@ -6,7 +6,7 @@ JSDayIE carefully curates talks that inspire and inform the audience in an intim
 
 Compared to most conferences, JSDayIE sponsorship provides high-value authentic interactions with attendees for a relatively low investment. Sponsoring JSDayIE is a great way to contribute to the healthy growth of the JavaScript community in Ireland. Please join us in creating a fantastic experience for every attendee. Sponsoring offers a unique opportunity to expose your brand and find talent specialized in JavaScript technologies in Ireland.
 
-![](/media/blog_post_3.png)
+![](/media/blog/blog_post_3.png)
 
 ## 1. Contribute to the healthy growth of the JavaScript community in Ireland
 

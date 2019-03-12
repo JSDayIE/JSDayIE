@@ -2,7 +2,7 @@
 
 The JSDayIE 2019 CFP is now open! We’re excited to welcome the JavaScript community to submit talks for JSDayIE 2019 that will take place on September 20th 2019. The Call for Proposals closes on April 15th, 2019.
 
-![](/media/blog_post_2.png)
+![](/media/blog/blog_post_2.png)
 
 We are looking for a multitude of topics and perspectives but most of all we value:
 
