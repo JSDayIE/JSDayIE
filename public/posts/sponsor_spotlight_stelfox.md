@@ -1,10 +1,8 @@
 # Sponsor Spotlight: Stelfox
 
-Hi everyone! 
+Hi everyone! We are very pleased to publicly announce our first sponsor: **Stelfox**
 
-We are very pleased to publicly announce our first sponsor:
-
-![](/media/blog_post_4.png)
+![](/media/sponsors_2019/stelfox.png)
 
 We started some conversations with Stelfox long before the event was publicly announced and the team was very supportive about this initiative from a very early stage.  The Stelfox support has encouraged us to take the risks necessary to organize a big tech conference such as JSDayIE.
 
