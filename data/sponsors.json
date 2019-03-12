@@ -107,7 +107,7 @@
             "logo": "/media/community_sponsors/nodejs_dublin.png"
         },
         {
-            "hide": true,
+            "hide": false,
             "name": "Angular Dublin",
             "web": "https://www.meetup.com/AngularJSDublin/",
             "logo": "/media/community_sponsors/angular_dublin.png"
@@ -125,7 +125,7 @@
             "logo": "/media/community_sponsors/reactjs_dublin.png"
         },
         {
-            "hide": true,
+            "hide": false,
             "name": "ReasonML Dublin",
             "web": "https://www.meetup.com/ReasonML-Dublin/",
             "logo": "/media/community_sponsors/reasonml_dublin.png"
@@ -147,6 +147,12 @@
             "name": "Corkdev.io",
             "web": "https://www.meetup.com/corkdev-io/",
             "logo": "/media/community_sponsors/cork_dev_io.png"
+        },
+        {
+            "hide": false,
+            "name": "Ladies That UX",
+            "web": "http://ladiesthatux.com/dublin/",
+            "logo": "/media/community_sponsors/ladies_that_ux.jpeg"
         }
     ]
 }
