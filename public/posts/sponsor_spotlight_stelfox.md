@@ -32,12 +32,12 @@ Stelfox has a culture of life-long learning at its core and that’s something w
 
 Almost every day we have a new JS role being uploaded to the Stelfox website and job boards and many developers check out our live jobs as part of their daily routine. After all, we might be able to place you in a better fit for your experience and skill set.  
 
-## Why is Stelfox excited for JSConIE?
+## Why is Stelfox excited for JSDayIE?
 
-What excites us most about JSConIE is that it is truly education based with a focus on developers.  It’s clear that this conference is different from anything else that’s ever been held in Ireland. All the content geared to helping you, the people that do the actual coding work. 
+What excites us most about JSDayIE is that it is truly education based with a focus on developers.  It’s clear that this conference is different from anything else that’s ever been held in Ireland. All the content geared to helping you, the people that do the actual coding work. 
 
 With a guaranteed great line up of speakers and educators, we could not be more excited to learn from those who are creating the roadmap for the future.
 
-The Stelfox Team look forward to meeting you at JSConIE and hopefully working with you to unleash your unlimited potential. 
+The Stelfox Team look forward to meeting you at JSDayIE and hopefully working with you to unleash your unlimited potential.
 
 Find out more about Stelfox and search their live jobs [here](https://www.stelfox.com/).
