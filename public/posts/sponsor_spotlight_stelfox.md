@@ -38,4 +38,6 @@ What excites us most about JSConIE is that it is truly education based with a fo
 
 With a guaranteed great line up of speakers and educators, we could not be more excited to learn from those who are creating the roadmap for the future.
 
-The Stelfox Team look forward to meeting you at JSConIE and hopefully working with you to unleash your unlimited potential.  
+The Stelfox Team look forward to meeting you at JSConIE and hopefully working with you to unleash your unlimited potential. 
+
+Find out more about Stelfox and search their live jobs [here](https://www.stelfox.com/).
