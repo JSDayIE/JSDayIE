@@ -8,7 +8,7 @@ We started some conversations with Stelfox long before the event was publicly an
 
 We would like to truly thank Stelfox for becoming one of our Platinum Plus sponsors because, without their support, this event would not be possible.
 
-Below you will find some relevant about the relationship between Stelfox and the JavaScript community in Ireland.
+Below you will find some imformation about the relationship between Stelfox and the JavaScript community in Ireland.
 
 ## What is Stelfox and what do you do?
 
