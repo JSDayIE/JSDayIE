@@ -166,6 +166,10 @@ img {
   margin: auto;
 }
 
+.infoIcon {
+  max-width: 200px;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {  
 

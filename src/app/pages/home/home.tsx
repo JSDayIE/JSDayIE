@@ -9,6 +9,7 @@ import { Cfp } from "../cfp/cfp";
 import { Welcome } from "../welcome/welcome";
 import { Newsletter } from "../newsletter/newsletter";
 import { BlogPreview } from "../blog/blog";
+import { Info } from "../info/info";
 
 export class Home extends Component {
   render() {
@@ -18,8 +19,9 @@ export class Home extends Component {
         <Welcome/>
         <Cfp/>
         <Schedule/>
-        <Tickets/>
         <Venue/>
+        <Tickets/>
+        <Info/>
         <Sponsors />
         <CoC/>
         <BlogPreview/>

@@ -12,6 +12,15 @@ import { CfpDetails } from "../pages/cfp/cfp_details";
 import { Blog } from "../pages/blog/blog";
 import { BlogEntry } from "../pages/blog/blog_entry";
 import { Newsletter } from "../pages/newsletter/newsletter";
+import { Info } from "../pages/info/info";
+import { Faq } from "../pages/info/faq";
+import { Accessibility } from "../pages/info/accessibility";
+import { Team } from "../pages/info/team";
+import { Travel } from "../pages/info/travel";
+import { Services } from "../pages/info/services";
+import { WhyAttend } from "../pages/info/why_attend";
+import { WhyEmployee } from "../pages/info/why_employee";
+import { WhySponsor } from "../pages/info/why_sponsor";
 
 interface RouteConf {
     isIndex?: boolean;
@@ -34,21 +43,39 @@ export const PATHS = {
     cocDetails: "/coc_details",
     blog: "/blog",
     blogEntry: "/blog_entry/:id",
-    newsletter: "/newsletter"
+    newsletter: "/newsletter",
+    info: "/info",
+    faq: "/info/faq",
+    services: "/info/services",
+    accessibility: "/info/accessibility",
+    travel: "/info/travel",
+    whyAttend: "/info/why_attend",
+    team: "/info/team",
+    whyEmployee: "/info/why_employee",
+    whySponsor: "/info/why_sponsor"
 };
 
 export const routes: RouteConf[] = [
     { isIndex: true, title: "JSDayIE 2019", path: PATHS.home, component: Home },
-    { title: "Call for Proposals", path: PATHS.cfp, component: Cfp },
+    { title: "CFP", path: PATHS.cfp, component: Cfp },
     { displayInNavBar: false, title: "Speakers", path: PATHS.speakers, component: Speakers },
     { title: "Schedule", path: PATHS.schedule, component: Schedule },
     { title: "Venue", path: PATHS.venue, component: Venue },
     { displayInNavBar: false, title: "Call for Proposals - Details", path: PATHS.cfpDetails, component: CfpDetails },
     { title: "Tickets", path: PATHS.tickets, component: Tickets },
+    { title: "Info", path: PATHS.info, component: Info },
+    { displayInNavBar: false,  title: "Info - FAQ", path: PATHS.faq, component: Faq },
+    { displayInNavBar: false,  title: "Info - Services", path: PATHS.services, component: Services },
+    { displayInNavBar: false,  title: "Info - Accessibility", path: PATHS.accessibility, component: Accessibility },
+    { displayInNavBar: false,  title: "Info - Travel", path: PATHS.travel, component: Travel },
+    { displayInNavBar: false,  title: "Info - Why to attend", path: PATHS.whyAttend, component: WhyAttend },
+    { displayInNavBar: false,  title: "Info - Team", path: PATHS.team, component: Team },
+    { displayInNavBar: false,  title: "Info - Why to buy a ticket for your employees", path: PATHS.whyEmployee, component: WhyEmployee },
+    { displayInNavBar: false,  title: "Info - Why to sponsor", path: PATHS.whySponsor, component: WhySponsor },
     { title: "Sponsors", path: PATHS.sponsors, component: Sponsors },
+    { title: "CoC", path: PATHS.coc, component: CoC },
     { title: "Blog", path: PATHS.blog, component: Blog },
     { displayInNavBar: false, title: "Blog Entry", path: PATHS.blogEntry, component: BlogEntry },
     { title: "Newsletter", path: PATHS.newsletter, component: Newsletter },
-    { title: "Code of conduct", path: PATHS.coc, component: CoC },
     { displayInNavBar: false, title: "Code of conduct - Details", path: PATHS.cocDetails, component: CoCDetails }
 ];
