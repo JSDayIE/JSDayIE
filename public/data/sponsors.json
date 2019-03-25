@@ -1,7 +1,7 @@
 {
     "silver": [
         { 
-            "hide": false,
+            "hide": true,
             "name": "Liberty IT",
             "web": "https://www.liberty-it.co.uk/",
             "logo": "/media/sponsors_2019/liberty_it.png"
@@ -13,7 +13,7 @@
             "logo": "/media/sponsors_2019/intercom.png"
         },
         { 
-            "hide": false,
+            "hide": true,
             "name": "Aon",
             "web": "http://acia.aon.com/index.php/home/",
             "logo": "/media/sponsors_2019/aon.jpg"
@@ -35,19 +35,19 @@
     ],
     "platinum": [
         { 
-            "hide": false,
+            "hide": true,
             "name": "Workday",
             "web": "https://www.workday.com/en-us/company/careers.html",
             "logo": "/media/sponsors_2019/workday.png"
         },
         { 
-            "hide": false,
+            "hide": true,
             "name": "Twilio",
             "web": "https://www.twilio.com/docs/",
             "logo": "/media/sponsors_2019/twilio.png"
         },
         { 
-            "hide": false,
+            "hide": true,
             "name": "Zalando",
             "web": "https://jobs.zalando.com/en/",
             "logo": "/media/sponsors_2019/zalando.png"
@@ -63,7 +63,7 @@
     ],
     "diamond": [
         { 
-            "hide": false,
+            "hide": true,
             "name": "Microsoft",
             "web": "https://developer.microsoft.com/en-us/",
             "logo": "/media/sponsors_2019/microsoft.png"
@@ -88,7 +88,7 @@
             "logo": "/media/community_sponsors/dublinjs.png"
         },
         {
-            "hide": true,
+            "hide": false,
             "name": "BelfastJS",
             "web": "https://www.meetup.com/Belfast-JS/",
             "logo": "/media/community_sponsors/belfastjs.png"
@@ -187,15 +187,9 @@
     "others": [
         {
             "hide": true,
-            "name": "Fáilte Ireland",
-            "web": "http://www.failteireland.ie/",
+            "name": "JetBrains",
+            "web": "https://www.jetbrains.com/webstorm/",
             "logo": "/media/sponsors_2019/failte_ireland.png"
-        },
-        {
-            "hide": true,
-            "name": "Meet in Ireland",
-            "web": "https://www.meetinireland.com/",
-            "logo": "/media/sponsors_2019/meet_in_ireland.png"
         }
     ]
 }

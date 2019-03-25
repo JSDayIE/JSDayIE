@@ -142,7 +142,6 @@ img {
 .markdown h1, .markdown h2  {
   border-bottom: 4px solid #f9bb00;
   display: table;
-  margin: auto;
   margin-bottom: 20px;
   margin-top: 100px;
 }
@@ -164,6 +163,14 @@ img {
   max-height: 300px;
   display: table;
   margin: auto;
+}
+
+.failte {
+  margin-top: 100px;
+}
+
+.failte img {
+  width: 60%;
 }
 
 .infoIcon {

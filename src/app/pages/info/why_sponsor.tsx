@@ -1,12 +1,6 @@
 import * as React from "react";
-import { Section, Container } from "../../../lib/components";
+import { MarkDown } from "../../../lib/components";
 
 export function WhySponsor() {
-    return (
-        <Container>
-            <Section title="Why your organization should sponsor JSDayIE?" size={1}>
-                TODO
-            </Section>
-        </Container>
-    );
+    return <MarkDown url="/posts/ten_reasons_to_sponsor_jsdayie_2019.md" />;
 }

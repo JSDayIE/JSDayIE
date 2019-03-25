@@ -46,6 +46,37 @@ export class Venue extends React.Component {
               Learn more about Cafe en Seine
           </Button>
         </Section>
+        <Section title="Visit Dublin and Ireland" size={1}>
+          <p>
+            Joining JSDayIE 2019 provides you with a great excuse to explore Dublin and the rest of Ireland.
+          </p>
+          <VenueMedia
+            topLeft={{ type: "video", url: "https://www.youtube.com/embed/fsK8O2yvEPg?controls=0"}}
+            topRight={{ type: "video", url: "https://www.youtube.com/embed/w9vVo9kV_gI?controls=0"}}
+            bottonLeft={{ type: "video", url: "https://www.youtube.com/embed/PIzU6Vhpzyw?controls=0"}}
+            bottonRight={{ type: "video", url: "https://www.youtube.com/embed/fQl8FBIubxg?controls=0"}}
+          />
+          <br/>
+          <p>
+            Visiting Dublin is like taking a great big breath of fresh air. Always invigorating, this 
+            Viking city is at once modern and historic, exciting and relaxing.
+          </p>
+          <Button href="https://www.discoverireland.ie/">
+              Learn more about visiting Ireland
+          </Button>
+          <div className="row failte">
+            <div className="col-md-6">
+              <a href="http://www.failteireland.ie/" target="_blank" >
+                <img src="/media/failte_ireland.png"  />
+              </a>
+            </div>
+            <div className="col-md-6">
+              <a href="https://www.meetinireland.com/" target="_blank" >
+                <img src="/media/meet_in_ireland.png"  />
+              </a>
+            </div>
+          </div>
+        </Section>
       </Container>
     );
   }
