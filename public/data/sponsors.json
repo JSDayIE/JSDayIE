@@ -1,28 +1,57 @@
 {
     "silver": [
         { 
-            "hide": true,
+            "hide": false,
+            "name": "Liberty IT",
+            "web": "https://www.liberty-it.co.uk/",
+            "logo": "/media/sponsors_2019/liberty_it.png"
+        },
+        { 
+            "hide": false,
             "name": "Intercom",
-            "web": "https://www.stelfox.com/",
+            "web": "https://www.intercom.com/careers",
             "logo": "/media/sponsors_2019/intercom.png"
         },
         { 
-            "hide": true,
+            "hide": false,
             "name": "Aon",
-            "web": "https://www.stelfox.com/",
+            "web": "http://acia.aon.com/index.php/home/",
             "logo": "/media/sponsors_2019/aon.jpg"
         }
     ],
     "gold": [
         { 
-            "hide": true,
+            "hide": false,
             "name": "QStream",
-            "web": "https://www.stelfox.com/",
+            "web": "https://qstream.com/careers/",
             "logo": "/media/sponsors_2019/qstream.png"
+        },
+        { 
+            "hide": false,
+            "name": "Oliver Wyman",
+            "web": "https://www.oliverwyman.com/careers.html",
+            "logo": "/media/sponsors_2019/oliver_wyman.png"
         }
     ],
     "platinum": [
-        
+        { 
+            "hide": false,
+            "name": "Workday",
+            "web": "https://www.workday.com/en-us/company/careers.html",
+            "logo": "/media/sponsors_2019/workday.png"
+        },
+        { 
+            "hide": false,
+            "name": "Twilio",
+            "web": "https://www.twilio.com/docs/",
+            "logo": "/media/sponsors_2019/twilio.png"
+        },
+        { 
+            "hide": false,
+            "name": "Zalando",
+            "web": "https://jobs.zalando.com/en/",
+            "logo": "/media/sponsors_2019/zalando.png"
+        }
     ],
     "platinumPlus": [
         { 
@@ -34,7 +63,7 @@
     ],
     "diamond": [
         { 
-            "hide": true,
+            "hide": false,
             "name": "Microsoft",
             "web": "https://developer.microsoft.com/en-us/",
             "logo": "/media/sponsors_2019/microsoft.png"
@@ -153,6 +182,20 @@
             "name": "Ladies That UX",
             "web": "http://ladiesthatux.com/dublin/",
             "logo": "/media/community_sponsors/ladies_that_ux.jpeg"
+        }
+    ],
+    "others": [
+        {
+            "hide": true,
+            "name": "Fáilte Ireland",
+            "web": "http://www.failteireland.ie/",
+            "logo": "/media/sponsors_2019/failte_ireland.png"
+        },
+        {
+            "hide": true,
+            "name": "Meet in Ireland",
+            "web": "https://www.meetinireland.com/",
+            "logo": "/media/sponsors_2019/meet_in_ireland.png"
         }
     ]
 }

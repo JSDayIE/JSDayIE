@@ -29,6 +29,7 @@ export class Sponsors extends React.Component {
                     <SponsorGroup group="silver" label="Silver Sponsors" sponsors={data} />
                     <SponsorGroup group="media" label="Media Sponsors" sponsors={data} />
                     <SponsorGroup group="community" label="Community Partners" sponsors={data} />
+                    <SponsorGroup group="others" label="Supported by" sponsors={data} />
                   </React.Fragment>
                 );
               }}
