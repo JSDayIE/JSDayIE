@@ -8,3 +8,4 @@ export { Section } from "./section/section";
 export { Card, CardBody, CardHeader, CardFooter } from "./card/card";
 export { Link } from "./link/link";
 export { Spinner } from "./spinner/spinner";
+export { MarkDownToHTML, MarkDown } from "./markdown/markdown";
