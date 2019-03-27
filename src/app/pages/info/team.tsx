@@ -15,6 +15,7 @@ export function Team() {
                             details={{
                                 hide: false,
                                 name: "Irene Yeriskin",
+                                company: "Inclusion and Diversity Chair",
                                 bio: "Irene is a Software Engineer at Oliver Wyman, WomenWhoCode Dublin director and the Chair of Inclusion and Diversity of JSDayIE.",
                                 links: {
                                     linkedin: "https://www.linkedin.com/in/irene-yeriskin-64328659/",
@@ -29,6 +30,7 @@ export function Team() {
                             details={{
                                 hide: false,
                                 name: "Remo H. Jansen",
+                                company: "General Chair",
                                 bio: "Remo is the CEO of Wolk Software, a Microsoft MVP and the organizer of the Dublin TypeScript meetup and lead organizer of JSDayIE.",
                                 links: {
                                     github: "https://github.com/remojansen",
@@ -45,7 +47,8 @@ export function Team() {
                             details={{
                                 hide: false,
                                 name: "You! Maybe?",
-                                bio: "We are looking for someone to join us as the chair of accesibility. Please contact us if you are interested.",
+                                company: "Accessibility Chair",
+                                bio: "We are looking for someone to join us as the accessibility chair. Please contact us if you are interested.",
                                 links: {
                                     linkedin: "https://www.linkedin.com/company/jsdayie/",
                                     twitter: "https://twitter.com/JSDayIE",

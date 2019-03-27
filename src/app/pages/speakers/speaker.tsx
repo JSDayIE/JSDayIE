@@ -14,7 +14,8 @@ export class Speaker extends React.Component<SpeakerProps> {
       <div className="speaker">
         <Card>
           <CardHeader>
-            <h3>{this.props.details.name}</h3>
+            <h3 className="blog_entry_preview_title">{this.props.details.name}</h3>
+            <span>{this.props.details.company}</span>
           </CardHeader>
           <CardBody>
             <img src={this.props.details.pic}/>

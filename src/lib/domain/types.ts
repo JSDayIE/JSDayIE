@@ -58,6 +58,7 @@ export const speakerLinksValidator = io.partial({
 
 export const speakerValidator = io.type({
     name: io.string,
+    company: io.string,
     pic: io.string,
     bio: io.string,
     links: speakerLinksValidator,
