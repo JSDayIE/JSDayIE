@@ -46,7 +46,7 @@ export class Venue extends React.Component {
               Learn more about Cafe en Seine
           </Button>
         </Section>
-        <Section title="Visit Dublin and Ireland" size={1}>
+        <Section title="Visit Dublin and discover Ireland" size={1}>
           <p>
             Joining JSDayIE 2019 provides you with a great excuse to explore Dublin and the rest of Ireland.
           </p>

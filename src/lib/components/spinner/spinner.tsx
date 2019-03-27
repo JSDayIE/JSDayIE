@@ -6,7 +6,7 @@ interface SpinnerProps {
 
 export function Spinner(props: SpinnerProps) {
     return (
-        <svg width={props.size} height={props.size} viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+        <svg className="spinner" width={props.size} height={props.size} viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
             <g transform="translate(80,50)">
                 <g transform="rotate(0)">
                     <circle cx="0" cy="0" r="5" fill="#f9bb00" fillOpacity="1" transform="scale(1.08428 1.08428)">

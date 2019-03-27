@@ -15,15 +15,15 @@ function socialIconFactory(type: keyof Links) {
     const url = props.links[type];
     switch (type) {
       case "web":
-        return url ? <Button><i className="fas fa-globe-europe"></i></Button> : null;
+        return url ? <Button href={url}><i className="fas fa-globe-europe"></i></Button> : null;
       case "twitter":
-        return url ? <Button><i className="fab fa-twitter"></i></Button> : null;
+        return url ? <Button href={url}><i className="fab fa-twitter"></i></Button> : null;
       case "github":
-        return url ? <Button><i className="fab fa-github"></i></Button> : null;
+        return url ? <Button href={url}><i className="fab fa-github"></i></Button> : null;
       case "linkedin":
-        return url ? <Button><i className="fab fa-linkedin-in"></i></Button> : null;
+        return url ? <Button href={url}><i className="fab fa-linkedin-in"></i></Button> : null;
       case "medium":
-        return url ? <Button><i className="fab fa-medium"></i></Button> : null;
+        return url ? <Button href={url}><i className="fab fa-medium"></i></Button> : null;
       default:
         throwIfNever(type);
         return null;

@@ -75,7 +75,7 @@ img {
   max-width: 100%;
 }
 
-.iconroup button {
+.iconroup button, .iconroup a {
   margin-left: 5px;
   border-radius: 50%;
   padding-top: 12px;
@@ -161,6 +161,11 @@ img {
 
 .markdown img {
   max-height: 300px;
+  display: table;
+  margin: auto;
+}
+
+.spinner {
   display: table;
   margin: auto;
 }
