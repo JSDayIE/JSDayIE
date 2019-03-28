@@ -63,7 +63,7 @@
     ],
     "diamond": [
         { 
-            "hide": true,
+            "hide": false,
             "name": "Microsoft",
             "web": "https://developer.microsoft.com/en-us/",
             "logo": "/media/sponsors_2019/microsoft.png"
