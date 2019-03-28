@@ -30,5 +30,13 @@
         "title": "Sponsor Spotlight: Stelfox",
         "summary": "Meet our Platinum Plus sponsor: Stelfox. Stelfox IT Recruitment is a technology specialist recruitment agency based in Dublin, Galway, Cork and Berlin",
         "thumbnail": "/media/blog/blog_post_4.png"
+    },
+    {
+        "visible": true,
+        "id": "sponsor_spotlight_microsoft",
+        "date": "2019-03-28T20:18:02.051Z",
+        "title": "Sponsor Spotlight: Microsoft Ireland",
+        "summary": "Meet our Diamond sponsor: Microsoft Ireland. Microsoft employs over 2500 people in Ireland who strive to deliver their mission to empower every person and every organization on the planet to achieve more.",
+        "thumbnail": "/media/blog/blog_post_5.png"
     }
 ]
