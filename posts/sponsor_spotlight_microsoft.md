@@ -27,3 +27,7 @@ We proactively run meetups, learning days, local webinars, free online training 
 What’s not to be excited about! The JavaScript community is one of the most active technical communities in the country, with huge scope for growth and learning across the board. The day promises to be a great day, with a fantastic line up of speakers and technical experts.
 
 Our team is looking forward to seeing you there and hopefully offer some insight, learning and guidance that can help you achieve more.
+
+## Microsoft Learn
+
+Our mission is to empower every developer, architect, and IT administrator of all backgrounds and in every organization to achieve more. Keeping up with the rate of change in our industry can be difficult for even the most plugged-in professional. Trying to do so while juggling personal and professional obligations can be near impossible. We built [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) so that you could have one stop for self-paced, guided learning on all of our platform products and services.
