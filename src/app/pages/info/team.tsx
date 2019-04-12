@@ -29,6 +29,21 @@ export function Team() {
                         <Speaker
                             details={{
                                 hide: false,
+                                name: "Sarah Gavra Boland",
+                                company: "Accessibility Chair",
+                                bio: "Sarah is an Assistive Technology (AT) Facilitator with Saint John of God Community Services since 2013.",
+                                links: {
+                                    linkedin: "https://www.linkedin.com/in/sarahgavraboland/",
+                                    twitter: "https://twitter.com/SarahGBoland"
+                                },
+                                pic: "/media/sarah_gavra.jpg"
+                            }}
+                        />
+                    </div>
+                    <div className="col-md-4">
+                        <Speaker
+                            details={{
+                                hide: false,
                                 name: "Remo H. Jansen",
                                 company: "General Chair",
                                 bio: "Remo is the CEO of Wolk Software, a Microsoft MVP and the organizer of the Dublin TypeScript meetup and lead organizer of JSDayIE.",
@@ -39,22 +54,6 @@ export function Team() {
                                     web: "http://www.remojansen.com/"
                                 },
                                 pic: "/media/remo_jansen.jpg"
-                            }}
-                        />
-                    </div>
-                    <div className="col-md-4">
-                        <Speaker
-                            details={{
-                                hide: false,
-                                name: "You! Maybe?",
-                                company: "Accessibility Chair",
-                                bio: "We are looking for someone to join us as the accessibility chair. Please contact us if you are interested.",
-                                links: {
-                                    linkedin: "https://www.linkedin.com/company/jsdayie/",
-                                    twitter: "https://twitter.com/JSDayIE",
-                                    web: "https://www.jsday.org"
-                                },
-                                pic: "/media/tbd.jpg"
                             }}
                         />
                     </div>
