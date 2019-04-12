@@ -1,7 +1,7 @@
 {
     "silver": [
         { 
-            "hide": true,
+            "hide": false,
             "name": "Liberty IT",
             "web": "https://www.liberty-it.co.uk/",
             "logo": "/media/sponsors_2019/liberty_it.png"
@@ -13,10 +13,16 @@
             "logo": "/media/sponsors_2019/intercom.png"
         },
         { 
-            "hide": true,
+            "hide": false,
             "name": "Aon",
             "web": "http://acia.aon.com/index.php/home/",
             "logo": "/media/sponsors_2019/aon.jpg"
+        },
+        { 
+            "hide": false,
+            "name": "Houghton Mifflin Harcourt",
+            "web": "https://www.hmhco.com/",
+            "logo": "/media/sponsors_2019/hmh.png"
         }
     ],
     "gold": [
@@ -31,11 +37,17 @@
             "name": "Oliver Wyman",
             "web": "https://www.oliverwyman.com/careers.html",
             "logo": "/media/sponsors_2019/oliver_wyman.png"
+        },
+        { 
+            "hide": false,
+            "name": "MongoDB",
+            "web": "https://www.mongodb.com/",
+            "logo": "/media/sponsors_2019/mongodb.png"
         }
     ],
     "platinum": [
         { 
-            "hide": true,
+            "hide": false,
             "name": "Workday",
             "web": "https://www.workday.com/en-us/company/careers.html",
             "logo": "/media/sponsors_2019/workday.png"
