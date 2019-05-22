@@ -1,20 +1,109 @@
 [
-    { "startTime": "08:00", "endTime": "08:25", "title": "Registration & Breakfast" },
-    { "startTime": "08:30", "endTime": "08:55", "title": "Keynote" },
-    { "startTime": "09:00", "endTime": "09:25", "title": "Talk 1 (TBA)" },
-    { "startTime": "09:30", "endTime": "09:25", "title": "Talk 2 (TBA)" },
-    { "startTime": "10:00", "endTime": "10:25", "title": "Talk 3 (TBA)" },
-    { "startTime": "10:25", "endTime": "10:40", "title": "Coffee Break" },
-    { "startTime": "10:40", "endTime": "11:05", "title": "Talk 4 (TBA)" },
-    { "startTime": "11:10", "endTime": "11:35", "title": "Talk 5 (TBA)" },
-    { "startTime": "11:40", "endTime": "12:05", "title": "Talk 6 (TBA)" },
-    { "startTime": "12:05", "endTime": "13:00", "title": "Lunch Break" },
-    { "startTime": "13:00", "endTime": "13:25", "title": "Talk 7 (TBA)" },
-    { "startTime": "13:30", "endTime": "13:55", "title": "Talk 8 (TBA)" },
-    { "startTime": "14:00", "endTime": "14:25", "title": "Talk 9 (TBA)" },
-    { "startTime": "14:25", "endTime": "14:40", "title": "Coffee Break" },
-    { "startTime": "14:40", "endTime": "15:05", "title": "Talk 10 (TBA)" },
-    { "startTime": "15:10", "endTime": "15:35", "title": "Talk 11 (TBA)" },
-    { "startTime": "15:40", "endTime": "16:05", "title": "Talk 12 (TBA)" },
-    { "startTime": "16:10", "endTime": "16:25", "title": "Closing Remarks" }
+    {
+        "startTime": "08:00",
+        "endTime": "08:25",
+        "title": "Registration & Breakfast",
+        "speaker": "--"
+    },
+    {
+        "startTime": "08:30",
+        "endTime": "08:55", "title": "Keynote",
+        "speaker": "TBD"
+    },
+    {
+        "startTime": "09:00",
+        "endTime": "09:25",
+        "title": "Quick and easy way to add AI to your CV",
+        "speaker": "Zdenek Hynek"
+    },
+    {
+        "startTime": "09:30",
+        "endTime": "09:25",
+        "title": "How to write a bundler",
+        "speaker": "Paul Sweeney"
+    },
+    {
+        "startTime": "10:00",
+        "endTime": "10:25",
+        "title": "Protecting your npm dependencies",
+        "speaker": "Christopher Laughlin"
+    },
+    {
+        "startTime": "10:25",
+        "endTime": "10:40",
+        "title": "Coffee Break",
+        "speaker": "--"
+    },
+    {
+        "startTime": "10:40",
+        "endTime": "11:05",
+        "title": "JS codeshift, automated refactoring",
+        "speaker": "Cristina Bernardis"
+    },
+    {
+        "startTime": "11:10",
+        "endTime": "11:35",
+        "title": "TBD",
+        "speaker": "TBD"
+    },
+    {
+        "startTime": "11:40",
+        "endTime": "12:05",
+        "title": "The evolution of Ember.js at Intercom",
+        "speaker": "Gavin Joyce"
+    },
+    {
+        "startTime": "12:05",
+        "endTime": "13:00",
+        "title": "Lunch Break",
+        "speaker": "--"
+    },
+    {
+        "startTime": "13:00",
+        "endTime": "13:25",
+        "title": "How Typescript Can Power Design Systems",
+        "speaker": "Isha Kasliwal"
+    },
+    {
+        "startTime": "13:30",
+        "endTime": "13:55",
+        "title": "Accessibility-flavored React Components Make Your Design System Delicious!",
+        "speaker": "Kathleen McMahon"
+    },
+    {
+        "startTime": "14:00",
+        "endTime": "14:25",
+        "title": "From REST to GraphQL: Wrapping Existing APIs in a Single Endpoint",
+        "speaker": "Roy Derks"
+    },
+    {
+        "startTime": "14:25",
+        "endTime": "14:40",
+        "title": "Coffee Break",
+        "speaker": "--"
+    },
+    {
+        "startTime": "14:40",
+        "endTime": "15:05",
+        "title": "Two years developing with Vue. Distilled",
+        "speaker": "Daniel Jimenez"
+    },
+    {
+        "startTime": "15:10",
+        "endTime": "15:35",
+        "title": "A State Of WebAssembly: The Browser is now a real VM",
+        "speaker": "m4dz"
+    },
+    {
+        "startTime": "15:40",
+        "endTime": "16:05",
+        "title": "TBD",
+        "speaker": "TBD"
+    },
+    {
+        "startTime": "16:10",
+        "endTime": "16:25",
+        "title": "Closing Remarks",
+        "speaker": "The JSDayIE Team"
+    }
 ]

@@ -5,11 +5,11 @@ import { Sponsors } from "../sponsors/sponsors";
 import { Venue } from "../venue/venue";
 import { Schedule } from "../schedule/schedule";
 import { CoC } from "../coc/coc";
-import { Cfp } from "../cfp/cfp";
 import { Welcome } from "../welcome/welcome";
 import { Newsletter } from "../newsletter/newsletter";
 import { BlogPreview } from "../blog/blog";
 import { Info } from "../info/info";
+import { Speakers } from "../speakers/speakers";
 
 export class Home extends Component {
   render() {
@@ -17,7 +17,7 @@ export class Home extends Component {
       <React.Fragment>
         <Hero/>
         <Welcome/>
-        <Cfp/>
+        <Speakers/>
         <Schedule/>
         <Venue/>
         <Tickets/>

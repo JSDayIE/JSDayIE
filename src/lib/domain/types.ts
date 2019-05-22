@@ -3,7 +3,8 @@ import * as io from "io-ts";
 export const activityValidator = io.type({
     startTime: io.string,
     endTime: io.string,
-    title: io.string
+    title: io.string,
+    speaker: io.string
 });
 
 export const activityArrayValidator = io.array(activityValidator);
@@ -56,13 +57,20 @@ export const speakerLinksValidator = io.partial({
     linkedin: io.string
 });
 
+export const talkValidator = io.partial({
+    title: io.string,
+    abstract: io.string
+});
+
 export const speakerValidator = io.type({
     name: io.string,
     company: io.string,
+    role: io.string,
     pic: io.string,
     bio: io.string,
     links: speakerLinksValidator,
-    hide: io.boolean
+    hide: io.boolean,
+    talk: talkValidator
 });
 
 export const speakerArrayValidator = io.array(speakerValidator);

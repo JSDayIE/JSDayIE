@@ -1,0 +1,30 @@
+.modal {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    background: #17141d;
+}
+
+.modal-header {
+    border-bottom: 1px solid rgba(255, 193, 7, 0.125);
+}
+
+.modal-footer {
+    border-top: 1px solid rgba(255, 193, 7, 0.125);
+    justify-content: center;
+}
+
+.modal-title {
+    color: #f9bb00;
+    text-align: center;
+    width: 100%;
+}
+
+.modal-body p {
+    font-size: 14px !important;
+}
+
+.modal-dialog {
+    max-width: 50%;;
+}

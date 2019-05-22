@@ -24,8 +24,8 @@ export class Schedule extends React.Component<ScheduleProps, ScheduleState> {
             success={(data: ActivityArray) => {
               return (
                 <Table
-                  headers={["Time", "Activity"]}
-                  rows={data.map(a => [`${a.startTime}`, a.title])}
+                  headers={["Time", "Speaker", "Activity"]}
+                  rows={data.map(a => [`${a.startTime}`, a.speaker, a.title])}
                 />
               );
             }}

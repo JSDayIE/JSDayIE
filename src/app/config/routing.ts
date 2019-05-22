@@ -57,8 +57,8 @@ export const PATHS = {
 
 export const routes: RouteConf[] = [
     { isIndex: true, title: "JSDayIE 2019", path: PATHS.home, component: Home },
-    { title: "CFP", path: PATHS.cfp, component: Cfp },
-    { displayInNavBar: false, title: "Speakers", path: PATHS.speakers, component: Speakers },
+    { displayInNavBar: false, title: "CFP", path: PATHS.cfp, component: Cfp },
+    { displayInNavBar: true, title: "Speakers", path: PATHS.speakers, component: Speakers },
     { title: "Schedule", path: PATHS.schedule, component: Schedule },
     { title: "Venue", path: PATHS.venue, component: Venue },
     { displayInNavBar: false, title: "Call for Proposals - Details", path: PATHS.cfpDetails, component: CfpDetails },

@@ -10,7 +10,7 @@ export class Speakers extends React.Component {
       <Container>
         <Section title="Speakers" size={1}>
           <p>
-            JSDayIE features 12 talks from some of the best JavaScript professionals.
+            JSDayIE features some of the best JavaScript professionals.
           </p>
           <Fetchable
               url="/data/speakers.json"
@@ -23,13 +23,13 @@ export class Speakers extends React.Component {
                     const isDemo = queryString[0] === "demo" && queryString[1] === "true";
                     const visibleSpeakers = isDemo ? data : data.filter(s => s.hide === false);
                     if (visibleSpeakers.length === 0) {
-                      return <p>The speakers will be announced in May 2019!</p>;
+                      return <p>The speakers will be announced very soon!</p>;
                     } else {
                       return (
                         <div className="row">
                           {
-                            visibleSpeakers.map(s => (
-                              <div className="col-md-4">
+                            visibleSpeakers.map((s, k) => (
+                              <div key={k} className="col-md-4">
                                 <Speaker details={s} />
                               </div>
                             ))

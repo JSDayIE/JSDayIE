@@ -53,13 +53,13 @@
             "logo": "/media/sponsors_2019/workday.png"
         },
         { 
-            "hide": true,
+            "hide": false,
             "name": "Twilio",
             "web": "https://www.twilio.com/docs/",
             "logo": "/media/sponsors_2019/twilio.png"
         },
         { 
-            "hide": true,
+            "hide": false,
             "name": "Zalando",
             "web": "https://jobs.zalando.com/en/",
             "logo": "/media/sponsors_2019/zalando.png"
@@ -198,10 +198,10 @@
     ],
     "others": [
         {
-            "hide": true,
+            "hide": false,
             "name": "JetBrains",
             "web": "https://www.jetbrains.com/webstorm/",
-            "logo": "/media/sponsors_2019/failte_ireland.png"
+            "logo": "/media/sponsors_2019/jetbrains.png"
         }
     ]
 }

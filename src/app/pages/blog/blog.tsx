@@ -1,6 +1,6 @@
 import React from "react";
 import { Fetchable } from "react-fetchable";
-import { Spinner, Section, Card, CardHeader, CardBody, CardFooter, Container, Button, Link } from "../../../lib/components";
+import { Spinner, Section, Card, CardHeader, CardBody, CardFooter, Container, Link } from "../../../lib/components";
 import { blogEntryArrayValidator, BlogEntryArray, IBlogEntry } from "../../../lib/domain/types";
 import { PATHS } from "../../config/routing";
 

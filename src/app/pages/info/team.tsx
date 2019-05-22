@@ -15,13 +15,18 @@ export function Team() {
                             details={{
                                 hide: false,
                                 name: "Irene Yeriskin",
+                                role: "",
                                 company: "Inclusion and Diversity Chair",
                                 bio: "Irene is a Software Engineer at Oliver Wyman, WomenWhoCode Dublin director and the Chair of Inclusion and Diversity of JSDayIE.",
                                 links: {
                                     linkedin: "https://www.linkedin.com/in/irene-yeriskin-64328659/",
                                     twitter: "https://twitter.com/rene_iy",
                                 },
-                                pic: "/media/irene_yeriskin.jpg"
+                                pic: "/media/irene_yeriskin.jpg",
+                                talk: {
+                                    title: "",
+                                    abstract: ""
+                                }
                             }}
                         />
                     </div>
@@ -30,13 +35,18 @@ export function Team() {
                             details={{
                                 hide: false,
                                 name: "Sarah Gavra Boland",
+                                role: "",
                                 company: "Accessibility Chair",
                                 bio: "Sarah is an Assistive Technology (AT) Facilitator with Saint John of God Community Services since 2013.",
                                 links: {
                                     linkedin: "https://www.linkedin.com/in/sarahgavraboland/",
                                     twitter: "https://twitter.com/SarahGBoland"
                                 },
-                                pic: "/media/sarah_gavra.jpg"
+                                pic: "/media/sarah_gavra.jpg",
+                                talk: {
+                                    title: "",
+                                    abstract: ""
+                                }
                             }}
                         />
                     </div>
@@ -45,6 +55,7 @@ export function Team() {
                             details={{
                                 hide: false,
                                 name: "Remo H. Jansen",
+                                role: "",
                                 company: "General Chair",
                                 bio: "Remo is the CEO of Wolk Software, a Microsoft MVP and the organizer of the Dublin TypeScript meetup and lead organizer of JSDayIE.",
                                 links: {
@@ -53,7 +64,11 @@ export function Team() {
                                     twitter: "https://twitter.com/RemoHJansen",
                                     web: "http://www.remojansen.com/"
                                 },
-                                pic: "/media/remo_jansen.jpg"
+                                pic: "/media/remo_jansen.jpg",
+                                talk: {
+                                    title: "",
+                                    abstract: ""
+                                }
                             }}
                         />
                     </div>

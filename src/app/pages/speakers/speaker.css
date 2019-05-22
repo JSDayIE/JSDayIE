@@ -6,4 +6,11 @@
 
 .speaker p {
     margin: 0px;
+    font-size: 20px !important;
+    max-width: 90%;
+    margin: auto;
+}
+
+.speaker .card-body {
+    min-height: 370px;
 }
