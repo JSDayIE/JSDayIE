@@ -1,7 +1,7 @@
 {
     "silver": [
         { 
-            "hide": true,
+            "hide": false,
             "name": "Liberty IT",
             "web": "https://www.liberty-it.co.uk/",
             "logo": "/media/sponsors_2019/liberty_it.png"
@@ -13,10 +13,16 @@
             "logo": "/media/sponsors_2019/intercom.png"
         },
         { 
-            "hide": true,
+            "hide": false,
             "name": "Aon",
             "web": "http://acia.aon.com/index.php/home/",
             "logo": "/media/sponsors_2019/aon.jpg"
+        },
+        { 
+            "hide": false,
+            "name": "Houghton Mifflin Harcourt",
+            "web": "https://www.hmhco.com/",
+            "logo": "/media/sponsors_2019/hmh.png"
         }
     ],
     "gold": [
@@ -31,23 +37,29 @@
             "name": "Oliver Wyman",
             "web": "https://www.oliverwyman.com/careers.html",
             "logo": "/media/sponsors_2019/oliver_wyman.png"
+        },
+        { 
+            "hide": false,
+            "name": "MongoDB",
+            "web": "https://www.mongodb.com/",
+            "logo": "/media/sponsors_2019/mongodb.png"
         }
     ],
     "platinum": [
         { 
-            "hide": true,
+            "hide": false,
             "name": "Workday",
             "web": "https://www.workday.com/en-us/company/careers.html",
             "logo": "/media/sponsors_2019/workday.png"
         },
         { 
-            "hide": true,
+            "hide": false,
             "name": "Twilio",
             "web": "https://www.twilio.com/docs/",
             "logo": "/media/sponsors_2019/twilio.png"
         },
         { 
-            "hide": true,
+            "hide": false,
             "name": "Zalando",
             "web": "https://jobs.zalando.com/en/",
             "logo": "/media/sponsors_2019/zalando.png"
@@ -186,10 +198,10 @@
     ],
     "others": [
         {
-            "hide": true,
+            "hide": false,
             "name": "JetBrains",
             "web": "https://www.jetbrains.com/webstorm/",
-            "logo": "/media/sponsors_2019/failte_ireland.png"
+            "logo": "/media/sponsors_2019/jetbrains.png"
         }
     ]
 }

@@ -1,6 +1,6 @@
 # Sponsor Spotlight: Stelfox
 
-Hi everyone! We are very pleased to publicly announce our first sponsor: **Stelfox**
+Hi everyone! We are very pleased to publicly announce our first sponsor: **Stelfox**.
 
 ![](/media/blog/stelfox_group_logo.jpg)
 
