@@ -1,6 +1,12 @@
-# 
+# Sponsor Spotlight: Houghton Mifflin Harcourt
 
-TODO
+Hi everyone! We are very pleased to publicly announce **Houghton Mifflin Harcourt** as one of our **Silver** sponsors.
+
+![](/media/blog/blog_post_6.png)
+
+HMH has helped us not only financially but by encouraging its employees to participate in the CFP process. We would like to sincerely thank HMH for becoming one of our Silver sponsors because, without their support, this event would not be possible. As a sponsor of JSDayIE and one of the best employers in Ireland, HMH is contributing to the healthy growth of the JS community in Ireland.
+
+Below you will find some imformation about the relationship between HMH and the JavaScript community in Ireland.
 
 ## What is HMH and what do you do? 
 

@@ -42,18 +42,25 @@
     {
         "visible": true,
         "id": "sponsor_spotlight_hmh",
-        "date": "2019-03-28T20:18:02.051Z",
+        "date": "2019-05-20T20:18:02.051Z",
         "title": "Sponsor Spotlight: HMH",
-        "summary": "Meet our .",
+        "summary": "Meet our Silver sponsor: HMH. Houghton Mifflin Harcourt is a publisher of textbooks, instructional technology materials, assessments, reference works, and fiction and non-fiction for both young readers and adults.",
         "thumbnail": "/media/blog/blog_post_6.png"
     },
     {
         "visible": true,
         "id": "sponsor_spotlight_oliver_wyman",
-        "date": "2019-03-28T20:18:02.051Z",
+        "date": "2019-05-21T21:18:02.051Z",
         "title": "Sponsor Spotlight: Oliver Wyman",
-        "summary": "Meet our Diamond sponsor: .",
+        "summary": "Meet our Gold sponsor: Oliver Wyman. Oliver Wyman is an international management consulting firm with a large focus on banking and financial services.",
         "thumbnail": "/media/blog/blog_post_7.png"
+    },
+    {
+        "visible": true,
+        "id": "sponsor_spotlight_workday",
+        "date": "2019-05-22T20:18:02.051Z",
+        "title": "Sponsor Spotlight: Workday",
+        "summary": "Meet our Platinum sponsor: Workday. Workday is an on‑demand financial management and human capital management software vendor. In 2018, Workday was voted the #2 Best Place to Work in Ireland.",
+        "thumbnail": "/media/blog/blog_post_8.png"
     }
-    
 ]

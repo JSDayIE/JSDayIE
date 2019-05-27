@@ -1,12 +1,10 @@
 # Sponsor Spotlight: Oliver Wyman Labs
 
-Hi everyone! We are very pleased to publicly announce **Oliver Wyman Labs** as one of our Gold sponsors
+Hi everyone! We are very pleased to publicly announce **Oliver Wyman Labs** as one of our **Gold** sponsors.
 
-![](/media/blog/xxxxx.jpg)
+![](/media/blog/blog_post_7.png)
 
-Oliver Wyman has helped us not only financially but by encouraging its employees to participate in the CFP process.
-
-We would like to truly thank Oliver Wyman Labs for becoming one of our Gold Plus sponsors because, without their support, this event would not be possible.
+Oliver Wyman has helped us not only financially but by encouraging its employees to participate in the CFP process. We would like to sincerely thank Oliver Wyman Labs for becoming one of our Gold sponsors because, without their support, this event would not be possible. As a sponsor of JSDayIE and an employer in Ireland, Oliver Wyman Labs is contributing to the healthy growth of the JS community in Ireland.
 
 Below you will find some imformation about the relationship between Oliver Wyman and the JavaScript community in Ireland.
 

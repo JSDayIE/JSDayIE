@@ -119,7 +119,7 @@
         }
     },
     {
-        "hide": false,
+        "hide": true,
         "role": "Senior UI/UX Dev",
         "company": "Twitch",
         "name": "Isha Kasliwal",
