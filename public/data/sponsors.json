@@ -23,6 +23,12 @@
             "name": "Houghton Mifflin Harcourt",
             "web": "https://www.hmhco.com/",
             "logo": "/media/sponsors_2019/hmh.png"
+        },
+        { 
+            "hide": false,
+            "name": "Stripe",
+            "web": "https://stripe.com/ie/jobs",
+            "logo": "/media/sponsors_2019/stripe.jpg"
         }
     ],
     "gold": [
@@ -43,6 +49,12 @@
             "name": "MongoDB",
             "web": "https://www.mongodb.com/",
             "logo": "/media/sponsors_2019/mongodb.png"
+        },
+        { 
+            "hide": false,
+            "name": "Strata3",
+            "web": "https://www.strata3.com/",
+            "logo": "/media/sponsors_2019/strata3.png"
         }
     ],
     "platinum": [
@@ -71,6 +83,11 @@
             "name": "Stelfox",
             "web": "https://www.stelfox.com/",
             "logo": "/media/sponsors_2019/stelfox.png"
+        },{ 
+            "hide": false,
+            "name": "NearForm",
+            "web": "https://www.nearform.com/careers/",
+            "logo": "/media/sponsors_2019/nearform.png"
         }
     ],
     "diamond": [
