@@ -21,6 +21,9 @@ export class Welcome extends React.Component {
               is presented by <a href="http://www.wolksoftware.com">Wolk Software</a> with
               support for the initiative from our sponsors.
             </p>
+            <a className="btn btn-outline-warning btn-lg" href="https://ti.to/wolk-software-limited/jsdayie-2019/">
+              Get your ticket now!
+            </a>
         </Section>
       </Container>
     );

@@ -50,6 +50,9 @@ export class Schedule extends React.Component<ScheduleProps, ScheduleState> {
               }}
             />
           </div>
+          <a className="btn btn-outline-warning btn-lg" href="https://ti.to/wolk-software-limited/jsdayie-2019/">
+            Get your ticket now!
+          </a>
         </Section>
       </Container>
     );

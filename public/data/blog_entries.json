@@ -62,5 +62,13 @@
         "title": "Sponsor Spotlight: Workday",
         "summary": "Meet our Platinum sponsor: Workday. Workday is an on‑demand financial management and human capital management software vendor. In 2018, Workday was voted the #2 Best Place to Work in Ireland.",
         "thumbnail": "/media/blog/blog_post_8.png"
+    },
+    {
+        "visible": true,
+        "id": "sponsor_spotlight_nearform",
+        "date": "2019-07-22T18:09:48.125Z",
+        "title": "Sponsor Spotlight: Workday",
+        "summary": "Meet our Platinum Plus sponsor: NearForm. NearForm delivers customised enterprise-grade cloud native solutions.",
+        "thumbnail": "/media/blog/blog_post_9.png"
     }
 ]
