@@ -68,19 +68,20 @@
         }
     },
     {
-        "hide": true,
-        "role": "CDA",
+        "hide": false,
+        "role": "Senior CDA",
         "company": "Microsoft",
         "name": "Chris Noring",
         "pic": "/media/speakers_2019/chris_noring.jpg",
-        "bio": "TBD",
+        "bio": "Christoffer Noring Christoffer is a Google Developer Expert, Meetup organizer for 5 meetup groups with over 2000 members in Scandinavia and London and a Fullstack developer with 10 years experience.",
         "links": {
             "twitter": "https://twitter.com/chris_noring",
-            "linkedin": "https://www.linkedin.com/in/christoffer-noring-3257061"
+            "linkedin": "https://www.linkedin.com/in/christoffer-noring-3257061",
+            "web": "https://softchris.github.io"
         },
         "talk": {
-            "title": "TBD",
-            "abstract": "TBD"
+            "title": "Serverless, cloud-native JS functions that scales with you without hurting your wallet",
+            "abstract": "This talk will focus on covering what Serverless is, the advantages it brings. It will go through different bindings and triggers that will make authoring your functions even more easy. We will also look at the debugging experience and how to deploy them to the cloud."
         }
     },
     {
@@ -103,34 +104,35 @@
         }
     },
     {
-        "hide": true,
-        "role": "CDA",
+        "hide": false,
+        "role": "Senior CDA",
         "company": "Microsoft",
-        "name": "Sherry List",
-        "pic": "/media/speakers_2019/sherry_list.jpg",
-        "bio": "",
+        "name": "Wassim Chegham",
+        "pic": "/media/speakers_2019/wassim_chegham.jpg",
+        "bio": "Wassim is Senior Cloud Advocate at Microsoft and a member of the Angular core team. He is the author of many open source projects such as xlayers.dev and ngx.tools. He is a GDE for the Angular team, the Google Assistant and the GCP teams at Google. He is also a member of the Node.js Foundation, a former member of the Angular Universal core team and part of the current Angular Console core team. He likes music composition and painting.",
         "links": {
-            "twitter": "https://twitter.com/sherrrylst",
-            "linkedin": "https://www.linkedin.com/in/sherrylist/"
+            "twitter": "https://twitter.com/manekinekko",
+            "web": "https://dev.to/wassimchegham"
         },
         "talk": {
-            "title": "TBD",
-            "abstract": "TBD"
+            "title": "The state of Angular tooling",
+            "abstract": "The Angular CLI has made creating and managing Angular apps a breeze. And it does not stop there. Want to have a glimpse into what the Angular Tools has in store in the future? In this talk, you will learn about Bazel and how the new build system works, what the Angular DevKit is, how to customize the CLI with Schematics. Join me to look at the latest and upcoming features from the Angular Tools team."
         }
     },
     {
         "hide": false,
-        "role": "Senior UI/UX Dev",
-        "company": "Twitch",
-        "name": "Isha Kasliwal",
-        "pic": "/media/speakers_2019/isha_kasliwal.jpg",
-        "bio": "Originally from the east coast, Isha traded New York City for San Francisco to join a group of creative thinkers that are focused on solving problems at the forefront of frontend design. Isha is a Senior UI/UX Designer/Developer working on the design system at Twitch. Previously, she was a Senior UX Engineer on the Design Systems team at Salesforce, who works on architecting scalable CSS for the Lightning Design System. She also worked as both a frontend engineer and UX designer at a fashion tech startup for 3 years. As a systems thinker, she designs, builds, operates, and maintains the links and interactions between functional components and visual designs. While her day job includes concentrating on patterns and style guides, she’s also passionate about art, technology, and science, and where they all intersect. On the weekends, you can find her somewhere outdoors, eating a lot and looking for adventure.",
+        "role": "DevOps Consultant",
+        "company": "NearForm",
+        "name": "David Gonzalez",
+        "pic": "/media/speakers_2019/david_gonzalez.jpg",
+        "bio": "Author of three books on Javascript. Microservices and DevOps, David Gonzalez is a DevOps Consultant with NearForm. David also lectures in CCT College, Dublin on Cloud and Distributed Systems. He is on a mission to transform companies’ IT processes and culture to allow technology to become an enabler instead of a burden.",
         "links": {
-            "twitter": "https://twitter.com/ikasliwal"
+            "twitter": "https://twitter.com/dagonzago",
+            "linkedin": "https://www.linkedin.com/in/david-gonzalez-microservices/"
         },
         "talk": {
-            "title": "How Typescript Can Power Design Systems",
-            "abstract": "Design Systems are highly popular and beneficial in bridging the gap between design and development. The inclusion of React.js in Design Systems helped introduce the concept of functional programming as it relates to building components for reuse and scale. What happens if we take it a step further? With Typescript, a superset of Javascript that can be used in conjunction with React.js, your Design System can reach a whole new level of efficiency and power. Not only do you get to include static type-checking at compile time, but you can use interfaces to describe objects with different properties, you can make your IDE respond to the code you write, and much more. This talk will explore how UI engineers, from beginner to experienced, can harness the power of Typescript to help enforce better component standards in the code and allow large-scale Javascript projects to succeed. I will additionally include real-life examples of how we're making Typescript work for our Design System at Twitch, and how it's improving designer/developer relationships. "
+            "title": "12 Factor Javascript Apps on Kubernetes",
+            "abstract": "Have you ever wondered how to build DevOps friendly applications? Here’s the answer: 12 Factor applications are easy to operate, cross functional friendly and easier to maintain. In his talk, David is going to walk us through the process of building a DevOps friendly Javascript app following best practice."
         }
     },
     {
@@ -154,7 +156,7 @@
         "hide": false,
         "role": "Tech Evangelist",
         "company": "AlwaysData",
-        "name": "m4dz",
+        "name": "M4dz",
         "pic": "/media/speakers_2019/matthias_dugue.jpg",
         "bio": "M4dz is a strange animal. Through many lives, he always tried to teach to others what he learnt himself. Previously a web developer (nobody's perfect), concerned about privacy, a respect of private data, and cyber security. He's now Tech Evangelist at alwaysdata. He tries to inform about present and future of digital issues. His favorite book always remains 'Alice in Wonderland'.",
         "links": {

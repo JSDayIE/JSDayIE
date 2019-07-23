@@ -43,8 +43,8 @@
     {
         "startTime": "11:10",
         "endTime": "11:35",
-        "title": "TBD",
-        "speaker": "TBD"
+        "title": "Wassim Chegham",
+        "speaker": "The state of Angular tooling"
     },
     {
         "startTime": "11:40",
@@ -61,8 +61,8 @@
     {
         "startTime": "13:00",
         "endTime": "13:25",
-        "title": "How Typescript Can Power Design Systems",
-        "speaker": "Isha Kasliwal"
+        "title": "12 Factor Javascript Apps on Kubernetes",
+        "speaker": "David Gonzalez"
     },
     {
         "startTime": "13:30",
@@ -92,13 +92,13 @@
         "startTime": "15:10",
         "endTime": "15:35",
         "title": "A State Of WebAssembly: The Browser is now a real VM",
-        "speaker": "m4dz"
+        "speaker": "M4dz"
     },
     {
         "startTime": "15:40",
         "endTime": "16:05",
-        "title": "TBD",
-        "speaker": "TBD"
+        "title": "Serverless, cloud-native JS functions that scales with you without hurting your wallet",
+        "speaker": "Christoffer Noring"
     },
     {
         "startTime": "16:10",
