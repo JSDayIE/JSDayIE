@@ -1,6 +1,6 @@
 body {
   background-color: #100e17;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #ffffff;
 }
 
@@ -23,7 +23,7 @@ a:hover {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255,255,255, 1);
+  color: rgba(255, 255, 255, 1);
 }
 
 .footer p {
@@ -39,21 +39,21 @@ a:hover {
 
 .footer a {
   color: #ffffff;
-  font-size: 20px
+  font-size: 20px;
 }
 
 .footer h1 {
   font-weight: 700;
   font-size: 22px;
-  margin: 0 0 .8rem 0
+  margin: 0 0 0.8rem 0;
 }
 
 .mail-list {
   color: #ffffff;
   background: #e8ae00;
   clear: left;
-  font: 14px Helvetica, Arial,sans-serif;
-  width:100%;
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 100%;
   margin-top: 200px;
   padding: 2% 0%;
 }
@@ -75,7 +75,8 @@ img {
   max-width: 100%;
 }
 
-.iconroup button, .iconroup a {
+.iconroup button,
+.iconroup a {
   margin-left: 5px;
   border-radius: 50%;
   padding-top: 12px;
@@ -139,7 +140,8 @@ img {
   text-align: left;
 }
 
-.markdown h1, .markdown h2  {
+.markdown h1,
+.markdown h2 {
   border-bottom: 4px solid #f9bb00;
   display: table;
   margin-bottom: 20px;
@@ -150,7 +152,7 @@ img {
   font-size: 24px;
 }
 
-.sponsor_group img{
+.sponsor_group img {
   max-height: 200px;
   margin-bottom: 20px;
 }
@@ -182,9 +184,12 @@ img {
   max-width: 200px;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {  
+.schedule_break {
+  background-color: rgba(249, 187, 0, 0.1);
+}
 
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
   .hero_h2 {
     font-size: 15px;
   }
@@ -200,20 +205,16 @@ img {
   .hero_img {
     width: 90px;
   }
-
 }
- 
+
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
+@media (min-width: 768px) {
+}
 
-}
- 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
- 
+@media (min-width: 992px) {
 }
- 
+
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-    
+@media (min-width: 1200px) {
 }

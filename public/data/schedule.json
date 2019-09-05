@@ -1,109 +1,116 @@
 [
-    {
-        "startTime": "08:00",
-        "endTime": "08:25",
-        "title": "Registration & Breakfast",
-        "speaker": "--"
-    },
-    {
-        "startTime": "08:30",
-        "endTime": "08:55", "title": "Keynote",
-        "speaker": "TBD"
-    },
-    {
-        "startTime": "09:00",
-        "endTime": "09:25",
-        "title": "Quick and easy way to add AI to your CV",
-        "speaker": "Zdenek Hynek"
-    },
-    {
-        "startTime": "09:30",
-        "endTime": "09:25",
-        "title": "How to write a bundler",
-        "speaker": "Paul Sweeney"
-    },
-    {
-        "startTime": "10:00",
-        "endTime": "10:25",
-        "title": "Protecting your npm dependencies",
-        "speaker": "Christopher Laughlin"
-    },
-    {
-        "startTime": "10:25",
-        "endTime": "10:40",
-        "title": "Coffee Break",
-        "speaker": "--"
-    },
-    {
-        "startTime": "10:40",
-        "endTime": "11:05",
-        "title": "JS codeshift, automated refactoring",
-        "speaker": "Cristina Bernardis"
-    },
-    {
-        "startTime": "11:10",
-        "endTime": "11:35",
-        "title": "Wassim Chegham",
-        "speaker": "The state of Angular tooling"
-    },
-    {
-        "startTime": "11:40",
-        "endTime": "12:05",
-        "title": "The evolution of Ember.js at Intercom",
-        "speaker": "Gavin Joyce"
-    },
-    {
-        "startTime": "12:05",
-        "endTime": "13:00",
-        "title": "Lunch Break",
-        "speaker": "--"
-    },
-    {
-        "startTime": "13:00",
-        "endTime": "13:25",
-        "title": "12 Factor Javascript Apps on Kubernetes",
-        "speaker": "David Gonzalez"
-    },
-    {
-        "startTime": "13:30",
-        "endTime": "13:55",
-        "title": "Accessibility-flavored React Components Make Your Design System Delicious!",
-        "speaker": "Kathleen McMahon"
-    },
-    {
-        "startTime": "14:00",
-        "endTime": "14:25",
-        "title": "From REST to GraphQL: Wrapping Existing APIs in a Single Endpoint",
-        "speaker": "Roy Derks"
-    },
-    {
-        "startTime": "14:25",
-        "endTime": "14:40",
-        "title": "Coffee Break",
-        "speaker": "--"
-    },
-    {
-        "startTime": "14:40",
-        "endTime": "15:05",
-        "title": "Two years developing with Vue. Distilled",
-        "speaker": "Daniel Jimenez"
-    },
-    {
-        "startTime": "15:10",
-        "endTime": "15:35",
-        "title": "A State Of WebAssembly: The Browser is now a real VM",
-        "speaker": "M4dz"
-    },
-    {
-        "startTime": "15:40",
-        "endTime": "16:05",
-        "title": "Serverless, cloud-native JS functions that scales with you without hurting your wallet",
-        "speaker": "Christoffer Noring"
-    },
-    {
-        "startTime": "16:10",
-        "endTime": "16:25",
-        "title": "Closing Remarks",
-        "speaker": "The JSDayIE Team"
-    }
+  {
+    "startTime": "08:00",
+    "duration": "1 hour",
+    "title": "Registration & Breakfast",
+    "speaker": "--"
+  },
+  {
+    "startTime": "09:00",
+    "duration": "25 mins",
+    "title": "The future of user interaction: Mixed reality, AI and IoT",
+    "speaker": "Aysegul Yonet"
+  },
+  {
+    "startTime": "09:30",
+    "duration": "25 mins",
+    "title": "Quick and easy way to add AI to your CV",
+    "speaker": "Zdenek Hynek"
+  },
+  {
+    "startTime": "10:00",
+    "duration": "25 mins",
+    "title": "12 Factor Javascript Apps on Kubernetes",
+    "speaker": "David Gonzalez"
+  },
+  {
+    "startTime": "10:30",
+    "duration": "25 mins",
+    "title": "Protecting your npm dependencies",
+    "speaker": "Christopher Laughlin"
+  },
+  {
+    "startTime": "10:55",
+    "duration": "15 mins",
+    "title": "Coffee Break",
+    "speaker": "--"
+  },
+  {
+    "startTime": "11:10",
+    "duration": "25 mins",
+    "title": "JS codeshift, automated refactoring",
+    "speaker": "Cristina Bernardis"
+  },
+  {
+    "startTime": "11:40",
+    "duration": "25 mins",
+    "title": "Wassim Chegham",
+    "speaker": "The state of Angular tooling"
+  },
+  {
+    "startTime": "12:10",
+    "duration": "25 mins",
+    "title": "The evolution of Ember.js at Intercom",
+    "speaker": "Gavin Joyce"
+  },
+  {
+    "startTime": "12:35",
+    "duration": "45 mins",
+    "title": "Lunch Break",
+    "speaker": "--"
+  },
+  {
+    "startTime": "13:20",
+    "duration": "25 mins",
+    "title": "How to write a bundler",
+    "speaker": "Paul Sweeney"
+  },
+  {
+    "startTime": "13:50",
+    "duration": "25 mins",
+    "title": "Accessibility-flavored React Components Make Your Design System Delicious!",
+    "speaker": "Kathleen McMahon"
+  },
+  {
+    "startTime": "14:20",
+    "duration": "25 mins",
+    "title": "From REST to GraphQL: Wrapping Existing APIs in a Single Endpoint",
+    "speaker": "Roy Derks"
+  },
+  {
+    "startTime": "14:45",
+    "duration": "15 mins",
+    "title": "Coffee Break",
+    "speaker": "--"
+  },
+  {
+    "startTime": "15:00",
+    "duration": "25 mins",
+    "title": "Two years developing with Vue. Distilled",
+    "speaker": "Daniel Jimenez"
+  },
+  {
+    "startTime": "15:30",
+    "duration": "25 mins",
+    "title": "A State Of WebAssembly: The Browser is now a real VM",
+    "speaker": "M4dz"
+  },
+  {
+    "startTime": "16:00",
+    "duration": "25 mins",
+    "title": "Serverless, cloud-native JS functions that scales with you without hurting your wallet",
+    "speaker": "Christoffer Noring"
+  },
+  {
+    "startTime": "16:25",
+    "duration": "5 mins",
+    "title": "Closing Remarks",
+    "speaker": "--"
+  },
+  {
+    "startTime": "16:30",
+    "duration": "4 hours",
+    "title": "After Party at Cafe en Seine",
+    "speaker": "--"
+  }
 ]
