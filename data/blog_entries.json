@@ -78,5 +78,21 @@
     "title": "Sponsor Spotlight: Stripe",
     "summary": "Meet our Silver sponsor: Stripe. Stripe is a technology company that builds economic infrastructure for the internet.",
     "thumbnail": "/media/blog/blog_post_10.png"
+  },
+  {
+    "visible": true,
+    "id": "sponsor_spotlight_intercom",
+    "date": "2019-09-05T20:37:09.580Z",
+    "title": "Sponsor Spotlight: Intercom",
+    "summary": "Meet our Silver sponsor: Intercom. Intercom builds a suite of products that all modern internet businesses can use to accelerate growth across the customer lifecycle, from acquisition, to engagement, and support.",
+    "thumbnail": "/media/blog/blog_post_11.png"
+  },
+  {
+    "visible": true,
+    "id": "sponsor_spotlight_strata3",
+    "date": "2019-09-06T20:37:09.580Z",
+    "title": "Sponsor Spotlight: Strata3",
+    "summary": "Meet our Silver sponsor: Strata3. As Ireland’s leading independent digital agency, Strata3 provides its clients with tailored solutions ranging from digital consultancy & product innovation to digital performance.",
+    "thumbnail": "/media/blog/blog_post_12.png"
   }
 ]
