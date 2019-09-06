@@ -1,10 +1,10 @@
 # Sponsor Spotlight: Strata3
 
-Hi everyone! We are very pleased to publicly announce **Strata3** as one of our **Silver** sponsors.
+Hi everyone! We are very pleased to publicly announce **Strata3** as one of our **Gold** sponsors.
 
 ![](/media/blog/blog_post_12.png)
 
-We would like to sincerely thank Strata3 for becoming one of our Silver sponsors because, without their support, this event would not be possible. As a sponsor of JSDayIE and Ireland’s leading independent digital agency, Strata3 is contributing to the healthy growth of the JS community in Ireland.
+We would like to sincerely thank Strata3 for becoming one of our Gold sponsors because, without their support, this event would not be possible. As a sponsor of JSDayIE and Ireland’s leading independent digital agency, Strata3 is contributing to the healthy growth of the JS community in Ireland.
 
 Below you will find some imformation about the relationship between Strata3 and the JavaScript community in Ireland.
 
