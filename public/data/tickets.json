@@ -1,5 +1,5 @@
 [
-    { "type": "Super Early Bird", "price": "95€*" },
-    { "type": "Early Bird", "price": "145€*" },
-    { "type": "Regular", "price": "195€*" }
+  { "type": "Super Early Bird", "price": "95€*", "isSoldOut": true },
+  { "type": "Early Bird", "price": "145€*", "isSoldOut": true },
+  { "type": "Regular", "price": "195€*", "isSoldOut": false }
 ]

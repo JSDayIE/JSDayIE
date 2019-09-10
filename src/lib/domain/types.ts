@@ -84,7 +84,8 @@ export type ISpeaker = io.TypeOf<typeof speakerValidator>;
 
 export const ticketValidator = io.type({
   type: io.string,
-  price: io.string
+  price: io.string,
+  isSoldOut: io.boolean
 });
 
 export const ticketArrayValidator = io.array(ticketValidator);

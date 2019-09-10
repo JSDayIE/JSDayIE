@@ -1,6 +1,12 @@
 import React from "react";
 import { ITicket } from "../../../lib/domain/types";
-import { Card, CardBody, CardHeader, CardFooter } from "../../../lib/components";
+import {
+  Card,
+  CardBody,
+  CardHeader,
+  CardFooter
+} from "../../../lib/components";
+import { Ribbon } from "./ribbon";
 
 interface TickerProps {
   details: ITicket;
@@ -13,9 +19,8 @@ export function Ticket(props: TickerProps) {
         <h3>{props.details.type}</h3>
       </CardHeader>
       <CardBody>
-        <span className="price">
-          {props.details.price}
-        </span>
+        {props.details.isSoldOut ? <Ribbon title="SOLD OUT" /> : null}
+        <span className="price">{props.details.price}</span>
         <ul>
           <li>✓ Welcome Pack</li>
           <li>✓ 12 Amazing Talks</li>
@@ -27,7 +32,7 @@ export function Ticket(props: TickerProps) {
         <p>
           {props.details.type} ticket for JSDayIE on September 20th, 2019.
           Please note that the ticket is NOT REFUNDABLE.
-        </p> 
+        </p>
       </CardFooter>
     </Card>
   );
