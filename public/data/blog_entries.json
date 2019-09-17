@@ -94,5 +94,29 @@
     "title": "Sponsor Spotlight: Strata3",
     "summary": "Meet our Gold sponsor: Strata3. As Ireland’s leading independent digital agency, Strata3 provides its clients with tailored solutions ranging from digital consultancy & product innovation to digital performance.",
     "thumbnail": "/media/blog/blog_post_12.png"
+  },
+  {
+    "visible": true,
+    "id": "scholarship_program",
+    "date": "2019-09-11T11:08:38.598Z",
+    "title": "Scholarship Program",
+    "summary": "We are happy to announce that we are running our Scholarship Program, which provides students and individuals from underrepresented groups with free tickets to attend JSDayIE.",
+    "thumbnail": "/media/blog/blog_post_13.png"
+  },
+  {
+    "visible": true,
+    "id": "speaker_spotlight",
+    "date": "2019-09-16T20:33:29.066Z",
+    "title": "Speaker Spotlight",
+    "summary": "It is only three more days until JSDayIE 2019, and in this blog post, we would like share some additional details about some of our speakers and the technologies that they will talk about during the event.",
+    "thumbnail": "/media/blog/blog_post_14.png"
+  },
+  {
+    "visible": true,
+    "id": "sponsor_spotlight_liberty_it",
+    "date": "2019-09-17T21:52:33.410Z",
+    "title": "Sponsor Spotlight: Liberty IT",
+    "summary": "Meet our Silver sponsor: Liberty IT. Liberty IT is a technology leader focused on delivering highly responsive, enterprise-scale solutions to support the needs of our parent company, Liberty Mutual Insurance.",
+    "thumbnail": "/media/blog/blog_post_15.png"
   }
 ]
