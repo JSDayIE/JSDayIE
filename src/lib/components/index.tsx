@@ -9,3 +9,5 @@ export { Card, CardBody, CardHeader, CardFooter } from "./card/card";
 export { Link } from "./link/link";
 export { Spinner } from "./spinner/spinner";
 export { MarkDownToHTML, MarkDown } from "./markdown/markdown";
+export { HashMap } from "./hashmap/hashmap";
+export { Gallery } from "./gallery/gallery";

@@ -106,3 +106,19 @@ export const blogEntryArrayValidator = io.array(blogEntryValidator);
 
 export type IBlogEntry = io.TypeOf<typeof blogEntryValidator>;
 export type BlogEntryArray = io.TypeOf<typeof blogEntryArrayValidator>;
+
+export const hashTagValidator = io.type({
+  hashtag: io.string,
+  isPrimary: io.boolean
+});
+
+export const hashTagArrayValidator = io.array(hashTagValidator);
+
+export const trendingTopicsValidator = io.type({
+  yearOne: hashTagArrayValidator
+});
+
+export type IHashTag = io.TypeOf<typeof hashTagValidator>;
+export type HashTagArray = io.TypeOf<typeof hashTagArrayValidator>;
+export type TrendingTopic = io.TypeOf<typeof trendingTopicsValidator>;
+export const urlArrayValidator = io.array(io.string);

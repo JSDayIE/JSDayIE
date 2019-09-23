@@ -2,11 +2,13 @@
   padding: 20% 0% 12.5% 0%;
   border-bottom: 1px solid #f9bb00;
   height: 890px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .videoBg {
   position: absolute;
-  z-index: -1; top: 0px;
+  z-index: -1;
+  top: 0px;
   left: 0px;
   height: 890px;
   width: 98.9vw;
@@ -18,7 +20,7 @@
   position: absolute;
   z-index: -1;
   top: 0px;
-  left:0px;
+  left: 0px;
   min-width: 100%;
   min-height: 100%;
 }
@@ -64,8 +66,7 @@
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) { 
- 
+@media (max-width: 576px) {
   .hero_bg {
     height: 300px;
   }
@@ -73,5 +74,4 @@
   .videoBg {
     height: 300px;
   }
-
 }

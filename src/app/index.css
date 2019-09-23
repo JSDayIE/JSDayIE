@@ -216,6 +216,40 @@ img {
   text-align: center;
 }
 
+.gallery {
+  width: 100%;
+}
+
+.galleryLeft {
+  width: 5%;
+  font-size: 50px;
+  color: #f9bb00;
+}
+
+.galleryLeftImg {
+  width: 90%;
+}
+
+.galleryImg img {
+  max-width: 95%;
+  max-height: 710px;
+  min-height: 710px;
+}
+
+.galleryRight {
+  width: 5%;
+  font-size: 50px;
+  color: #f9bb00;
+}
+
+.clickcable {
+  cursor: pointer;
+}
+
+.galleryFooter {
+  padding-top: 20px;
+}
+
 /* top left*/
 .ribbon-top-left {
   top: -10px;
@@ -310,6 +344,32 @@ img {
   left: -25px;
   bottom: 30px;
   transform: rotate(-225deg);
+}
+
+.hashtag {
+  -webkit-flex: 1 auto;
+  flex: 1 auto;
+  text-align: center;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  margin: 0.5rem;
+  font-weight: bold;
+}
+
+.primaryHahstag {
+  background-color: #ffc107;
+}
+
+.secondaryHahstag {
+  background-color: #333333;
+}
+
+.cloud {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 /* Small devices (landscape phones, 576px and up) */

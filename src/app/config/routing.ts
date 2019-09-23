@@ -22,6 +22,8 @@ import { WhyAttend } from "../pages/info/why_attend";
 import { WhyEmployee } from "../pages/info/why_employee";
 import { WhySponsor } from "../pages/info/why_sponsor";
 import { SpeakerCard } from "../pages/speakers/card";
+import { Promo } from "../pages/others/promo";
+import { GalleryPage } from "../pages/gallery/gallery";
 
 interface RouteConf {
   isIndex?: boolean;
@@ -56,7 +58,9 @@ export const PATHS = {
   whyAttend: "/info/why_attend",
   team: "/info/team",
   whyEmployee: "/info/why_employee",
-  whySponsor: "/info/why_sponsor"
+  whySponsor: "/info/why_sponsor",
+  promo: "/promo",
+  gallery: "/gallery"
 };
 
 export const routes: RouteConf[] = [
@@ -83,6 +87,12 @@ export const routes: RouteConf[] = [
     title: "Info - FAQ",
     path: PATHS.faq,
     component: Faq
+  },
+  {
+    displayInNavBar: true,
+    title: "Gallery",
+    path: PATHS.gallery,
+    component: GalleryPage
   },
   {
     displayInNavBar: false,
@@ -147,5 +157,11 @@ export const routes: RouteConf[] = [
     title: "Speaker Card",
     path: PATHS.speakerCard,
     component: SpeakerCard
+  },
+  {
+    displayInNavBar: false,
+    title: "Promo",
+    path: PATHS.promo,
+    component: Promo
   }
 ];
