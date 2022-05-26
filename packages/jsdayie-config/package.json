@@ -1,6 +1,6 @@
 {
   "name": "@jsdayie/config",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -22,14 +22,14 @@
     "test": "jest --config ./jest.config.ts --collectCoverage --coverageDirectory=\\\"./coverage\\\" --ci",
     "test:local": "jest --config ./jest.config.ts --watch"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "27.5.1",
     "@typescript-eslint/eslint-plugin": "5.26.0",
     "@typescript-eslint/parser": "5.26.0",
     "eslint": "8.16.0",
     "eslint-config-airbnb": "19.0.4",
+    "eslint-plugin-react-hooks": "4.3.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",

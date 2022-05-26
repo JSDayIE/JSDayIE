@@ -1,6 +1,6 @@
 {
   "name": "@jsdayie/components",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -25,7 +25,9 @@
   "dependencies": {
     "next": "12.1.6",
     "react": "^18.1.0",
-    "showdown": "^2.1.0"
+    "showdown": "^2.1.0",
+    "@jsdayie/utils": "1.0.0",
+    "@jsdayie/domain": "1.0.0"
   },
   "devDependencies": {
     "@types/showdown": "^2.0.0",
@@ -35,6 +37,7 @@
     "@typescript-eslint/parser": "5.26.0",
     "eslint": "8.16.0",
     "eslint-config-airbnb": "19.0.4",
+    "eslint-plugin-react-hooks": "4.3.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",

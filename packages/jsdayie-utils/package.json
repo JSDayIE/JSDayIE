@@ -1,6 +1,6 @@
 {
   "name": "@jsdayie/utils",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "husky": {
     "hooks": {
@@ -30,6 +30,7 @@
     "@typescript-eslint/parser": "5.26.0",
     "eslint": "8.16.0",
     "eslint-config-airbnb": "19.0.4",
+    "eslint-plugin-react-hooks": "4.3.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
