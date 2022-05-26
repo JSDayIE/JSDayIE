@@ -4,7 +4,7 @@ export const activityValidator = io.type({
   startTime: io.string,
   duration: io.string,
   title: io.string,
-  speaker: io.string
+  speaker: io.string,
 });
 
 export const activityArrayValidator = io.array(activityValidator);
@@ -18,7 +18,7 @@ export const sponsorsingPackageValidator = io.type({
   gold: io.string,
   platinum: io.string,
   platinumPlus: io.string,
-  diamond: io.string
+  diamond: io.string,
 });
 
 export const sponsorsingPackageArrayValidator = io.array(
@@ -34,7 +34,7 @@ export const sponsorValidator = io.type({
   hide: io.boolean,
   name: io.string,
   web: io.string,
-  logo: io.string
+  logo: io.string,
 });
 
 export type ISponsor = io.TypeOf<typeof sponsorValidator>;
@@ -48,7 +48,7 @@ export const sponsorsValidator = io.type({
   presenting: io.array(sponsorValidator),
   media: io.array(sponsorValidator),
   community: io.array(sponsorValidator),
-  others: io.array(sponsorValidator)
+  others: io.array(sponsorValidator),
 });
 
 export type ISponsors = io.TypeOf<typeof sponsorsValidator>;
@@ -58,12 +58,12 @@ export const speakerLinksValidator = io.partial({
   web: io.string,
   github: io.string,
   medium: io.string,
-  linkedin: io.string
+  linkedin: io.string,
 });
 
 export const talkValidator = io.partial({
   title: io.string,
-  abstract: io.string
+  abstract: io.string,
 });
 
 export const speakerValidator = io.type({
@@ -74,7 +74,7 @@ export const speakerValidator = io.type({
   bio: io.string,
   links: speakerLinksValidator,
   hide: io.boolean,
-  talk: talkValidator
+  talk: talkValidator,
 });
 
 export const speakerArrayValidator = io.array(speakerValidator);
@@ -85,7 +85,7 @@ export type ISpeaker = io.TypeOf<typeof speakerValidator>;
 export const ticketValidator = io.type({
   type: io.string,
   price: io.string,
-  isSoldOut: io.boolean
+  isSoldOut: io.boolean,
 });
 
 export const ticketArrayValidator = io.array(ticketValidator);
@@ -99,7 +99,7 @@ export const blogEntryValidator = io.type({
   date: io.string,
   title: io.string,
   summary: io.string,
-  thumbnail: io.string
+  thumbnail: io.string,
 });
 
 export const blogEntryArrayValidator = io.array(blogEntryValidator);
@@ -109,13 +109,13 @@ export type BlogEntryArray = io.TypeOf<typeof blogEntryArrayValidator>;
 
 export const hashTagValidator = io.type({
   hashtag: io.string,
-  isPrimary: io.boolean
+  isPrimary: io.boolean,
 });
 
 export const hashTagArrayValidator = io.array(hashTagValidator);
 
 export const trendingTopicsValidator = io.type({
-  yearOne: hashTagArrayValidator
+  yearOne: hashTagArrayValidator,
 });
 
 export type IHashTag = io.TypeOf<typeof hashTagValidator>;

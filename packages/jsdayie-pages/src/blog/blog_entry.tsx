@@ -1,6 +1,6 @@
 import React from "react";
 import { withRouter, RouteProps } from "react-router-dom";
-import { MarkDown } from "../../../lib/components";
+import { MarkDown } from "@jsdayie/components";
 
 interface BlogEntryInternalProps extends RouteProps {}
 

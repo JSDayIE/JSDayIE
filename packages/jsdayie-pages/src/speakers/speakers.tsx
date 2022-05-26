@@ -1,7 +1,7 @@
 import React from "react";
 import { Fetchable } from "react-fetchable";
-import { Section, Container, Spinner } from "../../../lib/components";
-import { speakerArrayValidator } from "../../../lib/domain/types";
+import { Section, Container, Spinner } from "@jsdayie/components";
+import { speakerArrayValidator } from "@jsdayie/domain";
 import { Speaker } from "./speaker";
 
 export class Speakers extends React.Component {

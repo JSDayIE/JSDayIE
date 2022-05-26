@@ -1,8 +1,7 @@
 import React from "react";
-import { ISpeaker } from "../../../lib/domain/types";
-import { Button } from "../../../lib/components";
-import { throwIfNever } from "../../../lib/utils/error_utils";
-import "./speaker.css";
+import { ISpeaker } from "@jsdayie/domain";
+import { Button } from "@jsdayie/components";
+import { throwIfNever } from "@jsdayie/utils";
 
 type Links = ISpeaker["links"];
 

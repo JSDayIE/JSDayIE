@@ -1,7 +1,6 @@
 import React from "react";
-import { Fetchable } from "react-fetchable";
-import { urlArrayValidator } from "../../../lib/domain/types";
-import { Spinner, Container, Section, Gallery } from "../../../lib/components";
+import { urlArrayValidator } from "@jsdayie/domain";
+import { Spinner, Container, Section, Gallery, Fetchable } from "@jsdayie/components";
 
 export function GalleryPage() {
   return (

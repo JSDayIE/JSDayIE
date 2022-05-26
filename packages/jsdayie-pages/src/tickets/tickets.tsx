@@ -1,10 +1,7 @@
 import React from "react";
-import { Fetchable } from "react-fetchable";
-import { Section, Spinner, Container } from "../../../lib/components";
-import { ticketArrayValidator } from "../../../lib/domain/types";
+import { Section, Spinner, Container, Fetchable } from "@jsdayie/components";
+import { ticketArrayValidator } from "@jsdayie/domain";
 import { Ticket } from "./ticket";
-import { PATHS } from "../../../../../config/routing";
-import { Link } from "react-router-dom";
 
 export class Tickets extends React.Component {
   render() {

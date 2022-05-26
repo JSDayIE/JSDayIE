@@ -1,5 +1,5 @@
 import React from "react";
-import { Spinner, Section, Table, Button, Container } from "../../../lib/components";
+import { Spinner, Section, Table, Button, Container } from "@jsdayie/components";
 import { ISponsors, sponsorsValidator, sponsorsingPackageArrayValidator, SponsorsingPackageArray } from "../../../lib/domain/types";
 import { Fetchable } from "react-fetchable";
 import { SponsorGroup } from "./sponsor_group";

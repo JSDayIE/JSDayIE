@@ -1,5 +1,4 @@
 import React from "react";
-import "./table.css";
 
 type Row = (JSX.Element | string)[];
 

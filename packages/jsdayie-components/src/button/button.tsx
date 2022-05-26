@@ -1,27 +1,25 @@
 import React from "react";
-import "./button.css";
 
 interface ButtonProps {
     href?: string;
     color?: "warning" | "dark";
+    children: React.ReactNode;
 }
-
-export class Button extends React.Component<ButtonProps> {
-    public render() {
-        const color = this.props.color ? this.props.color : "warning";
-        const className= `btn btn-outline-${color} btn-lg`;
-        if (this.props.href) {
-            return (
-                <a href={this.props.href} className={className} target="_blank">
-                    {this.props.children}
-                </a>
-            );
-        } else {
-            return (
-                <button type="button" className={className}>
-                    {this.props.children}
-                </button>
-            );
-        }
+      
+export const Button: React.FC<ButtonProps> = props => {
+    const color = props.color ? props.color : "warning";
+    const className= `btn btn-outline-${color} btn-lg`;
+    if (props.href) {
+        return (
+            <a href={props.href} className={className} target="_blank">
+                {props.children}
+            </a>
+        );
+    } else {
+        return (
+            <button type="button" className={className}>
+                {props.children}
+            </button>
+        );
     }
 }

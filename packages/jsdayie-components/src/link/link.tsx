@@ -1,16 +1,15 @@
 import React from "react";
-import { Link as RouterLink } from "react-router-dom";
+import Link from 'next/link';
 
-interface LinkProps {
+interface ButtonLinkProps {
     to: string;
+    children: React.ReactNode;
 }
-
-export class Link extends React.Component<LinkProps> {
-    public render() {
-        return (
-            <RouterLink className="btn btn-outline-warning btn-lg" to={this.props.to}>
-                {this.props.children}
-            </RouterLink>
-        );
-    }
+  
+export const ButtonLink: React.FC<ButtonLinkProps> = props => {
+    return (
+        <Link href={props.to}>
+            <a className="btn btn-outline-warning btn-lg">{props.children}</a>
+        </Link>
+    );
 }

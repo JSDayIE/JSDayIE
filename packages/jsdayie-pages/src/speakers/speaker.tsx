@@ -1,20 +1,19 @@
 import React from "react";
-import { ISpeaker } from "../../../lib/domain/types";
+import { ISpeaker } from "@jsdayie/domain";
 import {
   Card,
   CardBody,
   CardHeader,
   CardFooter,
-  Button
-} from "../../../lib/components";
+  Modal
+} from "@jsdayie/components";
 import {
   GithubIcon,
   LinkedinIcon,
   WebIcon,
   TwitterIcon,
-  MediumIcon
+  MediumIcon,
 } from "./social_icons";
-import { Modal } from "../../../lib/components/modal/modal";
 import "./speaker.css";
 
 interface SpeakerProps {

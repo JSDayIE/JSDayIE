@@ -1,5 +1,5 @@
 import React from "react";
-import { Section, Container, Button } from "../../../lib/components";
+import { Section, Container, Button } from "@jsdayie/components";
 import { VenueMedia } from "./venue_media";
 
 export class Venue extends React.Component {

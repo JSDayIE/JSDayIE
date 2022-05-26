@@ -1,5 +1,4 @@
 import React from "react";
-import "./hero.css";
 
 function VideoBg() {
   if (window.innerWidth > 576) {

@@ -1,42 +1,50 @@
 import React from "react";
-import "./card.css";
 
-export class Card extends React.Component {
-    public render() {
-        return (
-            <div className="card">
-                {this.props.children}
-            </div>
-        );
-    }
+interface CardProps {
+    children: React.ReactNode;
+}
+      
+export const Card: React.FC<CardProps> = props => {
+    return (
+        <div className="card">
+            {props.children}
+        </div>
+    );
 }
 
-export class CardBody extends React.Component {
-    public render() {
-        return (
-            <div className="card-body">
-                {this.props.children}
-            </div>
-        );
-    }
+interface CardBodyProps {
+    children: React.ReactNode;
+}
+      
+export const CardBody: React.FC<CardBodyProps> = props => {
+    return (
+        <div className="card-body">
+            {props.children}
+        </div>
+    );
 }
 
-export class CardHeader extends React.Component {
-    public render() {
-        return (
-            <div className="card-header">
-                {this.props.children}
-            </div>
-        );
-    }
+interface CardHeaderProps {
+    children: React.ReactNode;
+}
+      
+export const CardHeader: React.FC<CardHeaderProps> = props => {
+    return (
+        <div className="card-header">
+            {props.children}
+        </div>
+    );
 }
 
-export class CardFooter extends React.Component {
-    public render() {
-        return (
-            <div className="card-footer">
-                {this.props.children}
-            </div>
-        );
-    }
+
+interface CardFooterProps {
+    children: React.ReactNode;
+}
+      
+export const CardFooter: React.FC<CardFooterProps> = props => {
+    return (
+        <div className="card-footer">
+            {props.children}
+        </div>
+    );
 }

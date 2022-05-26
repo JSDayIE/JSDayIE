@@ -1,5 +1,5 @@
 import React from "react";
-import { ISponsor } from "../../../lib/domain/types";
+import { ISponsor } from "@jsdayie/domain";
 
 interface SponsorProps {
   details: ISponsor;

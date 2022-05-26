@@ -1,5 +1,5 @@
 import React from "react";
-import { Section, Button, Container } from "../../../lib/components";
+import { Section, Button, Container } from "@jsdayie/components";
 
 export class CoCDetails extends React.Component {
   render() {

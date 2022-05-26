@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "../button/button";
 
 interface FooterProps {
     year: number;

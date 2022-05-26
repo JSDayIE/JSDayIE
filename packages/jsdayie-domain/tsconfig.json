@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./lib",
+    "noEmit": false,
+    "isolatedModules": false
+  },
+  "include": [
+    "./src"
+  ]
+ }

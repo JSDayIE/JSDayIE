@@ -1,7 +1,7 @@
 import React from "react";
-import { Section, Container, Table, Button } from "../../../lib/components";
-import { Link } from "react-router-dom";
-import { PATHS } from "../../../../../config/routing";
+import { Section, Container, Table, Button } from "@jsdayie/components";
+import Link from "next/link";
+import { PATHS } from "@jsdayie/config";
 
 export class CfpDetails extends React.Component {
   render() {
@@ -130,7 +130,7 @@ export class CfpDetails extends React.Component {
             <p>
               Our Code of conduct aims to create a safe and welcoming space for our community members,
               and to protect every attendee, staff member and speaker from harassment. We thus need you
-              to read, understand, and comply with our <Link to={PATHS.coc}>code of conduct</Link>.
+              to read, understand, and comply with our <Link href={PATHS.coc}>code of conduct</Link>.
             </p>
           </Section>
         </Section>

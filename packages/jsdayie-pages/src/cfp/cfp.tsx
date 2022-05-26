@@ -1,6 +1,6 @@
 import React from "react";
-import { Section, Link, Container, Button } from "../../../lib/components";
-import { PATHS } from "../../../../../config/routing";
+import { Section, ButtonLink, Container, Button } from "@jsdayie/components";
+import { PATHS } from "@jsdayie/config";
 
 export class Cfp extends React.Component {
   render() {
@@ -16,7 +16,7 @@ export class Cfp extends React.Component {
           </p>
           <img src="/media/js_galaxy_2019.png"/>
           <p>Do you want to give a talk?</p>
-          <Link to={PATHS.cfpDetails}>Learn more about the CFP</Link>
+          <ButtonLink to={PATHS.cfpDetails}>Learn more about the CFP</ButtonLink>
           <br/><br/>
           <p>Do not think about it, submit your proposal now!</p>
           <Button href="https://goo.gl/forms/QYiMwHEGyfXMdLy33">Submit your proposal now!</Button>

@@ -1,6 +1,6 @@
 import React from "react";
-import { Section, Link, Container } from "../../../lib/components";
-import { PATHS } from "../../../../../config/routing";
+import { Section, ButtonLink, Container } from "@jsdayie/components";
+import { PATHS } from "@jsdayie/config";
 
 export class CoC extends React.Component {
   render() {
@@ -27,7 +27,7 @@ export class CoC extends React.Component {
             Organizers will enforce this code throughout the event.
           </p>
           <div className="btnGroup">
-            <Link to={PATHS.cocDetails}>Learn more about our CoC</Link>
+            <ButtonLink to={PATHS.cocDetails}>Learn more about our CoC</ButtonLink>
           </div>
         </Section>
       </Container>

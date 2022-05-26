@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardHeader, CardBody, CardFooter, Link } from "../../../lib/components";
+import { Card, CardHeader, CardBody, CardFooter, ButtonLink } from "@jsdayie/components";
 
 interface InfoEntryProps {
     title: string;
@@ -21,7 +21,7 @@ export function InfoEntry(props: InfoEntryProps) {
                 <p>{props.summary}</p>
             </CardBody>
             <CardFooter>
-                <Link to={props.path}>Read more</Link>
+                <ButtonLink to={props.path}>Read more</ButtonLink>
             </CardFooter>
         </Card>
     );

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Hero } from "../../../lib/components";
+import { Hero } from "@jsdayie/components";
 import { Tickets } from "../tickets/tickets";
 import { Sponsors } from "../sponsors/sponsors";
 import { Venue } from "../venue/venue";

@@ -1,11 +1,12 @@
 import React from "react";
-import { HashTagArray } from "../../../packages/jsdayie-domain/src";
+import { HashTagArray } from "@jsdayie/domain";
 
-interface HashMap {
+interface HashMapProps {
   items: HashTagArray;
+  children: React.ReactNode;
 }
 
-export function HashMap(props: HashMap) {
+export const HashMap: React.FC<HashMapProps> = props => {
   return (
     <div className="cloud">
       {props.items.map((hashtag, index) => {

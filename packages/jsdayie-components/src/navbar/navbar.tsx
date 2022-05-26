@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from 'next/link';
 
 interface NavBarItem {
     isIndex?: boolean;
@@ -36,8 +36,8 @@ export class Navbar extends React.Component<NavbarProps> {
                         {
                             (indexItems.length === 1) ?
                                 (
-                                    <Link className="navbar-brand" to={indexItems[0].href} >
-                                        {indexItems[0].title}
+                                    <Link href={indexItems[0].href} >
+                                        <a className="navbar-brand">{indexItems[0].title}</a>
                                     </Link>
                                 ) :
                                 null
@@ -61,8 +61,8 @@ export class Navbar extends React.Component<NavbarProps> {
                     items.filter(i => i.isIndex !== true).map((item, key) => {
                         return (
                             <li className="nav-item" key={key}>
-                                <Link className="nav-link" to={item.href} >
-                                    {item.title}
+                                <Link href={item.href} >
+                                    <a className="nav-link">{item.title}</a>
                                 </Link>
                             </li>
                         );

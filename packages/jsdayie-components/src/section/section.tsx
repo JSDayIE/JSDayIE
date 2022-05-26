@@ -1,29 +1,33 @@
 import React from "react";
-import "./section.css";
 
-interface SectionProps {
+interface SectionTitleProps {
     title: string;
     size: 1 | 2;
 }
 
-export class Section extends React.Component<SectionProps> {
-    public render() {
-        const className = `section_${this.props.size}`;
-        return (
-            <div className={className}>
-                {this._renderTitle(this.props)}
-                <div>
-                    {this.props.children}
-                </div>
+const SectionTitle: React.FC<SectionTitleProps> = props => {
+    const className = `section_h${props.size}`;
+    if (props.size === 1) {
+        return <h1 className={className}>{props.title}</h1>;
+    } else {
+        return <h2 className={className}>{props.title}</h2>;
+    }
+}
+
+interface SectionProps {
+    title: string;
+    size: 1 | 2;
+    children: React.ReactNode;
+}
+  
+export const Section: React.FC<SectionProps> = props => {
+    const className = `section_${props.size}`;
+    return (
+        <div className={className}>
+            <SectionTitle {...props} />
+            <div>
+                {props.children}
             </div>
-        );
-    }
-    private _renderTitle(props: SectionProps) {
-        const className = `section_h${this.props.size}`;
-        if (props.size === 1) {
-            return <h1 className={className}>{this.props.title}</h1>;
-        } else {
-            return <h2 className={className}>{this.props.title}</h2>;
-        }
-    }
+        </div>
+    );
 }

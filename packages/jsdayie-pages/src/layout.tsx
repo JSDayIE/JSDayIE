@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import { Navbar, Footer } from "../../lib/components";
-import { routes } from "../../../../config/routing";
+import { Navbar, Footer } from "@jsdayie/components";
+import { routes } from "@jsdayie/config";
 
 class Layout extends React.Component {
     public render() {

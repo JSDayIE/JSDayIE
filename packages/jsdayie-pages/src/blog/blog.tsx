@@ -1,8 +1,7 @@
 import React from "react";
-import { Fetchable } from "react-fetchable";
-import { Spinner, Section, Card, CardHeader, CardBody, CardFooter, Container, Link } from "../../../lib/components";
-import { blogEntryArrayValidator, BlogEntryArray, IBlogEntry } from "../../../lib/domain/types";
-import { PATHS } from "../../../../../config/routing";
+import { Spinner, Section, Card, CardHeader, CardBody, CardFooter, Container, ButtonLink, Fetchable } from "@jsdayie/components";
+import { blogEntryArrayValidator, BlogEntryArray, IBlogEntry } from "@jsdayie/domain";
+import { PATHS } from "@jsdayie/config";
 
 interface BlogEntryPreviewProps {
   details: IBlogEntry;
@@ -22,7 +21,7 @@ function BlogEntryPreview(props: BlogEntryPreviewProps) {
         <p>{props.details.summary}</p>
       </CardBody>
       <CardFooter>
-        <Link to={PATHS.blogEntry.replace(":id", props.details.id)}>Read more</Link>
+        <ButtonLink to={PATHS.blogEntry.replace(":id", props.details.id)}>Read more</ButtonLink>
       </CardFooter>
     </Card>
   );
@@ -71,7 +70,7 @@ export function BlogPreview() {
     <Container>
       <BlogPosts limit={2} />
       <div className="center">
-        <Link to={PATHS.blog}>Visit our blog</Link>
+        <ButtonLink to={PATHS.blog}>Visit our blog</ButtonLink>
       </div>
     </Container>
   );

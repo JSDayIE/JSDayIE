@@ -1,11 +1,11 @@
 import React from "react";
-import { ITicket } from "../../../lib/domain/types";
+import { ITicket } from "@jsdayie/domain";
 import {
   Card,
   CardBody,
   CardHeader,
   CardFooter
-} from "../../../lib/components";
+} from "@jsdayie/components";
 import { Ribbon } from "./ribbon";
 
 interface TickerProps {
