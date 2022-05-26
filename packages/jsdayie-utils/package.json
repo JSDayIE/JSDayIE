@@ -16,16 +16,15 @@
   "scripts": {
     "lint": "eslint 'src/**/*.ts'",
     "lint:fix": "eslint --fix 'src/**/*.ts'",
-    "tsc": "tsc",
+    "build": "tsc",
     "test": "jest --config ./jest.config.ts --collectCoverage --coverageDirectory=\\\"./coverage\\\" --ci",
     "test:local": "jest --config ./jest.config.ts --watch"
   },
   "dependencies": {
-    "@jsdayie/domain": "^0.1.0",
-    "@types/isomorphic-fetch": "^0.0.36",
     "isomorphic-fetch": "^3.0.0"
   },
   "devDependencies": {
+    "@types/isomorphic-fetch": "^0.0.36",
     "@types/jest": "27.5.1",
     "@typescript-eslint/eslint-plugin": "5.25.0",
     "@typescript-eslint/parser": "5.25.0",
