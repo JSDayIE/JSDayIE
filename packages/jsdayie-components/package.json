@@ -23,18 +23,16 @@
     "test:local": "jest --config ./jest.config.ts --watch"
   },
   "dependencies": {
-    "@jsdayie/domain": "^0.1.0",
-    "@jsdayie/utils": "^0.1.0",
-    "@types/showdown": "^2.0.0",
     "next": "12.1.6",
     "react": "^18.1.0",
     "showdown": "^2.1.0"
   },
   "devDependencies": {
+    "@types/showdown": "^2.0.0",
     "@types/jest": "27.5.1",
     "@types/react": "^18.0.9",
-    "@typescript-eslint/eslint-plugin": "5.25.0",
-    "@typescript-eslint/parser": "5.25.0",
+    "@typescript-eslint/eslint-plugin": "5.26.0",
+    "@typescript-eslint/parser": "5.26.0",
     "eslint": "8.16.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-prettier": "8.5.0",
@@ -44,7 +42,7 @@
     "eslint-plugin-react": "^7.30.0",
     "husky": "8.0.1",
     "jest": "28.1.0",
-    "lint-staged": "12.4.1",
+    "lint-staged": "12.4.2",
     "prettier": "^2.6.2",
     "ts-jest": "^28.0.2",
     "ts-node": "^10.8.0",
