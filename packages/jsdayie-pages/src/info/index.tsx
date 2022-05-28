@@ -1,7 +1,7 @@
 import React from "react";
-import { Section, Container } from "../../../lib/components";
+import { Section, Container } from "@jsdayie/components";
 import { InfoEntry } from "./info_entry";
-import { PATHS } from "../../../../../config/routing";
+import { PATHS } from "@jsdayie/config";
 
 function getEntries() {
     return [

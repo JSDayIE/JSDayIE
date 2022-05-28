@@ -24,7 +24,7 @@ Not everyone is a natural-born talent on stage. Not everyone can produce kick-as
 
 There are about a million reasons why you may not consider yourself a speaker. We are here to prove you wrong. If all you have is a gut feeling that you should be on stage, we are here to help you develop or hone the skills you think you lack to deliver a great presentation.
 
-We are committed to fulfilling our mission as a community event. We are all community people and we want to be as close to you as possible. We will try to be supportive and helpful and we will do our best to get back to you with valuable feedback from the CFP process. In case you wish to talk with someone from the team, do not hesitate to write an email at [hello@jsday.org](mailto:hello@jsday.org) (just please don’t use this email to submit a proposal). Good luck!
+We are committed to fulfilling our mission as a community event. We are all community people and we want to be as close to you as possible. We will try to be supportive and helpful and we will do our best to get back to you with valuable feedback from the CFP process. In case you wish to talk with someone from the team, do not hesitate to write an email at [info@jsday.ie](mailto:info@jsday.ie) (just please don’t use this email to submit a proposal). Good luck!
 
 Please visit the [official CFP guidelines](https://www.jsday.org/cfp_details) page if you need additional help.
 

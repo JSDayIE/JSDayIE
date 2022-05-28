@@ -56,5 +56,5 @@ Sponsoring a tech event such as JSDayIE can often be cheaper and have a higher r
 
 Organizations are invited to help our event through sponsorship. Choose from our sponsor levels or propose your own. JSDayIE is open to creative sponsorship suggestions that retain our mission of providing the best possible experience for our attendees. Choice of sponsorship packages are on a first-come, first served basis, so sponsor early to get your choice and maximum marketing exposure throughout the year!
 
-Please visit the [sponsor page](/sponsors) or contact us at [hello@jsday.org](mailto:hello@jsday.org)
+Please visit the [sponsor page](/sponsors) or contact us at [info@jsday.ie](mailto:info@jsday.ie)
 to learn more about the available sponsoring opportunities.

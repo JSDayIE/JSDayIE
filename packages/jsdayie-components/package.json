@@ -23,6 +23,9 @@
     "test:local": "jest --config ./jest.config.ts --watch"
   },
   "dependencies": {
+    "fp-ts": "2.12.1",
+    "io-ts": "2.2.16",
+    "io-ts-reporters": "2.0.1",
     "next": "12.1.6",
     "react": "^18.1.0",
     "showdown": "^2.1.0",

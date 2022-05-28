@@ -1,8 +1,8 @@
 import React from "react";
-import { Fetchable } from "react-fetchable";
 import { Section, Container, Spinner } from "@jsdayie/components";
 import { speakerArrayValidator, ISpeaker } from "@jsdayie/domain";
 import { Speaker } from "./speaker";
+import { RESOURCES } from "@jsdayie/config";
 
 export class SpeakerCard extends React.Component {
   componentDidMount() {
@@ -32,7 +32,7 @@ export class SpeakerCard extends React.Component {
       <Container>
         <Section title="JSDayIE 2019 is proud to present" size={1}>
           <Fetchable
-            url="/data/speakers.json"
+            url={RESOURCES.speakers}
             validator={speakerArrayValidator}
             loading={() => <Spinner size={100} />}
             error={(e: Error) => <div>Error: {e.message}</div>}

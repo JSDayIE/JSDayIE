@@ -1,6 +1,11 @@
 import * as React from "react";
-import { MarkDown } from "../../../lib/components";
+import { MarkDown, Container } from "@jsdayie/components";
 
 export function Travel() {
-    return <MarkDown url="/info/travel.md" />;
+    const url="/info/travel.md";
+    return (
+        <Container>
+            <MarkDown url={url} />
+        </Container>
+    );
 }

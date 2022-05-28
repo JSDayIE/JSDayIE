@@ -1,6 +1,11 @@
 import * as React from "react";
-import { MarkDown } from "../../../lib/components";
+import { MarkDown, Container } from "@jsdayie/components";
 
 export function WhyAttend() {
-    return <MarkDown url="/info/why_attend.md" />;
+    const url="/info/why_attend.md";
+    return (
+        <Container>
+            <MarkDown url={url} />
+        </Container>
+    );
 }

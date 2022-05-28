@@ -5,6 +5,16 @@ interface RouteConf {
   path: string;
 }
 
+export const RESOURCES = {
+  blogEntries: "/data/blog_entries.json",
+  gallery: "/data/gallery/2019.json",
+  trendingTopics: "/data/trending_topics.json",
+  schedule: "/data/schedule.json",
+  speakers: "/data/speakers.json",
+  sponsors: "/data/sponsors.json",
+  tickets: "/data/tickets.json"
+}
+
 export const PATHS = {
   home: "/",
   speakers: "/speakers",

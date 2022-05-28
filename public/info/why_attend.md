@@ -44,7 +44,7 @@ Everybody is welcome at JSDayIE and to make sure everybody feels at home, we'd l
 
 ![St Stephen's Green](/media/st_stephens_green.jpg)
 
-If you have any questions, please get in touch: [hello@jsday.org](mailto:hello@jsday.org).
+If you have any questions, please get in touch: [info@jsday.ie](mailto:info@jsday.ie).
 
 ## Schedule
 

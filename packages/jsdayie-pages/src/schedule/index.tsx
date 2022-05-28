@@ -1,10 +1,10 @@
 import React from "react";
-import { Fetchable } from "react-fetchable";
-import { Section, Table, Container, Spinner } from "../../../lib/components";
+import { Section, Table, Container, Spinner } from "@jsdayie/components";
 import {
   ActivityArray,
   activityArrayValidator
-} from "../../../lib/domain/types";
+} from "@jsdayie/domain";
+import { RESOURCES } from "@jsdayie/config";
 
 interface ScheduleProps {}
 
@@ -20,7 +20,7 @@ export class Schedule extends React.Component<ScheduleProps, ScheduleState> {
             from some of the best JavaScript professionals!
           </p>
           <Fetchable
-            url="/data/schedule.json"
+            url={RESOURCES.schedule}
             validator={activityArrayValidator}
             loading={() => <Spinner size={100} />}
             error={(e: Error) => <div>Error: {e.message}</div>}

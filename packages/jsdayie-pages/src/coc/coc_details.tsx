@@ -56,7 +56,7 @@ export class CoCDetails extends React.Component {
               have any other concerns, please contact a member of conference staff
               immediately. Conference staff can be identified as they'll be wearing
               branded clothing and/or badges. You can also reach the organizers
-              at <a href="mailto:hello@jsday.org">hello@jsday.org</a>.
+              at <a href="mailto:info@jsday.ie">info@jsday.ie</a>.
             </p>
             <p>
               Conference staff will be happy to help participants contact hotel/venue

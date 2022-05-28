@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Section, Container } from "../../../lib/components";
+import { Section, Container } from "@jsdayie/components";
 import { Speaker } from "../speakers/speaker";
 
 export function Team() {

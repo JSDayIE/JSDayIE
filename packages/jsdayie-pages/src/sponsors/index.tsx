@@ -1,8 +1,9 @@
 import React from "react";
 import { Spinner, Section, Table, Button, Container } from "@jsdayie/components";
-import { ISponsors, sponsorsValidator, sponsorsingPackageArrayValidator, SponsorsingPackageArray } from "../../../lib/domain/types";
+import { ISponsors, sponsorsValidator, sponsorsingPackageArrayValidator, SponsorsingPackageArray } from "@jsdayie/domain/types";
 import { Fetchable } from "react-fetchable";
 import { SponsorGroup } from "./sponsor_group";
+import { RESOURCES } from "@jsdayie/config";
 
 export class Sponsors extends React.Component {
   render() {
@@ -14,7 +15,7 @@ export class Sponsors extends React.Component {
             Would you like to add your name to the list? Check out our sponsorship opportunities!
           </p>
           <Fetchable
-              url="/data/sponsors.json"
+              url={RESOURCES.sponsors}
               validator={sponsorsValidator}
               loading={() => <Spinner size={100}/>}
               error={(e: Error) => <div>Error: {e.message}</div>}
@@ -42,7 +43,7 @@ export class Sponsors extends React.Component {
             in creating an amazing experience for each and every attendee.
           </p>
           <Fetchable
-            url="/data/sponsorship.json"
+            url={RESOURCES.sponsorship}
             validator={sponsorsingPackageArrayValidator}
             loading={() => <Spinner size={100}/>}
             error={(e: Error) => <div>Error: {e.message}</div>}
@@ -77,7 +78,7 @@ export class Sponsors extends React.Component {
             and find talent specialized in JavaScript technologies
             in Ireland.
           </p>
-          <Button href="mailto:hello@jsday.org">
+          <Button href="mailto:info@jsday.ie">
             Contact us to become a sponsor now!
           </Button>
         </Section>

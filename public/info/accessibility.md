@@ -52,6 +52,6 @@ Due to the variety of sign languages and unpredictability of actual needs, we do
 
 ## Contact us
 
-If you are interested in our conferences and have any kind of accessibility question or suggestion (that isn't sufficiently answered above), and that needs to be resolved before you can attend, please get in touch at [hello@jsday.org](mailto:hello@jsday.org).
+If you are interested in our conferences and have any kind of accessibility question or suggestion (that isn't sufficiently answered above), and that needs to be resolved before you can attend, please get in touch at [info@jsday.ie](mailto:info@jsday.ie).
 
 We would love to welcome you to our conferences!

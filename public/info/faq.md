@@ -42,7 +42,7 @@ You can find a list of recommended hotels in Dublin [here](https://goo.gl/maps/f
 
 ## Is there food for my diet?
 
-Our catering service will provide food options for most diets. If you have a specific diet, feel free to contact us at [hello@jsday.org](mailto:hello@jsday.org).
+Our catering service will provide food options for most diets. If you have a specific diet, feel free to contact us at [info@jsday.ie](mailto:info@jsday.ie).
 
 ## Can I be a volunteer?
 
@@ -50,7 +50,7 @@ While our volunteer team is currently complete, we might have very few slots ope
 
 ## Are there student tickets?
 
-We do offer student tickets or discounts. Please contact us at [hello@jsday.org](mailto:hello@jsday.org). Please note that if you are under 21 years old you will not be able to join the after-party.
+We do offer student tickets or discounts. Please contact us at [info@jsday.ie](mailto:info@jsday.ie). Please note that if you are under 21 years old you will not be able to join the after-party.
 
 ## Why do I need to be over 21 years old?
 

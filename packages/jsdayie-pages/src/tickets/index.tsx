@@ -2,6 +2,7 @@ import React from "react";
 import { Section, Spinner, Container, Fetchable } from "@jsdayie/components";
 import { ticketArrayValidator } from "@jsdayie/domain";
 import { Ticket } from "./ticket";
+import { RESOURCES } from "@jsdayie/config";
 
 export class Tickets extends React.Component {
   render() {
@@ -12,7 +13,7 @@ export class Tickets extends React.Component {
             Get your ticket before it is too late!
           </p>
           <Fetchable
-            url="/data/tickets.json"
+            url={RESOURCES.tickets}
             validator={ticketArrayValidator}
             loading={() => <Spinner size={100}/>}
             error={(e: Error) => <div>Error: {e.message}</div>}

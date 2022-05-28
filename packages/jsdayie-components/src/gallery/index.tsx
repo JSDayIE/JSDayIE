@@ -1,6 +1,6 @@
 import React from "react";
 
-interface GalleryProps {
+export interface GalleryProps {
   urls: string[];
 }
 

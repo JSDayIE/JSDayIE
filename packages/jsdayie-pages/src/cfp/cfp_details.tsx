@@ -106,7 +106,7 @@ export class CfpDetails extends React.Component {
             <p>
               We are committed to fulfilling our <b>mission</b> as a community event. We are all community people and we want to be as close to you as possible.
               We will try to be <b>supportive and helpful</b> and we will do our best to get back to you with valuable feedback from the CFP process. In case
-              you wish to talk with someone from the team, do not hesitate to write an email at <a href="mailto:hello@jsday.org">hello@jsday.org</a>
+              you wish to talk with someone from the team, do not hesitate to write an email at <a href="mailto:info@jsday.ie">info@jsday.ie</a>
               (just please don’t use this email to submit a proposal). Good luck!
             </p>
           </Section>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Section, Container } from "../../../lib/components";
+import { Section, Container } from "@jsdayie/components";
 
 interface NewsletterProps {}
 

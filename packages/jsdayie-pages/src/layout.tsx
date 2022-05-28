@@ -1,12 +1,11 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
 import { Navbar, Footer } from "@jsdayie/components";
 import { routes } from "@jsdayie/config";
 
 class Layout extends React.Component {
     public render() {
         return (
-            <React.Fragment>
+            <>
                 <Navbar
                     items={
                         routes.filter(r => r.displayInNavBar !== false)
@@ -19,21 +18,17 @@ class Layout extends React.Component {
                             })
                     }
                 />
-                <Switch>
-                    <React.Fragment>
-                        <div className="pageBody">
-                            {
-                                routes.map((r, i) => <Route exact path={r.path} component={r.component} key={i} />)
-                            }
-                        </div>
-                    </React.Fragment>
-                </Switch>
+                <React.Fragment>
+                    <div className="pageBody">
+                        //
+                    </div>
+                </React.Fragment>
                 <Footer
                     name="Wolk Software Limited"
                     href="http://www.wolksoftware.com"
                     year={2018}
                 />
-            </React.Fragment>
+            </>
         );
     }
 }

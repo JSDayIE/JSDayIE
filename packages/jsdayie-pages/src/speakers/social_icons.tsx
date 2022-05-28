@@ -1,7 +1,6 @@
 import React from "react";
 import { ISpeaker } from "@jsdayie/domain";
 import { Button } from "@jsdayie/components";
-import { throwIfNever } from "@jsdayie/utils";
 
 type Links = ISpeaker["links"];
 
@@ -24,7 +23,6 @@ function socialIconFactory(type: keyof Links) {
       case "medium":
         return url ? <Button href={url}><i className="fab fa-medium"></i></Button> : null;
       default:
-        throwIfNever(type);
         return null;
     }
   }

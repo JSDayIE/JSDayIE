@@ -2,6 +2,7 @@ import React from "react";
 import { Fetchable } from "react-fetchable";
 import { Section, Container, Spinner } from "@jsdayie/components";
 import { speakerArrayValidator } from "@jsdayie/domain";
+import { RESOURCES } from "@jsdayie/config";
 import { Speaker } from "./speaker";
 
 export class Speakers extends React.Component {
@@ -13,7 +14,7 @@ export class Speakers extends React.Component {
             JSDayIE features some of the best JavaScript professionals.
           </p>
           <Fetchable
-              url="/data/speakers.json"
+              url={RESOURCES.speakers}
               validator={speakerArrayValidator}
               loading={() => <Spinner size={100}/>}
               error={(e: Error) => <div>Error: {e.message}</div>}

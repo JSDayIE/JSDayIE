@@ -14,9 +14,9 @@
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "showdown": "1.9.0",
-    "fp-ts": "1.12.3",
-    "io-ts": "1.6.4",
-    "io-ts-reporters": "0.0.21"
+    "fp-ts": "2.12.1",
+    "io-ts": "2.2.16",
+    "io-ts-reporters": "2.0.1"
   },
   "devDependencies": {
     "@types/node": "17.0.35",

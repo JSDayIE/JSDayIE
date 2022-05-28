@@ -1,17 +1,18 @@
 import React from "react";
-import { withRouter, RouteProps } from "react-router-dom";
-import { MarkDown } from "@jsdayie/components";
+import { useRouter } from 'next/router';
+import { MarkDown, Container } from "@jsdayie/components";
 
-interface BlogEntryInternalProps extends RouteProps {}
-
-interface BlogEntryInternalState {}
-
-export class BlogEntryInternal extends React.Component<BlogEntryInternalProps, BlogEntryInternalState> {
-  public render() {
-    const id = (this.props as any).match.params.id;
-    const url = `/posts/${id}.md`;
-    return <MarkDown url={url} />;
-  }
+interface BlogEntryProps {
+  id: string;
 }
 
-export const BlogEntry = withRouter(props => <BlogEntryInternal {...props}/>)
+export const BlogEntry: React.FC<BlogEntryProps> = () => {
+  const router = useRouter();
+  const { id } = router.query;
+  const url = `/posts/${id}.md`;
+  return (
+    <Container>
+      <MarkDown url={url} />
+    </Container>
+  );
+}

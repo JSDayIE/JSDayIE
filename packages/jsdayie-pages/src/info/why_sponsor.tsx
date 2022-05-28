@@ -1,6 +1,11 @@
 import * as React from "react";
-import { MarkDown } from "../../../lib/components";
+import { MarkDown, Container } from "@jsdayie/components";
 
 export function WhySponsor() {
-    return <MarkDown url="/posts/ten_reasons_to_sponsor_jsdayie_2019.md" />;
+    const url="/info/ten_reasons_to_sponsor.md";
+    return (
+        <Container>
+            <MarkDown url={url} />
+        </Container>
+    );
 }
