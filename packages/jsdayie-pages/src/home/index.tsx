@@ -11,9 +11,15 @@ import { BlogPreview } from "../blog/blog_preview";
 import { Info } from "../info";
 import { Speakers } from "../speakers";
 import { BlogPostsProps } from "../blog/blog";
+import { ActivityArray, ISponsors, SpeakerArray, SponsorsingPackageArray, TicketArray } from "@jsdayie/domain";
 
 export interface HomeProps {
   blog: BlogPostsProps;
+  speakers: SpeakerArray;
+  activity: ActivityArray;
+  tickets: TicketArray;
+  sponsorsingPackagesData: SponsorsingPackageArray;
+  sponsorData: ISponsors;
 }
 
 export const Home: React.FC<HomeProps> = props => {
@@ -21,12 +27,12 @@ export const Home: React.FC<HomeProps> = props => {
       <React.Fragment>
         <Hero/>
         <Welcome/>
-        <Speakers/>
-        <Schedule/>
+        <Speakers data={props.speakers}/>
+        <Schedule data={props.activity}/>
         <Venue/>
-        <Tickets/>
+        <Tickets data={props.tickets}/>
         <Info/>
-        <Sponsors />
+        <Sponsors sponsorsingPackagesData={props.sponsorsingPackagesData} sponsorData={props.sponsorData} />
         <CoC/>
         <BlogPreview data={props.blog.data}/>
         <Newsletter/>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Section, Container } from "@jsdayie/components";
-import { InfoEntry } from "./info_entry";
+import { InfoItem } from "./info_item";
 import { PATHS } from "@jsdayie/config";
 
 function getEntries() {
@@ -70,7 +70,7 @@ export class Info extends React.Component {
                     entries.map((e, i) => {
                         return (
                             <div className="col-md-6">
-                                <InfoEntry
+                                <InfoItem
                                     title={e.title}
                                     summary={e.summary}
                                     path={e.path}

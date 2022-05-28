@@ -1,6 +1,7 @@
 import { blogEntryArrayValidator, BlogEntryArray } from "@jsdayie/domain";
 import { getPage }  from "@jsdayie/utils";
 import { RESOURCES }  from "@jsdayie/config";
+import fetch from "isomorphic-fetch";
 
 export async function getBlogData(): Promise<BlogEntryArray | Error> {
   try {
@@ -23,8 +24,6 @@ export async function getGalleryData(): Promise<BlogEntryArray | Error> {
 export async function getBlogPostDate(id: string): Promise<string | Error> {
   const url =  RESOURCES.blogEntry(id);
   const response = await fetch(url);
-  const markdown = response.body;
-  return {
-      markdown: markdown
-  }
+  const markdown = await response.text();
+  return markdown;
 }

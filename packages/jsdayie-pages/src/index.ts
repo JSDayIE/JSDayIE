@@ -10,6 +10,7 @@ export * from "./gallery";
 export * from "./home";
 export * from "./gallery";
 export * from "./info";
+export * from "./info/team";
 export * from "./newsletter";
 export * from "./others";
 export * from "./schedule";

@@ -1,11 +1,15 @@
 import React from "react";
 import { Spinner, Section, Table, Button, Container } from "@jsdayie/components";
-import { ISponsors, sponsorsValidator, sponsorsingPackageArrayValidator, SponsorsingPackageArray } from "@jsdayie/domain/types";
-import { Fetchable } from "react-fetchable";
+import { ISponsors, sponsorsValidator, sponsorsingPackageArrayValidator, SponsorsingPackageArray } from "@jsdayie/domain";
 import { SponsorGroup } from "./sponsor_group";
 import { RESOURCES } from "@jsdayie/config";
 
-export class Sponsors extends React.Component {
+interface SponsorsProps {
+  sponsorsingPackagesData: SponsorsingPackageArray;
+  sponsorData: ISponsors;
+}
+
+export class Sponsors extends React.Component<SponsorsProps> {
   render() {
     return (
       <Container>
@@ -14,27 +18,15 @@ export class Sponsors extends React.Component {
             JSDayIE 2023 would not be possible without the support of the following organizations.
             Would you like to add your name to the list? Check out our sponsorship opportunities!
           </p>
-          <Fetchable
-              url={RESOURCES.sponsors}
-              validator={sponsorsValidator}
-              loading={() => <Spinner size={100}/>}
-              error={(e: Error) => <div>Error: {e.message}</div>}
-              success={(data: ISponsors) => {
-                return (
-                  <React.Fragment>
-                    <SponsorGroup group="presenting" label="Presenting Sponsor" sponsors={data} />
-                    <SponsorGroup group="diamond" label="Diamond Sponsor" sponsors={data} />
-                    <SponsorGroup group="platinumPlus" label="Platinum Plus Sponsors" sponsors={data} />
-                    <SponsorGroup group="platinum" label="Platinum Sponsors" sponsors={data} />
-                    <SponsorGroup group="gold" label="Gold Sponsors" sponsors={data} />
-                    <SponsorGroup group="silver" label="Silver Sponsors" sponsors={data} />
-                    <SponsorGroup group="media" label="Media Sponsors" sponsors={data} />
-                    <SponsorGroup group="community" label="Community Partners" sponsors={data} />
-                    <SponsorGroup group="others" label="Community Sponsors" sponsors={data} />
-                  </React.Fragment>
-                );
-              }}
-          />
+        <SponsorGroup group="presenting" label="Presenting Sponsor" sponsors={this.props.sponsorData} />
+        <SponsorGroup group="diamond" label="Diamond Sponsor" sponsors={this.props.sponsorData} />
+        <SponsorGroup group="platinumPlus" label="Platinum Plus Sponsors" sponsors={this.props.sponsorData} />
+        <SponsorGroup group="platinum" label="Platinum Sponsors" sponsors={this.props.sponsorData} />
+        <SponsorGroup group="gold" label="Gold Sponsors" sponsors={this.props.sponsorData} />
+        <SponsorGroup group="silver" label="Silver Sponsors" sponsors={this.props.sponsorData} />
+        <SponsorGroup group="media" label="Media Sponsors" sponsors={this.props.sponsorData} />
+        <SponsorGroup group="community" label="Community Partners" sponsors={this.props.sponsorData} />
+        <SponsorGroup group="others" label="Community Sponsors" sponsors={this.props.sponsorData} />
         </Section>
         <Section title="Would you like to sponsor JSdayIE 2023?" size={1}>
           <p>
@@ -42,35 +34,25 @@ export class Sponsors extends React.Component {
             growth of the JavaScript community in Ireland. Please join us 
             in creating an amazing experience for each and every attendee.
           </p>
-          <Fetchable
-            url={RESOURCES.sponsorship}
-            validator={sponsorsingPackageArrayValidator}
-            loading={() => <Spinner size={100}/>}
-            error={(e: Error) => <div>Error: {e.message}</div>}
-            success={(data: SponsorsingPackageArray) => {
-              return (
-                <Table
-                  headers={[
-                    "",
-                    "Silver",
-                    "Gold",
-                    "Platinum",
-                    "Platinum Plus",
-                    "Diamond"
-                  ]}
-                  rows={
-                    data.map(a => [
-                      a.title,
-                      a.silver,
-                      a.gold,
-                      a.platinum,
-                      a.platinumPlus,
-                      a.diamond
-                    ])
-                  }
-                />
-              );
-            }}
+          <Table
+            headers={[
+              "",
+              "Silver",
+              "Gold",
+              "Platinum",
+              "Platinum Plus",
+              "Diamond"
+            ]}
+            rows={
+              this.props.sponsorsingPackagesData.map(a => [
+                a.title,
+                a.silver,
+                a.gold,
+                a.platinum,
+                a.platinumPlus,
+                a.diamond
+              ])
+            }
           />
           <p>* Fees are displayed excluding 23% VAT</p>
           <p>

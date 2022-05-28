@@ -5,7 +5,7 @@
   "workspaces": ["packages/*"],
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "lerna run build && next build",
     "start": "next start",
     "lint": "next lint"
   },

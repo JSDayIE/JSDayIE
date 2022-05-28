@@ -4,7 +4,7 @@ import { BlogPosts } from "./blog_post_list";
 import { BlogEntryArray } from "@jsdayie/domain";
 
 export interface BlogPostsProps {
-  data: BlogEntryArray | Error;
+  data: BlogEntryArray;
 }
 
 export const Blog: React.FC<BlogPostsProps> = props => {

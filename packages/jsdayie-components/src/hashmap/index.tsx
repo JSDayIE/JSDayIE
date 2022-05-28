@@ -3,7 +3,6 @@ import { HashTagArray } from "@jsdayie/domain";
 
 interface HashMapProps {
   items: HashTagArray;
-  children: React.ReactNode;
 }
 
 export const HashMap: React.FC<HashMapProps> = props => {

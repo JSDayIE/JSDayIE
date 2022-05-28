@@ -34,26 +34,6 @@ export function Team() {
                         <Speaker
                             details={{
                                 hide: false,
-                                name: "Sarah Gavra Boland",
-                                role: "",
-                                company: "Accessibility Chair",
-                                bio: "Sarah is an Assistive Technology (AT) Facilitator with Saint John of God Community Services since 2013.",
-                                links: {
-                                    linkedin: "https://www.linkedin.com/in/sarahgavraboland/",
-                                    twitter: "https://twitter.com/SarahGBoland"
-                                },
-                                pic: "/media/sarah_gavra.jpg",
-                                talk: {
-                                    title: "",
-                                    abstract: ""
-                                }
-                            }}
-                        />
-                    </div>
-                    <div className="col-md-4">
-                        <Speaker
-                            details={{
-                                hide: false,
                                 name: "Remo H. Jansen",
                                 role: "",
                                 company: "General Chair",
