@@ -8,7 +8,7 @@ export class Venue extends React.Component {
       <Container>
         <Section title="The event venue" size={1}>
           <p>
-            JSDayIE 2019 will be hosted at The Round Room at The Mansion House in Dublin, Ireland.
+            JSDayIE 2023 will be hosted at The Round Room at The Mansion House in Dublin, Ireland.
           </p>
           <VenueMedia
             topLeft={{ type: "image", url: "/media/venue1.png"}}
@@ -48,7 +48,7 @@ export class Venue extends React.Component {
         </Section>
         <Section title="Visit Dublin and discover Ireland" size={1}>
           <p>
-            Joining JSDayIE 2019 provides you with a great excuse to explore Dublin and the rest of Ireland.
+            Joining JSDayIE 2023 provides you with a great excuse to explore Dublin and the rest of Ireland.
           </p>
           <VenueMedia
             topLeft={{ type: "video", url: "https://www.youtube.com/embed/fsK8O2yvEPg?controls=0"}}

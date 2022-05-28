@@ -1,6 +1,6 @@
 # Speaker Spotlight
 
-It is only three more days until JSDayIE 2019, and in this blog post, we would like share some additional details about some of our speakers and the technologies that they will talk about during the event.
+It is only three more days until JSDayIE 2023, and in this blog post, we would like share some additional details about some of our speakers and the technologies that they will talk about during the event.
 
 ![](/media/blog/blog_post_14.png)
 
@@ -8,7 +8,7 @@ It is only three more days until JSDayIE 2019, and in this blog post, we would l
 
 Kathleen works at O’Reilly Media as a Senior Frontend Engineer and Design System Tech Lead. Her deep industry experience as both a designer and developer fuels her passion for making apps beautifully accessible. In her spare time, she is the Creative Director for the CXsisters network, and the best lanterne rouge cyclocrosser you’ll ever meet.
 
-![](/media/speakers_2019/kathleen_mcmahon.jpg)
+![](/media/speakers_2023/kathleen_mcmahon.jpg)
 
 ### How widespread do you think the concept of accessibility is when designing apps?
 
@@ -38,7 +38,7 @@ Tips for new speakers? Absolutely!
 
 Wassim is Senior Cloud Advocate at Microsoft and a member of the Angular core team. He is the author of many open-source projects such as xlayers.dev and ngx.tools. He is a GDE for the Angular team, the Google Assistant and the GCP teams at Google. He is also a member of the Node.js Foundation, a former member of the Angular Universal core team and part of the current Angular Console core team. He likes music, composition and painting.
 
-![](/media/speakers_2019/wassim_chegham.jpg)
+![](/media/speakers_2023/wassim_chegham.jpg)
 
 ### With Angular CLI making it easier to create and manage projects, do you think it is gaining popularity?
 
@@ -58,7 +58,7 @@ I used to DJ'ing and mixing for fun back in the days. Recently, I started learni
 
 Author of three books on Javascript. Microservices and DevOps, David Gonzalez is a DevOps Consultant with NearForm. David also lectures in CCT College, Dublin on Cloud and Distributed Systems. He is on a mission to transform companies’ IT processes and culture to allow technology to become an enabler instead of a burden.
 
-![](/media/speakers_2019/david_gonzalez.jpg)
+![](/media/speakers_2023/david_gonzalez.jpg)
 
 ### JS apps on Kubernetes, do you see this being more common now?
 
@@ -76,7 +76,7 @@ Yes! Read my book: [https://www.packtpub.com/eu/networking-and-servers/implement
 
 Roy Derks is a serial startup CTO and conference speaker from Amsterdam. He also teaches React and GraphQL at reactjs.academy, and works on open-source JavaScript projects for the City of Amsterdam.
 
-![](/media/speakers_2019/roy_derks.jpg)
+![](/media/speakers_2023/roy_derks.jpg)
 
 ### GraphQL, how did you come to use it?
 

@@ -36,7 +36,7 @@ export class Hero extends React.Component {
                         <tr>
                           <td>
                             <h3 className="hero_h3">
-                              20th September 2019 Dublin, Ireland
+                              26th September 2023 Dublin, Ireland
                             </h3>
                           </td>
                         </tr>

@@ -4,7 +4,7 @@ Hi everyone!
 
 We are very pleased to publicly announce that **Microsoft Ireland** will sponsor JSDayIE at the highest level as our Diamond Sponsor.
 
-![](/media/sponsors_2019/microsoft.png)
+![](/media/sponsors_2023/microsoft.png)
 
 Microsoft mission is to empower every person and every organization on the planet to achieve more and by supporting JSDayIE they are contributing to the healthy growth of the JavaScript community in Ireland benefits everyone. Employees, employers, third-party service providers, educational institutions, government agencies, etc.
 

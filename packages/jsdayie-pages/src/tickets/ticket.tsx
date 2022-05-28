@@ -30,7 +30,7 @@ export function Ticket(props: TickerProps) {
       </CardBody>
       <CardFooter>
         <p>
-          {props.details.type} ticket for JSDayIE on September 20th, 2019.
+          {props.details.type} ticket for JSDayIE on September 26th, 2023.
           Please note that the ticket is NOT REFUNDABLE.
         </p>
       </CardFooter>

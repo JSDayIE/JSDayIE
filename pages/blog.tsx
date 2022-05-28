@@ -1,5 +1,4 @@
-import { getBlogData } from "@jsdayie/pages/data";
-import { Blog } from "@jsdayie/pages/blog/blog";
+import { getBlogData, Blog } from "@jsdayie/pages";
 import { BlogEntryArray } from "@jsdayie/domain";
 
 export interface BlogPageProps {

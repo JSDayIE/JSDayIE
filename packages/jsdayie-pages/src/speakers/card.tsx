@@ -30,7 +30,7 @@ export class SpeakerCard extends React.Component {
   render() {
     return (
       <Container>
-        <Section title="JSDayIE 2019 is proud to present" size={1}>
+        <Section title="JSDayIE 2023 is proud to present" size={1}>
           <Fetchable
             url={RESOURCES.speakers}
             validator={speakerArrayValidator}

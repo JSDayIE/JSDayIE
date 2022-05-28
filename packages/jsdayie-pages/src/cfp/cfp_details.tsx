@@ -9,8 +9,8 @@ export class CfpDetails extends React.Component {
       <Container>
         <Section title="Call for proposals" size={1}>
           <p>
-            We’re excited to welcome the JavaScript community to submit talks for JSDayIE 2019
-            that will take place on September 20th 2019. This Call for Proposals <b>closes on April 15th, 2019</b>.
+            We’re excited to welcome the JavaScript community to submit talks for JSDayIE 2023
+            that will take place on September 26th 2023. This Call for Proposals <b>closes on April 15th, 2023</b>.
             Here are some important dates that you should remember!
           </p>
           <Table
@@ -20,9 +20,9 @@ export class CfpDetails extends React.Component {
                 ]}
                 rows={
                   [
-                      ["CFP is open for submissions", "1st March 2019"],
-                      ["CFP is close for submissions", "15th April 2019"],
-                      ["Speakers are announced", "May 2019"]
+                      ["CFP is open for submissions", "1st March 2023"],
+                      ["CFP is close for submissions", "15th April 2023"],
+                      ["Speakers are announced", "May 2023"]
                   ]
                 }
           />
@@ -42,7 +42,7 @@ export class CfpDetails extends React.Component {
                     [
                         [<div><b>Original topics</b>, presented for the first time</div>],
                         [<div><b>Practical ideas</b> that attendees can apply at work the next day</div>],
-                        [<div><b>Trends and hot topics</b> which are relevant in 2019 and beyond</div>],
+                        [<div><b>Trends and hot topics</b> which are relevant in 2023 and beyond</div>],
                         [<div><b>Fresh perspectives</b> on the JS ecosystem</div>]
                     ]
                   }
@@ -60,7 +60,7 @@ export class CfpDetails extends React.Component {
           </Section>
           <Section title="Selection process" size={2}>
             <p>
-              We are expecting to receive a large number of proposals for JSDayIE 2019. With this in mind,
+              We are expecting to receive a large number of proposals for JSDayIE 2023. With this in mind,
               we created a team subject matter experts that will go through the proposals and will decide
               what to include in the conference agenda.
             </p>
@@ -76,7 +76,7 @@ export class CfpDetails extends React.Component {
           </Section>
           <Section title="Perks" size={2}>
             <p>
-              If your proposal gets selected and you accept to join JSDayIE 2019 as a speaker, we will make
+              If your proposal gets selected and you accept to join JSDayIE 2023 as a speaker, we will make
               sure you have the best possible experience. Here are some of the benefits we offer to speakers:
             </p>
             <Table

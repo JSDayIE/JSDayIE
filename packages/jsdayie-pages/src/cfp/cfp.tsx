@@ -14,7 +14,7 @@ export class Cfp extends React.Component {
               Vue, and Angular, Node.js, web performance, progressive Web Apps and
               much more.
           </p>
-          <img src="/media/js_galaxy_2019.png"/>
+          <img src="/media/js_galaxy_2023.png"/>
           <p>Do you want to give a talk?</p>
           <ButtonLink to={PATHS.cfpDetails}>Learn more about the CFP</ButtonLink>
           <br/><br/>

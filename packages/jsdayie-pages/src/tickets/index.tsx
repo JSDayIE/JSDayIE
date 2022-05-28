@@ -1,5 +1,5 @@
 import React from "react";
-import { Section, Spinner, Container, Fetchable } from "@jsdayie/components";
+import { Section, Spinner, Container } from "@jsdayie/components";
 import { ticketArrayValidator } from "@jsdayie/domain";
 import { Ticket } from "./ticket";
 import { RESOURCES } from "@jsdayie/config";
@@ -30,7 +30,7 @@ export class Tickets extends React.Component {
                     }
                   </div>
                   <p>* Fees are displayed excluding 23% VAT</p>
-                  <a className="btn btn-outline-warning btn-lg" href="https://ti.to/wolk-software-limited/jsdayie-2019/">
+                  <a className="btn btn-outline-warning btn-lg" href="https://ti.to/wolk-software-limited/jsdayie-2023/">
                       Get your ticket now!
                   </a>
                 </React.Fragment>

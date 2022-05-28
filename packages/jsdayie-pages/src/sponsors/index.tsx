@@ -11,7 +11,7 @@ export class Sponsors extends React.Component {
       <Container>
         <Section title="A shout out to our amazing sponsors!" size={1}>
           <p>
-            JSDayIE 2019 would not be possible without the support of the following organizations.
+            JSDayIE 2023 would not be possible without the support of the following organizations.
             Would you like to add your name to the list? Check out our sponsorship opportunities!
           </p>
           <Fetchable
@@ -36,7 +36,7 @@ export class Sponsors extends React.Component {
               }}
           />
         </Section>
-        <Section title="Would you like to sponsor JSdayIE 2019?" size={1}>
+        <Section title="Would you like to sponsor JSdayIE 2023?" size={1}>
           <p>
             Sponsoring JSDayIE is a great way to contribute to the healthy
             growth of the JavaScript community in Ireland. Please join us 

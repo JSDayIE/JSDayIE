@@ -4,31 +4,31 @@
             "hide": false,
             "name": "Liberty IT",
             "web": "https://www.liberty-it.co.uk/",
-            "logo": "/media/sponsors_2019/liberty_it.png"
+            "logo": "/media/sponsors_2023/liberty_it.png"
         },
         { 
             "hide": false,
             "name": "Intercom",
             "web": "https://www.intercom.com/careers",
-            "logo": "/media/sponsors_2019/intercom.png"
+            "logo": "/media/sponsors_2023/intercom.png"
         },
         { 
             "hide": false,
             "name": "Aon",
             "web": "http://acia.aon.com/index.php/home/",
-            "logo": "/media/sponsors_2019/aon.jpg"
+            "logo": "/media/sponsors_2023/aon.jpg"
         },
         { 
             "hide": false,
             "name": "Houghton Mifflin Harcourt",
             "web": "https://www.hmhco.com/",
-            "logo": "/media/sponsors_2019/hmh.png"
+            "logo": "/media/sponsors_2023/hmh.png"
         },
         { 
             "hide": false,
             "name": "Stripe",
             "web": "https://stripe.com/ie/jobs",
-            "logo": "/media/sponsors_2019/stripe.jpg"
+            "logo": "/media/sponsors_2023/stripe.jpg"
         }
     ],
     "gold": [
@@ -36,25 +36,25 @@
             "hide": false,
             "name": "QStream",
             "web": "https://qstream.com/careers/",
-            "logo": "/media/sponsors_2019/qstream.png"
+            "logo": "/media/sponsors_2023/qstream.png"
         },
         { 
             "hide": false,
             "name": "Oliver Wyman",
             "web": "https://www.oliverwyman.com/careers.html",
-            "logo": "/media/sponsors_2019/oliver_wyman.png"
+            "logo": "/media/sponsors_2023/oliver_wyman.png"
         },
         { 
             "hide": false,
             "name": "MongoDB",
             "web": "https://www.mongodb.com/",
-            "logo": "/media/sponsors_2019/mongodb.png"
+            "logo": "/media/sponsors_2023/mongodb.png"
         },
         { 
             "hide": false,
             "name": "Strata3",
             "web": "https://www.strata3.com/",
-            "logo": "/media/sponsors_2019/strata3.png"
+            "logo": "/media/sponsors_2023/strata3.png"
         }
     ],
     "platinum": [
@@ -62,19 +62,19 @@
             "hide": false,
             "name": "Workday",
             "web": "https://www.workday.com/en-us/company/careers.html",
-            "logo": "/media/sponsors_2019/workday.png"
+            "logo": "/media/sponsors_2023/workday.png"
         },
         { 
             "hide": false,
             "name": "Twilio",
             "web": "https://www.twilio.com/docs/",
-            "logo": "/media/sponsors_2019/twilio.png"
+            "logo": "/media/sponsors_2023/twilio.png"
         },
         { 
             "hide": false,
             "name": "Zalando",
             "web": "https://jobs.zalando.com/en/",
-            "logo": "/media/sponsors_2019/zalando.png"
+            "logo": "/media/sponsors_2023/zalando.png"
         }
     ],
     "platinumPlus": [
@@ -82,12 +82,12 @@
             "hide": false,
             "name": "Stelfox",
             "web": "https://www.stelfox.com/",
-            "logo": "/media/sponsors_2019/stelfox.png"
+            "logo": "/media/sponsors_2023/stelfox.png"
         },{ 
             "hide": false,
             "name": "NearForm",
             "web": "https://www.nearform.com/careers/",
-            "logo": "/media/sponsors_2019/nearform.png"
+            "logo": "/media/sponsors_2023/nearform.png"
         }
     ],
     "diamond": [
@@ -95,7 +95,7 @@
             "hide": false,
             "name": "Microsoft",
             "web": "https://developer.microsoft.com/en-us/",
-            "logo": "/media/sponsors_2019/microsoft.png"
+            "logo": "/media/sponsors_2023/microsoft.png"
         }
     ],
     "presenting": [
@@ -218,7 +218,7 @@
             "hide": false,
             "name": "JetBrains",
             "web": "https://www.jetbrains.com/webstorm/",
-            "logo": "/media/sponsors_2019//jetbrains.png"
+            "logo": "/media/sponsors_2023//jetbrains.png"
         }
     ]
 }

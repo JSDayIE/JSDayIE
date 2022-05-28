@@ -31,7 +31,7 @@ function getEntries() {
         },
         {
             title: "Why you should attend JSDayIE?",
-            summary: "JSDayIE 2019 is a tech conference dedicated to the JavaScript community in Ireland featuring some of the best JS professionals and organizations.",
+            summary: "JSDayIE 2023 is a tech conference dedicated to the JavaScript community in Ireland featuring some of the best JS professionals and organizations.",
             path: PATHS.whyAttend,
             thumbnail: "/media/icons/attendee.png"
         },

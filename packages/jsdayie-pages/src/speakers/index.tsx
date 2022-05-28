@@ -41,7 +41,7 @@ export class Speakers extends React.Component {
                 }
               }
           />
-          <a className="btn btn-outline-warning btn-lg" href="https://ti.to/wolk-software-limited/jsdayie-2019/">
+          <a className="btn btn-outline-warning btn-lg" href="https://ti.to/wolk-software-limited/jsdayie-2023/">
             Get your ticket now!
           </a>
         </Section>

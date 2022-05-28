@@ -4,9 +4,9 @@ Our biggest reward as conference organizers is people doing great things with so
 
 ## JSDayIE
 
-We are inviting the JavaScript community to attend the upcoming JSDayIE (September 20th, Dublin, Ireland).
+We are inviting the JavaScript community to attend the upcoming JSDayIE (September 26th, Dublin, Ireland).
 
-JSDayIE 2019 is a 1-day single-track tech conference dedicated to the JavaScript community in Ireland featuring over 450 attendees and some of the best JavaScript professionals and organizations. JSDayIE is the first JavaScript conference in Ireland and will take place in 2019, on September 20th at The Round Room at the Mansion House in Dawson Street, Dublin. JSDayIE is an invitation for the community to come together and for new people to get to know and join the community.
+JSDayIE 2023 is a 1-day single-track tech conference dedicated to the JavaScript community in Ireland featuring over 450 attendees and some of the best JavaScript professionals and organizations. JSDayIE is the first JavaScript conference in Ireland and will take place in 2023, on September 26th at The Round Room at the Mansion House in Dawson Street, Dublin. JSDayIE is an invitation for the community to come together and for new people to get to know and join the community.
 
 If you have a desire to learn more about your profession or hobby and get energized about JavaScript, then this conference is for you. The heart of the conference is 25min presentations with topics ranging from in-depth technical journeys into JavaScript and what can be done with it to the big question of why we are all doing this and how we could do it better. 
 
@@ -16,7 +16,7 @@ JSDayIE is an intimate event. We don't plan to sell thousands of tickets. By joi
 
 JSDayIE brings together the Ireland JavaScript community for one day full of talks on GraphQL, DevOps, machine learning, accessibility, new and upcoming JavaScript features, JavaScript frameworks like React, Vue, and Angular, Node.js, web performance, progressive Web Apps and much more.
 
-![](/media/js_galaxy_2019.png)
+![](/media/js_galaxy_2023.png)
 
 ## The good stuff
 
@@ -48,7 +48,7 @@ If you have any questions, please get in touch: [info@jsday.ie](mailto:info@jsda
 
 ## Schedule
 
-JSDayIE happens on September 20th, 2019 at The Round Room at the Mansion House, Dawson Street, Dublin 2.
+JSDayIE happens on September 26th, 2023 at The Round Room at the Mansion House, Dawson Street, Dublin 2.
 
 The venue opens at 8:00 AM local time. Breakfast starts at 8:00 AM. The event includes breakfast, lunch and coffee breaks. If you have any special dietary restrictions, please let us know so that we can accommodate you. The main event finishes at 16:30 and the after-party ends at 20:00.
 
@@ -56,7 +56,7 @@ Please visit the [schedule page](/schedule) for more details.
 
 ## Discover Ireland
 
-Joining JSDayIE 2019 provides you with a great excuse to explore Dublin and the rest of Ireland. Visiting Dublin is like taking a great big breath of fresh air. Always invigorating, this  Viking city is at once modern and historic, exciting and relaxing.
+Joining JSDayIE 2023 provides you with a great excuse to explore Dublin and the rest of Ireland. Visiting Dublin is like taking a great big breath of fresh air. Always invigorating, this  Viking city is at once modern and historic, exciting and relaxing.
 
 ![](/media/dublin.jpg)
 

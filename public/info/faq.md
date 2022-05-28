@@ -2,7 +2,7 @@
 
 ## When is the conference?
 
-JSDayIE happens on **September 20th 2019**.
+JSDayIE happens on **September 26th 2023**.
 
 ## What is the conference venue address?
 

@@ -1,22 +1,23 @@
-import { getBlogData } from "@jsdayie/pages/data";
-import { BlogEntry } from "@jsdayie/pages/blog/blog_entry";
-import { BlogEntryArray } from "@jsdayie/domain";
+import { getBlogPostDate, BlogEntry } from "@jsdayie/pages";
 import { useRouter } from "next/router";
 
 export interface BlogPageProps {
-    data: BlogEntryArray | Error;
+    markdown: string | Error;
 }
 
 export async function getServerSideProps() {
+    const router = useRouter();
+    const { id } = router.query;
+    const markdown = await getBlogPostDate(id);
     return {
-        data: await getBlogData()
+        markdown: markdown
     }
   }
 
 export const BlogPostPage: React.FC<BlogPageProps> = props => {
     const router = useRouter()
     const { id } = router.query
-    return <BlogEntry id={id}/>;
+    return <BlogEntry markdown={props.markdown}/>;
 }
 
 export default BlogPostPage;

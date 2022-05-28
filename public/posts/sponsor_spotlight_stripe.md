@@ -4,7 +4,7 @@ Hi everyone! We are very pleased to publicly announce **Stripe** as one of our *
 
 ![](/media/blog/stripe_logo.jpg)
 
-Stripe has helped us not only financially but by providing us with the online tools required to process payments online. JSDayIE 2019 is our very first edition, and a lot of things have been very complicated. However, accepting online payments has been quite simple, and we have to thank Stripe for that.
+Stripe has helped us not only financially but by providing us with the online tools required to process payments online. JSDayIE 2023 is our very first edition, and a lot of things have been very complicated. However, accepting online payments has been quite simple, and we have to thank Stripe for that.
 
 We would like to sincerely thank Stripe for becoming one of our Silver sponsors because, without their support, this event would not be possible. As a sponsor of JSDayIE and an employer in Ireland, Stripe Labs contributes to the healthy growth of the JS community in Ireland every day.
 

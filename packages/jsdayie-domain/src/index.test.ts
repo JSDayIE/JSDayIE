@@ -1,7 +1,7 @@
 import { IActivity, ActivityArray, activityArrayValidator, activityValidator } from "./index";
 import { Either, Right } from "fp-ts/lib/Either";
 import { Errors, Validation } from "io-ts";
-import { reporter } from "io-ts-reporters";
+import ioReporter from "io-ts-reporters";
 
 const validActivity: IActivity = {
     startTime: JSON.stringify(new Date()),
@@ -18,16 +18,11 @@ const invalidActivity = {
 };
 
 function throwIfInvalid<T>(ioResult: Validation<T>) {
-    return ioResult.fold<Either<Error, T>>(
-        (errors: Errors) => {
-            const messages = reporter(ioResult);
-            const error = messages.join("\n");
-            throw new Error(error);
-        },
-        (value: T) => {
-            return new Right<Error, T>(value);
-        }
-    );
+    const errors = ioReporter.report(ioResult);
+    if (errors.length > 0) {
+        const error = errors.join("\n");
+        throw new Error(error);
+    }
 }
 
 test("should be able to validate Activity", async () => {

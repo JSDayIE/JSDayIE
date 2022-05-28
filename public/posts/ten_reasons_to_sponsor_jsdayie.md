@@ -1,4 +1,4 @@
-# 10 Reasons to sponsor JSDayIE 2019
+# 10 Reasons to sponsor JSDayIE 2023
 
 The top priority for JSDayIE is the attendee experience, with great food, drinks, talks, swag, and community. JSDayIE is a one-day single-track conference hosted in The Round Room at The Mansion House, Dawson Street, Dublin.
 
@@ -52,7 +52,7 @@ In the modern software development world, product and infrastructure decisions a
 
 Sponsoring a tech event such as JSDayIE can often be cheaper and have a higher return on investment (ROI) than a TV commercial or other above the line advertising methods. This is because tech events have a very specific target market. General advertising is usually less specific and therefore less likely to have a high concentration of your target audience.
 
-## Would you like to sponsor JSdayIE 2019?
+## Would you like to sponsor JSdayIE 2023?
 
 Organizations are invited to help our event through sponsorship. Choose from our sponsor levels or propose your own. JSDayIE is open to creative sponsorship suggestions that retain our mission of providing the best possible experience for our attendees. Choice of sponsorship packages are on a first-come, first served basis, so sponsor early to get your choice and maximum marketing exposure throughout the year!
 

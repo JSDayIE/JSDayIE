@@ -7,6 +7,7 @@ interface RouteConf {
 
 export const RESOURCES = {
   blogEntries: "/data/blog_entries.json",
+  blogEntry: (id: string) => `/posts/${id}.md`,
   gallery: "/data/gallery/2019.json",
   trendingTopics: "/data/trending_topics.json",
   schedule: "/data/schedule.json",
@@ -44,7 +45,7 @@ export const PATHS = {
 };
 
 export const routes: RouteConf[] = [
-  { isIndex: true, title: "JSDayIE 2019", path: PATHS.home },
+  { isIndex: true, title: "JSDayIE 2023", path: PATHS.home },
   { displayInNavBar: false, title: "CFP", path: PATHS.cfp },
   {
     displayInNavBar: true,

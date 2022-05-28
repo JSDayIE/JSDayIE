@@ -1,5 +1,4 @@
-import { getGalleryData } from "@jsdayie/pages/data";
-import { GalleryPage } from "@jsdayie/pages/gallery";
+import { getGalleryData, GalleryPage } from "@jsdayie/pages";
 import { GalleryProps } from "@jsdayie/components";
 
 

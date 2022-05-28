@@ -19,3 +19,12 @@ export async function getGalleryData(): Promise<BlogEntryArray | Error> {
     return err as Error;
   }
 }
+
+export async function getBlogPostDate(id: string): Promise<string | Error> {
+  const url =  RESOURCES.blogEntry(id);
+  const response = await fetch(url);
+  const markdown = response.body;
+  return {
+      markdown: markdown
+  }
+}

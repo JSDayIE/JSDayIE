@@ -6,7 +6,7 @@ export const GalleryPage: React.FC<GalleryProps> = (props) => {
   const success = (urls: string[]) => <Gallery urls={urls} />;
   return (
     <Container>
-      <Section title="JSDayIE 2019 gallery" size={1}>
+      <Section title="JSDayIE 2023 gallery" size={1}>
       {
         (() => {
           if (props instanceof Error) {

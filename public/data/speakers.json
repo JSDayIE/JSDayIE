@@ -4,7 +4,7 @@
     "role": "CDA",
     "company": "Microsoft",
     "name": "Aysegul Yonet",
-    "pic": "/media/speakers_2019/aysegul_yonet.jpg",
+    "pic": "/media/speakers_2023/aysegul_yonet.jpg",
     "bio": "Aysegul is a Senior Azure Cloud Developer Advocate at Microsoft. Aysegul, focuses on Spatial Computing, Mixed Reality, AI, Angular and Data Visualization. She is a Google Developer Expert for Web Technologies & Angular and an active conference speaker. She previously worked as Senior Software Engineer at Nrwl.io, Autodesk Play, a 3D and VR authoring tool and A360 Viewer and A360 Drive. She enjoys teaching at a variety of non-profit organizations aiming to increase diversity in the software industry. She is the co-founder of code4good, an organization with the goal of helping people to contribute to open source. Previously she led Women Who Code meetups, Girl Develop It workshops and was a CTO at AnnieCannons, a bootcamp dedicated to teach tech skills to human trafficking survivors.",
     "links": {
       "twitter": "https://twitter.com/AysSomething",
@@ -22,7 +22,7 @@
     "role": "Lead UI Dev",
     "company": "Rapid7",
     "name": "Christopher Laughlin",
-    "pic": "/media/speakers_2019/christopher_laughlin.jpeg",
+    "pic": "/media/speakers_2023/christopher_laughlin.jpeg",
     "bio": "All round JavaScript developer who loves working on the latest and greatest web tech. Always looking for the next best tool to make the Job easy.",
     "links": {
       "web": "https://www.thedyslexicdeveloper.com/",
@@ -40,7 +40,7 @@
     "role": "Senior Software Engineer",
     "company": "HMH",
     "name": "Cristina Bernardis",
-    "pic": "/media/speakers_2019/cristina_bernardis.jpg",
+    "pic": "/media/speakers_2023/cristina_bernardis.jpg",
     "bio": "Senior Software Engineer, crochet compiler and JavaScript hula hooper.",
     "links": {
       "medium": "https://medium.com/@crisbern",
@@ -56,7 +56,7 @@
     "role": "Senior Engineer",
     "company": "Intercom ",
     "name": "Gavin Joyce",
-    "pic": "/media/speakers_2019/gavin_joyce.jpg",
+    "pic": "/media/speakers_2023/gavin_joyce.jpg",
     "bio": "I help build amazing products at Intercom with a delightful mix of Ember.js and Ruby. Dabble with music, animation and video production.",
     "links": {
       "twitter": "https://twitter.com/gavinjoyce",
@@ -73,7 +73,7 @@
     "role": "Software Engineer",
     "company": "Accenture",
     "name": "Paul Sweeney",
-    "pic": "/media/speakers_2019/paul_sweeney.jpg",
+    "pic": "/media/speakers_2023/paul_sweeney.jpg",
     "bio": "Paul is a Software Engineer at Accenture The Dock in Dublin, a multidisciplinary research and incubation hub, developing UIs for many innovative projects. Prior to Accenture, Paul worked as a Senior Software Engineer at Ericsson, leading development for the company's UI framework, used in many Ericsson products. Paul was also the lead web developer for the 2018 Fjord Trends, which recently won an IDI Award for Digital Design.",
     "links": {
       "medium": "https://medium.com/@PepsRyuu",
@@ -90,7 +90,7 @@
     "role": "Senior CDA",
     "company": "Microsoft",
     "name": "Chris Noring",
-    "pic": "/media/speakers_2019/chris_noring.jpg",
+    "pic": "/media/speakers_2023/chris_noring.jpg",
     "bio": "Christoffer Noring Christoffer is a Google Developer Expert, Meetup organizer for 5 meetup groups with over 2000 members in Scandinavia and London and a Fullstack developer with 10 years experience.",
     "links": {
       "twitter": "https://twitter.com/chris_noring",
@@ -107,7 +107,7 @@
     "role": "Tech Lead",
     "company": "Oliver Wyman Labs",
     "name": "Daniel Jimenez",
-    "pic": "/media/speakers_2019/daniel_jimenez.jpg",
+    "pic": "/media/speakers_2023/daniel_jimenez.jpg",
     "bio": "Daniel Jimenez Garcia is a software engineer based in Dublin. His career spans more than 12 years across a varied number of technologies and industries, currently working as a technical lead for Oliver Wyman Labs. Constantly looking to improve himself and help others to learn and improve, he contributes to the DotNetCurry magazine, where he has published 21 articles over the last 3 years, focused on .Net Core and Vue.js. He has also contributed to open source libraries like mockgo and node-apn, published npm packages like sinon-mongo and can be found answering questions in Stack Overflow.",
     "links": {
       "twitter": "https://twitter.com/Dani_djg",
@@ -126,7 +126,7 @@
     "role": "Senior CDA",
     "company": "Microsoft",
     "name": "Wassim Chegham",
-    "pic": "/media/speakers_2019/wassim_chegham.jpg",
+    "pic": "/media/speakers_2023/wassim_chegham.jpg",
     "bio": "Wassim is Senior Cloud Advocate at Microsoft and a member of the Angular core team. He is the author of many open source projects such as xlayers.dev and ngx.tools. He is a GDE for the Angular team, the Google Assistant and the GCP teams at Google. He is also a member of the Node.js Foundation, a former member of the Angular Universal core team and part of the current Angular Console core team. He likes music composition and painting.",
     "links": {
       "twitter": "https://twitter.com/manekinekko",
@@ -142,7 +142,7 @@
     "role": "DevOps Consultant",
     "company": "NearForm",
     "name": "David Gonzalez",
-    "pic": "/media/speakers_2019/david_gonzalez.jpg",
+    "pic": "/media/speakers_2023/david_gonzalez.jpg",
     "bio": "Author of three books on Javascript. Microservices and DevOps, David Gonzalez is a DevOps Consultant with NearForm. David also lectures in CCT College, Dublin on Cloud and Distributed Systems. He is on a mission to transform companies’ IT processes and culture to allow technology to become an enabler instead of a burden.",
     "links": {
       "twitter": "https://twitter.com/dagonzago",
@@ -158,7 +158,7 @@
     "role": "Tech Lead",
     "company": "O'Reilly Media",
     "name": "Kathleen McMahon",
-    "pic": "/media/speakers_2019/kathleen_mcmahon.jpg",
+    "pic": "/media/speakers_2023/kathleen_mcmahon.jpg",
     "bio": "Kathleen works at O’Reilly Media as a Senior Frontend Engineer and Design System Tech Lead. Her deep industry experience as both a designer and developer fuels her passion for making apps beautifully accessible. In her spare time, she is the Creative Director for the CXsisters network, and the best lanterne rouge cyclocrosser you’ll ever meet. ",
     "links": {
       "twitter": "https://twitter.com/resource11",
@@ -175,7 +175,7 @@
     "role": "Tech Evangelist",
     "company": "AlwaysData",
     "name": "M4dz",
-    "pic": "/media/speakers_2019/matthias_dugue.jpg",
+    "pic": "/media/speakers_2023/matthias_dugue.jpg",
     "bio": "M4dz is a strange animal. Through many lives, he always tried to teach to others what he learnt himself. Previously a web developer (nobody's perfect), concerned about privacy, a respect of private data, and cyber security. He's now Tech Evangelist at alwaysdata. He tries to inform about present and future of digital issues. His favorite book always remains 'Alice in Wonderland'.",
     "links": {
       "web": "https://m4dz.net/",
@@ -192,7 +192,7 @@
     "role": "Senior FE Dev",
     "company": "City of Amsterdam",
     "name": "Roy Derks",
-    "pic": "/media/speakers_2019/roy_derks.jpg",
+    "pic": "/media/speakers_2023/roy_derks.jpg",
     "bio": "Roy Derks is a serial startup CTO and conference speaker from Amsterdam. He also teaches React and GraphQL at reactjs.academy, and works on open-source JavaScript projects for the City of Amsterdam.",
     "links": {
       "medium": "https://medium.com/hackteam",
@@ -209,7 +209,7 @@
     "role": "Dataviz/AI Dev",
     "company": "Data4Change",
     "name": "Zdenek Hynek",
-    "pic": "/media/speakers_2019/zdenek_hynek.jpg",
+    "pic": "/media/speakers_2023/zdenek_hynek.jpg",
     "bio": "Zdenek is a full-stack developer based in London. After careers in digital advertising and data visualisation, he decided to start putting AI and data science to his bio. To see if he can get away with it. He runs the Visualising Data London meet up and occasionally speaks about how hilarious data and software engineering can be. Occasionally some people believe him. He currently works at Data4Change, trying to figure out how to use data and technology to promote digital rights across the world. Zdenek holds a masters degree in Cartography, yet will struggle to fold a paper map properly.",
     "links": {
       "web": "https://zdenek.xyz",
