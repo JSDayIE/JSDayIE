@@ -8,9 +8,10 @@ export interface BlogPostsProps {
 }
 
 export const Blog: React.FC<BlogPostsProps> = (props) => {
+  const { data } = props;
   return (
     <Container>
-      <BlogPosts data={props.data} />
+      <BlogPosts data={data} />
     </Container>
   );
 };

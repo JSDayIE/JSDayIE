@@ -1,10 +1,9 @@
-import type { NextPage } from 'next';
+import React from "react";
+import type { NextPage } from "next";
 import { CoCDetails } from "@jsdayie/pages";
 
 const CodeOfConduct: NextPage = () => {
-  return (
-    <CoCDetails/>
-  )
-}
+  return <CoCDetails />;
+};
 
 export default CodeOfConduct;

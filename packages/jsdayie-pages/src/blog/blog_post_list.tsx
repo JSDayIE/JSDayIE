@@ -8,8 +8,9 @@ interface BlogPostsProps {
   data: BlogEntryArray;
 }
 
-export function BlogPosts(props: BlogPostsProps) {
-  const sortedEntries = props.data
+export const BlogPosts: React.FC<BlogPostsProps> = (props) => {
+  const { data, limit } = props;
+  const sortedEntries = data
     .filter((p) => p.visible === true)
     .sort(
       (a, b) =>
@@ -17,19 +18,19 @@ export function BlogPosts(props: BlogPostsProps) {
         new Date(Date.parse(a.date)).getTime()
     );
   const entries =
-    props.limit !== undefined && sortedEntries.length > props.limit
-      ? sortedEntries.slice(0, props.limit)
+    limit !== undefined && sortedEntries.length > limit
+      ? sortedEntries.slice(0, limit)
       : sortedEntries;
   return (
     <Section title="Blog" size={1}>
       <p>Here you will find the latest news about JSDayIE</p>
       <div className="row">
-        {entries.map((blogEntry, blogEntryIndex) => (
-          <div key={blogEntryIndex} className="col-md-6">
+        {entries.map((blogEntry) => (
+          <div key={blogEntry.id} className="col-md-6">
             <BlogEntryPreview details={blogEntry} />
           </div>
         ))}
       </div>
     </Section>
   );
-}
+};

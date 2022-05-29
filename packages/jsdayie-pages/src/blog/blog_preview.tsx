@@ -5,9 +5,10 @@ import { BlogPosts } from "./blog_post_list";
 import { BlogPostsProps } from "./blog";
 
 export const BlogPreview: React.FC<BlogPostsProps> = (props) => {
+  const { data } = props;
   return (
     <Container>
-      <BlogPosts limit={2} data={props.data} />
+      <BlogPosts limit={2} data={data} />
       <div className="center">
         <ButtonLink to={PATHS.blog}>Visit our blog</ButtonLink>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import {
   Card,
   CardHeader,
@@ -13,24 +14,25 @@ interface BlogEntryPreviewProps {
   details: IBlogEntry;
 }
 
-export function BlogEntryPreview(props: BlogEntryPreviewProps) {
+export const BlogEntryPreview: React.FC<BlogEntryPreviewProps> = (props) => {
+  const { details } = props;
   return (
     <Card>
       <CardHeader>
-        <h3 className="blog_entry_preview_title">{props.details.title}</h3>
-        <span>{new Date(Date.parse(props.details.date)).toDateString()}</span>
+        <h3 className="blog_entry_preview_title">{details.title}</h3>
+        <span>{new Date(Date.parse(details.date)).toDateString()}</span>
       </CardHeader>
       <CardBody>
-        <img src={props.details.thumbnail} />
+        <Image alt={details.id} src={details.thumbnail} />
         <br />
         <br />
-        <p>{props.details.summary}</p>
+        <p>{details.summary}</p>
       </CardBody>
       <CardFooter>
-        <ButtonLink to={PATHS.blogEntry.replace(":id", props.details.id)}>
+        <ButtonLink to={PATHS.blogEntry.replace(":id", details.id)}>
           Read more
         </ButtonLink>
       </CardFooter>
     </Card>
   );
-}
+};

@@ -8,6 +8,7 @@ import {
   CardHeader,
   Modal,
 } from "@jsdayie/components";
+import Image from "next/image";
 import {
   GithubIcon,
   LinkedinIcon,
@@ -42,7 +43,7 @@ export const Speaker: React.FC<SpeakerProps> = (props) => {
             onKeyDown={() => toggleHandler()}
             tabIndex={0}
           >
-            <img alt={details.name} src={details.pic} />
+            <Image alt={details.name} src={details.pic} />
             <p>{details.talk.title}</p>
           </div>
         </CardBody>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Section, Container, Button } from "@jsdayie/components";
+import Image from "next/image";
 import { VenueMedia } from "./venue_media";
 
 export const Venue: React.FC = () => {
@@ -96,7 +97,10 @@ export const Venue: React.FC = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img alt="failte ireland logo" src="/media/failte_ireland.png" />
+              <Image
+                alt="failte ireland logo"
+                src="/media/failte_ireland.png"
+              />
             </a>
           </div>
           <div className="col-md-6">
@@ -105,7 +109,7 @@ export const Venue: React.FC = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img
+              <Image
                 alt="meet in ireland logo"
                 src="/media/meet_in_ireland.png"
               />

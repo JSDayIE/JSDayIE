@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 
 export interface GalleryProps {
   urls: string[];
@@ -40,7 +41,7 @@ export const Gallery: React.FC<GalleryProps> = (props) => {
               </button>
             </td>
             <td className="galleryImg">
-              <img src={url} alt="JSDayIE event" />
+              <Image src={url} alt="JSDayIE event" />
             </td>
             <td className="galleryRight">
               <button

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export interface VenueMediaItemProps {
   url: string;
@@ -17,5 +18,5 @@ export function VenueMediaItem(props: VenueMediaItemProps) {
       />
     );
   }
-  return <img alt="the venue" className="venueMediaItem" src={url} />;
+  return <Image alt="the venue" className="venueMediaItem" src={url} />;
 }

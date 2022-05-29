@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function VideoBg() {
   if (window.innerWidth > 576) {
@@ -26,7 +27,7 @@ export const Hero: React.FC = () => {
             <tbody>
               <tr>
                 <td className="hero_logo">
-                  <img
+                  <Image
                     alt="logo"
                     src="/media/jslogo.png"
                     className="hero_img"

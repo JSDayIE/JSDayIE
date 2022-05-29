@@ -6,6 +6,7 @@ import {
   CardFooter,
   ButtonLink,
 } from "@jsdayie/components";
+import Image from "next/image";
 
 interface InfoItemProps {
   title: string;
@@ -22,7 +23,7 @@ export function InfoItem(props: InfoItemProps) {
         <h3 className="blog_entry_preview_title">{title}</h3>
       </CardHeader>
       <CardBody>
-        <img alt={title} className="infoIcon" src={thumbnail} />
+        <Image alt={title} className="infoIcon" src={thumbnail} />
         <br />
         <br />
         <p>{summary}</p>
