@@ -1,10 +1,11 @@
 import React from "react";
-import { MarkDown } from "@jsdayie/components"; 
+import { MarkDown } from "@jsdayie/components";
 
-interface InfoEntry {
-    markdown: string;
+interface InfoEntryProps {
+  markdown: string;
 }
 
-export const InfoEntry: React.FC<InfoEntry> = props => {
-    return <MarkDown markdown={props.markdown} />;
-}
+export const InfoEntry: React.FC<InfoEntryProps> = (props) => {
+  const { markdown } = props;
+  return <MarkDown markdown={markdown} />;
+};

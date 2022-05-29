@@ -5,19 +5,20 @@ interface HashMapProps {
   items: HashTagArray;
 }
 
-export const HashMap: React.FC<HashMapProps> = props => {
+export const HashMap: React.FC<HashMapProps> = (props) => {
+  const { items } = props;
   return (
     <div className="cloud">
-      {props.items.map((hashtag, index) => {
+      {items.map((hashtag) => {
         const className = hashtag.isPrimary
           ? "primaryHahstag"
           : "secondaryHahstag";
         return (
-          <div key={index} className={`hashtag ${className}`}>
+          <div key={hashtag.hashtag} className={`hashtag ${className}`}>
             {hashtag.hashtag}
           </div>
         );
       })}
     </div>
   );
-}
+};

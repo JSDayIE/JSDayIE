@@ -2,54 +2,66 @@ import React from "react";
 
 type Row = (JSX.Element | string)[];
 
+interface TableHeaderProps {
+  headers: string[];
+}
+
+const TableHeader: React.FC<TableHeaderProps> = (props) => {
+  const { headers } = props;
+  return (
+    <thead>
+      <tr className="table_thead_tr">
+        {headers.map((h) => (
+          <th className="table_thead_th" key={`table_header_${h}`}>
+            {h}
+          </th>
+        ))}
+      </tr>
+    </thead>
+  );
+};
+
+interface TableBodyProps {
+  rows: Row[];
+  rowClass?: (row: Row) => string;
+}
+
+const TableBody: React.FC<TableBodyProps> = (props) => {
+  const { rowClass, rows } = props;
+  return (
+    <tbody>
+      {rows.map((r) => {
+        return (
+          <tr
+            key={`table_row_${r}`}
+            className={`table_tbody_tr ${rowClass ? rowClass(r) : ""}`}
+          >
+            {r.map((c) => (
+              <th className="table_tbody_td" key={`table_row_cell_${c}`}>
+                {c}
+              </th>
+            ))}
+          </tr>
+        );
+      })}
+    </tbody>
+  );
+};
+
 interface TableProps {
   headers: string[];
   rows: Row[];
   rowClass?: (row: Row) => string;
 }
 
-export class Table extends React.Component<TableProps> {
-  public render() {
-    return (
-      <div className="table-responsive">
-        <table className="table_table">
-          {this._renderHeader(this.props.headers)}
-          {this._renderBody(this.props.rows)}
-        </table>
-      </div>
-    );
-  }
-  private _renderHeader(headers: string[]) {
-    return (
-      <thead>
-        <tr className="table_thead_tr">
-          {headers.map((h, i) => (
-            <th className="table_thead_th" key={i}>
-              {h}
-            </th>
-          ))}
-        </tr>
-      </thead>
-    );
-  }
-  private _renderBody(rows: (JSX.Element | string)[][]) {
-    const rowClass = this.props.rowClass
-      ? this.props.rowClass
-      : (row: Row) => "";
-    return (
-      <tbody>
-        {rows.map((r, i) => {
-          return (
-            <tr key={i} className={`table_tbody_tr ${rowClass(r)}`}>
-              {r.map((c, i) => (
-                <th className="table_tbody_td" key={i}>
-                  {c}
-                </th>
-              ))}
-            </tr>
-          );
-        })}
-      </tbody>
-    );
-  }
-}
+export const Table: React.FC<TableProps> = (props) => {
+  const { headers, rows, rowClass } = props;
+  return (
+    <div className="table-responsive">
+      <table className="table_table">
+        <TableHeader headers={headers} />
+        <TableBody rows={rows} rowClass={rowClass} />
+      </table>
+    </div>
+  );
+};

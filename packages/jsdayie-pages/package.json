@@ -16,8 +16,8 @@
     ]
   },
   "scripts": {
-    "lint": "eslint 'src/**/*.ts'",
-    "lint:fix": "eslint --fix 'src/**/*.ts'",
+    "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "lint:fix": "eslint --fix 'src/**/*.{ts,tsx}'",
     "build": "tsc",
     "test": "jest --config ./jest.config.ts --collectCoverage --coverageDirectory=\\\"./coverage\\\" --ci",
     "test:local": "jest --config ./jest.config.ts --watch"
@@ -27,11 +27,14 @@
     "@jsdayie/config": "1.0.0",
     "@jsdayie/domain": "1.0.0",
     "@jsdayie/utils": "^1.0.0",
+    "react": "18.1.0",
     "fp-ts": "2.12.1",
     "io-ts": "2.2.16",
-    "io-ts-reporters": "2.0.1"
+    "io-ts-reporters": "2.0.1",
+    "isomorphic-fetch": "^3.0.0"
   },
   "devDependencies": {
+    "@types/isomorphic-fetch": "^0.0.36",
     "@types/jest": "27.5.1",
     "@typescript-eslint/eslint-plugin": "5.26.0",
     "@typescript-eslint/parser": "5.26.0",

@@ -6,9 +6,10 @@ interface SponsorProps {
 }
 
 export function Sponsor(props: SponsorProps) {
+  const { details } = props;
   return (
-      <a title={props.details.name} href={props.details.web}>
-        <img src={props.details.logo} />
-      </a>
+    <a title={details.name} href={details.web}>
+      <img alt={`${details.name} logo`} src={details.logo} />
+    </a>
   );
 }

@@ -30,21 +30,21 @@ export class SpeakerCard extends React.Component<SpeakerCardProps> {
       }
     }, 2000);
   }
+
   render() {
-    const queryString = window.location.search
-                .replace("?", "")
-                .split("=");
-    const index = parseInt(queryString[1]);
-    const s = this.props.data[index];
+    const { data } = this.props;
+    const queryString = window.location.search.replace("?", "").split("=");
+    const index = parseInt(queryString[1], 10);
+    const s = data[index];
     return (
       <Container>
         <Section title="JSDayIE 2023 is proud to present" size={1}>
-        <div className="row">
-          <div className="col-md-4">&nbsp;</div>
-          <div className="col-md-4">
-            <Speaker details={s} isPreview={true} />
+          <div className="row">
+            <div className="col-md-4">&nbsp;</div>
+            <div className="col-md-4">
+              <Speaker details={s} isPreview />
+            </div>
           </div>
-        </div>
         </Section>
       </Container>
     );

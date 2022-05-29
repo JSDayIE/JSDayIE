@@ -1,85 +1,74 @@
-import React from "react";
+import React, { useState } from "react";
 import { ISpeaker } from "@jsdayie/domain";
+import "./speaker.css";
 import {
   Card,
   CardBody,
-  CardHeader,
   CardFooter,
-  Modal
+  CardHeader,
+  Modal,
 } from "@jsdayie/components";
 import {
   GithubIcon,
   LinkedinIcon,
-  WebIcon,
-  TwitterIcon,
   MediumIcon,
+  TwitterIcon,
+  WebIcon,
 } from "./social_icons";
-import "./speaker.css";
 
 interface SpeakerProps {
   details: ISpeaker;
   isPreview?: boolean;
 }
 
-interface SpeakerState {
-  isOpen: boolean;
-}
-
-export class Speaker extends React.Component<SpeakerProps, SpeakerState> {
-  public constructor(props: SpeakerProps) {
-    super(props);
-    this.state = {
-      isOpen: false
-    };
-  }
-  public render() {
-    return (
-      <div className="speaker">
-        <Card>
-          <CardHeader>
-            <h3 className="blog_entry_preview_title">
-              {this.props.details.name}
-            </h3>
-            <span>
-              {this.props.details.role} @ {this.props.details.company}
-            </span>
-          </CardHeader>
-          <CardBody>
-            <div
-              style={{ cursor: "pointer" }}
-              onClick={() => this._toggleHandler()}
-            >
-              <img src={this.props.details.pic} />
-              <p>{this.props.details.talk.title}</p>
+export const Speaker: React.FC<SpeakerProps> = (props) => {
+  const { details, isPreview } = props;
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleHandler = () => setIsOpen(!isOpen);
+  return (
+    <div className="speaker">
+      <Card>
+        <CardHeader>
+          <h3 className="blog_entry_preview_title">{details.name}</h3>
+          <span>
+            {details.role} @ {details.company}
+          </span>
+        </CardHeader>
+        <CardBody>
+          <div
+            role="button"
+            style={{ cursor: "pointer" }}
+            onClick={() => toggleHandler()}
+            onKeyDown={() => toggleHandler()}
+            tabIndex={0}
+          >
+            <img alt={details.name} src={details.pic} />
+            <p>{details.talk.title}</p>
+          </div>
+        </CardBody>
+        {isPreview === true ? null : (
+          <CardFooter>
+            <div className="iconroup">
+              <WebIcon links={details.links} />
+              <TwitterIcon links={details.links} />
+              <GithubIcon links={details.links} />
+              <MediumIcon links={details.links} />
+              <LinkedinIcon links={details.links} />
             </div>
-          </CardBody>
-          {this.props.isPreview === true ? null : (
-            <CardFooter>
-              <div className="iconroup">
-                <WebIcon links={this.props.details.links} />
-                <TwitterIcon links={this.props.details.links} />
-                <GithubIcon links={this.props.details.links} />
-                <MediumIcon links={this.props.details.links} />
-                <LinkedinIcon links={this.props.details.links} />
-              </div>
-            </CardFooter>
-          )}
-        </Card>
-        <Modal
-          title={this.props.details.talk.title!}
-          isOpen={this.state.isOpen}
-          toggleHandler={() => this._toggleHandler()}
-        >
-          <h5 className="section_h2">Abstract</h5>
-          <p>{this.props.details.talk.abstract}</p>
-          <br />
-          <h5 className="section_h2">Bio</h5>
-          <p>{this.props.details.bio}</p>
-        </Modal>
-      </div>
-    );
-  }
-  public _toggleHandler() {
-    this.setState({ isOpen: !this.state.isOpen });
-  }
-}
+          </CardFooter>
+        )}
+      </Card>
+      <Modal
+        title={details.talk.title ? details.talk.title : ""}
+        isOpen={isOpen}
+        toggleHandler={() => toggleHandler()}
+      >
+        <h5 className="section_h2">Abstract</h5>
+        <p>{details.talk.abstract}</p>
+        <br />
+        <h5 className="section_h2">Bio</h5>
+        <p>{details.bio}</p>
+      </Modal>
+    </div>
+  );
+};

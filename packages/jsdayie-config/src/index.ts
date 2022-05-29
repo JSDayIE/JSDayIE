@@ -14,7 +14,7 @@ export const RESOURCES = {
   speakers: "/data/speakers.json",
   sponsors: "/data/sponsors.json",
   sponsorship: "/data/sponsorship.json",
-  tickets: "/data/tickets.json"
+  tickets: "/data/tickets.json",
 };
 
 export const INFO_PAGES = {
@@ -24,7 +24,7 @@ export const INFO_PAGES = {
   whyAttend: "/info/why_attend.md",
   whyEmployee: "/info/why_employee.md",
   tenReasonsToSponsor: "/info/ten_reasons_to_sponsor.md",
-  travel: "/info/travel.md"
+  travel: "/info/travel.md",
 };
 
 export const PATHS = {

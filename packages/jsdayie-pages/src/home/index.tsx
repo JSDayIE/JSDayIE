@@ -1,5 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 import { Hero } from "@jsdayie/components";
+import {
+  ActivityArray,
+  ISponsors,
+  SpeakerArray,
+  SponsorsingPackageArray,
+  TicketArray,
+} from "@jsdayie/domain";
 import { Tickets } from "../tickets";
 import { Sponsors } from "../sponsors";
 import { Venue } from "../venue";
@@ -11,7 +18,6 @@ import { BlogPreview } from "../blog/blog_preview";
 import { Info } from "../info";
 import { Speakers } from "../speakers";
 import { BlogPostsProps } from "../blog/blog";
-import { ActivityArray, ISponsors, SpeakerArray, SponsorsingPackageArray, TicketArray } from "@jsdayie/domain";
 
 export interface HomeProps {
   blog: BlogPostsProps;
@@ -22,20 +28,31 @@ export interface HomeProps {
   sponsorData: ISponsors;
 }
 
-export const Home: React.FC<HomeProps> = props => {
-    return (
-      <React.Fragment>
-        <Hero/>
-        <Welcome/>
-        <Speakers data={props.speakers}/>
-        <Schedule data={props.activity}/>
-        <Venue/>
-        <Tickets data={props.tickets}/>
-        <Info/>
-        <Sponsors sponsorsingPackagesData={props.sponsorsingPackagesData} sponsorData={props.sponsorData} />
-        <CoC/>
-        <BlogPreview data={props.blog.data}/>
-        <Newsletter/>
-      </React.Fragment>
-    );
-}
+export const Home: React.FC<HomeProps> = (props) => {
+  const {
+    speakers,
+    tickets,
+    activity,
+    blog,
+    sponsorData,
+    sponsorsingPackagesData,
+  } = props;
+  return (
+    <>
+      <Hero />
+      <Welcome />
+      <Speakers data={speakers} />
+      <Schedule data={activity} />
+      <Venue />
+      <Tickets data={tickets} />
+      <Info />
+      <Sponsors
+        sponsorsingPackagesData={sponsorsingPackagesData}
+        sponsorData={sponsorData}
+      />
+      <CoC />
+      <BlogPreview data={blog.data} />
+      <Newsletter />
+    </>
+  );
+};

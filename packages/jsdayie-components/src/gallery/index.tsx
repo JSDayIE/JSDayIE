@@ -1,69 +1,66 @@
-import React from "react";
+import React, { useState } from "react";
 
 export interface GalleryProps {
   urls: string[];
 }
 
-interface GalleryState {
-  currentIndex: number;
-}
+export const Gallery: React.FC<GalleryProps> = (props) => {
+  const { urls } = props;
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
+  const url = urls[currentIndex];
 
-export class Gallery extends React.Component<GalleryProps, GalleryState> {
-  public constructor(props: GalleryProps) {
-    super(props);
-    this.state = {
-      currentIndex: 0
-    };
-  }
-  private _previous() {
+  const previous = () => {
     const firstIndex = 0;
-    const lastIndex = this.props.urls.length - 1;
-    const currentIndex = this.state.currentIndex;
+    const lastIndex = urls.length - 1;
     const nextIndex =
       currentIndex === firstIndex ? lastIndex : currentIndex - 1;
-    this.setState({
-      currentIndex: nextIndex
-    });
-  }
-  private _next() {
+    setCurrentIndex(nextIndex);
+  };
+
+  const next = () => {
     const firstIndex = 0;
-    const lastIndex = this.props.urls.length - 1;
-    const currentIndex = this.state.currentIndex;
+    const lastIndex = urls.length - 1;
     const nextIndex =
       currentIndex === lastIndex ? firstIndex : currentIndex + 1;
-    this.setState({
-      currentIndex: nextIndex
-    });
-  }
-  public render() {
-    const url = this.props.urls[this.state.currentIndex];
-    return (
-      <div>
-        <table className="gallery">
-          <tbody>
-            <tr>
-              <td className="galleryLeft">
-                <div className="clickcable" onClick={() => this._previous()}>
-                  ◀
-                </div>
-              </td>
-              <td className="galleryImg">
-                <img src={url} />
-              </td>
-              <td className="galleryRight" onClick={() => this._next()}>
-                <div className="clickcable">▶</div>
-              </td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td colSpan={3} className="galleryFooter">
-                {this.state.currentIndex + 1} / {this.props.urls.length}
-              </td>
-            </tr>
-          </tfoot>
-        </table>
-      </div>
-    );
-  }
-}
+    setCurrentIndex(nextIndex);
+  };
+
+  return (
+    <div>
+      <table className="gallery">
+        <tbody>
+          <tr>
+            <td className="galleryLeft">
+              <button
+                type="button"
+                className="clickcable"
+                onClick={() => previous()}
+              >
+                ◀
+              </button>
+            </td>
+            <td className="galleryImg">
+              <img src={url} alt="JSDayIE event" />
+            </td>
+            <td className="galleryRight">
+              <button
+                type="button"
+                className="clickcable"
+                onClick={() => next()}
+              >
+                ▶
+              </button>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colSpan={3} className="galleryFooter">
+              {currentIndex + 1} / {urls.length}
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  );
+};

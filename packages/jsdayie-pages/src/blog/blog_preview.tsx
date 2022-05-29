@@ -4,7 +4,7 @@ import { PATHS } from "@jsdayie/config";
 import { BlogPosts } from "./blog_post_list";
 import { BlogPostsProps } from "./blog";
 
-export const BlogPreview: React.FC<BlogPostsProps> = props => {
+export const BlogPreview: React.FC<BlogPostsProps> = (props) => {
   return (
     <Container>
       <BlogPosts limit={2} data={props.data} />
@@ -13,4 +13,4 @@ export const BlogPreview: React.FC<BlogPostsProps> = props => {
       </div>
     </Container>
   );
-}
+};

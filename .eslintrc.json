@@ -14,7 +14,17 @@
     "import/extensions": "off",
     "import/no-unresolved": "off",
     "@typescript-eslint/no-explicit-any": "off",
+    "react/require-default-props": "off",
     "no-shadow": "off",
-    "@typescript-eslint/no-shadow": ["error"]
+    "react/function-component-definition": "off",
+    "react/jsx-filename-extension": "off",
+    "import/prefer-default-export": "off",
+    "react/no-danger": "off",
+    "@typescript-eslint/no-shadow": ["error"],
+    "jsx-a11y/anchor-is-valid": [ "error", {
+      "components": [ "Link" ],
+      "specialLink": [ "hrefLeft", "hrefRight" ],
+      "aspects": [ "invalidHref", "preferButton" ]
+    }]
   }
 }

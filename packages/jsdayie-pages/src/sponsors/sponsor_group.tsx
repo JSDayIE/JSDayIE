@@ -10,21 +10,23 @@ interface SponsorGroupProps {
 
 export function SponsorGroup({ group, sponsors, label }: SponsorGroupProps) {
   const sponsorsInGroup = sponsors[group];
-  const visibleSponsorsInGroup = sponsorsInGroup.filter((sponsor) => sponsor.hide === false);
+  const visibleSponsorsInGroup = sponsorsInGroup.filter(
+    (sponsor) => sponsor.hide === false
+  );
   return (
-    <React.Fragment>
-      {visibleSponsorsInGroup.length > 0 ? <h1 className="sponsor_group_title">{label}</h1> : null}
+    <>
+      {visibleSponsorsInGroup.length > 0 ? (
+        <h1 className="sponsor_group_title">{label}</h1>
+      ) : null}
       <div className="row justify-content-md-center">
-        {
-          visibleSponsorsInGroup.map((s, k) => {
-            return (
-              <div key={k} className="col-md-3 sponsor_group">
-                <Sponsor details={s}></Sponsor>
-              </div>
-            );
-          })
-        } 
+        {visibleSponsorsInGroup.map((s) => {
+          return (
+            <div key={s.name} className="col-md-3 sponsor_group">
+              <Sponsor details={s} />
+            </div>
+          );
+        })}
       </div>
-    </React.Fragment>
+    </>
   );
 }

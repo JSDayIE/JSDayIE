@@ -122,3 +122,4 @@ export type IHashTag = io.TypeOf<typeof hashTagValidator>;
 export type HashTagArray = io.TypeOf<typeof hashTagArrayValidator>;
 export type TrendingTopic = io.TypeOf<typeof trendingTopicsValidator>;
 export const urlArrayValidator = io.array(io.string);
+export type GalleryUrl = io.TypeOf<typeof urlArrayValidator>;

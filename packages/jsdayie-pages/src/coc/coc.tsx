@@ -15,19 +15,19 @@ export class CoC extends React.Component {
           </p>
           <p>
             Accordingly, all attendees are expected to show respect and courtesy
-            to other attendees throughout the conference and at all conference events,
-            whether officially sponsored by JSDayIE or not.
+            to other attendees throughout the conference and at all conference
+            events, whether officially sponsored by JSDayIE or not.
           </p>
           <p>
-            To make clear what is expected, all staff, attendees, speakers, exhibitors,
-            organizers, volunteers, sponsors and providers at any JSDayIE event are
-            required to conform to our Code of Conduct
+            To make clear what is expected, all staff, attendees, speakers,
+            exhibitors, organizers, volunteers, sponsors and providers at any
+            JSDayIE event are required to conform to our Code of Conduct
           </p>
-          <p>
-            Organizers will enforce this code throughout the event.
-          </p>
+          <p>Organizers will enforce this code throughout the event.</p>
           <div className="btnGroup">
-            <ButtonLink to={PATHS.cocDetails}>Learn more about our CoC</ButtonLink>
+            <ButtonLink to={PATHS.cocDetails}>
+              Learn more about our CoC
+            </ButtonLink>
           </div>
         </Section>
       </Container>

@@ -11,4 +11,10 @@ export async function getServerSideProps() {
     }
   }
 
-export default (props => <Blog data={props.data} />) as React.FC<BlogPageProps>;
+export default (props => {
+    if (props.data instanceof Error) {
+        return  <>Error</>;
+    } else {
+        return  <Blog data={props.data} />;
+    }
+}) as React.FC<BlogPageProps>;

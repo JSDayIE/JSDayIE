@@ -6,18 +6,16 @@ export interface VenueMediaItemProps {
 }
 
 export function VenueMediaItem(props: VenueMediaItemProps) {
-  if (props.type === "video") {
+  const { url, type } = props;
+  if (type === "video") {
     return (
       <iframe
+        title="the venue"
         className="venueMediaItem"
-        src={props.url}
+        src={url}
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      >
-      </iframe>
-    );
-  } else {
-    return (
-      <img className="venueMediaItem" src={props.url} />
+      />
     );
   }
+  return <img alt="the venue" className="venueMediaItem" src={url} />;
 }

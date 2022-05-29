@@ -9,24 +9,25 @@ interface VenueMediaProps {
 }
 
 export function VenueMedia(props: VenueMediaProps) {
+  const { topLeft, topRight, bottonLeft, bottonRight } = props;
   return (
-    <React.Fragment>
+    <>
       <div className="row">
         <div className="col-md-6">
-          <VenueMediaItem type={props.topLeft.type} url={props.topLeft.url} />
+          <VenueMediaItem type={topLeft.type} url={topLeft.url} />
         </div>
         <div className="col-md-6">
-          <VenueMediaItem type={props.topRight.type} url={props.topRight.url} />
+          <VenueMediaItem type={topRight.type} url={topRight.url} />
         </div>
       </div>
       <div className="row">
         <div className="col-md-6">
-          <VenueMediaItem type={props.bottonLeft.type} url={props.bottonLeft.url} />
+          <VenueMediaItem type={bottonLeft.type} url={bottonLeft.url} />
         </div>
         <div className="col-md-6">
-          <VenueMediaItem type={props.bottonRight.type} url={props.bottonRight.url} />
+          <VenueMediaItem type={bottonRight.type} url={bottonRight.url} />
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 }

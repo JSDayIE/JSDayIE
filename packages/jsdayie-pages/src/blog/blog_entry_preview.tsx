@@ -1,5 +1,11 @@
 import React from "react";
-import { Card, CardHeader, CardBody, CardFooter, ButtonLink } from "@jsdayie/components";
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  ButtonLink,
+} from "@jsdayie/components";
 import { IBlogEntry } from "@jsdayie/domain";
 import { PATHS } from "@jsdayie/config";
 
@@ -15,13 +21,15 @@ export function BlogEntryPreview(props: BlogEntryPreviewProps) {
         <span>{new Date(Date.parse(props.details.date)).toDateString()}</span>
       </CardHeader>
       <CardBody>
-        <img src={props.details.thumbnail}/>
-        <br/>
-        <br/>
+        <img src={props.details.thumbnail} />
+        <br />
+        <br />
         <p>{props.details.summary}</p>
       </CardBody>
       <CardFooter>
-        <ButtonLink to={PATHS.blogEntry.replace(":id", props.details.id)}>Read more</ButtonLink>
+        <ButtonLink to={PATHS.blogEntry.replace(":id", props.details.id)}>
+          Read more
+        </ButtonLink>
       </CardFooter>
     </Card>
   );

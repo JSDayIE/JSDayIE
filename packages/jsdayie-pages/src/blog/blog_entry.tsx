@@ -5,10 +5,10 @@ interface BlogEntryProps {
   markdown: string;
 }
 
-export const BlogEntry: React.FC<BlogEntryProps> = props => {
+export const BlogEntry: React.FC<BlogEntryProps> = (props) => {
   return (
     <Container>
       <MarkDown markdown={props.markdown} />
     </Container>
   );
-}
+};
