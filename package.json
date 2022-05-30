@@ -3,26 +3,18 @@
   "version": "1.0.0",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/@jsdayie/*"
   ],
   "scripts": {
-    "dev": "next dev",
-    "build": "lerna run build && next build",
-    "start": "next start",
-    "lint": "lerna run lint && next lint",
-    "lint:fix": "lerna run lint:fix && next lint --fix"
+    "dev": "lerna run dev --stream",
+    "build": "lerna run build --stream",
+    "start": "lerna run start --stream",
+    "lint": "lerna run lint --stream",
+    "lint:fix": "lerna run lint:fix --stream",
+    "clean": "lerna run clean --stream && rm -r -f node_modules"
   },
   "dependencies": {
-    "@jsdayie/domain": "1.0.0",
-    "@jsdayie/pages": "1.0.0",
-    "@next/eslint-plugin-next": "^12.1.6",
-    "fp-ts": "2.12.1",
-    "io-ts": "2.2.16",
-    "io-ts-reporters": "2.0.1",
-    "next": "12.1.6",
-    "react": "18.1.0",
-    "react-dom": "18.1.0",
-    "showdown": "1.9.0"
+    
   },
   "devDependencies": {
     "@types/jest": "27.5.1",
@@ -41,6 +33,7 @@
     "eslint-plugin-react-hooks": "4.3.0",
     "husky": "8.0.1",
     "jest": "28.1.0",
+    "lerna": "^4.0.0",
     "lint-staged": "12.4.1",
     "prettier": "^2.6.2",
     "ts-jest": "^28.0.2",

@@ -1,8 +1,9 @@
 {
-    "packages": [
-      "packages/*"
-    ],
-    "npmClient": "yarn",
-    "useWorkspaces": true,
-    "version": "0.0.0"
-  }
+  "packages": [
+    "packages/@jsdayie/*"
+  ],
+  "npmClient": "yarn",
+  "private": true,
+  "useWorkspaces": true,
+  "version": "0.0.0"
+}

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "composite": true,
+    "outDir": "./lib",
+    "isolatedModules": false,
+    "noEmit": false,
+  },
+  "include": [
+    "./src"
+, "index.ts"  ]
+ }
