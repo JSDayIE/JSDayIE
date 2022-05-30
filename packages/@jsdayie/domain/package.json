@@ -2,8 +2,8 @@
   "name": "@jsdayie/domain",
   "version": "1.0.0",
   "private": true,
-  "main": "lib/src/index.js",
-  "typings": "lib/src/index.d.ts",
+  "main": "./lib/src/index.js",
+  "typings": "./lib/src/index.d.ts",
   "husky": {
     "hooks": {
       "pre-commit": "yarn lint-staged"

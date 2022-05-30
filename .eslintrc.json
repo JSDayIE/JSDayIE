@@ -21,6 +21,7 @@
     "react/jsx-filename-extension": "off",
     "import/prefer-default-export": "off",
     "react/no-danger": "off",
+    "no-console": 1,
     "@typescript-eslint/no-shadow": ["error"],
     "jsx-a11y/anchor-is-valid": [ "error", {
       "components": [ "Link" ],

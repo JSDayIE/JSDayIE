@@ -16,7 +16,9 @@ function getAliases(modulesArray) {
         [module]: require.resolve(next)
       }
     };
-  }, {});
+  }, {
+    resolveSymlinks: false
+  });
 }
 
 module.exports = withTM({

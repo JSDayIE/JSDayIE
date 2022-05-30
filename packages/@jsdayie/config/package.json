@@ -2,8 +2,8 @@
   "name": "@jsdayie/config",
   "version": "1.0.0",
   "private": true,
-  "main": "lib/src/index.js",
-  "typings": "lib/src/index.d.ts",
+  "main": "./lib/src/index.js",
+  "typings": "./lib/src/index.d.ts",
   "husky": {
     "hooks": {
       "pre-commit": "yarn lint-staged"
@@ -21,7 +21,7 @@
     "build": "tsc",
     "test": "jest --config ./jest.config.ts --collectCoverage --coverageDirectory=\\\"./coverage\\\" --ci",
     "test:local": "jest --config ./jest.config.ts --watch",
-    "clean": "rm -r -f node_modules"
+    "clean": "rm -r -f node_modules lib coverage"
   },
   "dependencies": {},
   "devDependencies": {
