@@ -15,7 +15,7 @@ export const Tickets: React.FC<TicketsProps> = (props) => {
         <p>Get your ticket before it is too late!</p>
         <div className="row">
           {data.map((ticket) => (
-            <div key={ticket.type} className="col-md-4">
+            <div key={ticket.type} className="col-md-3">
               <Ticket details={ticket} />
             </div>
           ))}

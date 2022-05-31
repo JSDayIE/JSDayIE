@@ -137,7 +137,7 @@ export const CfpDetails: React.FC = () => {
             We plan to record and publish all talks in{" "}
             <a
               target="_blank"
-              href="https://www.youtube.com/channel/UCUPILOYOw8pbBWuKEaqI1EQ"
+              href="https://www.youtube.com/channel/UC6CFGCJjA9GsOwZehQjfarQ"
               rel="noreferrer"
             >
               our youtube channel

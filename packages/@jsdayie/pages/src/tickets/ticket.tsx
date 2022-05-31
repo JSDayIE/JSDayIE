@@ -9,6 +9,7 @@ interface TickerProps {
 
 export const Ticket: React.FC<TickerProps> = (props) => {
   const { details } = props;
+  const { isRemote } = details;
   return (
     <Card>
       <CardHeader>
@@ -18,10 +19,26 @@ export const Ticket: React.FC<TickerProps> = (props) => {
         {details.isSoldOut ? <Ribbon title="SOLD OUT" /> : null}
         <span className="price">{details.price}</span>
         <ul>
-          <li>✓ Welcome Pack</li>
+          {
+            isRemote ? <>
+              <li>✓ Tune in from home</li>
+            </> :
+              <>
+                <li>✓ In-person attendance</li>
+                <li>✓ Welcome Pack</li>
+                <li>✓ Breakfast & Lunch</li>
+                <li>✓ Access to the after party</li>
+              </>
+          }
           <li>✓ 12 Amazing Talks</li>
-          <li>✓ Breakfast & Lunch</li>
-          <li>✓ Access to the after party</li>
+          <li>✓ Access to the JSDayIE 2023 <a title="Vi.to Hub" href="https://vi.to/">Vi.to</a> Hub</li>
+          {
+            isRemote ? <>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+            </> : null
+          }
         </ul>
       </CardBody>
       <CardFooter>

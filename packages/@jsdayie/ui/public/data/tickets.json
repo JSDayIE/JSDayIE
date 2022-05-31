@@ -1,6 +1,26 @@
 [
-  { "type": "Remote", "price": "€35*", "isSoldOut": true },
-  { "type": "Founder", "price": "€95*", "isSoldOut": true },
-  { "type": "Early Bird", "price": "€145*", "isSoldOut": true },
-  { "type": "Regular", "price": "€195*", "isSoldOut": false }
+  { 
+    "type": "Remote", 
+    "price": "€25*", 
+    "isSoldOut": false,
+    "isRemote": true
+  },
+  { 
+    "type": "Founder", 
+    "price": "€95*", 
+    "isSoldOut": true,
+    "isRemote": false
+  },
+  { 
+    "type": "Early Bird", 
+    "price": "€145*", 
+    "isSoldOut": true,
+    "isRemote": false
+  },
+  { 
+    "type": "Regular", 
+    "price": "€195*", 
+    "isSoldOut": false ,
+    "isRemote": false
+  }
 ]

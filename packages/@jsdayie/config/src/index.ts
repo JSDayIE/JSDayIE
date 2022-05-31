@@ -5,16 +5,18 @@ interface RouteConf {
   path: string;
 }
 
+export const BaseCNDUrl = "https://jsdayie.azureedge.net/data";
+
 export const RESOURCES = {
-  blogEntries: "/data/blog_entries.json",
+  blogEntries: `${BaseCNDUrl}/content/blog_entries.json`,
   blogEntry: (id: string) => `/posts/${id}.md`,
-  gallery: "/data/gallery/2019.json",
-  trendingTopics: "/data/trending_topics.json",
-  schedule: "/data/schedule.json",
-  speakers: "/data/speakers.json",
-  sponsors: "/data/sponsors.json",
-  sponsorship: "/data/sponsorship.json",
-  tickets: "/data/tickets.json",
+  gallery: `${BaseCNDUrl}/content/gallery/2019.json`,
+  trendingTopics: `${BaseCNDUrl}/content/trending_topics.json`,
+  schedule: `${BaseCNDUrl}/content/schedule.json`,
+  speakers: `${BaseCNDUrl}/content/speakers.json`,
+  sponsors: `${BaseCNDUrl}/content/sponsors.json`,
+  sponsorship: `${BaseCNDUrl}/content/sponsorship.json`,
+  tickets: `${BaseCNDUrl}/content/tickets.json`,
 };
 
 export const INFO_PAGES = {
@@ -37,8 +39,8 @@ export const PATHS = {
   cfpDetails: "/cfp_details",
   tickets: "/tickets",
   sponsors: "/sponsors",
-  coc: "/coc",
-  cocDetails: "/coc_details",
+  coc: "/code-of-conduct",
+  cocDetails: "/code-of-conduct-details",
   blog: "/blog",
   blogEntry: "/blog_entry/:id",
   newsletter: "/newsletter",

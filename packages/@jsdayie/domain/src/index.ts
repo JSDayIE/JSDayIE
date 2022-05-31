@@ -86,6 +86,7 @@ export const ticketValidator = io.type({
   type: io.string,
   price: io.string,
   isSoldOut: io.boolean,
+  isRemote: io.boolean,
 });
 
 export const ticketArrayValidator = io.array(ticketValidator);

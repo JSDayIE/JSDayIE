@@ -3,7 +3,7 @@ import { Section, Table, Button, Container } from "@jsdayie/components";
 import { ISponsors, SponsorsingPackageArray } from "@jsdayie/domain";
 import { SponsorGroup } from "./sponsor_group";
 
-interface SponsorsProps {
+export interface SponsorsProps {
   sponsorsingPackagesData: SponsorsingPackageArray;
   sponsorData: ISponsors;
 }

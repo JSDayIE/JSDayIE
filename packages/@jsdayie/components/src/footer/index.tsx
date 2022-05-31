@@ -41,7 +41,7 @@ export const Footer: React.FC<FooterProps> = (props) => {
               <div className="col-3">
                 <a
                   target="_blank"
-                  href="https://www.youtube.com/channel/UCUPILOYOw8pbBWuKEaqI1EQ"
+                  href="https://www.youtube.com/channel/UC6CFGCJjA9GsOwZehQjfarQ"
                   rel="noreferrer"
                 >
                   <i className="fab fa-youtube" />
