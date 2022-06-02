@@ -58,15 +58,15 @@ export const Navbar: React.FC<NavbarProps> = (props) => {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           {indexItems.length === 1 ? (
             <Link href={indexItems[0].href}>
-              <>
+              <a>
                 <Image
                   src="https://jsdayie.azureedge.net/data/media/jslogo.png"
                   alt="logo"
                   width="30"
                   height="30"
                 />
-                <a className="navbar-brand">{indexItems[0].title}</a>
-              </>
+                <span className="navbar-brand">{indexItems[0].title}</span>
+              </a>
             </Link>
           ) : null}
           <NavBarItems items={items} />
