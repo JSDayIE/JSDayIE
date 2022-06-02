@@ -12,6 +12,7 @@ export const Sponsors: React.FC<SponsorsProps> = (props) => {
   const { sponsorData, sponsorsingPackagesData } = props;
   return (
     <Container>
+      <div className="horizontal_break_2"/>
       <Section title="Would you like to sponsor JSdayIE 2023?" size={1}>
         <p>
           Sponsoring JSDayIE is a great way to contribute to the healthy growth
@@ -55,6 +56,7 @@ export const Sponsors: React.FC<SponsorsProps> = (props) => {
           Contact us to become a sponsor now!
         </Button>
       </Section>
+      <div className="horizontal_break_2"/>
       <Section title="A shout out to our 2019 sponsors!" size={1}>
         <p>
           JSDayIE 2019 was possible thanks the support of the following

@@ -60,7 +60,7 @@
     "id": "sponsor-spotlight-workday",
     "date": "2019-05-22T20:18:02.051Z",
     "title": "Sponsor Spotlight: Workday",
-    "summary": "Meet our Platinum sponsor: Workday. Workday is an on‑demand financial management and human capital management software vendor. In 2023, Workday was voted #1 Best Place to Work in Ireland and Best Workplace for Women in Ireland.",
+    "summary": "Meet our Platinum sponsor: Workday. Workday is an on-demand financial management and human capital management software vendor. In 2023, Workday was voted #1 Best Place to Work in Ireland and Best Workplace for Women in Ireland.",
     "thumbnail": "https://jsdayie.azureedge.net/data/media/blog/blog_post_8.png"
   },
   {
@@ -92,7 +92,7 @@
     "id": "sponsor-spotlight-strata3",
     "date": "2019-09-06T20:37:09.580Z",
     "title": "Sponsor Spotlight: Strata3",
-    "summary": "Meet our Gold sponsor: Strata3. As Ireland’s leading independent digital agency, Strata3 provides its clients with tailored solutions ranging from digital consultancy & product innovation to digital performance.",
+    "summary": "Meet our Gold sponsor: Strata3. As Ireland's leading independent digital agency, Strata3 provides its clients with tailored solutions ranging from digital consultancy & product innovation to digital performance.",
     "thumbnail": "https://jsdayie.azureedge.net/data/media/blog/blog_post_12.png"
   },
   {
@@ -118,5 +118,29 @@
     "title": "Sponsor Spotlight: Liberty IT",
     "summary": "Meet our Silver sponsor: Liberty IT. Liberty IT is a technology leader focused on delivering highly responsive, enterprise-scale solutions to support the needs of our parent company, Liberty Mutual Insurance.",
     "thumbnail": "https://jsdayie.azureedge.net/data/media/blog/blog_post_15.png"
+  },
+  {
+    "visible": true,
+    "id": "jsdayie-is-back-on-september-26th-2023",
+    "date": "2022-06-15T12:00:00.000Z",
+    "title": "JSDayIE is back in 2023!",
+    "summary": "The first JavaScript conference in Ireland is back on September 26th 2023!",
+    "thumbnail": "https://jsdayie.azureedge.net/data/media/blog/blog_post_16.png"
+  },
+  {
+    "visible": true,
+    "id": "jsdayie-2023-cfp-now-open",
+    "date": "2022-06-16T12:00:00.000Z",
+    "title": "JSDayIE 2023 CFP now open!",
+    "summary": "The JSDayIE 2023 CFP is now open! Don't miss out on this opportunity to share your story and your expertise with the rest of the JS community",
+    "thumbnail": "https://jsdayie.azureedge.net/data/media/blog/blog_post_17.png"
+  },
+  {
+    "visible": true,
+    "id": "jsdayie-2023-tickets-now-vailable",
+    "date": "2022-06-17T12:00:00.000Z",
+    "title": "JSDayIE 2023 Tickets now available!",
+    "summary": "The JSDayIE 2023 tickets are now on sale. Get your ticket or apply for a student or diversity ticket before it is too late!",
+    "thumbnail": "https://jsdayie.azureedge.net/data/media/blog/blog_post_18.png"
   }
 ]

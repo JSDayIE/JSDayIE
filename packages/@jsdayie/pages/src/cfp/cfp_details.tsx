@@ -14,11 +14,13 @@ export const CfpDetails: React.FC = () => {
           important dates that you should remember!
         </p>
         <Table
-          headers={["Date", "Event"]}
+          headers={["Event", "Date"]}
           rows={[
-            ["CFP is open for submissions", "26th September 2022"],
+            ["CFP is open for submissions", "26th June 2022"],
             ["CFP is close for submissions", "28th February 2023"],
             ["Speakers are announced", "March-April 2023"],
+            ["JSDayIE 2023's Speakers dinner 2023", "25th September 2023"],
+            ["JSDayIE 2023", "26th September 2023"],
           ]}
         />
         <p>

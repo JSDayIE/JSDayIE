@@ -12,16 +12,6 @@ export default function Document() {
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
           crossOrigin="anonymous"
         />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="crossorigin"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Josefin+Sans:wght@700&family=Poiret+One&display=swap"
-          rel="stylesheet"
-        />
         <link
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"

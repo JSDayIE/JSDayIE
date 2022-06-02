@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Josefin+Sans:wght@700&family=Poiret+One&display=swap');
+
 body {
   background-color: #1d1d1d;
   font-family: 'Poiret One', cursive;
@@ -53,6 +55,7 @@ a:hover {
   border: 1px solid #c8a157;
   margin: 1%;
   margin-top: 15%;
+  color: #c8a157;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -71,7 +74,6 @@ a:hover {
 }
 
 .footer a {
-  color: #ffffff;
   font-size: 20px;
 }
 
@@ -613,7 +615,7 @@ img {
 }
 
 .section_1 {
-  margin-top: 100px;
+  margin-top: 2%;
 }
 
 .section_2 {
@@ -678,4 +680,75 @@ img {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+  .corner_container {
+    position: relative;
+  }
+
+  .horizontal_break_6 {
+    background-image: url(https://jsdayie.azureedge.net/data/media/layout/horizontal_break_5.png);
+    width: 90%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    margin-top: 5%;
+    transform: rotate(180deg);
+  }
+
+  .horizontal_break_5 {
+    background-image: url(https://jsdayie.azureedge.net/data/media/layout/horizontal_break_5.png);
+    width: 90%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    margin-top: 5%;
+  }
+
+  .horizontal_break_2 {
+    background-image: url('https://jsdayie.azureedge.net/data/media/layout/horizontal_break_2.png');
+    width: 50%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    margin-top: 5%;
+  }
+
+  .horizontal_break_1 {
+    background-image: url('https://jsdayie.azureedge.net/data/media/layout/horizontal_break_1.png');
+    width: 30%;
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    margin-top: -8.5%;
+  }
+
+  .corner_container .corner-left-1 {
+    background-image: url('https://jsdayie.azureedge.net/data/media/layout/left_corner_1.png');
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute; 
+    bottom: 0px; 
+    left: 0px;
+  }
+  
+  .corner_container .corner-right-1 {
+    background-image: url('https://jsdayie.azureedge.net/data/media/layout/right_corner_1.png');
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute; 
+    bottom: 0px; 
+    right: 0px;
+  }
 }
