@@ -5,6 +5,16 @@ import {
   GalleryUrl,
   TicketArray,
   ticketArrayValidator,
+  SponsorsingPackageArray,
+  sponsorsingPackageArrayValidator,
+  sponsorsValidator,
+  ISponsors,
+  ActivityArray,
+  activityArrayValidator,
+  SpeakerArray,
+  speakerArrayValidator,
+  InfoEntryArray,
+  infoEntryArrayValidator,
 } from "@jsdayie/domain";
 import { getPage } from "@jsdayie/utils";
 import { RESOURCES } from "@jsdayie/config";
@@ -31,7 +41,7 @@ export async function getGalleryData(): Promise<GalleryUrl | Error> {
   }
 }
 
-export async function getBlogPostData(id: string): Promise<string | Error> {
+export async function getBlogEntryData(id: string): Promise<string | Error> {
   const url = RESOURCES.blogEntry(id);
   const response = await fetch(url);
   const markdown = await response.text();
@@ -47,22 +57,68 @@ export async function getTicketData(): Promise<TicketArray | Error> {
   }
 }
 
-// TODO
-export async function getSponsorsingPackagesData(): Promise<TicketArray | Error> {
+export async function getSponsorsingPackagesData(): Promise<
+  SponsorsingPackageArray | Error
+> {
   try {
-    const data = getPage<TicketArray>(RESOURCES.tickets, ticketArrayValidator);
+    const data = getPage<SponsorsingPackageArray>(
+      RESOURCES.sponsorship,
+      sponsorsingPackageArrayValidator
+    );
     return data;
   } catch (err) {
     return err as Error;
   }
 }
 
-// TODO
-export async function getSponsorsData(): Promise<TicketArray | Error> {
+export async function getSponsorsData(): Promise<ISponsors | Error> {
   try {
-    const data = getPage<TicketArray>(RESOURCES.tickets, ticketArrayValidator);
+    const data = getPage<ISponsors>(RESOURCES.sponsors, sponsorsValidator);
     return data;
   } catch (err) {
     return err as Error;
   }
+}
+
+export async function getScheduleData(): Promise<ActivityArray | Error> {
+  try {
+    const data = getPage<ActivityArray>(
+      RESOURCES.schedule,
+      activityArrayValidator
+    );
+    return data;
+  } catch (err) {
+    return err as Error;
+  }
+}
+
+export async function getSpeakerData(): Promise<SpeakerArray | Error> {
+  try {
+    const data = getPage<SpeakerArray>(
+      RESOURCES.speakers,
+      speakerArrayValidator
+    );
+    return data;
+  } catch (err) {
+    return err as Error;
+  }
+}
+
+export async function getInfoData(): Promise<InfoEntryArray | Error> {
+  try {
+    const data = getPage<InfoEntryArray>(
+      RESOURCES.infoEntries,
+      infoEntryArrayValidator
+    );
+    return data;
+  } catch (err) {
+    return err as Error;
+  }
+}
+
+export async function getInfoEntryData(id: string): Promise<string | Error> {
+  const url = RESOURCES.infoEntry(id);
+  const response = await fetch(url);
+  const markdown = await response.text();
+  return markdown;
 }

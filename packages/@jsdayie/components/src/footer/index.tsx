@@ -17,7 +17,7 @@ export const Footer: React.FC<FooterProps> = (props) => {
             <p>
               JSDayIE is presented by{" "}
               <a href="http://www.wolksoftware.com/">Wolk Software Limited</a>{" "}
-              with ❤️ for the JavaScript community. It is made possible thanks
+              with 💛 for the JavaScript community. It is made possible thanks
               to the support of our sponsors and the collaboration of many of
               the members of the JavaScript community in Ireland.
             </p>

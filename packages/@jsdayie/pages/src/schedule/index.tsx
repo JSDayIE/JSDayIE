@@ -2,7 +2,7 @@ import React from "react";
 import { Section, Table, Container } from "@jsdayie/components";
 import { ActivityArray } from "@jsdayie/domain";
 
-interface ScheduleProps {
+export interface ScheduleProps {
   data: ActivityArray;
 }
 

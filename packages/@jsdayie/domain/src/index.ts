@@ -14,11 +14,13 @@ export type ActivityArray = io.TypeOf<typeof activityArrayValidator>;
 
 export const sponsorsingPackageValidator = io.type({
   title: io.string,
+  bronze: io.string,
   silver: io.string,
   gold: io.string,
   platinum: io.string,
   platinumPlus: io.string,
   diamond: io.string,
+  hide: io.boolean,
 });
 
 export const sponsorsingPackageArrayValidator = io.array(
@@ -124,3 +126,14 @@ export type HashTagArray = io.TypeOf<typeof hashTagArrayValidator>;
 export type TrendingTopic = io.TypeOf<typeof trendingTopicsValidator>;
 export const urlArrayValidator = io.array(io.string);
 export type GalleryUrl = io.TypeOf<typeof urlArrayValidator>;
+
+export const infoEntryValidator = io.type({
+  id: io.string,
+  title: io.string,
+  summary: io.string,
+  thumbnail: io.string,
+});
+
+export const infoEntryArrayValidator = io.array(infoEntryValidator);
+export type IInfoEntry = io.TypeOf<typeof infoEntryValidator>;
+export type InfoEntryArray = io.TypeOf<typeof infoEntryArrayValidator>;

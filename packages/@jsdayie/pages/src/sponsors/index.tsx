@@ -12,11 +12,54 @@ export const Sponsors: React.FC<SponsorsProps> = (props) => {
   const { sponsorData, sponsorsingPackagesData } = props;
   return (
     <Container>
-      <Section title="A shout out to our amazing sponsors!" size={1}>
+      <Section title="Would you like to sponsor JSdayIE 2023?" size={1}>
         <p>
-          JSDayIE 2023 would not be possible without the support of the
-          following organizations. Would you like to add your name to the list?
-          Check out our sponsorship opportunities!
+          Sponsoring JSDayIE is a great way to contribute to the healthy growth
+          of the JavaScript community in Ireland. Please join us in creating an
+          amazing experience for each and every attendee.
+        </p>
+        <Table
+          headers={[
+            "",
+            "Bronze",
+            "Silver",
+            "Gold",
+            "Platinum",
+            "Platinum Plus",
+            "Diamond",
+          ]}
+          rows={sponsorsingPackagesData
+            .filter((a) => !a.hide)
+            .map((a) => [
+              a.title,
+              a.bronze,
+              a.silver,
+              a.gold,
+              a.platinum,
+              a.platinumPlus,
+              a.diamond,
+            ])}
+        />
+        <p>* Fees are displayed excluding 23% VAT</p>
+        <p>
+          Sponsoring offers a unique opportunity to expose your brand and find
+          talent specialized in JavaScript technologies in Ireland.
+        </p>
+        <Button href="https://bit.ly/SponsorJSDayIE2023Now" color="warning">
+          Download our Sponsorship Prospectus
+        </Button>
+        <br />
+        <br />
+        <p>Or</p>
+        <Button href="mailto:info@jsday.ie" color="warning">
+          Contact us to become a sponsor now!
+        </Button>
+      </Section>
+      <Section title="A shout out to our 2019 sponsors!" size={1}>
+        <p>
+          JSDayIE 2019 was possible thanks the support of the following
+          organizations. Would you like to add your name to the list? Check out
+          our sponsorship opportunities!
         </p>
         <SponsorGroup
           group="presenting"
@@ -63,39 +106,6 @@ export const Sponsors: React.FC<SponsorsProps> = (props) => {
           label="Community Sponsors"
           sponsors={sponsorData}
         />
-      </Section>
-      <Section title="Would you like to sponsor JSdayIE 2023?" size={1}>
-        <p>
-          Sponsoring JSDayIE is a great way to contribute to the healthy growth
-          of the JavaScript community in Ireland. Please join us in creating an
-          amazing experience for each and every attendee.
-        </p>
-        <Table
-          headers={[
-            "",
-            "Silver",
-            "Gold",
-            "Platinum",
-            "Platinum Plus",
-            "Diamond",
-          ]}
-          rows={sponsorsingPackagesData.map((a) => [
-            a.title,
-            a.silver,
-            a.gold,
-            a.platinum,
-            a.platinumPlus,
-            a.diamond,
-          ])}
-        />
-        <p>* Fees are displayed excluding 23% VAT</p>
-        <p>
-          Sponsoring offers a unique opportunity to expose your brand and find
-          talent specialized in JavaScript technologies in Ireland.
-        </p>
-        <Button href="mailto:info@jsday.ie">
-          Contact us to become a sponsor now!
-        </Button>
       </Section>
     </Container>
   );

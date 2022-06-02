@@ -6,10 +6,11 @@ import {
   SpeakerArray,
   SponsorsingPackageArray,
   TicketArray,
+  InfoEntryArray,
 } from "@jsdayie/domain";
 import { Tickets } from "../tickets";
 import { Sponsors } from "../sponsors";
-import { Venue } from "../venue";
+import { Venue, VenueProps } from "../venue";
 import { Schedule } from "../schedule";
 import { CoC } from "../coc/coc";
 import { Welcome } from "../welcome";
@@ -24,8 +25,10 @@ export interface HomeProps {
   speakers: SpeakerArray;
   activity: ActivityArray;
   tickets: TicketArray;
-  sponsorsingPackagesData: SponsorsingPackageArray;
-  sponsorData: ISponsors;
+  sponsorsingPackages: SponsorsingPackageArray;
+  sponsors: ISponsors;
+  info: InfoEntryArray;
+  venue: VenueProps;
 }
 
 export const Home: React.FC<HomeProps> = (props) => {
@@ -34,24 +37,26 @@ export const Home: React.FC<HomeProps> = (props) => {
     tickets,
     activity,
     blog,
-    sponsorData,
-    sponsorsingPackagesData,
+    sponsors,
+    sponsorsingPackages,
+    info,
+    venue,
   } = props;
   return (
     <>
       <Hero />
       <Welcome />
-      <Speakers data={speakers} />
+      <Speakers data={speakers} isDemo={false} isPreview />
       <Schedule data={activity} />
-      <Venue />
       <Tickets data={tickets} />
-      <Info />
       <Sponsors
-        sponsorsingPackagesData={sponsorsingPackagesData}
-        sponsorData={sponsorData}
+        sponsorsingPackagesData={sponsorsingPackages}
+        sponsorData={sponsors}
       />
-      <CoC />
+      <Venue galleryData={venue.galleryData} isPreview />
+      <Info data={info} />
       <BlogPreview data={blog.data} />
+      <CoC />
       <Newsletter />
     </>
   );

@@ -10,22 +10,22 @@ export const CfpDetails: React.FC = () => {
         <p>
           We&apos;re excited to welcome the JavaScript community to submit talks
           for JSDayIE 2023 that will take place on September 26th 2023. This
-          Call for Proposals <b>closes on April 15th, 2023</b>. Here are some
+          Call for Proposals <b>closes on 28th February 2023</b>. Here are some
           important dates that you should remember!
         </p>
         <Table
           headers={["Date", "Event"]}
           rows={[
-            ["CFP is open for submissions", "1st March 2023"],
-            ["CFP is close for submissions", "15th April 2023"],
-            ["Speakers are announced", "May 2023"],
+            ["CFP is open for submissions", "26th September 2022"],
+            ["CFP is close for submissions", "28th February 2023"],
+            ["Speakers are announced", "March-April 2023"],
           ]}
         />
         <p>
           Do you want to give a talk? Do not think about it, submit your
           proposal now!
         </p>
-        <Button href="https://goo.gl/forms/QYiMwHEGyfXMdLy33">
+        <Button color="warning" href="https://forms.gle/QnSmpAS91jL5opKh6">
           Submit your proposal now!
         </Button>
         <Section title="Topics" size={2}>
@@ -62,13 +62,15 @@ export const CfpDetails: React.FC = () => {
             ]}
           />
           <p>
-            We don&apos;`t have a specific theme for JSDayIE. Instead, we’re
-            aiming to select talks that are interesting to as many JavaScript
-            developers as possible. Our audience skill level is intermediate to
-            advanced.
+            We don&apos;`t have a specific theme for JSDayIE. Instead,
+            we&apos;re aiming to select talks that are interesting to as many
+            JavaScript developers as possible. Our audience skill level is
+            intermediate to advanced.
           </p>
           <p>
-            All talks should be in English and 25 minutes long. We will be on a
+            All talks should be in English and 25 minutes long. If you would
+            like to take some questions from the audience, you should reserve 5
+            minutes out of your 25 minutes slot to allow it. We will be on a
             tight schedule and will enforce the time limits rigorously. We
             suggest that you time your presentation accordingly in advance.
           </p>
@@ -101,10 +103,10 @@ export const CfpDetails: React.FC = () => {
           <Table
             headers={["Speaker Perks"]}
             rows={[
-              ["Speaker dinners the night before the event"],
+              ["Flights and hotel"],
+              ["Speaker dinner the night before the event"],
               ["Free entrance at the conference"],
-              ["Extra ticket, in case somebody is joining you"],
-              ["A special surprise gift in your conference welcome pack"],
+              ["Extra ticket if somebody is joining you"],
             ]}
           />
         </Section>
@@ -128,8 +130,8 @@ export const CfpDetails: React.FC = () => {
             will do our best to get back to you with valuable feedback from the
             CFP process. In case you wish to talk with someone from the team, do
             not hesitate to write an email at{" "}
-            <a href="mailto:info@jsday.ie">info@jsday.ie</a>
-            (just please don’t use this email to submit a proposal). Good luck!
+            <a href="mailto:info@jsday.ie">info@jsday.ie</a> (just please
+            don&apos;t use this email to submit a proposal). Good luck!
           </p>
         </Section>
         <Section title="Video Recordings" size={2}>
@@ -144,16 +146,17 @@ export const CfpDetails: React.FC = () => {
             </a>{" "}
             for free, along with a recording of the slide deck, live demo, and
             any on-presenter-screen activity. We do this for the benefit of the
-            larger JavaScript community and those who couldn’t make it to the
-            conference. We hope you agree with us, but if you are uncomfortable
-            with this in any way, let us know and we will work things out. Note
-            that we disabled comments on our published videos by default.
+            larger JavaScript community and those who couldn&apos;t make it to
+            the conference. We hope you agree with us, but if you are
+            uncomfortable with this in any way, let us know and we will work
+            things out. Note that we disabled comments on our published videos
+            by default.
           </p>
           <p>
             Finally, since you retain full ownership of your slides and
-            recording, we’d like to ask you to make your materials and recording
-            available under a Creative Commons (we default to non-commercial
-            reuse) or other open source license.
+            recording, we&apos;d like to ask you to make your materials and
+            recording available under a Creative Commons (we default to
+            non-commercial reuse) or other open source license.
           </p>
         </Section>
         <Section title="Code of conduct" size={2}>

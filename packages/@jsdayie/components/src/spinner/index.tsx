@@ -20,7 +20,7 @@ export function Spinner(props: SpinnerProps) {
             cx="0"
             cy="0"
             r="5"
-            fill="#f9bb00"
+            fill="#c8a157"
             fillOpacity="1"
             transform="scale(1.08428 1.08428)"
           >
@@ -50,7 +50,7 @@ export function Spinner(props: SpinnerProps) {
             cx="0"
             cy="0"
             r="5"
-            fill="#f9bb00"
+            fill="#c8a157"
             fillOpacity="0.875"
             transform="scale(1.09678 1.09678)"
           >
@@ -80,7 +80,7 @@ export function Spinner(props: SpinnerProps) {
             cx="0"
             cy="0"
             r="5"
-            fill="#f9bb00"
+            fill="#c8a157"
             fillOpacity="0.75"
             transform="scale(1.00928 1.00928)"
           >
@@ -110,7 +110,7 @@ export function Spinner(props: SpinnerProps) {
             cx="0"
             cy="0"
             r="5"
-            fill="#f9bb00"
+            fill="#c8a157"
             fillOpacity="0.625"
             transform="scale(1.02178 1.02178)"
           >
@@ -140,7 +140,7 @@ export function Spinner(props: SpinnerProps) {
             cx="0"
             cy="0"
             r="5"
-            fill="#f9bb00"
+            fill="#c8a157"
             fillOpacity="0.5"
             transform="scale(1.03428 1.03428)"
           >
@@ -170,7 +170,7 @@ export function Spinner(props: SpinnerProps) {
             cx="0"
             cy="0"
             r="5"
-            fill="#f9bb00"
+            fill="#c8a157"
             fillOpacity="0.375"
             transform="scale(1.04678 1.04678)"
           >
@@ -200,7 +200,7 @@ export function Spinner(props: SpinnerProps) {
             cx="0"
             cy="0"
             r="5"
-            fill="#f9bb00"
+            fill="#c8a157"
             fillOpacity="0.25"
             transform="scale(1.05928 1.05928)"
           >
@@ -230,7 +230,7 @@ export function Spinner(props: SpinnerProps) {
             cx="0"
             cy="0"
             r="5"
-            fill="#f9bb00"
+            fill="#c8a157"
             fillOpacity="0.125"
             transform="scale(1.07178 1.07178)"
           >

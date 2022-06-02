@@ -22,6 +22,9 @@ function getAliases(modulesArray) {
 }
 
 module.exports = withTM({
+  images: {
+    domains: ['jsdayie.azureedge.net'],
+  },
   webpack: (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,

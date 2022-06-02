@@ -1,7 +1,7 @@
 import React from "react";
 import { MarkDown, Container } from "@jsdayie/components";
 
-interface BlogEntryProps {
+export interface BlogEntryProps {
   markdown: string;
 }
 

@@ -1,9 +1,22 @@
 import React from "react";
-import { Section, Container, Button } from "@jsdayie/components";
+import {
+  Section,
+  Container,
+  Button,
+  Gallery,
+  GalleryProps,
+} from "@jsdayie/components";
 import Image from "next/image";
 import { VenueMedia } from "./venue_media";
 
-export const Venue: React.FC = () => {
+export interface VenueProps {
+  galleryData: GalleryProps;
+  isPreview: boolean;
+}
+
+export const Venue: React.FC<VenueProps> = (props) => {
+  const { galleryData, isPreview } = props;
+  const { urls } = galleryData;
   return (
     <Container>
       <Section title="The event venue" size={1}>
@@ -12,16 +25,22 @@ export const Venue: React.FC = () => {
           Dublin, Ireland.
         </p>
         <VenueMedia
-          topLeft={{ type: "image", url: "/media/venue1.png" }}
+          topLeft={{
+            type: "image",
+            url: "https://jsdayie.azureedge.net/data/media/venue1.png",
+          }}
           topRight={{
             type: "video",
             url: "https://www.youtube.com/embed/X-6Q6OxY4fg?controls=0",
           }}
           bottonLeft={{
             type: "video",
-            url: "https://www.youtube.com/embed/EMX22h9zpOc?controls=0",
+            url: "https://www.youtube.com/embed/-fpvYWMBixY?controls=0",
           }}
-          bottonRight={{ type: "image", url: "/media/venue2.jpg" }}
+          bottonRight={{
+            type: "image",
+            url: "https://jsdayie.azureedge.net/data/media/venue2.jpg",
+          }}
         />
         <br />
         <p>
@@ -29,7 +48,10 @@ export const Venue: React.FC = () => {
           in the heart of Dublin and it is equipped with state-of-the-art
           lighting and audiovisual systems.
         </p>
-        <Button href="https://www.theconferenceandeventsvenue.ie/our-venues/the-round-room/">
+        <Button
+          color="warning"
+          href="https://www.theconferenceandeventsvenue.ie/our-venues/the-round-room/"
+        >
           Learn more about The Round Room
         </Button>
       </Section>
@@ -39,13 +61,22 @@ export const Venue: React.FC = () => {
           Room at Cafe en Seine.
         </p>
         <VenueMedia
-          topLeft={{ type: "image", url: "/media/after-venue-2.jpg" }}
+          topLeft={{
+            type: "image",
+            url: "https://jsdayie.azureedge.net/data/media/after-venue-2.jpg",
+          }}
           topRight={{
             type: "video",
             url: "https://www.youtube.com/embed/SPxqF3vIxeA?controls=0",
           }}
-          bottonLeft={{ type: "image", url: "/media/after-venue.jpg" }}
-          bottonRight={{ type: "image", url: "/media/after-venue-3.jpg" }}
+          bottonLeft={{
+            type: "image",
+            url: "https://jsdayie.azureedge.net/data/media/after-venue.jpg",
+          }}
+          bottonRight={{
+            type: "image",
+            url: "https://jsdayie.azureedge.net/data/media/after-venue-3.jpg",
+          }}
         />
         <br />
         <p>
@@ -54,7 +85,7 @@ export const Venue: React.FC = () => {
           Seine was established in 1993 and quickly became a go-to destination
           for locals and visitors to the city.
         </p>
-        <Button href="https://www.cafeenseine.ie/">
+        <Button color="warning" href="https://www.cafeenseine.ie/">
           Learn more about Cafe en Seine
         </Button>
       </Section>
@@ -66,7 +97,7 @@ export const Venue: React.FC = () => {
         <VenueMedia
           topLeft={{
             type: "video",
-            url: "https://www.youtube.com/embed/fsK8O2yvEPg?controls=0",
+            url: "https://www.youtube.com/embed/yDZRbanbkpM?controls=0",
           }}
           topRight={{
             type: "video",
@@ -87,7 +118,7 @@ export const Venue: React.FC = () => {
           invigorating, this Viking city is at once modern and historic,
           exciting and relaxing.
         </p>
-        <Button href="https://www.discoverireland.ie/">
+        <Button color="warning" href="https://www.ireland.com/">
           Learn more about visiting Ireland
         </Button>
         <div className="row failte">
@@ -99,7 +130,9 @@ export const Venue: React.FC = () => {
             >
               <Image
                 alt="failte ireland logo"
-                src="/media/failte_ireland.png"
+                src="https://jsdayie.azureedge.net/data/media/failte_ireland.png"
+                width="324"
+                height="93"
               />
             </a>
           </div>
@@ -111,12 +144,19 @@ export const Venue: React.FC = () => {
             >
               <Image
                 alt="meet in ireland logo"
-                src="/media/meet_in_ireland.png"
+                src="https://jsdayie.azureedge.net/data/media/meet_in_ireland.png"
+                width="324"
+                height="116"
               />
             </a>
           </div>
         </div>
       </Section>
+      {isPreview !== true ? (
+        <Section title="JSDayIE 2019 Gallery" size={1}>
+          <Gallery urls={urls} />
+        </Section>
+      ) : null}
     </Container>
   );
 };

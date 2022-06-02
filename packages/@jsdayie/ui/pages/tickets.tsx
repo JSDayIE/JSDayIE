@@ -13,7 +13,7 @@ export async function getServerSideProps() {
   } else {
     return {
       props: {
-        data: data
+        data,
       },
     };
   }

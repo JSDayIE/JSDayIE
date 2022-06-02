@@ -62,7 +62,7 @@ We'd be happy to have you! You can find more information about sponsoring the co
 
 ## I want to give a talk, how?
 
-Yes, you can submit a proposal via our [call for proposals](http://localhost:3000/cfp_details). Please note that some deadlines apply.
+Yes, you can submit a proposal via our [call for proposals](/call-for-proposals-details). Please note that some deadlines apply.
 
 ## How do I get my badge to enter the conference?
 

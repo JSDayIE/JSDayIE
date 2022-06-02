@@ -23,7 +23,12 @@ export const BlogEntryPreview: React.FC<BlogEntryPreviewProps> = (props) => {
         <span>{new Date(Date.parse(details.date)).toDateString()}</span>
       </CardHeader>
       <CardBody>
-        <Image alt={details.id} src={details.thumbnail} />
+        <Image
+          alt={details.id}
+          src={details.thumbnail}
+          width="498"
+          height="249"
+        />
         <br />
         <br />
         <p>{details.summary}</p>

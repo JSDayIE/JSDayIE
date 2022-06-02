@@ -10,7 +10,12 @@ export function Sponsor(props: SponsorProps) {
   const { details } = props;
   return (
     <a title={details.name} href={details.web}>
-      <Image alt={`${details.name} logo`} src={details.logo} />
+      <Image
+        alt={`${details.name} logo`}
+        src={details.logo}
+        width="200"
+        height="200"
+      />
     </a>
   );
 }

@@ -32,25 +32,29 @@ export const Gallery: React.FC<GalleryProps> = (props) => {
         <tbody>
           <tr>
             <td className="galleryLeft">
-              <button
-                type="button"
+              <div
+                role="button"
                 className="clickcable"
                 onClick={() => previous()}
+                onKeyDown={() => previous()}
+                tabIndex={0}
               >
                 ◀
-              </button>
+              </div>
             </td>
             <td className="galleryImg">
-              <Image src={url} alt="JSDayIE event" />
+              <Image src={url} alt="JSDayIE event" width="947" height="710" />
             </td>
             <td className="galleryRight">
-              <button
-                type="button"
+              <div
+                role="button"
                 className="clickcable"
                 onClick={() => next()}
+                onKeyDown={() => next()}
+                tabIndex={0}
               >
                 ▶
-              </button>
+              </div>
             </td>
           </tr>
         </tbody>

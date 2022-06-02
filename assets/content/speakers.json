@@ -1,0 +1,226 @@
+[
+  {
+    "hide": false,
+    "role": "CDA",
+    "company": "Microsoft",
+    "name": "Aysegul Yonet",
+    "pic": "https://jsdayie.azureedge.net/data/media/speakers_2019/aysegul_yonet.jpg",
+    "bio": "Aysegul is a Senior Azure Cloud Developer Advocate at Microsoft. Aysegul, focuses on Spatial Computing, Mixed Reality, AI, Angular and Data Visualization. She is a Google Developer Expert for Web Technologies & Angular and an active conference speaker. She previously worked as Senior Software Engineer at Nrwl.io, Autodesk Play, a 3D and VR authoring tool and A360 Viewer and A360 Drive. She enjoys teaching at a variety of non-profit organizations aiming to increase diversity in the software industry. She is the co-founder of code4good, an organization with the goal of helping people to contribute to open source. Previously she led Women Who Code meetups, Girl Develop It workshops and was a CTO at AnnieCannons, a bootcamp dedicated to teach tech skills to human trafficking survivors.",
+    "links": {
+      "twitter": "https://twitter.com/AysSomething",
+      "linkedin": "https://www.linkedin.com/in/aysegulyonet",
+      "github": "https://github.com/Yonet",
+      "medium": "https://medium.com/@aysegulyonet"
+    },
+    "talk": {
+      "title": "The future of user interaction: Mixed reality, AI and IoT",
+      "abstract": "The ability to capture and share data and learn from it has changed what we are able to do with technology drastically. Although our lives are changed with the new wealth of data, the way we interact with data has changed very little. Just like people a century ago, we are trying to make sense of everything through their 2D abstractions, whether it is writing, illustrations or excel sheets. Today we have the technology to interact with any data in the right context and right space. We can make sense of really complex problems by modeling them in 3d. Our way of consuming information is changing to fit the information itself and becoming more intuitive and actionable. Join us to get a glimpse into the future of user interaction."
+    }
+  },
+  {
+    "hide": false,
+    "role": "Lead UI Dev",
+    "company": "Rapid7",
+    "name": "Christopher Laughlin",
+    "pic": "https://jsdayie.azureedge.net/data/media/speakers_2019/christopher_laughlin.jpeg",
+    "bio": "All round JavaScript developer who loves working on the latest and greatest web tech. Always looking for the next best tool to make the Job easy.",
+    "links": {
+      "web": "https://www.thedyslexicdeveloper.com/",
+      "twitter": "https://twitter.com/chrislaughlin",
+      "linkedin": "https://uk.linkedin.com/in/chris-laughlin-57a15425",
+      "github": "https://github.com/chrislaughlin"
+    },
+    "talk": {
+      "title": "Protecting your npm dependencies",
+      "abstract": "As technology advances and the applications we build become more complex, the tools that we use to secure the data shared within these products need to follow suit. We need to ensure that we deliver a high standard of protection to users, allowing them them to seamlessly use the product without thinking about security or any potential threat. Even just a thought of any risk could lose us our customers’ trust and therefore millions in investment and in turn threaten our entire business as a whole (including our jobs). A security breach is a very real problem, both personally as an individual and professionally in a business sense. But we as developers can help fix this problem. In very recent years there has been a number of incidents involving npm dependencies pushing vulnerabilities to consumers or exposing data. This led to the npm team purchasing a security tool to prevent future incidents. These incidents can easily be stopped and further prevented from happening again.  NPM is the first main carrier of personal information and it therefore should be where we start to repair these issues. In this talk we will look back on the previous incidents and do a postmortem investigation on what happened, and how it could have been prevented. We will then take a further look into tools and products that can help protect our applications going forward and some basic best security practices that we all should follow, no matter our application."
+    }
+  },
+  {
+    "hide": false,
+    "role": "Senior Software Engineer",
+    "company": "HMH",
+    "name": "Cristina Bernardis",
+    "pic": "https://jsdayie.azureedge.net/data/media/speakers_2019/cristina_bernardis.jpg",
+    "bio": "Senior Software Engineer, crochet compiler and JavaScript hula hooper.",
+    "links": {
+      "medium": "https://medium.com/@crisbern",
+      "linkedin": "https://www.linkedin.com/in/cristinabernardis/"
+    },
+    "talk": {
+      "title": "JS codeshift, automated refactoring",
+      "abstract": "What hides behind your JavaScript code? In this talk you will learn about how you can see your code as a tree and how can you use this knowledge to write a codemod, a piece of code to manipulate your existing code into some (hopefully better) code."
+    }
+  },
+  {
+    "hide": false,
+    "role": "Senior Engineer",
+    "company": "Intercom ",
+    "name": "Gavin Joyce",
+    "pic": "https://jsdayie.azureedge.net/data/media/speakers_2019/gavin_joyce.jpg",
+    "bio": "I help build amazing products at Intercom with a delightful mix of Ember.js and Ruby. Dabble with music, animation and video production.",
+    "links": {
+      "twitter": "https://twitter.com/gavinjoyce",
+      "github": "https://github.com/gavinjoyce",
+      "linkedin": "https://www.linkedin.com/in/gavinjoyce/"
+    },
+    "talk": {
+      "title": "The evolution of Ember.js at Intercom",
+      "abstract": "Intercom took an early bet on Ember.js 5 years ago and we've seen great success with its help. I'll talk about: How Ember's technology has changed over the past 5 years (eg. GlimmerVM, Ember Octane). How we've grown from 3 to 200+ engineers contributing to our Ember app. How our Ember app codebase continues to get better over time. Why we would choose Ember again if we could go back to the beginning of Intercom's web app (and why we chose React for our Messenger). Why I'm confident that Intercom's web app will be the same ember app in 5 years time."
+    }
+  },
+  {
+    "hide": false,
+    "role": "Software Engineer",
+    "company": "Accenture",
+    "name": "Paul Sweeney",
+    "pic": "https://jsdayie.azureedge.net/data/media/speakers_2019/paul_sweeney.jpg",
+    "bio": "Paul is a Software Engineer at Accenture The Dock in Dublin, a multidisciplinary research and incubation hub, developing UIs for many innovative projects. Prior to Accenture, Paul worked as a Senior Software Engineer at Ericsson, leading development for the company's UI framework, used in many Ericsson products. Paul was also the lead web developer for the 2018 Fjord Trends, which recently won an IDI Award for Digital Design.",
+    "links": {
+      "medium": "https://medium.com/@PepsRyuu",
+      "github": "https://github.com/PepsRyuu",
+      "linkedin": "https://www.linkedin.com/in/pepsryuu/"
+    },
+    "talk": {
+      "title": "How to write a bundler",
+      "abstract": "One day I found myself wanting Hot Module Replacement for Rollup, and decided that the best way to achieve that goal, was to write a development bundler from the ground up that supported the feature. In this talk, I'll share what I've learned and cover the fundamental concepts of what goes behind a simple bundler - Parsing, Transforming, HMR, and discuss various issues that can come up such as ESM live-binding and CommonJS interop."
+    }
+  },
+  {
+    "hide": false,
+    "role": "Senior CDA",
+    "company": "Microsoft",
+    "name": "Chris Noring",
+    "pic": "https://jsdayie.azureedge.net/data/media/speakers_2019/chris_noring.jpg",
+    "bio": "Christoffer Noring Christoffer is a Google Developer Expert, Meetup organizer for 5 meetup groups with over 2000 members in Scandinavia and London and a Fullstack developer with 10 years experience.",
+    "links": {
+      "twitter": "https://twitter.com/chris_noring",
+      "linkedin": "https://www.linkedin.com/in/christoffer-noring-3257061",
+      "web": "https://softchris.github.io"
+    },
+    "talk": {
+      "title": "Serverless, cloud-native JS functions that scales with you without hurting your wallet",
+      "abstract": "This talk will focus on covering what Serverless is, the advantages it brings. It will go through different bindings and triggers that will make authoring your functions even more easy. We will also look at the debugging experience and how to deploy them to the cloud."
+    }
+  },
+  {
+    "hide": false,
+    "role": "Tech Lead",
+    "company": "Oliver Wyman Labs",
+    "name": "Daniel Jimenez",
+    "pic": "https://jsdayie.azureedge.net/data/media/speakers_2019/daniel_jimenez.jpg",
+    "bio": "Daniel Jimenez Garcia is a software engineer based in Dublin. His career spans more than 12 years across a varied number of technologies and industries, currently working as a technical lead for Oliver Wyman Labs. Constantly looking to improve himself and help others to learn and improve, he contributes to the DotNetCurry magazine, where he has published 21 articles over the last 3 years, focused on .Net Core and Vue.js. He has also contributed to open source libraries like mockgo and node-apn, published npm packages like sinon-mongo and can be found answering questions in Stack Overflow.",
+    "links": {
+      "twitter": "https://twitter.com/Dani_djg",
+      "github": "https://github.com/DaniJG",
+      "web": "https://www.dotnetcurry.com/author/daniel-jimenez-garcia",
+      "stackoverflow": "https://stackoverflow.com/users/1836935/daniel-j-g",
+      "linkedin": "https://www.linkedin.com/in/daniel-jg/"
+    },
+    "talk": {
+      "title": "Two years developing with Vue. Distilled",
+      "abstract": "I have helped helped my company moving away from knockout.js and adopting Vue.js as their preferred frontend framework. We create dozens of web applications every year, for which I have provided guidance and tooling (including our own CLI tool and templates) while personally leading some of these. The talk will summarize the most important lessons we have learned (often the hard way), the patterns we have adopted and the decisions we made around tooling/libraries. There should be something for everyone, whether you are completely new to Vue.js or whether you already have some experience with it!"
+    }
+  },
+  {
+    "hide": false,
+    "role": "Senior CDA",
+    "company": "Microsoft",
+    "name": "Wassim Chegham",
+    "pic": "https://jsdayie.azureedge.net/data/media/speakers_2019/wassim_chegham.jpg",
+    "bio": "Wassim is Senior Cloud Advocate at Microsoft and a member of the Angular core team. He is the author of many open source projects such as xlayers.dev and ngx.tools. He is a GDE for the Angular team, the Google Assistant and the GCP teams at Google. He is also a member of the Node.js Foundation, a former member of the Angular Universal core team and part of the current Angular Console core team. He likes music composition and painting.",
+    "links": {
+      "twitter": "https://twitter.com/manekinekko",
+      "web": "https://dev.to/wassimchegham"
+    },
+    "talk": {
+      "title": "The state of Angular tooling",
+      "abstract": "The Angular CLI has made creating and managing Angular apps a breeze. And it does not stop there. Want to have a glimpse into what the Angular Tools has in store in the future? In this talk, you will learn about Bazel and how the new build system works, what the Angular DevKit is, how to customize the CLI with Schematics. Join me to look at the latest and upcoming features from the Angular Tools team."
+    }
+  },
+  {
+    "hide": false,
+    "role": "DevOps Consultant",
+    "company": "NearForm",
+    "name": "David Gonzalez",
+    "pic": "https://jsdayie.azureedge.net/data/media/speakers_2019/david_gonzalez.jpg",
+    "bio": "Author of three books on Javascript. Microservices and DevOps, David Gonzalez is a DevOps Consultant with NearForm. David also lectures in CCT College, Dublin on Cloud and Distributed Systems. He is on a mission to transform companies’ IT processes and culture to allow technology to become an enabler instead of a burden.",
+    "links": {
+      "twitter": "https://twitter.com/dagonzago",
+      "linkedin": "https://www.linkedin.com/in/david-gonzalez-microservices/"
+    },
+    "talk": {
+      "title": "12 Factor Javascript Apps on Kubernetes",
+      "abstract": "Have you ever wondered how to build DevOps friendly applications? Here’s the answer: 12 Factor applications are easy to operate, cross functional friendly and easier to maintain. In his talk, David is going to walk us through the process of building a DevOps friendly Javascript app following best practice."
+    }
+  },
+  {
+    "hide": false,
+    "role": "Tech Lead",
+    "company": "O'Reilly Media",
+    "name": "Kathleen McMahon",
+    "pic": "https://jsdayie.azureedge.net/data/media/speakers_2019/kathleen_mcmahon.jpg",
+    "bio": "Kathleen works at O’Reilly Media as a Senior Frontend Engineer and Design System Tech Lead. Her deep industry experience as both a designer and developer fuels her passion for making apps beautifully accessible. In her spare time, she is the Creative Director for the CXsisters network, and the best lanterne rouge cyclocrosser you’ll ever meet. ",
+    "links": {
+      "twitter": "https://twitter.com/resource11",
+      "linkedin": "https://www.linkedin.com/in/resource11",
+      "github": "https://github.com/resource11"
+    },
+    "talk": {
+      "title": "Accessibility-flavored React Components: Make Your Design System Delicious!",
+      "abstract": "Design systems are a popular way for teams to flavor their design and development workflow. However, an often-missing ingredient in many design systems is a focus on accessibility best practices — especially when component libraries are involved. In this talk, we’ll take a look at how you can mix some commonly-used React components with the ingredients of accessibility. Pair this with best practices guidance in your documentation, and you’ll have the recipe for a delectably inclusive design system."
+    }
+  },
+  {
+    "hide": false,
+    "role": "Tech Evangelist",
+    "company": "AlwaysData",
+    "name": "M4dz",
+    "pic": "https://jsdayie.azureedge.net/data/media/speakers_2019/matthias_dugue.jpg",
+    "bio": "M4dz is a strange animal. Through many lives, he always tried to teach to others what he learnt himself. Previously a web developer (nobody's perfect), concerned about privacy, a respect of private data, and cyber security. He's now Tech Evangelist at alwaysdata. He tries to inform about present and future of digital issues. His favorite book always remains 'Alice in Wonderland'.",
+    "links": {
+      "web": "https://m4dz.net/",
+      "twitter": "https://twitter.com/m4d_z",
+      "linkedin": "https://www.linkedin.com/in/m4d-z/"
+    },
+    "talk": {
+      "title": "A State Of WebAssembly: The Browser is now a real VM",
+      "abstract": "WebAssembly is a new virtual machine embedded in the browser. It doesn't transpile to JavaScript like its forerunners; it produces a new binary format, like the old assembler, executed in a dedicated VM into your browser. Genius, it exposes a bridge between JS APIs and WebAssembly executables. Last browsers engines developments allow very fast exchanges between JS and WASM code. So, let's start with a projet that need a huge computing time. We will develop the core code in Rust, compile it to WASM using LLVM, and we will display the results in a front view powered via JavaScript. No need to know how does it work, we will see it together. This talk takes place in a new series named #StartFromNowhere: let's start from front-end developers skills, and deep dive into a new technology. In 45', let's learn the basics."
+    }
+  },
+  {
+    "hide": false,
+    "role": "Senior FE Dev",
+    "company": "City of Amsterdam",
+    "name": "Roy Derks",
+    "pic": "https://jsdayie.azureedge.net/data/media/speakers_2019/roy_derks.jpg",
+    "bio": "Roy Derks is a serial startup CTO and conference speaker from Amsterdam. He also teaches React and GraphQL at reactjs.academy, and works on open-source JavaScript projects for the City of Amsterdam.",
+    "links": {
+      "medium": "https://medium.com/hackteam",
+      "twitter": "https://twitter.com/gethackteam",
+      "linkedin": "https://www.linkedin.com/in/royderks1/"
+    },
+    "talk": {
+      "title": "From REST to GraphQL: Wrapping Existing APIs in a Single Endpoint",
+      "abstract": "Your frontend developers are pushing to get started with GraphQL, but you don’t have the backend capacity to migrate your existing REST APIs to GraphQL? Or you want to have a GraphQL API next to your existing endpoints that are based on REST? In this talk I’ll show how to create a Node.js/Express server that wraps existing REST APIs into one single GraphQL endpoint."
+    }
+  },
+  {
+    "hide": false,
+    "role": "Dataviz/AI Dev",
+    "company": "Data4Change",
+    "name": "Zdenek Hynek",
+    "pic": "https://jsdayie.azureedge.net/data/media/speakers_2019/zdenek_hynek.jpg",
+    "bio": "Zdenek is a full-stack developer based in London. After careers in digital advertising and data visualisation, he decided to start putting AI and data science to his bio. To see if he can get away with it. He runs the Visualising Data London meet up and occasionally speaks about how hilarious data and software engineering can be. Occasionally some people believe him. He currently works at Data4Change, trying to figure out how to use data and technology to promote digital rights across the world. Zdenek holds a masters degree in Cartography, yet will struggle to fold a paper map properly.",
+    "links": {
+      "web": "https://zdenek.xyz",
+      "twitter": "https://twitter.com/zdenekhynek",
+      "github": "https://github.com/zdenekhynek",
+      "medium": "https://medium.com/@zdenekhynek",
+      "linkedin": "https://www.linkedin.com/in/zdenek-hynek-526a252b/"
+    },
+    "talk": {
+      "title": "Quick and easy way to add AI to your CV",
+      "abstract": "This is a talk about Tensorflow.js and mental health. It shows a couple of real-world scenarios where a small amount of basic machine learning can deliver huge value. It tries to cut through the hype and the mystery and present AI as just another tool in the developer toolbox. A tool which can be learned relatively easily. And leveraged effectively almost from the start. In the second half, the talk segues into a reflection on the struggles of learning new technologies and the anxiety and fears of becoming irrelevant in the future job market. Is the constant need to up-skill and re-invent ourselves the price we pay for the premium salaries we get? And is our quest to add more acronyms to our CVs make us lose sight the bigger picture?"
+    }
+  }
+]

@@ -1,15 +1,46 @@
 body {
-  background-color: #100e17;
-  font-family: "Josefin Sans", sans-serif;
+  background-color: #1d1d1d;
+  font-family: 'Poiret One', cursive;
   color: #ffffff;
 }
 
+.navbar {
+  border: 1px solid #c8a157;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  color: #c8a157 !important;
+  font-size: 1.1rem;
+  padding-top: 15px;
+}
+
+.navbar-brand {
+  padding-left: 5px;
+  padding-top: 20px;
+}
+
+.btn-outline-warning:active, 
+.btn-outline-warning:hover,
+.btn-outline-light:active,
+.btn-outline-light:hover {
+  background-color: #c8a157 !important;
+  border-color: #c8a157 !important;
+  color: #1d1d1d !important;
+}
+
+.btn-outline-light {
+  border-color: #c8a157 !important;
+  color: #c8a157 !important;
+  text-transform: uppercase !important;
+}
+
 a {
-  color: #f9bb00;
+  color: #c8a157;
 }
 
 a:hover {
-  color: #f9bb00;
+  color: #c8a157;
 }
 
 .content {
@@ -18,8 +49,10 @@ a:hover {
 
 .footer {
   padding: 5% 0%;
-  background-color: #f9bb00;
   margin-top: 150px;
+  border: 1px solid #c8a157;
+  margin: 1%;
+  margin-top: 15%;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -46,6 +79,13 @@ a:hover {
   font-weight: 700;
   font-size: 22px;
   margin: 0 0 0.8rem 0;
+  border-bottom: 1px solid #c8a157;
+  margin-bottom: 20px;
+  color: #c8a157;
+}
+
+.footer .fab {
+  color: #c8a157;
 }
 
 .mail-list {
@@ -88,9 +128,16 @@ img {
 }
 
 .btn-outline-light:hover {
-  color: #f9bb00;
-  background-color: #100e17;
-  border-color: #100e17;
+  background-color: #1d1d1d;
+  border-color: #1d1d1d;
+}
+
+.bg-warning {
+  background-color: #1d1d1d !important;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  border-radius: 0;
 }
 
 .email {
@@ -115,7 +162,7 @@ img {
 }
 
 .blog_entry_preview_title {
-  color: #f9bb00;
+  color: #c8a157;
 }
 
 .hide {
@@ -124,6 +171,7 @@ img {
 
 .navbar-brand {
   font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .venueMediaItem {
@@ -142,10 +190,16 @@ img {
 
 .markdown h1,
 .markdown h2 {
-  border-bottom: 4px solid #f9bb00;
+  border-bottom: 4px solid #c8a157;
   display: table;
   margin-bottom: 20px;
   margin-top: 100px;
+}
+
+.btn-outline-warning {
+  color: #c8a157;
+  border-color: #c8a157;
+  text-transform: uppercase !important;
 }
 
 .markdown p {
@@ -200,14 +254,14 @@ img {
   z-index: -1;
   content: "";
   display: block;
-  border: 5px solid #f9bb00;
+  border: 5px solid #c8a157;
 }
 .ribbon span {
   position: absolute;
   display: block;
   width: 225px;
   padding: 15px 0;
-  background-color: #f9bb00;
+  background-color: #c8a157;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   color: #fff;
   font: 700 18px/1 "Lato", sans-serif;
@@ -223,7 +277,7 @@ img {
 .galleryLeft {
   width: 5%;
   font-size: 50px;
-  color: #f9bb00;
+  color: #c8a157;
 }
 
 .galleryLeftImg {
@@ -239,7 +293,7 @@ img {
 .galleryRight {
   width: 5%;
   font-size: 50px;
-  color: #f9bb00;
+  color: #c8a157;
 }
 
 .clickcable {
@@ -358,7 +412,7 @@ img {
 }
 
 .primaryHahstag {
-  background-color: #ffc107;
+  background-color: #c8a157;
 }
 
 .secondaryHahstag {
@@ -392,10 +446,11 @@ img {
 }
 
 .card {
-  border-radius: 16px;
-  background: #17141d;
+  background: #1d1d1d;
   box-shadow: -1rem 0 3rem #000;
   margin-bottom: 50px;
+  border: 0.5px solid #c8a157;
+  border-radius: 0;
 }
 
 .card h3 {
@@ -405,7 +460,7 @@ img {
 .price {
   font-size: 50px;
   font-weight: 400;
-  color: #f9bb00;
+  color: #c8a157;
 }
 
 .card-footer p, .card-body p {
@@ -432,9 +487,10 @@ img {
 
 .hero_bg {
   padding: 20% 0% 12.5% 0%;
-  border-bottom: 1px solid #f9bb00;
+  border-bottom: 1px solid #c8a157;
   height: 890px;
   background-color: rgba(0, 0, 0, 0.5);
+  background-image: url('https://jsdayie.azureedge.net/data/media/hero-overlay.svg');
 }
 
 .videoBg {
@@ -468,7 +524,7 @@ img {
 }
 
 .hero_logo {
-  width: 25%;
+  min-width: 192px;
   vertical-align: top;
 }
 
@@ -482,6 +538,8 @@ img {
   font-size: 113px;
   font-weight: bold;
   margin: 0px;
+  padding-top: 5px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .hero_h2 {
@@ -502,7 +560,7 @@ img {
 }
 
 .modal-content {
-  background: #17141d;
+  background: #1d1d1d;
 }
 
 .modal-header {
@@ -515,7 +573,7 @@ img {
 }
 
 .modal-title {
-  color: #f9bb00;
+  color: #c8a157;
   text-align: center;
   width: 100%;
 }
@@ -534,11 +592,11 @@ img {
 }
 
 .table_thead_tr {
-  border-bottom: 4px solid #f9bb00;
+  border-bottom: 4px solid #c8a157;
 }
 
 .table_tbody_tr {
-  border-bottom: 1px solid #f9bb00;
+  border-bottom: 1px solid #c8a157;
 }
 
 .table_thead_th {
@@ -567,21 +625,25 @@ img {
 }
 
 .section_h1 {
-  border-bottom: 4px solid #f9bb00;
+  border-bottom: 1px solid #c8a157;
   display: inline-block;
   margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #c8a157;
 }
 
 .section_h2 {
-  border-bottom: 4px solid #f9bb00;
+  border-bottom: 1px solid #c8a157;
   display: inline-block;
   margin-bottom: 20px;
+  color: #c8a157;
 }
 
 .speaker img {
   border-radius: 50%;
   width: 70%;
   margin-bottom: 20px;
+  border: 1px solid #c8a157 !important;
 }
 
 .speaker p {

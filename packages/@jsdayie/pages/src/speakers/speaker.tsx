@@ -37,12 +37,17 @@ export const Speaker: React.FC<SpeakerProps> = (props) => {
         <CardBody>
           <div
             role="button"
-            style={{ cursor: "pointer" }}
+            className="clickcable"
             onClick={() => toggleHandler()}
             onKeyDown={() => toggleHandler()}
             tabIndex={0}
           >
-            <Image alt={details.name} src={details.pic} />
+            <Image
+              alt={details.name}
+              src={details.pic}
+              width="215"
+              height="215"
+            />
             <p>{details.talk.title}</p>
           </div>
         </CardBody>

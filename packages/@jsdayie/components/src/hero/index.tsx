@@ -1,22 +1,10 @@
 import React from "react";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 
-function VideoBg() {
-  if (window.innerWidth > 576) {
-    return (
-      <div className="videoBg">
-        <video
-          poster="/media/bg.png"
-          src="/media/bg.webm"
-          autoPlay
-          loop
-          muted
-        />
-      </div>
-    );
-  }
-  return null;
-}
+const VideoBgDynamic = dynamic(() => import("./videobg"), {
+  ssr: false,
+});
 
 export const Hero: React.FC = () => {
   return (
@@ -29,8 +17,14 @@ export const Hero: React.FC = () => {
                 <td className="hero_logo">
                   <Image
                     alt="logo"
-                    src="/media/jslogo.png"
+                    src="https://jsdayie.azureedge.net/data/media/jslogo.png"
                     className="hero_img"
+                    width="190"
+                    height="190"
+                    style={{
+                      width: "190px",
+                      height: "190px",
+                    }}
                   />
                 </td>
                 <td className="hero_title">
@@ -64,7 +58,7 @@ export const Hero: React.FC = () => {
           </table>
         </div>
       </div>
-      <VideoBg />
+      <VideoBgDynamic />
     </div>
   );
 };

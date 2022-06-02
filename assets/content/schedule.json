@@ -1,0 +1,110 @@
+[
+  {
+    "startTime": "08:00",
+    "duration": "1 hour",
+    "title": "Registration & Breakfast",
+    "speaker": "--"
+  },
+  {
+    "startTime": "09:00",
+    "duration": "25 mins",
+    "title": "TBD",
+    "speaker": "TBD"
+  },
+  {
+    "startTime": "09:30",
+    "duration": "25 mins",
+    "title": "TBD",
+    "speaker": "TBD"
+  },
+  {
+    "startTime": "10:00",
+    "duration": "25 mins",
+    "title": "TBD",
+    "speaker": "TBD"
+  },
+  {
+    "startTime": "10:25",
+    "duration": "15 mins",
+    "title": "Coffee Break",
+    "speaker": "--"
+  },
+  {
+    "startTime": "10:40",
+    "duration": "25 mins",
+    "title": "TBD",
+    "speaker": "TBD"
+  },
+  {
+    "startTime": "11:10",
+    "duration": "25 mins",
+    "title": "TBD",
+    "speaker": "TBD"
+  },
+  {
+    "startTime": "11:40",
+    "duration": "25 mins",
+    "title": "TBD",
+    "speaker": "TBD"
+  },
+  {
+    "startTime": "12:05",
+    "duration": "45 mins",
+    "title": "Lunch Break",
+    "speaker": "--"
+  },
+  {
+    "startTime": "12:50",
+    "duration": "25 mins",
+    "title": "TBD",
+    "speaker": "TBD"
+  },
+  {
+    "startTime": "13:20",
+    "duration": "25 mins",
+    "title": "TBD",
+    "speaker": "TBD"
+  },
+  {
+    "startTime": "13:50",
+    "duration": "25 mins",
+    "title": "TBD",
+    "speaker": "TBD"
+  },
+  {
+    "startTime": "14:15",
+    "duration": "15 mins",
+    "title": "Coffee Break",
+    "speaker": "--"
+  },
+  {
+    "startTime": "14:30",
+    "duration": "25 mins",
+    "title": "TBD",
+    "speaker": "TBD"
+  },
+  {
+    "startTime": "15:00",
+    "duration": "25 mins",
+    "title": "TBD",
+    "speaker": "TBD"
+  },
+  {
+    "startTime": "15:30",
+    "duration": "25 mins",
+    "title": "TBD",
+    "speaker": "TBD"
+  },
+  {
+    "startTime": "15:55",
+    "duration": "5 mins",
+    "title": "Closing Remarks",
+    "speaker": "--"
+  },
+  {
+    "startTime": "16:00",
+    "duration": "4 hours",
+    "title": "After Party at Cafe en Seine",
+    "speaker": "--"
+  }
+]

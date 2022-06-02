@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 interface NavBarItem {
   isIndex?: boolean;
@@ -57,13 +58,24 @@ export const Navbar: React.FC<NavbarProps> = (props) => {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           {indexItems.length === 1 ? (
             <Link href={indexItems[0].href}>
-              <a className="navbar-brand">{indexItems[0].title}</a>
+              <>
+                <Image
+                  src="https://jsdayie.azureedge.net/data/media/jslogo.png"
+                  alt="logo"
+                  width="30"
+                  height="30"
+                />
+                <a className="navbar-brand">{indexItems[0].title}</a>
+              </>
             </Link>
           ) : null}
           <NavBarItems items={items} />
-          <form className="form-inline my-2 my-lg-0 hide">
-            <button type="button" className="btn btn-outline-light">
-              <i className="fas fa-shopping-cart" /> GET TICKETS
+          <form
+            className="form-inline my-2 my-lg-0"
+            action="https://ti.to/wolk-software-limited/jsdayie-2023/"
+          >
+            <button type="submit" className="btn btn-outline-light">
+              2023 Tickets
             </button>
           </form>
         </div>

@@ -18,5 +18,13 @@ export function VenueMediaItem(props: VenueMediaItemProps) {
       />
     );
   }
-  return <Image alt="the venue" className="venueMediaItem" src={url} />;
+  return (
+    <Image
+      alt="the venue"
+      className="venueMediaItem"
+      src={url}
+      width="540"
+      height="315"
+    />
+  );
 }

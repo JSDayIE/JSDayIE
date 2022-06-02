@@ -12,7 +12,7 @@ Airlink is an express coach service operated by Dublin Bus, which also runs the 
 
 Unlike the regular Dublin Bus service, you do not need to have the exact coins / notes on the Airlink. If you give the driver a €10 or €20 note, she will give you change. The listed journey time for Airlink to go from the airport to O'Connell Street is 40 minutes, although it sometimes takes less. The Airlink is not always faster than the regular bus but it has a big advantage during high traffic periods it goes via Dublin Port Tunnel. This underground tunnel links the edge of the city centre with the motorway close to the airport. Even if traffic is busy above ground, vehicles usually zip through the tunnel.
 
-![](/media/airlink.jpg)
+![](https://jsdayie.azureedge.net/data/media/airlink.jpg)
 
 ## Aircoach
 
@@ -22,7 +22,7 @@ The Aircoach stops just outside the exit to Terminal 1, Arrivals level (above De
 
 The adult fare from the airport to Dublin city centre (O'Connell Street) with the Aircoach is €7. A return ticket is €12. Exact cash is not required -- the driver will give you change if you need it. You can also purchase slightly cheaper tickets online in advance, on the official site.
 
-![](/media/aircoach.jpg)
+![](https://jsdayie.azureedge.net/data/media/aircoach.jpg)
 
 ## Dublin Bus
 
@@ -32,7 +32,7 @@ The regular public bus service is the cheapest option for getting into the city 
 
 The Dublin Bus journey time from the airport is about 40 minutes. On busier times (the morning and afternoon commuter rush) it can take up to 1 hour.  Although it takes a similar route into the city centre as the Aircoach, one of the private express service, the 41 bus makes more stops along the route. While it uses the bus lane, it doesn't use the motorway. After 6.30pm, traffic lightens considerably and the 41 bus may get from the airport to the city centre in 30 minutes or less.
 
-![](/media/dublin-bus.jpg)
+![](https://jsdayie.azureedge.net/data/media/dublin-bus.jpg)
 
 ## Taxi
 
@@ -41,7 +41,7 @@ It's easy to take a taxi from Dublin airport. The taxi rank is just outside Term
 Taxis in Dublin are affordable and everywhere. You can usually hail one on the street, or use apps like [MyTaxi](https://mytaxi.com/ie) app, which also supports app payments.
 
 
-![](/media/taxis.jpg)
+![](https://jsdayie.azureedge.net/data/media/taxis.jpg)
 
 ## The Leap Visitor Card
 

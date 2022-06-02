@@ -6,24 +6,32 @@ import {
   CardFooter,
   ButtonLink,
 } from "@jsdayie/components";
+import { PATHS } from "@jsdayie/config";
 import Image from "next/image";
 
 interface InfoItemProps {
   title: string;
   summary: string;
-  path: string;
+  id: string;
   thumbnail: string;
 }
 
 export function InfoItem(props: InfoItemProps) {
-  const { title, path, thumbnail, summary } = props;
+  const { title, id, thumbnail, summary } = props;
+  const path = `${PATHS.info}/${id}`;
   return (
     <Card>
       <CardHeader>
         <h3 className="blog_entry_preview_title">{title}</h3>
       </CardHeader>
       <CardBody>
-        <Image alt={title} className="infoIcon" src={thumbnail} />
+        <Image
+          alt={title}
+          className="infoIcon"
+          src={thumbnail}
+          width="200"
+          height="200"
+        />
         <br />
         <br />
         <p>{summary}</p>

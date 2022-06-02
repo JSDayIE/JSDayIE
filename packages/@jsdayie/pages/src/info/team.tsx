@@ -15,17 +15,17 @@ export function Team() {
               details={{
                 hide: false,
                 name: "Irene Yeriskin",
-                role: "",
-                company: "Inclusion and Diversity Chair",
-                bio: "Irene is a Software Engineer at Oliver Wyman, WomenWhoCode Dublin director and the Chair of Inclusion and Diversity of JSDayIE.",
+                role: "Software Engineer",
+                company: "Oliver Wyman",
+                bio: "Irene is a Software Engineer at Oliver Wyman and the Chair of Inclusion and Diversity of JSDayIE.",
                 links: {
                   linkedin:
                     "https://www.linkedin.com/in/irene-yeriskin-64328659/",
                   twitter: "https://twitter.com/rene_iy",
                 },
-                pic: "/media/irene_yeriskin.jpg",
+                pic: "https://jsdayie.azureedge.net/data/media/irene_yeriskin.jpg",
                 talk: {
-                  title: "",
+                  title: "Inclusion and Diversity Chair",
                   abstract: "",
                 },
               }}
@@ -36,18 +36,18 @@ export function Team() {
               details={{
                 hide: false,
                 name: "Remo H. Jansen",
-                role: "",
-                company: "General Chair",
-                bio: "Remo is the CEO of Wolk Software, a Microsoft MVP and the organizer of the Dublin TypeScript meetup and lead organizer of JSDayIE.",
+                role: "CEO",
+                company: "Wolk Software",
+                bio: "Remo is the CEO of Wolk Software, a former Microsoft MVP and lead organizer of JSDayIE.",
                 links: {
                   github: "https://github.com/remojansen",
                   linkedin: "https://www.linkedin.com/in/remojansen/",
                   twitter: "https://twitter.com/RemoHJansen",
                   web: "http://www.remojansen.com/",
                 },
-                pic: "/media/remo_jansen.jpg",
+                pic: "https://jsdayie.azureedge.net/data/media/remo-jansen.png",
                 talk: {
-                  title: "",
+                  title: "General Chair",
                   abstract: "",
                 },
               }}

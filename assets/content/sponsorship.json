@@ -1,0 +1,132 @@
+[
+    {
+        "hide": false,
+        "title": "Price (EUR)*",
+        "bronze": "1000",
+        "silver": "2000",
+        "gold": "3000",
+        "platinum": "4000",
+        "platinumPlus": "5000",
+        "diamond": "6000"
+    },
+    {
+        "hide": false,
+        "title": "Logo on the web",
+        "bronze": "✓",
+        "silver": "✓",
+        "gold": "✓",
+        "platinum": "✓",
+        "platinumPlus": "✓",
+        "diamond": "✓"
+    },
+    {
+        "hide": false,
+        "title": "Logo on printed material",
+        "bronze": "✓",
+        "silver": "✓",
+        "gold": "✓",
+        "platinum": "✓",
+        "platinumPlus": "✓",
+        "diamond": "✓"
+    },
+    {
+        "hide": false,
+        "title": "Logo on event screen",
+        "bronze": "✓",
+        "silver": "✓",
+        "gold": "✓",
+        "platinum": "✓",
+        "platinumPlus": "✓",
+        "diamond": "✓"
+    },
+    {
+        "hide": false,
+        "title": "Display a Roll-up banner stand",
+        "bronze": "",
+        "silver": "",
+        "gold": "",
+        "platinum": "✓",
+        "platinumPlus": "✓",
+        "diamond": "✓"
+    },
+    {
+        "hide": false,
+        "title": "Flyer or gift in Welcome Pack",
+        "bronze": "",
+        "silver": "",
+        "gold": "",
+        "platinum": "✓",
+        "platinumPlus": "✓",
+        "diamond": "✓"
+    },
+    {
+        "hide": false,
+        "title": "Press releases and Social Media",
+        "bronze": "",
+        "silver": "",
+        "gold": "",
+        "platinum": "✓",
+        "platinumPlus": "✓",
+        "diamond": "✓"
+    },
+    {
+        "hide": false,
+        "title": "Standalone mailing",
+        "bronze": "",
+        "silver": "",
+        "gold": "",
+        "platinum": "",
+        "platinumPlus": "✓",
+        "diamond": "✓"
+    },
+    {
+        "hide": false,
+        "title": "5 minutes presentation",
+        "bronze": "",
+        "silver": "",
+        "gold": "",
+        "platinum": "",
+        "platinumPlus": "",
+        "diamond": "✓"
+    },
+    {
+        "hide": false,
+        "title": "Dinner with speakers and organization",
+        "bronze": "",
+        "silver": "1",
+        "gold": "2",
+        "platinum": "3",
+        "platinumPlus": "4",
+        "diamond": "5"
+    },
+    {
+        "hide": false,
+        "title": "Tickets",
+        "bronze": "1",
+        "silver": "2",
+        "gold": "4",
+        "platinum": "6",
+        "platinumPlus": "8",
+        "diamond": "10"
+    },
+    {
+        "hide": false,
+        "title": "Maximum Availability",
+        "bronze": "6",
+        "silver": "5",
+        "gold": "4",
+        "platinum": "3",
+        "platinumPlus": "2",
+        "diamond": "1"
+    },
+    {
+        "hide": true,
+        "title": "Purchase",
+        "bronze": "https://buy.stripe.com/14k3ej1wi3ACdCEcMS",
+        "silver": "https://buy.stripe.com/9AQ9CHb6S0oqaqscMR",
+        "gold": "https://buy.stripe.com/dR6g158YKc78fKM148",
+        "platinum": "https://buy.stripe.com/dR60272Am5IK2Y0bIL",
+        "platinumPlus": "https://buy.stripe.com/dR65mr8YK0oq2Y0002",
+        "diamond": "https://buy.stripe.com/7sIcOTdf02wyeGI3cd"
+    }
+]
