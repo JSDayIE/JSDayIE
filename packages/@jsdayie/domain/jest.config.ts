@@ -3,7 +3,10 @@
 const config = {
     preset: 'ts-jest',
     testEnvironment: 'node',
-    testPathIgnorePatterns: ["lib"]
+    testPathIgnorePatterns: ["lib"],
+    transform: {
+        "^.+\\.(ts|js)x?$": "ts-jest"
+    } 
 }
 
- export default config;
+export default config;

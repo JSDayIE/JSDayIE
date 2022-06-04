@@ -1,7 +1,7 @@
 [
   { 
     "type": "Remote", 
-    "price": "€25", 
+    "price": "€15", 
     "isSoldOut": false,
     "isRemote": true
   },
@@ -19,7 +19,7 @@
   },
   { 
     "type": "Regular", 
-    "price": "€215",
+    "price": "€195",
     "isSoldOut": false ,
     "isRemote": false
   }

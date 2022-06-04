@@ -9,6 +9,8 @@
     "dev": "lerna run dev --stream",
     "build": "lerna run build --stream",
     "start": "lerna run start --stream",
+    "test": "lerna run test --stream",
+    "test:local": "lerna run test:local --stream",
     "lint": "lerna run lint --stream",
     "lint:fix": "lerna run lint:fix --stream",
     "clean": "lerna run clean --stream && rm -r -f node_modules"

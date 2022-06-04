@@ -9,6 +9,9 @@ export async function getPage<T>(
 ) {
   try {
     const response = await fetch(url, init);
+    if (response.status !== 200) {
+      return new Error();
+    }
     const json: T = await response.json();
     const result = validator.decode(json);
     const messages = ioReporter.report(result);

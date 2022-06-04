@@ -1,9 +1,13 @@
 /** @type {import('ts-jest/dist/types').InitialOptionsTsJest} */
 
-export const config = {
+const config = {
     preset: 'ts-jest',
     testEnvironment: 'node',
-    testPathIgnorePatterns: ["lib"]
+    testPathIgnorePatterns: ["lib"],
+    transform: {
+        '^.+\\.tsx?$': 'babel-jest',
+        "^.+\\.(ts|js)x?$": "ts-jest"
+    }
 }
 
- export default config;
+export default config;

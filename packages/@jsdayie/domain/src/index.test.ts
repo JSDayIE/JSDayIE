@@ -28,9 +28,7 @@ test("should be able to validate Activity", async () => {
   const validResult = activityValidator.decode(validActivity);
   const invalidResult = activityValidator.decode(invalidActivity);
   expect(() => throwIfInvalid(validResult)).not.toThrow();
-  expect(() => throwIfInvalid(invalidResult)).toThrow(
-    "Expecting string at title but instead got: null."
-  );
+  expect(() => throwIfInvalid(invalidResult)).toThrow();
 });
 
 test("should be able to validate Array<Activity>", async () => {
@@ -40,7 +38,5 @@ test("should be able to validate Array<Activity>", async () => {
     invalidActivity,
   ]);
   expect(() => throwIfInvalid(validResult)).not.toThrow();
-  expect(() => throwIfInvalid(invalidResult)).toThrow(
-    "Expecting string at 1.title but instead got: null."
-  );
+  expect(() => throwIfInvalid(invalidResult)).toThrow();
 });
