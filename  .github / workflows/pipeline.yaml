@@ -22,6 +22,8 @@
 # https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-static-site-github-actions?tabs=userlevel
 # GitHub Action Build and push Docker images
 # https://github.com/marketplace/actions/build-and-push-docker-images
+# https://github.com/jaydestro/demo-app/blob/main/.github/workflows/jagorddemoapp-AutoDeployTrigger-f8d063fb-2809-44fd-a33f-1f6edd39928c.yml
+
 on:
   push:
     branches:
@@ -33,11 +35,8 @@ env:
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '14.x'                # set this to the node version to use
 
-permissions:
-  contents: read
-
 jobs:
-  build:
+  qa:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -48,37 +47,50 @@ jobs:
         node-version: ${{ env.NODE_VERSION }}
         cache: 'yarn'
 
-    - name: yarn install, build, and test
+    - name: install, build, and test
       run: |
-        yarn install
-        yarn run build --if-present
-        yarn run test --if-present
+        npm install --global yarn
+        yarn
+        yarn lint
+        yarn test
+        yarn build
 
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v3
       with:
         name: node-app
-        path: .
+        path: ./packages/ui/.next
 
   deploy:
-    permissions:
-      contents: none
-    runs-on: ubuntu-latest
-    needs: build
-    environment:
-      name: 'Development'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-
     steps:
     - name: Download artifact from build job
       uses: actions/download-artifact@v3
       with:
         name: node-app
-
-    - name: 'Deploy to Azure WebApp'
-      id: deploy-to-webapp 
-      uses: azure/webapps-deploy@v2
+         
+    - name: 'Login via Azure CLI'
+      uses: azure/login@v1
       with:
-        app-name: ${{ env.AZURE_WEBAPP_NAME }}
-        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-        package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+    
+    - name: 'Build and push image'
+      uses: azure/docker-login@v1
+      with:
+        login-server: ${{ secrets.REGISTRY_LOGIN_SERVER }}
+        username: ${{ secrets.REGISTRY_USERNAME }}
+        password: ${{ secrets.REGISTRY_PASSWORD }}
+    - run: |
+        docker build . -t ${{ secrets.REGISTRY_LOGIN_SERVER }}/sampleapp:${{ github.sha }}
+        docker push ${{ secrets.REGISTRY_LOGIN_SERVER }}/sampleapp:${{ github.sha }}
+
+    - name: 'Deploy to Azure Container APPS'
+      uses: 'azure/aci-deploy@v1'
+      with:
+        resource-group: ${{ secrets.RESOURCE_GROUP }}
+        dns-name-label: ${{ secrets.RESOURCE_GROUP }}${{ github.run_number }}
+        image: ${{ secrets.REGISTRY_LOGIN_SERVER }}/sampleapp:${{ github.sha }}
+        registry-login-server: ${{ secrets.REGISTRY_LOGIN_SERVER }}
+        registry-username: ${{ secrets.REGISTRY_USERNAME }}
+        registry-password: ${{ secrets.REGISTRY_PASSWORD }}
+        name: aci-sampleapp
+        location: 'west us'

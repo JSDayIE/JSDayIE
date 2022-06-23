@@ -11,7 +11,7 @@ export const Tickets: React.FC<TicketsProps> = (props) => {
   const { data } = props;
   return (
     <Container>
-      <div className="horizontal_break_5"/>
+      <div className="horizontal_break_5" />
       <Section title="Tickets" size={1}>
         <p>Get your ticket before it is too late!</p>
         <div className="row">
@@ -30,8 +30,10 @@ export const Tickets: React.FC<TicketsProps> = (props) => {
         <br />
         <br />
         <p>
-          We are proud to announce that thanks to our sponsors and attendees we are able to offer a limited number of student and diversity tickets.
-          Please use one of the forms below to apply for a ticket if you are a student or a member of an underrepresented group.
+          We are proud to announce that thanks to our sponsors and attendees we
+          are able to offer a limited number of student and diversity tickets.
+          Please use one of the forms below to apply for a ticket if you are a
+          student or a member of an underrepresented group.
         </p>
         <div className="row">
           <div className="col-md-6">

@@ -26,9 +26,19 @@ export const Footer: React.FC<FooterProps> = (props) => {
               the members of the JavaScript community in Ireland.
             </p>
             <ul>
-              <li><a href="https://bit.ly/JSDayIEDataPrivacyPolicy">Data privacy policy</a></li>
-              <li><a href="https://bit.ly/JSDayIETermsAndConditions">Terms and conditions</a></li>
-              <li><a href="mailto:info@jsday.ie">Email us</a></li>
+              <li>
+                <a href="https://bit.ly/JSDayIEDataPrivacyPolicy">
+                  Data privacy policy
+                </a>
+              </li>
+              <li>
+                <a href="https://bit.ly/JSDayIETermsAndConditions">
+                  Terms and conditions
+                </a>
+              </li>
+              <li>
+                <a href="mailto:info@jsday.ie">Email us</a>
+              </li>
             </ul>
             <p>
               Copyright &copy; {year} - {currentYear}&nbsp;

@@ -4,7 +4,6 @@ import {
   getBlogData,
   getBlogEntryData,
   BlogEntry,
-  Team,
 } from "@jsdayie/pages";
 import { GetStaticProps, GetStaticPaths } from "next";
 
@@ -32,21 +31,14 @@ export const getStaticProps: GetStaticProps = async (
   context
 ): Promise<BlogEntryPageProps> => {
   if (context.params && context.params.id) {
-    if (context.params.id !== "team") {
-      const markdown = await getBlogEntryData(context.params.id as string);
-      if (markdown instanceof Error) {
-        throw new Error(markdown.message);
-      } else {
-        return {
-          props: {
-            markdown,
-          },
-        };
-      }
+    const markdown = await getBlogEntryData(context.params.id as string);
+    console.log(context.params.id, "------>", markdown);
+    if (markdown instanceof Error) {
+      throw new Error(markdown.message);
     } else {
       return {
         props: {
-          markdown: "",
+          markdown,
         },
       };
     }
@@ -57,9 +49,6 @@ export const getStaticProps: GetStaticProps = async (
 
 const BlogEntryPage: React.FC<BlogEntryProps> = (props) => {
   const { markdown } = props;
-  if (markdown === "") {
-    return <Team />;
-  }
   return <BlogEntry markdown={markdown} />;
 };
 

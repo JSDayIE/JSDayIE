@@ -27,6 +27,7 @@
       "components": [ "Link" ],
       "specialLink": [ "hrefLeft", "hrefRight" ],
       "aspects": [ "invalidHref", "preferButton" ]
-    }]
+    }],
+    "import/no-extraneous-dependencies": "off"
   }
 }

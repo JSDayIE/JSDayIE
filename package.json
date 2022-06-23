@@ -13,11 +13,10 @@
     "test:local": "lerna run test:local --stream",
     "lint": "lerna run lint --stream",
     "lint:fix": "lerna run lint:fix --stream",
-    "clean": "lerna run clean --stream && rm -r -f node_modules"
+    "clean": "lerna run clean --stream && rm -r -f node_modules",
+    "ci": "concurrently \"yarn lint\" \"yarn build\" \"yarn test\""
   },
-  "dependencies": {
-    
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "27.5.1",
     "@types/node": "17.0.35",
@@ -25,6 +24,7 @@
     "@types/react-dom": "18.0.5",
     "@typescript-eslint/eslint-plugin": "5.25.0",
     "@typescript-eslint/parser": "5.25.0",
+    "concurrently": "^7.2.2",
     "eslint": "8.16.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-prettier": "8.5.0",
@@ -35,7 +35,6 @@
     "eslint-plugin-react-hooks": "4.3.0",
     "husky": "8.0.1",
     "jest": "28.1.0",
-    "lerna": "^4.0.0",
     "lint-staged": "12.4.1",
     "prettier": "^2.6.2",
     "ts-jest": "^28.0.2",

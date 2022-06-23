@@ -10,11 +10,11 @@ export const Schedule: React.FC<ScheduleProps> = (props) => {
   const { data } = props;
   return (
     <Container>
-      <div className="horizontal_break_6"/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <div className="horizontal_break_6" />
+      <br />
+      <br />
+      <br />
+      <br />
       <Section title="Schedule" size={1}>
         <p>
           JSDayIE is a single-track 1-day tech conference featuring 12 talks

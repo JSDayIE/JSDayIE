@@ -4,7 +4,7 @@ The JSDayIE 2023 CFP is now open! We're excited to welcome the JavaScript commun
 
 We are looking for a multitude of topics and perspectives but most of all we value:
 
-- **Original topics**, presented for the first time
+- **Original topics** presented for the first time
 
 - **Practical ideas** that attendees can apply at work the next day
 
