@@ -1,0 +1,146 @@
+[
+  {
+    "visible": true,
+    "id": "introducing-jsdayie-2019",
+    "date": "2019-02-28T18:00:00.000Z",
+    "title": "Introducing JSDayIE 2019!",
+    "summary": "Introducing JSDayIE 2019: The first tech conference dedicated exclusively to the JavaScript and its community in Ireland!",
+    "thumbnail": "/media/blog/blog_post_1.png"
+  },
+  {
+    "visible": true,
+    "id": "jsdayie-2019-cfp-now-open",
+    "date": "2019-03-01T10:00:00.000Z",
+    "title": "JSDayIE 2019 CFP now open!",
+    "summary": "The JSDayIE 2019 CFP is now open! Don't miss out on this opportunity to share your story and your expertise with the rest of the JS community",
+    "thumbnail": "/media/blog/blog_post_2.png"
+  },
+  {
+    "visible": true,
+    "id": "ten-reasons-to-sponsor-jsdayie",
+    "date": "2019-03-10T16:28:31.639Z",
+    "title": "10 Reasons to sponsor JSDayIE",
+    "summary": "Sponsoring JSDayIE offers a unique opportunity to expose your brand and find talent specialized in JavaScript technologies in Ireland",
+    "thumbnail": "/media/blog/blog_post_3.png"
+  },
+  {
+    "visible": true,
+    "id": "sponsor-spotlight-stelfox",
+    "date": "2019-03-12T16:28:31.639Z",
+    "title": "Sponsor Spotlight: Stelfox",
+    "summary": "Meet our Platinum Plus sponsor: Stelfox. Stelfox IT Recruitment is a technology specialist recruitment agency based in Dublin, Galway, Cork and Berlin",
+    "thumbnail": "/media/blog/blog_post_4.png"
+  },
+  {
+    "visible": true,
+    "id": "sponsor-spotlight-microsoft",
+    "date": "2019-03-28T20:18:02.051Z",
+    "title": "Sponsor Spotlight: Microsoft Ireland",
+    "summary": "Meet our Diamond sponsor: Microsoft Ireland. Microsoft employs over 2500 people in Ireland who strive to deliver their mission to empower every person and every organization on the planet to achieve more.",
+    "thumbnail": "/media/blog/blog_post_5.png"
+  },
+  {
+    "visible": true,
+    "id": "sponsor-spotlight-hmh",
+    "date": "2019-05-20T20:18:02.051Z",
+    "title": "Sponsor Spotlight: HMH",
+    "summary": "Meet our Silver sponsor: HMH. Houghton Mifflin Harcourt is a publisher of textbooks, instructional technology materials, assessments, reference works, and fiction and non-fiction for both young readers and adults.",
+    "thumbnail": "/media/blog/blog_post_6.png"
+  },
+  {
+    "visible": true,
+    "id": "sponsor-spotlight-oliver-wyman",
+    "date": "2019-05-21T21:18:02.051Z",
+    "title": "Sponsor Spotlight: Oliver Wyman",
+    "summary": "Meet our Gold sponsor: Oliver Wyman. Oliver Wyman is an international management consulting firm with a large focus on banking and financial services.",
+    "thumbnail": "/media/blog/blog_post_7.png"
+  },
+  {
+    "visible": true,
+    "id": "sponsor-spotlight-workday",
+    "date": "2019-05-22T20:18:02.051Z",
+    "title": "Sponsor Spotlight: Workday",
+    "summary": "Meet our Platinum sponsor: Workday. Workday is an on-demand financial management and human capital management software vendor. In 2023, Workday was voted #1 Best Place to Work in Ireland and Best Workplace for Women in Ireland.",
+    "thumbnail": "/media/blog/blog_post_8.png"
+  },
+  {
+    "visible": true,
+    "id": "sponsor-spotlight-nearform",
+    "date": "2019-07-22T18:09:48.125Z",
+    "title": "Sponsor Spotlight: NearForm",
+    "summary": "Meet our Platinum Plus sponsor: NearForm. NearForm delivers customised enterprise-grade cloud native solutions.",
+    "thumbnail": "/media/blog/blog_post_9.png"
+  },
+  {
+    "visible": true,
+    "id": "sponsor-spotlight-stripe",
+    "date": "2019-08-01T20:44:08.369Z",
+    "title": "Sponsor Spotlight: Stripe",
+    "summary": "Meet our Silver sponsor: Stripe. Stripe is a technology company that builds economic infrastructure for the internet.",
+    "thumbnail": "/media/blog/blog_post_10.png"
+  },
+  {
+    "visible": true,
+    "id": "sponsor-spotlight-intercom",
+    "date": "2019-09-05T20:37:09.580Z",
+    "title": "Sponsor Spotlight: Intercom",
+    "summary": "Meet our Silver sponsor: Intercom. Intercom builds a suite of products that all modern internet businesses can use to accelerate growth across the customer lifecycle, from acquisition, to engagement, and support.",
+    "thumbnail": "/media/blog/blog_post_11.png"
+  },
+  {
+    "visible": true,
+    "id": "sponsor-spotlight-strata3",
+    "date": "2019-09-06T20:37:09.580Z",
+    "title": "Sponsor Spotlight: Strata3",
+    "summary": "Meet our Gold sponsor: Strata3. As Ireland's leading independent digital agency, Strata3 provides its clients with tailored solutions ranging from digital consultancy & product innovation to digital performance.",
+    "thumbnail": "/media/blog/blog_post_12.png"
+  },
+  {
+    "visible": true,
+    "id": "scholarship-program",
+    "date": "2019-09-11T11:08:38.598Z",
+    "title": "Scholarship Program",
+    "summary": "We are happy to announce that we are running our Scholarship Program, which provides students and individuals from underrepresented groups with free tickets to attend JSDayIE.",
+    "thumbnail": "/media/blog/blog_post_13.png"
+  },
+  {
+    "visible": true,
+    "id": "speaker-spotlight",
+    "date": "2019-09-16T20:33:29.066Z",
+    "title": "Speaker Spotlight",
+    "summary": "It is only three more days until JSDayIE 2023, and in this blog post, we would like share some additional details about some of our speakers and the technologies that they will talk about during the event.",
+    "thumbnail": "/media/blog/blog_post_14.png"
+  },
+  {
+    "visible": true,
+    "id": "sponsor-spotlight-liberty-it",
+    "date": "2019-09-17T21:52:33.410Z",
+    "title": "Sponsor Spotlight: Liberty IT",
+    "summary": "Meet our Silver sponsor: Liberty IT. Liberty IT is a technology leader focused on delivering highly responsive, enterprise-scale solutions to support the needs of our parent company, Liberty Mutual Insurance.",
+    "thumbnail": "/media/blog/blog_post_15.png"
+  },
+  {
+    "visible": true,
+    "id": "jsdayie-is-back-on-september-26th-2023",
+    "date": "2022-06-15T12:00:00.000Z",
+    "title": "JSDayIE is back in 2023!",
+    "summary": "The first JavaScript conference in Ireland is back on September 26th 2023!",
+    "thumbnail": "/media/blog/blog_post_16.png"
+  },
+  {
+    "visible": true,
+    "id": "jsdayie-2023-cfp-now-open",
+    "date": "2022-06-16T12:00:00.000Z",
+    "title": "JSDayIE 2023 CFP now open!",
+    "summary": "The JSDayIE 2023 CFP is now open! Don't miss out on this opportunity to share your story and your expertise with the rest of the JS community",
+    "thumbnail": "/media/blog/blog_post_17.png"
+  },
+  {
+    "visible": true,
+    "id": "jsdayie-2023-tickets-now-vailable",
+    "date": "2022-06-17T12:00:00.000Z",
+    "title": "JSDayIE 2023 Tickets now available!",
+    "summary": "The JSDayIE 2023 tickets are now on sale. Get your ticket or apply for a student or diversity ticket before it is too late!",
+    "thumbnail": "/media/blog/blog_post_18.png"
+  }
+]

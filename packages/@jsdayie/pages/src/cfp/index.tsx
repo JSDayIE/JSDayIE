@@ -16,7 +16,7 @@ export const Cfp: React.FC = () => {
         </p>
         <Image
           alt="js ecosystem"
-          src="https://jsdayie.azureedge.net/data/media/js_galaxy_2019.png"
+          src="/media/js_galaxy_2019.png"
           width="800"
           height="480"
         />

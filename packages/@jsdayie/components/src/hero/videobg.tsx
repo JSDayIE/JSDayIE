@@ -5,8 +5,8 @@ function VideoBg() {
     return (
       <div className="videoBg">
         <video
-          poster="https://jsdayie.azureedge.net/data/media/bg.png"
-          src="https://jsdayie.azureedge.net/data/media/bg.webm"
+          poster="/media/bg.png"
+          src="/media/bg.webm"
           autoPlay
           loop
           muted

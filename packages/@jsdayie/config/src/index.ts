@@ -5,20 +5,18 @@ interface RouteConf {
   path: string;
 }
 
-export const BaseCNDUrl = "https://jsdayie.azureedge.net/data";
-
 export const RESOURCES = {
-  blogEntries: `${BaseCNDUrl}/content/blog_entries.json`,
-  infoEntries: "https://jsdayie.azureedge.net/data/content/info_entries.json",
-  infoEntry: (id: string) => `${BaseCNDUrl}/info/${id}.md`,
-  blogEntry: (id: string) => `${BaseCNDUrl}/posts/${id}.md`,
-  gallery: `${BaseCNDUrl}/content/gallery_2019.json`,
-  trendingTopics: `${BaseCNDUrl}/content/trending_topics.json`,
-  schedule: `${BaseCNDUrl}/content/schedule.json`,
-  speakers: `${BaseCNDUrl}/content/speakers.json`,
-  sponsors: `${BaseCNDUrl}/content/sponsors.json`,
-  sponsorship: `${BaseCNDUrl}/content/sponsorship.json`,
-  tickets: `${BaseCNDUrl}/content/tickets.json`,
+  blogEntries: "/content/blog_entries.json",
+  infoEntries: "/content/info_entries.json",
+  infoEntry: (id: string) => `/info/${id}.md`,
+  blogEntry: (id: string) => `/posts/${id}.md`,
+  gallery: "/content/gallery_2019.json",
+  trendingTopics: "/content/trending_topics.json",
+  schedule: "/content/schedule.json",
+  speakers: "/content/speakers.json",
+  sponsors: "/content/sponsors.json",
+  sponsorship: "/content/sponsorship.json",
+  tickets: "/content/tickets.json",
 };
 
 export const PATHS = {

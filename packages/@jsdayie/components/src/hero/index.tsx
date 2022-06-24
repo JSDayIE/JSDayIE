@@ -17,7 +17,7 @@ export const Hero: React.FC = () => {
                 <td className="hero_logo">
                   <Image
                     alt="logo"
-                    src="https://jsdayie.azureedge.net/data/media/jslogo.png"
+                    src="/media/jslogo.png"
                     className="hero_img"
                     width="190"
                     height="190"

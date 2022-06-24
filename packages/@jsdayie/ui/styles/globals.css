@@ -492,7 +492,7 @@ img {
   border-bottom: 1px solid #c8a157;
   height: 890px;
   background-color: rgba(0, 0, 0, 0.5);
-  background-image: url('https://jsdayie.azureedge.net/data/media/hero-overlay.svg');
+  background-image: url('/media/hero-overlay.svg');
 }
 
 .videoBg {
@@ -686,7 +686,7 @@ img {
   }
 
   .horizontal_break_6 {
-    background-image: url(https://jsdayie.azureedge.net/data/media/layout/horizontal_break_5.png);
+    background-image: url(/media/layout/horizontal_break_5.png);
     width: 90%;
     height: 200px;
     background-size: contain;
@@ -698,7 +698,7 @@ img {
   }
 
   .horizontal_break_5 {
-    background-image: url(https://jsdayie.azureedge.net/data/media/layout/horizontal_break_5.png);
+    background-image: url(/media/layout/horizontal_break_5.png);
     width: 90%;
     height: 200px;
     background-size: contain;
@@ -709,7 +709,7 @@ img {
   }
 
   .horizontal_break_2 {
-    background-image: url('https://jsdayie.azureedge.net/data/media/layout/horizontal_break_2.png');
+    background-image: url('/media/layout/horizontal_break_2.png');
     width: 50%;
     height: 200px;
     background-size: contain;
@@ -720,7 +720,7 @@ img {
   }
 
   .horizontal_break_1 {
-    background-image: url('https://jsdayie.azureedge.net/data/media/layout/horizontal_break_1.png');
+    background-image: url('/media/layout/horizontal_break_1.png');
     width: 30%;
     height: 120px;
     background-size: contain;
@@ -731,7 +731,7 @@ img {
   }
 
   .corner_container .corner-left-1 {
-    background-image: url('https://jsdayie.azureedge.net/data/media/layout/left_corner_1.png');
+    background-image: url('/media/layout/left_corner_1.png');
     width: 200px;
     height: 200px;
     background-size: contain;
@@ -742,7 +742,7 @@ img {
   }
   
   .corner_container .corner-right-1 {
-    background-image: url('https://jsdayie.azureedge.net/data/media/layout/right_corner_1.png');
+    background-image: url('/media/layout/right_corner_1.png');
     width: 200px;
     height: 200px;
     background-size: contain;

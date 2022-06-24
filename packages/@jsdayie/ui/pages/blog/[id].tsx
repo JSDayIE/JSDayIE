@@ -32,7 +32,6 @@ export const getStaticProps: GetStaticProps = async (
 ): Promise<BlogEntryPageProps> => {
   if (context.params && context.params.id) {
     const markdown = await getBlogEntryData(context.params.id as string);
-    console.log(context.params.id, "------>", markdown);
     if (markdown instanceof Error) {
       throw new Error(markdown.message);
     } else {

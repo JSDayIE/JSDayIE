@@ -16,14 +16,15 @@ import {
   InfoEntryArray,
   infoEntryArrayValidator,
 } from "@jsdayie/domain";
-import { getPage } from "@jsdayie/utils";
+import { getData, getText } from "@jsdayie/utils";
 import { RESOURCES } from "@jsdayie/config";
-import fetch from "isomorphic-fetch";
+
+const BASE_PATH = "/public";
 
 export async function getBlogData(): Promise<BlogEntryArray | Error> {
   try {
-    const data = getPage<BlogEntryArray>(
-      RESOURCES.blogEntries,
+    const data = getData<BlogEntryArray>(
+      BASE_PATH + RESOURCES.blogEntries,
       blogEntryArrayValidator
     );
     return data;
@@ -34,7 +35,10 @@ export async function getBlogData(): Promise<BlogEntryArray | Error> {
 
 export async function getGalleryData(): Promise<GalleryUrl | Error> {
   try {
-    const data = getPage<GalleryUrl>(RESOURCES.gallery, urlArrayValidator);
+    const data = getData<GalleryUrl>(
+      BASE_PATH + RESOURCES.gallery,
+      urlArrayValidator
+    );
     return data;
   } catch (err) {
     return err as Error;
@@ -42,15 +46,16 @@ export async function getGalleryData(): Promise<GalleryUrl | Error> {
 }
 
 export async function getBlogEntryData(id: string): Promise<string | Error> {
-  const url = RESOURCES.blogEntry(id);
-  const response = await fetch(url);
-  const markdown = await response.text();
-  return markdown;
+  const url = BASE_PATH + RESOURCES.blogEntry(id);
+  return await getText(url);
 }
 
 export async function getTicketData(): Promise<TicketArray | Error> {
   try {
-    const data = getPage<TicketArray>(RESOURCES.tickets, ticketArrayValidator);
+    const data = getData<TicketArray>(
+      BASE_PATH + RESOURCES.tickets,
+      ticketArrayValidator
+    );
     return data;
   } catch (err) {
     return err as Error;
@@ -61,8 +66,8 @@ export async function getSponsorsingPackagesData(): Promise<
   SponsorsingPackageArray | Error
 > {
   try {
-    const data = getPage<SponsorsingPackageArray>(
-      RESOURCES.sponsorship,
+    const data = getData<SponsorsingPackageArray>(
+      BASE_PATH + RESOURCES.sponsorship,
       sponsorsingPackageArrayValidator
     );
     return data;
@@ -73,7 +78,10 @@ export async function getSponsorsingPackagesData(): Promise<
 
 export async function getSponsorsData(): Promise<ISponsors | Error> {
   try {
-    const data = getPage<ISponsors>(RESOURCES.sponsors, sponsorsValidator);
+    const data = getData<ISponsors>(
+      BASE_PATH + RESOURCES.sponsors,
+      sponsorsValidator
+    );
     return data;
   } catch (err) {
     return err as Error;
@@ -82,8 +90,8 @@ export async function getSponsorsData(): Promise<ISponsors | Error> {
 
 export async function getScheduleData(): Promise<ActivityArray | Error> {
   try {
-    const data = getPage<ActivityArray>(
-      RESOURCES.schedule,
+    const data = getData<ActivityArray>(
+      BASE_PATH + RESOURCES.schedule,
       activityArrayValidator
     );
     return data;
@@ -94,8 +102,8 @@ export async function getScheduleData(): Promise<ActivityArray | Error> {
 
 export async function getSpeakerData(): Promise<SpeakerArray | Error> {
   try {
-    const data = getPage<SpeakerArray>(
-      RESOURCES.speakers,
+    const data = getData<SpeakerArray>(
+      BASE_PATH + RESOURCES.speakers,
       speakerArrayValidator
     );
     return data;
@@ -106,8 +114,8 @@ export async function getSpeakerData(): Promise<SpeakerArray | Error> {
 
 export async function getInfoData(): Promise<InfoEntryArray | Error> {
   try {
-    const data = getPage<InfoEntryArray>(
-      RESOURCES.infoEntries,
+    const data = getData<InfoEntryArray>(
+      BASE_PATH + RESOURCES.infoEntries,
       infoEntryArrayValidator
     );
     return data;
@@ -117,8 +125,6 @@ export async function getInfoData(): Promise<InfoEntryArray | Error> {
 }
 
 export async function getInfoEntryData(id: string): Promise<string | Error> {
-  const url = RESOURCES.infoEntry(id);
-  const response = await fetch(url);
-  const markdown = await response.text();
-  return markdown;
+  const url = BASE_PATH + RESOURCES.infoEntry(id);
+  return await getText(url);
 }

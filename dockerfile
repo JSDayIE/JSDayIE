@@ -1,12 +1,20 @@
-FROM node:lts as dependencies
-WORKDIR /packages/@jsdayie/ui/
-COPY package.json yarn.lock ./
-RUN yarn install --frozen-lockfile
+FROM node:lts
+WORKDIR .
+RUN npm install --location=global --force yarn lerna
 
-COPY --from=builder /packages/@jsdayie/ui/next.config.js ./
-COPY --from=builder /packages/@jsdayie/ui/.next ./.next
-COPY --from=builder /packages/@jsdayie/ui/node_modules ./node_modules
-COPY --from=builder /packages/@jsdayie/ui/package.json ./package.json
+COPY /packages ./packages
+COPY lerna.json ./lerna.json
+COPY package.json ./package.json
+COPY yarn.lock ./yarn.lock
+COPY .eslintrc.json ./.eslintrc.json
 
-EXPOSE 3000
+RUN yarn
+RUN lerna link
+RUN yarn lint
+RUN yarn test
+RUN yarn build
+
+RUN ls ./node_modules
+
+EXPOSE 80
 CMD ["yarn", "start"]

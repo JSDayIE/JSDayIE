@@ -27,7 +27,7 @@ export const Venue: React.FC<VenueProps> = (props) => {
         <VenueMedia
           topLeft={{
             type: "image",
-            url: "https://jsdayie.azureedge.net/data/media/venue1.png",
+            url: "/media/venue1.png",
           }}
           topRight={{
             type: "video",
@@ -39,7 +39,7 @@ export const Venue: React.FC<VenueProps> = (props) => {
           }}
           bottonRight={{
             type: "image",
-            url: "https://jsdayie.azureedge.net/data/media/venue2.jpg",
+            url: "/media/venue2.jpg",
           }}
         />
         <br />
@@ -63,7 +63,7 @@ export const Venue: React.FC<VenueProps> = (props) => {
         <VenueMedia
           topLeft={{
             type: "image",
-            url: "https://jsdayie.azureedge.net/data/media/after-venue-2.jpg",
+            url: "/media/after-venue-2.jpg",
           }}
           topRight={{
             type: "video",
@@ -71,11 +71,11 @@ export const Venue: React.FC<VenueProps> = (props) => {
           }}
           bottonLeft={{
             type: "image",
-            url: "https://jsdayie.azureedge.net/data/media/after-venue.jpg",
+            url: "/media/after-venue.jpg",
           }}
           bottonRight={{
             type: "image",
-            url: "https://jsdayie.azureedge.net/data/media/after-venue-3.jpg",
+            url: "/media/after-venue-3.jpg",
           }}
         />
         <br />
@@ -130,7 +130,7 @@ export const Venue: React.FC<VenueProps> = (props) => {
             >
               <Image
                 alt="failte ireland logo"
-                src="https://jsdayie.azureedge.net/data/media/failte_ireland.png"
+                src="/media/failte_ireland.png"
                 width="324"
                 height="93"
               />
@@ -144,7 +144,7 @@ export const Venue: React.FC<VenueProps> = (props) => {
             >
               <Image
                 alt="meet in ireland logo"
-                src="https://jsdayie.azureedge.net/data/media/meet_in_ireland.png"
+                src="/media/meet_in_ireland.png"
                 width="324"
                 height="116"
               />

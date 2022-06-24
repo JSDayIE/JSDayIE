@@ -60,7 +60,7 @@ export const Navbar: React.FC<NavbarProps> = (props) => {
             <Link href={indexItems[0].href}>
               <a>
                 <Image
-                  src="https://jsdayie.azureedge.net/data/media/jslogo.png"
+                  src="/media/jslogo.png"
                   alt="logo"
                   width="30"
                   height="30"

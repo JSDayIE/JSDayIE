@@ -23,7 +23,7 @@ export function Team() {
                     "https://www.linkedin.com/in/irene-yeriskin-64328659/",
                   twitter: "https://twitter.com/rene_iy",
                 },
-                pic: "https://jsdayie.azureedge.net/data/media/irene_yeriskin.jpg",
+                pic: "/media/irene_yeriskin.jpg",
                 talk: {
                   title: "Inclusion and Diversity Chair",
                   abstract: "",
@@ -45,7 +45,7 @@ export function Team() {
                   twitter: "https://twitter.com/RemoHJansen",
                   web: "http://www.remojansen.com/",
                 },
-                pic: "https://jsdayie.azureedge.net/data/media/remo-jansen.png",
+                pic: "/media/remo-jansen.png",
                 talk: {
                   title: "General Chair",
                   abstract: "",

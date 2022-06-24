@@ -1,6 +1,6 @@
 import { IActivity, activityValidator } from "@jsdayie/domain";
 import fetch from "isomorphic-fetch";
-import { getPage } from ".";
+import { getData } from ".";
 
 jest.mock("isomorphic-fetch", () => jest.fn());
 
@@ -18,7 +18,7 @@ const invalidActivity = {
   speaker: "Mr Test",
 };
 
-test("getPage handle valid json", async () => {
+test("getData handle valid json", async () => {
   const mockedFetch = fetch as jest.MockedFn<() => Promise<Partial<Response>>>;
   mockedFetch.mockReturnValue(
     Promise.resolve({
@@ -29,12 +29,12 @@ test("getPage handle valid json", async () => {
   const mockValidator: any = {
     decode: () => activityValidator.decode(validActivity),
   };
-  const result = await getPage("/somepath", mockValidator, {});
+  const result = await getData("/somepath", mockValidator);
   expect(result).toEqual(validActivity);
   expect(result).not.toBeInstanceOf(Error);
 });
 
-test("getPage handles invalid json", async () => {
+test("getData handles invalid json", async () => {
   const mockedFetch = fetch as jest.MockedFn<() => Promise<Partial<Response>>>;
   mockedFetch.mockReturnValue(
     Promise.resolve({
@@ -45,12 +45,12 @@ test("getPage handles invalid json", async () => {
   const mockValidator: any = {
     decode: () => activityValidator.decode(invalidActivity),
   };
-  const result = await getPage("/somepath", mockValidator, {});
+  const result = await getData("/somepath", mockValidator);
   expect(result).not.toEqual(validActivity);
   expect(result).toBeInstanceOf(Error);
 });
 
-test("getPage handles errors", async () => {
+test("getData handles errors", async () => {
   const mockedFetch = fetch as jest.MockedFn<() => Promise<Partial<Response>>>;
   mockedFetch.mockReturnValue(
     Promise.resolve({
@@ -61,7 +61,7 @@ test("getPage handles errors", async () => {
   const mockValidator: any = {
     decode: () => activityValidator.decode(validActivity),
   };
-  const result = await getPage("/somepath", mockValidator, {});
+  const result = await getData("/somepath", mockValidator);
   expect(result).not.toEqual(validActivity);
   expect(result).toBeInstanceOf(Error);
 });
