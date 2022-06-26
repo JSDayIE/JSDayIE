@@ -7,7 +7,8 @@ import { join } from "path";
 export async function getData<T>(url: string, validator: Type<T, any, any>) {
   try {
     const filePath = join(process.cwd(), url);
-    const jsonData = await promisify(readFile)(filePath);
+    const readFileAsync = promisify(readFile);
+    const jsonData = await readFileAsync(filePath);
     const objectData: T = JSON.parse(jsonData.toString("utf8"));
     const result = validator.decode(objectData);
     const messages = ioReporter.report(result);

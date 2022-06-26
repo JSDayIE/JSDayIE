@@ -1,8 +1,10 @@
 import { IActivity, activityValidator } from "@jsdayie/domain";
-import fetch from "isomorphic-fetch";
+import { promisify } from "util";
 import { getData } from ".";
 
-jest.mock("isomorphic-fetch", () => jest.fn());
+jest.mock("util", () => ({
+  promisify: jest.fn(),
+}));
 
 const validActivity: IActivity = {
   startTime: JSON.stringify(new Date()),
@@ -19,11 +21,10 @@ const invalidActivity = {
 };
 
 test("getData handle valid json", async () => {
-  const mockedFetch = fetch as jest.MockedFn<() => Promise<Partial<Response>>>;
-  mockedFetch.mockReturnValue(
+  const mockedPromisify = promisify as any as jest.MockedFn<any>;
+  mockedPromisify.mockReturnValue(() =>
     Promise.resolve({
-      status: 200,
-      json: async () => Promise.resolve(validActivity),
+      toString: () => JSON.stringify(validActivity),
     })
   );
   const mockValidator: any = {
@@ -35,11 +36,10 @@ test("getData handle valid json", async () => {
 });
 
 test("getData handles invalid json", async () => {
-  const mockedFetch = fetch as jest.MockedFn<() => Promise<Partial<Response>>>;
-  mockedFetch.mockReturnValue(
+  const mockedPromisify = promisify as any as jest.MockedFn<any>;
+  mockedPromisify.mockReturnValue(() =>
     Promise.resolve({
-      status: 200,
-      json: async () => Promise.resolve(invalidActivity),
+      toString: () => JSON.stringify(invalidActivity),
     })
   );
   const mockValidator: any = {
@@ -51,11 +51,10 @@ test("getData handles invalid json", async () => {
 });
 
 test("getData handles errors", async () => {
-  const mockedFetch = fetch as jest.MockedFn<() => Promise<Partial<Response>>>;
-  mockedFetch.mockReturnValue(
+  const mockedPromisify = promisify as any as jest.MockedFn<any>;
+  mockedPromisify.mockReturnValue(() =>
     Promise.resolve({
-      status: 500,
-      json: async () => Promise.resolve(validActivity),
+      toString: () => "*invalid*json*",
     })
   );
   const mockValidator: any = {

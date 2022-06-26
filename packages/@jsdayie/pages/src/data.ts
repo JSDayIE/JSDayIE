@@ -47,7 +47,7 @@ export async function getGalleryData(): Promise<GalleryUrl | Error> {
 
 export async function getBlogEntryData(id: string): Promise<string | Error> {
   const url = BASE_PATH + RESOURCES.blogEntry(id);
-  return await getText(url);
+  return getText(url);
 }
 
 export async function getTicketData(): Promise<TicketArray | Error> {
@@ -126,5 +126,5 @@ export async function getInfoData(): Promise<InfoEntryArray | Error> {
 
 export async function getInfoEntryData(id: string): Promise<string | Error> {
   const url = BASE_PATH + RESOURCES.infoEntry(id);
-  return await getText(url);
+  return getText(url);
 }
