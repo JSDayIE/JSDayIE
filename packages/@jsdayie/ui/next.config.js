@@ -26,9 +26,10 @@ function getAliases(modulesArray) {
 module.exports = withPlugins(
   [optimizedImages, withTM],
   {
+    trailingSlash: true,
     images: {
       loader: 'akamai',
-      path: '/'
+      path: 'https://www.jsday.ie/'
     },
     webpack: (config) => {
       config.resolve.alias = {
