@@ -48,12 +48,6 @@ export const Venue: React.FC<VenueProps> = (props) => {
           in the heart of Dublin and it is equipped with state-of-the-art
           lighting and audiovisual systems.
         </p>
-        <Button
-          color="warning"
-          href="https://www.theconferenceandeventsvenue.ie/our-venues/the-round-room/"
-        >
-          Learn more about The Round Room
-        </Button>
       </Section>
       <Section title="The after party venue" size={1}>
         <p>
@@ -85,9 +79,6 @@ export const Venue: React.FC<VenueProps> = (props) => {
           Seine was established in 1993 and quickly became a go-to destination
           for locals and visitors to the city.
         </p>
-        <Button color="warning" href="https://www.cafeenseine.ie/">
-          Learn more about Cafe en Seine
-        </Button>
       </Section>
       <Section title="Visit Dublin and discover Ireland" size={1}>
         <p>
@@ -119,7 +110,7 @@ export const Venue: React.FC<VenueProps> = (props) => {
           exciting and relaxing.
         </p>
         <Button color="warning" href="https://www.ireland.com/">
-          Learn more about visiting Ireland
+          More about Ireland
         </Button>
         <div className="row failte">
           <div className="col-md-6">

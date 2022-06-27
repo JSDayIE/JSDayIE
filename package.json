@@ -13,7 +13,8 @@
     "test:local": "lerna run test:local --stream",
     "lint": "lerna run lint --stream",
     "lint:fix": "lerna run lint:fix --stream",
-    "clean": "lerna run clean --stream && rm -r -f node_modules"
+    "clean": "lerna run clean --stream && rm -r -f node_modules",
+    "deploy": "./bin/deploy.sh"
   },
   "dependencies": {},
   "devDependencies": {

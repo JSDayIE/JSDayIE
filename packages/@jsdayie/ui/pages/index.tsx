@@ -11,12 +11,14 @@ import {
   getScheduleData,
   getTicketData,
 } from "@jsdayie/pages";
+import { Seo } from "@jsdayie/components";
+import { PATHS, seoValues } from "@jsdayie/config";
 
 export interface HomePageProps {
   props: HomeProps;
 }
 
-export async function getServerSideProps(): Promise<HomePageProps> {
+export async function getStaticProps(): Promise<HomePageProps> {
   const sponsorsingPackages = await getSponsorsingPackagesData();
   const sponsors = await getSponsorsData();
   const info = await getInfoData();
@@ -76,16 +78,32 @@ const HomePage: React.FC<HomeProps> = (props) => {
     venue,
   } = props;
   return (
-    <Home
-      blog={blog}
-      speakers={speakers}
-      activity={activity}
-      tickets={tickets}
-      sponsorsingPackages={sponsorsingPackages}
-      sponsors={sponsors}
-      info={info}
-      venue={venue}
-    />
+    <>
+      <Seo
+        title={seoValues.title(
+          "The first JavaScipt conference in Ireland is back!"
+        )}
+        description={seoValues.description}
+        mainColorHex={seoValues.mainColorHex}
+        author={seoValues.author}
+        keywords={seoValues.keywords}
+        url={seoValues.url(PATHS.home)}
+        facebookThumbnailUrl={seoValues.facebookThumbnailUrl}
+        twitterThumbnailUrl={seoValues.twitterThumbnailUrl}
+        twitterUserName={seoValues.twitterUserName}
+        GA_MEASUREMENT_ID={seoValues.GA_MEASUREMENT_ID}
+      />
+      <Home
+        blog={blog}
+        speakers={speakers}
+        activity={activity}
+        tickets={tickets}
+        sponsorsingPackages={sponsorsingPackages}
+        sponsors={sponsors}
+        info={info}
+        venue={venue}
+      />
+    </>
   );
 };
 

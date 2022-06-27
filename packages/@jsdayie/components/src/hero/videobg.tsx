@@ -1,7 +1,7 @@
 import React from "react";
 
 function VideoBg() {
-  if (window && window.innerWidth > 576) {
+  if (window && window.innerWidth >= 768) {
     return (
       <div className="videoBg">
         <video

@@ -16,11 +16,35 @@ export const CfpDetails: React.FC = () => {
         <Table
           headers={["Event", "Date"]}
           rows={[
-            ["CFP is open for submissions", "26th June 2022"],
-            ["CFP is close for submissions", "28th February 2023"],
-            ["Speakers are announced", "March-April 2023"],
-            ["JSDayIE 2023's Speakers dinner 2023", "25th September 2023"],
-            ["JSDayIE 2023", "26th September 2023"],
+            [
+              {
+                key: "cfp_step1_title",
+                content: "CFP is open for submissions",
+              },
+              { key: "cfp_step1_date", content: "26th June 2022" },
+            ],
+            [
+              {
+                key: "cfp_step2_title",
+                content: "CFP is close for submissions",
+              },
+              { key: "cfp_step2_date", content: "28th February 2023" },
+            ],
+            [
+              { key: "cfp_step3_title", content: "Speakers are announced" },
+              { key: "cfp_step3_date", content: "March-April 2023" },
+            ],
+            [
+              {
+                key: "cfp_step4_title",
+                content: "JSDayIE 2023's Speakers dinner 2023",
+              },
+              { key: "cfp_step4_date", content: "25th September 2023" },
+            ],
+            [
+              { key: "cfp_step5_title", content: "JSDayIE 2023" },
+              { key: "cfp_step5_date", content: "26th September 2023" },
+            ],
           ]}
         />
         <p>
@@ -40,26 +64,46 @@ export const CfpDetails: React.FC = () => {
             headers={["What we value the most"]}
             rows={[
               [
-                <div>
-                  <b>Original topics</b>, presented for the first time
-                </div>,
+                {
+                  key: "1",
+                  content: (
+                    <div>
+                      <b>Original topics</b>, presented for the first time
+                    </div>
+                  ),
+                },
               ],
               [
-                <div>
-                  <b>Practical ideas</b> that attendees can apply at work the
-                  next day
-                </div>,
+                {
+                  key: "2",
+                  content: (
+                    <div>
+                      <b>Practical ideas</b> that attendees can apply at work
+                      the next day
+                    </div>
+                  ),
+                },
               ],
               [
-                <div>
-                  <b>Trends and hot topics</b> which are relevant in 2023 and
-                  beyond
-                </div>,
+                {
+                  key: "3",
+                  content: (
+                    <div>
+                      <b>Trends and hot topics</b> which are relevant in 2023
+                      and beyond
+                    </div>
+                  ),
+                },
               ],
               [
-                <div>
-                  <b>Fresh perspectives</b> on the JS ecosystem
-                </div>,
+                {
+                  key: "4",
+                  content: (
+                    <div>
+                      <b>Fresh perspectives</b> on the JS ecosystem
+                    </div>
+                  ),
+                },
               ],
             ]}
           />
@@ -105,10 +149,20 @@ export const CfpDetails: React.FC = () => {
           <Table
             headers={["Speaker Perks"]}
             rows={[
-              ["Flights and hotel"],
-              ["Speaker dinner the night before the event"],
-              ["Free entrance at the conference"],
-              ["Extra ticket if somebody is joining you"],
+              [{ key: "perk_1", content: "Flights and hotel" }],
+              [
+                {
+                  key: "perk_2",
+                  content: "Speaker dinner the night before the event",
+                },
+              ],
+              [{ key: "perk_3", content: "Free entrance at the conference" }],
+              [
+                {
+                  key: "perk_4",
+                  content: "Extra ticket if somebody is joining you",
+                },
+              ],
             ]}
           />
         </Section>

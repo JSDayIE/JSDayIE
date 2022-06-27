@@ -23,12 +23,12 @@ export const Schedule: React.FC<ScheduleProps> = (props) => {
         <Table
           headers={["Time", "Duration", "Speaker", "Activity"]}
           rows={data.map((a) => [
-            `${a.startTime}`,
-            a.duration,
-            a.speaker,
-            a.title,
+            { key: a.startTime, content: a.startTime },
+            { key: a.duration, content: a.duration },
+            { key: a.speaker, content: a.speaker },
+            { key: a.title, content: a.title },
           ])}
-          rowClass={(row) => (row[2] === "--" ? "schedule_break" : "")}
+          rowClass={(row) => (row[2].content === "--" ? "schedule_break" : "")}
         />
         <a
           className="btn btn-outline-warning btn-lg"

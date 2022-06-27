@@ -21,13 +21,6 @@ export const Tickets: React.FC<TicketsProps> = (props) => {
             </div>
           ))}
         </div>
-        <a
-          className="btn btn-outline-warning btn-lg"
-          href="https://ti.to/wolk-software-limited/jsdayie-2023/"
-        >
-          Get your ticket now!
-        </a>
-        <br />
         <br />
         <p>
           We are proud to announce that thanks to our sponsors and attendees we
@@ -36,20 +29,22 @@ export const Tickets: React.FC<TicketsProps> = (props) => {
           student or a member of an underrepresented group.
         </p>
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-12">
             <a
               className="btn btn-outline-warning btn-lg"
               href="https://forms.gle/SuLbvmVREM9AqCJD6"
             >
-              Apply for a student ticket now!
+              Apply for a student ticket
             </a>
-          </div>
-          <div className="col-md-6">
+            <br />
+            <br />
+            <p>Or</p>
+            <br />
             <a
               className="btn btn-outline-warning btn-lg"
               href="https://forms.gle/cSJzqwrmcYSjRcT46"
             >
-              Apply for a diversity ticket now!
+              Apply for a diversity ticket
             </a>
           </div>
         </div>

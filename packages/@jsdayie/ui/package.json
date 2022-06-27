@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start -p 80",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
@@ -13,9 +13,9 @@
   "dependencies": {
     "@jsdayie/components": "1.0.0",
     "@jsdayie/config": "1.0.0",
-    "@jsdayie/utils": "1.0.0",
     "@jsdayie/domain": "1.0.0",
     "@jsdayie/pages": "1.0.0",
+    "@jsdayie/utils": "1.0.0",
     "@next/eslint-plugin-next": "^12.1.6",
     "fp-ts": "2.12.1",
     "io-ts": "2.2.16",
@@ -32,6 +32,18 @@
     "@types/react-dom": "18.0.5",
     "eslint": "8.16.0",
     "eslint-config-next": "12.1.6",
-    "typescript": "4.7.2"
+    "image-trace-loader": "^1.0.2",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^9.0.0",
+    "jimp": "^0.16.1",
+    "lqip-loader": "^2.2.1",
+    "next-compose-plugins": "^2.2.1",
+    "next-optimized-images": "^2.6.2",
+    "responsive-loader": "^3.0.4",
+    "svg-sprite-loader": "^6.0.11",
+    "typescript": "4.7.2",
+    "webp-loader": "^0.6.0"
   }
 }

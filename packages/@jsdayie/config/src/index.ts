@@ -59,3 +59,37 @@ export const routes: RouteConf[] = [
   { title: "Blog", path: PATHS.blog },
   { title: "Newsletter", path: PATHS.newsletter },
 ];
+
+const baseSeoUrl = "https://www.jsday.ie";
+
+export const seoValues = {
+  title: (title: string) => `JSDayIE 2023 | ${title}`,
+  description:
+    "JSDayIE - The first JavaScipt conference in Ireland is back on the 26th September 2023 The Round Room at the The Mansion House in Dublin, Ireland",
+  mainColorHex: "#c8a157",
+  url: (path: string) => `${baseSeoUrl}${path}`,
+  twitterUserName: "@jsdayie",
+  author: "JSDayIE | Wolk Software",
+  facebookThumbnailUrl: `${baseSeoUrl}/media/facebook-thumbnail.png`,
+  twitterThumbnailUrl: `${baseSeoUrl}/media/twitter-thumbnail.png`,
+  keywords: [
+    "javascript",
+    "js",
+    "tech",
+    "conference",
+    "conf",
+    "dublin",
+    "ireland",
+    "europe",
+    "react",
+    "vue",
+    "next",
+    "node.js",
+    "frontend",
+    "backend",
+    "deno",
+    "yarn",
+    "npm",
+  ],
+  GA_MEASUREMENT_ID: "G-9W242S4MXM",
+};

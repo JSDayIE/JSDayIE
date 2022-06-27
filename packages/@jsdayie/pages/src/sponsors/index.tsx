@@ -31,14 +31,14 @@ export const Sponsors: React.FC<SponsorsProps> = (props) => {
           ]}
           rows={sponsorsingPackagesData
             .filter((a) => !a.hide)
-            .map((a) => [
-              a.title,
-              a.bronze,
-              a.silver,
-              a.gold,
-              a.platinum,
-              a.platinumPlus,
-              a.diamond,
+            .map((a, i) => [
+              { key: `title${i}`, content: a.title },
+              { key: `bronze${i}`, content: a.bronze },
+              { key: `silver${i}`, content: a.silver },
+              { key: `gold${i}`, content: a.gold },
+              { key: `platinum${i}`, content: a.platinum },
+              { key: `platinumPlus${i}`, content: a.platinumPlus },
+              { key: `diamond${i}`, content: a.diamond },
             ])}
         />
         <p>* Fees are displayed excluding 23% VAT</p>
@@ -47,13 +47,14 @@ export const Sponsors: React.FC<SponsorsProps> = (props) => {
           talent specialized in JavaScript technologies in Ireland.
         </p>
         <Button href="https://bit.ly/SponsorJSDayIE2023Now" color="warning">
-          Download our Sponsorship Prospectus
+          Download our prospectus
         </Button>
         <br />
         <br />
         <p>Or</p>
+        <br />
         <Button href="mailto:info@jsday.ie" color="warning">
-          Contact us to become a sponsor now!
+          Become a sponsor
         </Button>
       </Section>
       <div className="horizontal_break_2" />

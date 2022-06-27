@@ -24,9 +24,7 @@ export const CoC: React.FC = () => {
         </p>
         <p>Organizers will enforce this code throughout the event.</p>
         <div className="btnGroup">
-          <ButtonLink to={PATHS.cocDetails}>
-            Learn more about our CoC
-          </ButtonLink>
+          <ButtonLink to={PATHS.cocDetails}>More about our CoC</ButtonLink>
         </div>
       </Section>
     </Container>

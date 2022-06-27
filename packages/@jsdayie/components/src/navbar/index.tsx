@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -10,10 +10,11 @@ interface NavBarItem {
 
 interface NavbarItemsProps {
   items: NavBarItem[];
+  onClick: () => void;
 }
 
 const NavBarItems: React.FC<NavbarItemsProps> = (props) => {
-  const { items } = props;
+  const { items, onClick } = props;
   return (
     <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
       {items
@@ -22,7 +23,16 @@ const NavBarItems: React.FC<NavbarItemsProps> = (props) => {
           return (
             <li className="nav-item" key={item.href}>
               <Link href={item.href}>
-                <a className="nav-link">{item.title}</a>
+                <a className="nav-link">
+                  <span
+                    role="button"
+                    onClick={() => onClick()}
+                    onKeyDown={() => onClick()}
+                    tabIndex={0}
+                  >
+                    {item.title}
+                  </span>
+                </a>
               </Link>
             </li>
           );
@@ -36,6 +46,7 @@ interface NavbarProps {
 }
 
 export const Navbar: React.FC<NavbarProps> = (props) => {
+  const [isCollapse, setIsCollapse] = useState<boolean>(true);
   const { items } = props;
   const indexItems = items.filter((i) => i.isIndex === true);
   if (indexItems.length > 1) {
@@ -47,19 +58,26 @@ export const Navbar: React.FC<NavbarProps> = (props) => {
         <button
           className="navbar-toggler"
           type="button"
-          data-toggle="collapse"
+          data-toggle={isCollapse ? "collapse" : ""}
           data-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onClick={() => setIsCollapse(!isCollapse)}
         >
           <span className="navbar-toggler-icon" />
         </button>
-        <div className="collapse navbar-collapse" id="navbarNavDropdown">
+        <div
+          className={`navbar-collapse ${isCollapse ? "collapse" : ""}`}
+          id="navbarNavDropdown"
+        >
           {indexItems.length === 1 ? (
             <Link href={indexItems[0].href}>
               <a>
                 <Image
+                  onClick={() => setIsCollapse(true)}
+                  onKeyDown={() => setIsCollapse(true)}
+                  tabIndex={0}
                   src="/media/jslogo.png"
                   alt="logo"
                   width="30"
@@ -69,7 +87,12 @@ export const Navbar: React.FC<NavbarProps> = (props) => {
               </a>
             </Link>
           ) : null}
-          <NavBarItems items={items} />
+          <NavBarItems
+            items={items}
+            onClick={() => {
+              setIsCollapse(true);
+            }}
+          />
           <form
             className="form-inline my-2 my-lg-0"
             action="https://ti.to/wolk-software-limited/jsdayie-2023/"

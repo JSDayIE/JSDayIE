@@ -48,8 +48,22 @@ export const Ticket: React.FC<TickerProps> = (props) => {
       </CardBody>
       <CardFooter>
         <p>
-          {details.type} ticket for JSDayIE on September 26th, 2023. Please note
-          that the ticket is NOT REFUNDABLE.
+          <a
+            className="btn btn-outline-warning btn-lg"
+            href="https://ti.to/wolk-software-limited/jsdayie-2023/"
+          >
+            BUY NOW
+          </a>
+        </p>
+        <p>
+          Please note that{" "}
+          <a
+            title="Terms and conditions"
+            href="https://bit.ly/JSDayIETermsAndConditions"
+          >
+            terms and conditions
+          </a>{" "}
+          apply.
         </p>
       </CardFooter>
     </Card>

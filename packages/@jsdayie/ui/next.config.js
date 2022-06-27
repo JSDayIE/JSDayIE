@@ -1,4 +1,6 @@
 const { dependencies } = require('./package.json')
+const withPlugins = require('next-compose-plugins');
+const optimizedImages = require('next-optimized-images');
 
 function getModules() {
   return Object.keys(dependencies || []).filter(dependency => dependency.startsWith('@jsdayie/'));
@@ -21,17 +23,24 @@ function getAliases(modulesArray) {
   });
 }
 
-module.exports = withTM({
-  webpack: (config) => {
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      ...getAliases(modules)
-    };
-    config.resolve.fallback = {
-      ...config.resolve.fallback,
-      fs: false,
-      join: false
-    };
-    return config;
-  },
-});
+module.exports = withPlugins(
+  [optimizedImages, withTM],
+  {
+    images: {
+      loader: 'akamai',
+      path: '/'
+    },
+    webpack: (config) => {
+      config.resolve.alias = {
+        ...config.resolve.alias,
+        ...getAliases(modules)
+      };
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+        join: false
+      };
+      return config;
+    },
+  }
+);

@@ -1,6 +1,8 @@
 import React from "react";
 import { SpeakersProps, getSpeakerData, Speakers } from "@jsdayie/pages";
 import { GetStaticProps, GetStaticPropsResult } from "next";
+import { Seo } from "@jsdayie/components";
+import { PATHS, seoValues } from "@jsdayie/config";
 
 export const getStaticProps: GetStaticProps = async (): Promise<
   GetStaticPropsResult<SpeakersProps>
@@ -21,7 +23,23 @@ export const getStaticProps: GetStaticProps = async (): Promise<
 
 const SpeakersPage: React.FC<SpeakersProps> = (props) => {
   const { data, isDemo, isPreview } = props;
-  return <Speakers data={data} isDemo={isDemo} isPreview={isPreview} />;
+  return (
+    <>
+      <Seo
+        title={seoValues.title("Speakers")}
+        description={seoValues.description}
+        mainColorHex={seoValues.mainColorHex}
+        author={seoValues.author}
+        keywords={seoValues.keywords}
+        url={seoValues.url(PATHS.speakers)}
+        facebookThumbnailUrl={seoValues.facebookThumbnailUrl}
+        twitterThumbnailUrl={seoValues.twitterThumbnailUrl}
+        twitterUserName={seoValues.twitterUserName}
+        GA_MEASUREMENT_ID={seoValues.GA_MEASUREMENT_ID}
+      />
+      <Speakers data={data} isDemo={isDemo} isPreview={isPreview} />
+    </>
+  );
 };
 
 export default SpeakersPage;

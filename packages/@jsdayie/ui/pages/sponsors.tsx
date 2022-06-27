@@ -5,12 +5,14 @@ import {
   getSponsorsingPackagesData,
   getSponsorsData,
 } from "@jsdayie/pages";
+import { Seo } from "@jsdayie/components";
+import { PATHS, seoValues } from "@jsdayie/config";
 
 export interface SponsorsPageProps {
   props: SponsorsProps;
 }
 
-export async function getServerSideProps(): Promise<SponsorsPageProps> {
+export async function getStaticProps(): Promise<SponsorsPageProps> {
   const sponsorsingPackagesData = await getSponsorsingPackagesData();
   const sponsorData = await getSponsorsData();
   if (sponsorsingPackagesData instanceof Error) {
@@ -30,10 +32,24 @@ export async function getServerSideProps(): Promise<SponsorsPageProps> {
 const SponsorsPage: React.FC<SponsorsProps> = (props) => {
   const { sponsorsingPackagesData, sponsorData } = props;
   return (
-    <Sponsors
-      sponsorsingPackagesData={sponsorsingPackagesData}
-      sponsorData={sponsorData}
-    />
+    <>
+      <Seo
+        title={seoValues.title("Speakers")}
+        description={seoValues.description}
+        mainColorHex={seoValues.mainColorHex}
+        author={seoValues.author}
+        keywords={seoValues.keywords}
+        url={seoValues.url(PATHS.sponsors)}
+        facebookThumbnailUrl={seoValues.facebookThumbnailUrl}
+        twitterThumbnailUrl={seoValues.twitterThumbnailUrl}
+        twitterUserName={seoValues.twitterUserName}
+        GA_MEASUREMENT_ID={seoValues.GA_MEASUREMENT_ID}
+      />
+      <Sponsors
+        sponsorsingPackagesData={sponsorsingPackagesData}
+        sponsorData={sponsorData}
+      />
+    </>
   );
 };
 

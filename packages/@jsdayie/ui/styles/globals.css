@@ -428,25 +428,6 @@ img {
   flex-flow: row wrap;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
-  .hero_h2 {
-    font-size: 15px;
-  }
-
-  .hero_h3 {
-    font-size: 15px;
-  }
-
-  .hero_h1 {
-    font-size: 50px;
-  }
-
-  .hero_img {
-    width: 90px;
-  }
-}
-
 .card {
   background: #1d1d1d;
   box-shadow: -1rem 0 3rem #000;
@@ -488,11 +469,7 @@ img {
 }
 
 .hero_bg {
-  padding: 20% 0% 12.5% 0%;
-  border-bottom: 1px solid #c8a157;
   height: 890px;
-  background-color: rgba(0, 0, 0, 0.5);
-  background-image: url('/media/hero-overlay.svg');
 }
 
 .videoBg {
@@ -515,46 +492,14 @@ img {
   min-height: 100%;
 }
 
-.hero {
-  width: 50%;
-  margin: 0% auto 0px auto;
-}
-
 .hero_img {
-  width: 190px;
-  max-width: inherit !important;
-}
-
-.hero_logo {
-  min-width: 192px;
-  vertical-align: top;
-}
-
-.hero_title {
-  width: 75%;
-  padding: 0px 0px 0px 10px;
-  vertical-align: top;
-}
-
-.hero_h1 {
-  font-size: 113px;
-  font-weight: bold;
-  margin: 0px;
-  padding-top: 5px;
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-.hero_h2 {
-  font-size: 28px;
-  margin: 0px;
-  text-align: center;
-}
-
-.hero_h3 {
-  font-size: 28px;
-  margin: 0px;
-  padding-left: 5px;
-  text-align: center;
+  max-width: 80%;
+  height: 400px;
+  margin: auto;
+  background-image: url(/media/hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .modal {
@@ -582,10 +527,6 @@ img {
 
 .modal-body p {
   font-size: 14px !important;
-}
-
-.modal-dialog {
-  max-width: 50%;;
 }
 
 .table_table {
@@ -659,8 +600,20 @@ img {
   min-height: 370px;
 }
 
+.modal-body {
+  max-height: 65vh;
+  overflow-y: auto;
+}
+
+.modal-dialog {
+  max-width: 90%;
+  margin: auto;
+  
+}
+
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
+
   .hero_bg {
     height: 300px;
   }
@@ -668,18 +621,38 @@ img {
   .videoBg {
     height: 300px;
   }
+
+  .hero_img_wrapper {
+    padding-top: 5rem;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
+  .hero_bg {
+    border-bottom: 1px solid #c8a157;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('/media/hero-overlay.svg');
+  }
+
+  .hero_img_wrapper {
+    padding-top: 15rem;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .hero_img_wrapper {
+    padding-top: 15rem;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+  .hero_img_wrapper {
+    padding-top: 15rem;
+  }
 
   .corner_container {
     position: relative;

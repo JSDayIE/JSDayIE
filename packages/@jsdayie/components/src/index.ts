@@ -12,3 +12,4 @@ export { MarkDown } from "./markdown";
 export { HashMap } from "./hashmap";
 export { Gallery, GalleryProps } from "./gallery";
 export { Modal } from "./modal";
+export { Seo } from "./seo";

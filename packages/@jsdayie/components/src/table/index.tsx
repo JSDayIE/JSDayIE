@@ -1,6 +1,11 @@
 import React from "react";
 
-type Row = (JSX.Element | string)[];
+interface Cell {
+  content: JSX.Element | string;
+  key: string;
+}
+
+type Row = Cell[];
 
 interface TableHeaderProps {
   headers: string[];
@@ -33,12 +38,12 @@ const TableBody: React.FC<TableBodyProps> = (props) => {
       {rows.map((r) => {
         return (
           <tr
-            key={`table_row_${r}`}
+            key={`table_row_${r[0].key}`}
             className={`table_tbody_tr ${rowClass ? rowClass(r) : ""}`}
           >
             {r.map((c) => (
-              <th className="table_tbody_td" key={`table_row_cell_${c}`}>
-                {c}
+              <th className="table_tbody_td" key={`table_row_cell_${c.key}`}>
+                {c.content}
               </th>
             ))}
           </tr>
