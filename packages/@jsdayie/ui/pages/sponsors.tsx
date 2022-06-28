@@ -34,7 +34,7 @@ const SponsorsPage: React.FC<SponsorsProps> = (props) => {
   return (
     <>
       <Seo
-        title={seoValues.title("Speakers")}
+        title={seoValues.title("Sponsors")}
         description={seoValues.description}
         mainColorHex={seoValues.mainColorHex}
         author={seoValues.author}

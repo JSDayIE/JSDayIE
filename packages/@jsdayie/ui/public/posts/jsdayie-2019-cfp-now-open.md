@@ -10,7 +10,7 @@ We are looking for a multitude of topics and perspectives but most of all we val
 
 - **Practical ideas** that attendees can apply at work the next day
 
-- **Trends and hot topics** which are relevant in 2019 and beyond
+- **Trends and hot topics** which are relevant in 2022 and beyond
 
 - **Fresh perspectives** on the JS ecosystem
 

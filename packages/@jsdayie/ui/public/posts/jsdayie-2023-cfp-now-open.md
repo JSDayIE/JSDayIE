@@ -1,6 +1,6 @@
 # JSDayIE 2023 CFP now open!
 
-The JSDayIE 2023 CFP is now open! We're excited to welcome the JavaScript community to submit talks for JSDayIE 2023 that will take place on September 26th 2023. The Call for Proposals closes on April 15th, 2023.
+The JSDayIE 2023 CFP is now open! We're excited to welcome the JavaScript community to submit talks for JSDayIE 2023 that will take place on September 26th 2023. The Call for Proposals closes on February 28th, 2023.
 
 We are looking for a multitude of topics and perspectives but most of all we value:
 
@@ -8,7 +8,7 @@ We are looking for a multitude of topics and perspectives but most of all we val
 
 - **Practical ideas** that attendees can apply at work the next day
 
-- **Trends and hot topics** which are relevant in 2019 and beyond
+- **Trends and hot topics** which are relevant in 2022 and beyond
 
 - **Fresh perspectives** on the JS ecosystem
 
