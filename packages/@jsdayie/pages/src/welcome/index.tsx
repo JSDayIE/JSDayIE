@@ -6,7 +6,7 @@ export const Welcome: React.FC = () => {
     <Container>
       <Section title="The first JavaScript conference in Ireland is back!" size={1}>
         <p>
-          JSDayIE 2013 is a 1-day single track tech conference dedicated to the
+          JSDayIE 2023 is a 1-day single track tech conference dedicated to the
           JavaScript community in Ireland featuring 500 attendees and some of
           the best JavaScript professionals and organizations.
         </p>
