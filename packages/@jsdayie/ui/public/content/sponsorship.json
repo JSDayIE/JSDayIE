@@ -2,12 +2,12 @@
     {
         "hide": false,
         "title": "Price (EUR)*",
-        "bronze": "1000",
-        "silver": "2000",
-        "gold": "3000",
-        "platinum": "4000",
-        "platinumPlus": "5000",
-        "diamond": "6000"
+        "bronze": "2000",
+        "silver": "3000",
+        "gold": "4000",
+        "platinum": "7000",
+        "platinumPlus": "8000",
+        "diamond": "10000"
     },
     {
         "hide": false,
@@ -118,15 +118,5 @@
         "platinum": "3",
         "platinumPlus": "2",
         "diamond": "1"
-    },
-    {
-        "hide": true,
-        "title": "Purchase",
-        "bronze": "https://buy.stripe.com/14k3ej1wi3ACdCEcMS",
-        "silver": "https://buy.stripe.com/9AQ9CHb6S0oqaqscMR",
-        "gold": "https://buy.stripe.com/dR6g158YKc78fKM148",
-        "platinum": "https://buy.stripe.com/dR60272Am5IK2Y0bIL",
-        "platinumPlus": "https://buy.stripe.com/dR65mr8YK0oq2Y0002",
-        "diamond": "https://buy.stripe.com/7sIcOTdf02wyeGI3cd"
     }
 ]

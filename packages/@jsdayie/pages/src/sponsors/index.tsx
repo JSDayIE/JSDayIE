@@ -42,17 +42,53 @@ export const Sponsors: React.FC<SponsorsProps> = (props) => {
             ])}
         />
         <p>* Fees are displayed excluding 23% VAT</p>
+        <p>We also offer the following additional sponsorship opportunities:</p>
+        <Table
+          headers={[
+            "",
+            "Award category",
+            "Coffee Break",
+            "Breakfast",
+            "Lunch",
+            "After party",
+          ]}
+          rows={[
+            [
+              {
+                key: "aso_title1",
+                content: "Price (EUR)*",
+              },
+              { key: "aso_price1", content: "2000" },
+              { key: "aso_price2", content: "2000" },
+              { key: "aso_price3", content: "5000" },
+              { key: "aso_price4", content: "5000" },
+              { key: "aso_price5", content: "10000" },
+            ],
+            [
+              {
+                key: "aso_title2",
+                content: "Maximum Availability",
+              },
+              { key: "aso_availability1", content: "8" },
+              { key: "aso_availability2", content: "2" },
+              { key: "aso_availability3", content: "1" },
+              { key: "aso_availability4", content: "1" },
+              { key: "aso_availability5", content: "1" },
+            ],
+          ]}
+        />
+        <p>* Fees are displayed excluding 23% VAT</p>
         <p>
           Sponsoring offers a unique opportunity to expose your brand and find
           talent specialized in JavaScript technologies in Ireland.
         </p>
+        <br />
         <Button href="https://bit.ly/SponsorJSDayIE2023Now" color="warning">
           Download our prospectus
         </Button>
         <br />
         <br />
         <p>Or</p>
-        <br />
         <Button href="mailto:info@jsday.ie" color="warning">
           Become a sponsor
         </Button>

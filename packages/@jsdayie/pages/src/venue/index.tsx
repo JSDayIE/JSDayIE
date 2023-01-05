@@ -1,22 +1,18 @@
 import React from "react";
-import {
-  Section,
-  Container,
-  Button,
-  Gallery,
-  GalleryProps,
-} from "@jsdayie/components";
+import { Section, Container, Button } from "@jsdayie/components";
 import Image from "next/image";
+import ImageGallery from "react-image-gallery";
 import { VenueMedia } from "./venue_media";
 
 export interface VenueProps {
-  galleryData: GalleryProps;
+  galleryData: { urls: string[] };
   isPreview: boolean;
 }
 
 export const Venue: React.FC<VenueProps> = (props) => {
   const { galleryData, isPreview } = props;
   const { urls } = galleryData;
+  const photos = urls.map((url) => ({ original: url }));
   return (
     <Container>
       <Section title="The event venue" size={1}>
@@ -74,10 +70,10 @@ export const Venue: React.FC<VenueProps> = (props) => {
         />
         <br />
         <p>
-          Cafe en Seine, one of Dublin’s most iconic and stunning venues.
-          Nestled in the heart of Dublin’s city centre on Dawson Street, Cafe en
-          Seine was established in 1993 and quickly became a go-to destination
-          for locals and visitors to the city.
+          Cafe en Seine, one of Dublin&apos;s most iconic and stunning venues.
+          Nestled in the heart of Dublin&apos;s city centre on Dawson Street,
+          Cafe en Seine was established in 1993 and quickly became a go-to
+          destination for locals and visitors to the city.
         </p>
       </Section>
       <Section title="Visit Dublin and discover Ireland" size={1}>
@@ -145,7 +141,7 @@ export const Venue: React.FC<VenueProps> = (props) => {
       </Section>
       {isPreview !== true ? (
         <Section title="JSDayIE 2019 Gallery" size={1}>
-          <Gallery urls={urls} />
+          <ImageGallery items={photos} showThumbnails showBullets autoPlay />
         </Section>
       ) : null}
     </Container>

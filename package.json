@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "lerna run dev --stream",
     "build": "lerna run build --stream",
+    "watch": "lerna run watch  --parallel --stream",
     "start": "lerna run start --stream",
     "test": "lerna run test --stream",
     "test:local": "lerna run test:local --stream",

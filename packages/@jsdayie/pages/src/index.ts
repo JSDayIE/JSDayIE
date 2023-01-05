@@ -9,7 +9,9 @@ export {
   getSpeakerData,
   getInfoData,
   getInfoEntryData,
+  getAwardsData,
 } from "./data";
+export { Awards, AwardsProps } from "./awards";
 export { BlogEntry, BlogEntryProps } from "./blog/blog_entry";
 export { Blog, BlogPostsProps } from "./blog/blog";
 export { BlogPreview } from "./blog/blog_preview";

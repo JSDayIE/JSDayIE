@@ -16,9 +16,9 @@ export const Cfp: React.FC = () => {
         </p>
         <Image
           alt="js ecosystem"
-          src="/media/js_galaxy_2019.png"
-          width="800"
-          height="480"
+          src="/media/js_galaxy_2023.png"
+          width="500"
+          height="458"
         />
         <p>Do you want to give a talk?</p>
         <ButtonLink to={PATHS.cfpDetails}>Learn more about the CFP</ButtonLink>

@@ -67,37 +67,40 @@ export const Navbar: React.FC<NavbarProps> = (props) => {
         >
           <span className="navbar-toggler-icon" />
         </button>
+        <Link href={indexItems[0].href}>
+          <a>
+            <Image
+              onClick={() => setIsCollapse(true)}
+              onKeyDown={() => setIsCollapse(true)}
+              tabIndex={0}
+              src="/media/jslogo.png"
+              alt="logo"
+              width="30"
+              height="30"
+            />
+            <span className="navbar-brand">{indexItems[0].title}</span>
+          </a>
+        </Link>
         <div
           className={`navbar-collapse ${isCollapse ? "collapse" : ""}`}
           id="navbarNavDropdown"
         >
-          {indexItems.length === 1 ? (
-            <Link href={indexItems[0].href}>
-              <a>
-                <Image
-                  onClick={() => setIsCollapse(true)}
-                  onKeyDown={() => setIsCollapse(true)}
-                  tabIndex={0}
-                  src="/media/jslogo.png"
-                  alt="logo"
-                  width="30"
-                  height="30"
-                />
-                <span className="navbar-brand">{indexItems[0].title}</span>
-              </a>
-            </Link>
-          ) : null}
           <NavBarItems
             items={items}
             onClick={() => {
               setIsCollapse(true);
             }}
           />
+        </div>
+        <div>
           <form
             className="form-inline my-2 my-lg-0"
             action="https://ti.to/wolk-software-limited/jsdayie-2023/"
           >
-            <button type="submit" className="btn btn-outline-light">
+            <button
+              type="submit"
+              className="btn btn-outline-light btn-tickets shine"
+            >
               2023 Tickets
             </button>
           </form>

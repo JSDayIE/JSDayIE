@@ -17,7 +17,7 @@ JSDayIE 2019 will take place on **September 26th, 2019** at The Round Room at th
 
 JSDayIE is a single-track 1-day tech conference featuring talks from a diverse range of JavaScript-related technical topics. The talks will focus on JavaScript best practices, lessons learned, front-end JavaScript frameworks and libraries like React, Vue, and Angular, Node.js and GraphQL development, JavaScript performance, JavaScript flavours such as TypeScript or Reason ML and emerging technologies such as Web Assembly and Progressive Web Apps.
 
-![](/media/js_galaxy_2019.png)
+![](/media/js_galaxy_2023.png)
 
 We are working together with the JavaScript communities in Ireland such as Node.js Dublin, React Dublin, CorkJS, BelfastJS, DublinJS, Dublin TypeScript and many others to ensure that everybody is represented in this event. 
 

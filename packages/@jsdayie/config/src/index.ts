@@ -17,10 +17,12 @@ export const RESOURCES = {
   sponsors: "/content/sponsors.json",
   sponsorship: "/content/sponsorship.json",
   tickets: "/content/tickets.json",
+  awards: "/content/awards.json",
 };
 
 export const PATHS = {
   home: "/",
+  awards: "/awards",
   speakers: "/speakers",
   schedule: "/schedule",
   venue: "/venue",

@@ -9,12 +9,14 @@ import {
   sponsorsingPackageArrayValidator,
   sponsorsValidator,
   ISponsors,
+  IAwards,
   ActivityArray,
   activityArrayValidator,
   SpeakerArray,
   speakerArrayValidator,
   InfoEntryArray,
   infoEntryArrayValidator,
+  awardsValidator,
 } from "@jsdayie/domain";
 import { getData, getText } from "@jsdayie/utils";
 import { RESOURCES } from "@jsdayie/config";
@@ -81,6 +83,18 @@ export async function getSponsorsData(): Promise<ISponsors | Error> {
     const data = getData<ISponsors>(
       BASE_PATH + RESOURCES.sponsors,
       sponsorsValidator
+    );
+    return data;
+  } catch (err) {
+    return err as Error;
+  }
+}
+
+export async function getAwardsData(): Promise<IAwards | Error> {
+  try {
+    const data = getData<IAwards>(
+      BASE_PATH + RESOURCES.awards,
+      awardsValidator
     );
     return data;
   } catch (err) {

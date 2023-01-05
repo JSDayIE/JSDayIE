@@ -5,13 +5,20 @@ const VideoBgDynamic = dynamic(() => import("./videobg"), {
   ssr: false,
 });
 
-export const Hero: React.FC = () => {
+export interface HeroProps {
+  page: "conference" | "awards";
+}
+
+export const Hero: React.FC<HeroProps> = (props) => {
+  const { page } = props;
   return (
     <div>
       <div className="hero_bg">
         <div className="container">
           <div className="col-md-12 hero_img_wrapper">
-            <div className="hero_img" />
+            <div
+              className={page === "conference" ? "hero_img" : "awards_hero_img"}
+            />
           </div>
         </div>
       </div>
