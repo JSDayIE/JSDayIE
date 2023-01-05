@@ -104,10 +104,10 @@
         "title": "Tickets",
         "bronze": "1",
         "silver": "2",
-        "gold": "4",
-        "platinum": "6",
-        "platinumPlus": "8",
-        "diamond": "10"
+        "gold": "3",
+        "platinum": "4",
+        "platinumPlus": "5",
+        "diamond": "6"
     },
     {
         "hide": false,
