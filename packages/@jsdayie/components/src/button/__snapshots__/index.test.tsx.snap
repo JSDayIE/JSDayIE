@@ -2,7 +2,7 @@
 
 exports[`Button 1`] = `
 <a
-  className="btn btn-outline-warning btn-lg"
+  className="btn btn-outline-warning btn-lg "
   href="/somepath"
   rel="noreferrer"
   target="_blank"
