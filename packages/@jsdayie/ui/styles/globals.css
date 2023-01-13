@@ -135,6 +135,10 @@ img {
 }
 
 .bg-warning {
+  background-color: rgba(29,29,29,0.7) !important;
+}
+
+.scrolled {
   background-color: #1d1d1d !important;
 }
 
@@ -449,7 +453,7 @@ img {
 
 .card {
   background: #1d1d1d;
-  box-shadow: -1rem 0 3rem #000;
+  box-shadow: -1rem 0 3rem rgb(0 0 0 / 30%);
   margin-bottom: 50px;
   border: 0.5px solid #c8a157;
   border-radius: 0;
@@ -489,7 +493,7 @@ img {
 }
 
 .hero_bg {
-  height: 890px;
+  height: 970px;
 }
 
 .videoBg {
@@ -497,8 +501,8 @@ img {
   z-index: -1;
   top: 0px;
   left: 0px;
-  height: 890px;
-  width: 98.9vw;
+  height: 970px;
+  width: 100vw;
   opacity: 1;
   overflow: hidden;
 }
@@ -508,28 +512,8 @@ img {
   z-index: -1;
   top: 0px;
   left: 0px;
-  min-width: 100%;
-  min-height: 100%;
-}
-
-.hero_img {
-  max-width: 80%;
-  height: 400px;
-  margin: auto;
-  background-image: url(/media/hero.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
-.awards_hero_img {
-  max-width: 80%;
-  height: 400px;
-  margin: auto;
-  background-image: url(/media/awards-hero.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  width: 100% !important;
+  height: 970px !important;
 }
 
 .modal {
@@ -626,6 +610,7 @@ img {
   font-size: 20px !important;
   max-width: 90%;
   margin: auto;
+  margin-top: 1rem;
 }
 
 .speaker .card-body {
@@ -660,6 +645,16 @@ img {
 
   .nav-link {
     padding: .2rem 1rem;
+  }
+
+  .hero_img {
+    max-width: 80%;
+    height: 400px;
+    margin: auto;
+    background-image: url(/media/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
   }
 }
 
@@ -1295,12 +1290,15 @@ img {
   0% {
     left: -75%;
   }
+
   50% {
     left: 125%;
   }
+
   50.01% {
     left: -75%;
   }
+
   100% {
     left: 125%;
   }
@@ -1311,6 +1309,7 @@ img {
   height: 150px;
   overflow: hidden;
 }
+
 .global-ribbon-content {
   position: absolute;
   display: block;
@@ -1319,19 +1318,25 @@ img {
   color: white;
   cursor: pointer;
   border: 1px solid #c8a157;
-  background-color: #1a1a1a;
+  background-color: rgba(29,29,29,0.7);
   font-size: 16px;
   text-align: center;
   font-weight: 700;
 }
+
 .global-ribbon-top-right {
   position: fixed;
-  top: 70px;
+  top: 72px;
   right: 0px;
   z-index: 9;
 }
+
 .global-ribbon-top-right .global-ribbon-content {
   left: -20px;
   top: 30px;
   transform: rotate(45deg);
+}
+
+.remember {
+  color: #c8a157;
 }

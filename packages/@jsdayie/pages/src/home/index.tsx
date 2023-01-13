@@ -44,7 +44,7 @@ export const Home: React.FC<HomeProps> = (props) => {
   } = props;
   return (
     <>
-      <Hero page="conference" />
+      <Hero />
       <Welcome />
       <Speakers data={speakers} isDemo={false} isPreview />
       <Schedule data={activity} />

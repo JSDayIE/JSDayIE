@@ -25,7 +25,7 @@ const SpeakersPage: React.FC<AwardsProps> = (props) => {
   return (
     <>
       <Seo
-        title={seoValues.title("Awards")}
+        title={seoValues.title("JSAwardsIE - JavaSciprt Awards Ireland")}
         description={seoValues.description}
         mainColorHex={seoValues.mainColorHex}
         author={seoValues.author}

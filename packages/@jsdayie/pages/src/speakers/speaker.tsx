@@ -14,6 +14,7 @@ import {
   MediumIcon,
   TwitterIcon,
   WebIcon,
+  YoutubeIcon,
 } from "./social_icons";
 
 interface SpeakerProps {
@@ -59,6 +60,7 @@ export const Speaker: React.FC<SpeakerProps> = (props) => {
               <GithubIcon links={details.links} />
               <MediumIcon links={details.links} />
               <LinkedinIcon links={details.links} />
+              <YoutubeIcon links={details.links} />
             </div>
           </CardFooter>
         )}
@@ -68,9 +70,13 @@ export const Speaker: React.FC<SpeakerProps> = (props) => {
         isOpen={isOpen}
         toggleHandler={() => toggleHandler()}
       >
-        <h5 className="section_h2">Abstract</h5>
-        <p>{details.talk.abstract}</p>
-        <br />
+        {details.talk.abstract ? (
+          <>
+            <h5 className="section_h2">Abstract</h5>
+            <p>{details.talk.abstract}</p>
+            <br />
+          </>
+        ) : null}
         <h5 className="section_h2">Bio</h5>
         <p>{details.bio}</p>
       </Modal>

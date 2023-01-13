@@ -6,7 +6,7 @@ function VideoBg() {
       <div className="videoBg">
         <video
           poster="/media/bg.png"
-          src="/media/bg.webm"
+          src="/media/promo.webm"
           autoPlay
           loop
           muted

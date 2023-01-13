@@ -34,9 +34,32 @@ export function Team() {
           <div className="col-md-4">
             <Speaker
               details={{
+                name: "Davy Engone",
+                company: "Hackages & Techlingo",
+                role: "Founder",
+                pic: "/media/speakers_2019/davy_engone.jpg",
+                bio: "Davy Engone is the founder and head of engineering at Hackages where he is building a team of developers and designers. He recently launched Techlingo, a brand that helps recruiters learn about the IT landscape and aims to close the gap between devs and recruiters.",
+                links: {
+                  twitter: "https://twitter.com/davyengone",
+                  web: "https://www.davyengone.io",
+                  github: "https://github.com/davyengone",
+                  youtube: "https://www.youtube.com/@davyengone",
+                  linkedin: "https://www.linkedin.com/in/davyengone/",
+                },
+                talk: {
+                  title: "Master of Ceremonies",
+                  abstract: "",
+                },
+                hide: false,
+              }}
+            />
+          </div>
+          <div className="col-md-4">
+            <Speaker
+              details={{
                 hide: false,
                 name: "Remo H. Jansen",
-                role: "CEO",
+                role: "Founder & CEO",
                 company: "Wolk Software",
                 bio: "Remo is the CEO of Wolk Software, a former Microsoft MVP and lead organizer of JSDayIE.",
                 links: {

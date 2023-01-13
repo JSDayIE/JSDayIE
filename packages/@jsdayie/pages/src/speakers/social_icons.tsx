@@ -43,6 +43,12 @@ function socialIconFactory(type: keyof Links) {
             <i className="fab fa-medium" />
           </Button>
         ) : null;
+      case "youtube":
+        return url ? (
+          <Button href={url}>
+            <i className="fab fa-youtube" />
+          </Button>
+        ) : null;
       default:
         return null;
     }
@@ -54,3 +60,4 @@ export const TwitterIcon = socialIconFactory("twitter");
 export const GithubIcon = socialIconFactory("github");
 export const LinkedinIcon = socialIconFactory("linkedin");
 export const MediumIcon = socialIconFactory("medium");
+export const YoutubeIcon = socialIconFactory("youtube");

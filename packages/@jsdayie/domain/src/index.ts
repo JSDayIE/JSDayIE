@@ -77,6 +77,7 @@ export const speakerLinksValidator = io.partial({
   github: io.string,
   medium: io.string,
   linkedin: io.string,
+  youtube: io.string,
 });
 
 export const talkValidator = io.partial({
