@@ -42,7 +42,7 @@ export const Schedule: React.FC<ScheduleProps> = (props) => {
           will be Davy Engone. He has extensive experience producing video and
           audio content for the developer community and public speaking
           engagements. He is an enthusiastic and energetic software developer
-          and entrepeneur with a great personality and lots of positive energy.
+          and entrepreneur with a great personality and lots of positive energy.
           We are delighted to have him on board!
         </p>
         <div className="row mt-5">
