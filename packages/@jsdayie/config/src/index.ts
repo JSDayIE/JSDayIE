@@ -50,7 +50,7 @@ export const PATHS = {
 
 export const routes: RouteConf[] = [
   { isIndex: true, title: "DayIE", path: PATHS.home },
-  { title: "CfP", path: PATHS.cfp },
+  // { title: "CfP", path: PATHS.cfp },
   { title: "Speakers", path: PATHS.speakers },
   { title: "Schedule", path: PATHS.schedule },
   { title: "Venue", path: PATHS.venue },
@@ -59,7 +59,7 @@ export const routes: RouteConf[] = [
   { title: "Sponsors", path: PATHS.sponsors },
   { title: "CoC", path: PATHS.coc },
   { title: "Blog", path: PATHS.blog },
-  { title: "Newsletter", path: PATHS.newsletter },
+  { title: "News", path: PATHS.newsletter },
 ];
 
 const baseSeoUrl = "https://www.jsday.ie";

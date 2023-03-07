@@ -89,6 +89,8 @@ export const speakerValidator = io.type({
   name: io.string,
   company: io.string,
   role: io.string,
+  city: io.union([io.string, io.undefined]),
+  country: io.union([io.string, io.undefined]),
   pic: io.string,
   bio: io.string,
   links: speakerLinksValidator,

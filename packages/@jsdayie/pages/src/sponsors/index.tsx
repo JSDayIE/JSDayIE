@@ -6,10 +6,11 @@ import { SponsorGroup } from "./sponsor_group";
 export interface SponsorsProps {
   sponsorsingPackagesData: SponsorsingPackageArray;
   sponsorData: ISponsors;
+  displaySponsors: boolean;
 }
 
 export const Sponsors: React.FC<SponsorsProps> = (props) => {
-  const { sponsorData, sponsorsingPackagesData } = props;
+  const { displaySponsors, sponsorData, sponsorsingPackagesData } = props;
   return (
     <Container>
       <div className="horizontal_break_2" />
@@ -94,58 +95,60 @@ export const Sponsors: React.FC<SponsorsProps> = (props) => {
         </Button>
       </Section>
       <div className="horizontal_break_2" />
-      <Section title="A shout out to our 2019 sponsors!" size={1}>
-        <p>
-          JSDayIE 2019 was possible thanks the support of the following
-          organizations. Would you like to add your name to the list? Check out
-          our sponsorship opportunities!
-        </p>
-        <SponsorGroup
-          group="presenting"
-          label="Presenting Sponsor"
-          sponsors={sponsorData}
-        />
-        <SponsorGroup
-          group="diamond"
-          label="Diamond Sponsor"
-          sponsors={sponsorData}
-        />
-        <SponsorGroup
-          group="platinumPlus"
-          label="Platinum Plus Sponsors"
-          sponsors={sponsorData}
-        />
-        <SponsorGroup
-          group="platinum"
-          label="Platinum Sponsors"
-          sponsors={sponsorData}
-        />
-        <SponsorGroup
-          group="gold"
-          label="Gold Sponsors"
-          sponsors={sponsorData}
-        />
-        <SponsorGroup
-          group="silver"
-          label="Silver Sponsors"
-          sponsors={sponsorData}
-        />
-        <SponsorGroup
-          group="media"
-          label="Media Sponsors"
-          sponsors={sponsorData}
-        />
-        <SponsorGroup
-          group="community"
-          label="Community Partners"
-          sponsors={sponsorData}
-        />
-        <SponsorGroup
-          group="others"
-          label="Community Sponsors"
-          sponsors={sponsorData}
-        />
-      </Section>
+      {displaySponsors ? (
+        <Section title="A shout out to our 2023 sponsors!" size={1}>
+          <p>
+            JSDayIE 2023 is only possible thanks the support of the following
+            organizations. Would you like to add your name to the list? Check
+            out our sponsorship opportunities!
+          </p>
+          <SponsorGroup
+            group="presenting"
+            label="Presenting Sponsor"
+            sponsors={sponsorData}
+          />
+          <SponsorGroup
+            group="diamond"
+            label="Diamond Sponsor"
+            sponsors={sponsorData}
+          />
+          <SponsorGroup
+            group="platinumPlus"
+            label="Platinum Plus Sponsors"
+            sponsors={sponsorData}
+          />
+          <SponsorGroup
+            group="platinum"
+            label="Platinum Sponsors"
+            sponsors={sponsorData}
+          />
+          <SponsorGroup
+            group="gold"
+            label="Gold Sponsors"
+            sponsors={sponsorData}
+          />
+          <SponsorGroup
+            group="silver"
+            label="Silver Sponsors"
+            sponsors={sponsorData}
+          />
+          <SponsorGroup
+            group="media"
+            label="Media Sponsors"
+            sponsors={sponsorData}
+          />
+          <SponsorGroup
+            group="community"
+            label="Community Partners"
+            sponsors={sponsorData}
+          />
+          <SponsorGroup
+            group="others"
+            label="Community Sponsors"
+            sponsors={sponsorData}
+          />
+        </Section>
+      ) : null}
     </Container>
   );
 };

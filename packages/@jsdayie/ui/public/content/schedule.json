@@ -8,20 +8,20 @@
   {
     "startTime": "09:00",
     "duration": "25 mins",
-    "title": "TBD Talk 1",
-    "speaker": "TBD Speaker 1"
+    "title": "Keynote",
+    "speaker": "Simona Cotin"
   },
   {
     "startTime": "09:30",
     "duration": "25 mins",
-    "title": "TBD Talk 2",
-    "speaker": "TBD Speaker 2"
+    "title": "Bun, Forrest, BUN!",
+    "speaker": "Chris Laughlin"
   },
   {
     "startTime": "10:00",
     "duration": "25 mins",
-    "title": "TBD Talk 3",
-    "speaker": "TBD Speaker 3"
+    "title": "Moving to the Edge",
+    "speaker": "Erica Pisani"
   },
   {
     "startTime": "10:25",
@@ -32,20 +32,20 @@
   {
     "startTime": "10:40",
     "duration": "25 mins",
-    "title": "TBD Talk 4",
-    "speaker": "TBD Speaker 4"
+    "title": "Building Fast, Maintainable JavaScript Monorepos with Nx",
+    "speaker": "George McCarron"
   },
   {
     "startTime": "11:10",
     "duration": "25 mins",
-    "title": "TBD Talk 5",
-    "speaker": "TBD Speaker 5"
+    "title": "TypeScript Static Analysis Hidden Gems",
+    "speaker": "Josh Goldberg"
   },
   {
     "startTime": "11:40",
     "duration": "25 mins",
-    "title": "TBD Talk 6",
-    "speaker": "TBD Speaker 6"
+    "title": "Alice's Adventures in Memoryland",
+    "speaker": "Kateryna Porshnieva"
   },
   {
     "startTime": "12:05",
@@ -56,20 +56,20 @@
   {
     "startTime": "12:50",
     "duration": "25 mins",
-    "title": "TBD Talk 7",
-    "speaker": "TBD Speaker 7"
+    "title": "Coding Music with JavaScript",
+    "speaker": "Rowdy Rabouw"
   },
   {
     "startTime": "13:20",
     "duration": "25 mins",
-    "title": "TBD Talk 8",
-    "speaker": "TBD Speaker 8"
+    "title": "Bye-bye, weeds! Digital Gardening with Astro, SolidJS, & MDX.",
+    "speaker": "Kathleen McMahon"
   },
   {
     "startTime": "13:50",
     "duration": "25 mins",
-    "title": "TBD Talk 9",
-    "speaker": "TBD Speaker 9"
+    "title": "Web Machine Learning with TensorFlow.js",
+    "speaker": "Patty O'Callaghan"
   },
   {
     "startTime": "14:15",
@@ -80,20 +80,20 @@
   {
     "startTime": "14:30",
     "duration": "25 mins",
-    "title": "TBD Talk 10",
-    "speaker": "TBD Speaker 10"
+    "title": "Building resumable websites with Qwik",
+    "speaker": "Ruby Jane"
   },
   {
     "startTime": "15:00",
     "duration": "25 mins",
-    "title": "TBD Talk 11",
-    "speaker": "TBD Speaker 11"
+    "title": "Front-End Platform Engineering",
+    "speaker": "Serg Hospodarets"
   },
   {
     "startTime": "15:30",
     "duration": "25 mins",
-    "title": "TBD Talk 12",
-    "speaker": "TBD Speaker 12"
+    "title": "The Great Battle of React Build Tools",
+    "speaker": "Shedrack Akintayo"
   },
   {
     "startTime": "15:55",

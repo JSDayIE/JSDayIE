@@ -46,12 +46,13 @@ export const Home: React.FC<HomeProps> = (props) => {
     <>
       <Hero />
       <Welcome />
-      <Speakers data={speakers} isDemo={false} isPreview />
+      <Speakers data={speakers} isDemo={false} isCfpOpen={false} />
       <Schedule data={activity} />
       <Tickets data={tickets} />
       <Sponsors
         sponsorsingPackagesData={sponsorsingPackages}
         sponsorData={sponsors}
+        displaySponsors={false}
       />
       <Venue galleryData={venue.galleryData} isPreview />
       <Info data={info} />

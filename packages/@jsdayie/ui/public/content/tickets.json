@@ -8,7 +8,7 @@
   { 
     "type": "Founder", 
     "price": "€115", 
-    "isSoldOut": false,
+    "isSoldOut": true,
     "isRemote": false
   },
   { 

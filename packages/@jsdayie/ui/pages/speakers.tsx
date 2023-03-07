@@ -15,14 +15,14 @@ export const getStaticProps: GetStaticProps = async (): Promise<
       props: {
         data,
         isDemo: false,
-        isPreview: false,
+        isCfpOpen: false,
       },
     };
   }
 };
 
 const SpeakersPage: React.FC<SpeakersProps> = (props) => {
-  const { data, isDemo, isPreview } = props;
+  const { data, isDemo, isCfpOpen } = props;
   return (
     <>
       <Seo
@@ -37,7 +37,7 @@ const SpeakersPage: React.FC<SpeakersProps> = (props) => {
         twitterUserName={seoValues.twitterUserName}
         GA_MEASUREMENT_ID={seoValues.GA_MEASUREMENT_ID}
       />
-      <Speakers data={data} isDemo={isDemo} isPreview={isPreview} />
+      <Speakers data={data} isDemo={isDemo} isCfpOpen={isCfpOpen} />
     </>
   );
 };

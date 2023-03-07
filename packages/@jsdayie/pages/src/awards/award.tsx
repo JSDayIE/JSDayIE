@@ -36,13 +36,19 @@ export const Award: React.FC<AwardProps> = (props) => {
         {isPreview === true ? null : (
           <CardFooter>
             <p>
-              <Button
-                href={details.nominationLink}
-                color="warning"
-                disabled={details.disabled}
-              >
-                {details.disabled ? "NOMINATIONS NOT OPEN YET" : "NOMINATE NOW"}
-              </Button>
+              {details.disabled ? (
+                <Button color="warning" disabled={details.disabled}>
+                  NOMINATIONS NOT OPEN YET
+                </Button>
+              ) : (
+                <Button
+                  href={details.nominationLink}
+                  color="warning"
+                  disabled={details.disabled}
+                >
+                  NOMINATE NOW
+                </Button>
+              )}
             </p>
           </CardFooter>
         )}

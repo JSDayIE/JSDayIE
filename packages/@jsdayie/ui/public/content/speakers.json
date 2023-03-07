@@ -1,29 +1,13 @@
 [
   {
     "hide": false,
-    "role": "CDA",
-    "company": "Microsoft",
-    "name": "Aysegul Yonet",
-    "pic": "/media/speakers_2019/aysegul_yonet.jpg",
-    "bio": "Aysegul is a Senior Azure Cloud Developer Advocate at Microsoft. Aysegul, focuses on Spatial Computing, Mixed Reality, AI, Angular and Data Visualization. She is a Google Developer Expert for Web Technologies & Angular and an active conference speaker. She previously worked as Senior Software Engineer at Nrwl.io, Autodesk Play, a 3D and VR authoring tool and A360 Viewer and A360 Drive. She enjoys teaching at a variety of non-profit organizations aiming to increase diversity in the software industry. She is the co-founder of code4good, an organization with the goal of helping people to contribute to open source. Previously she led Women Who Code meetups, Girl Develop It workshops and was a CTO at AnnieCannons, a bootcamp dedicated to teach tech skills to human trafficking survivors.",
-    "links": {
-      "twitter": "https://twitter.com/AysSomething",
-      "linkedin": "https://www.linkedin.com/in/aysegulyonet",
-      "github": "https://github.com/Yonet",
-      "medium": "https://medium.com/@aysegulyonet"
-    },
-    "talk": {
-      "title": "The future of user interaction: Mixed reality, AI and IoT",
-      "abstract": "The ability to capture and share data and learn from it has changed what we are able to do with technology drastically. Although our lives are changed with the new wealth of data, the way we interact with data has changed very little. Just like people a century ago, we are trying to make sense of everything through their 2D abstractions, whether it is writing, illustrations or excel sheets. Today we have the technology to interact with any data in the right context and right space. We can make sense of really complex problems by modeling them in 3d. Our way of consuming information is changing to fit the information itself and becoming more intuitive and actionable. Join us to get a glimpse into the future of user interaction."
-    }
-  },
-  {
-    "hide": false,
-    "role": "Lead UI Dev",
+    "role": "Principal Software Engineer",
     "company": "Rapid7",
-    "name": "Christopher Laughlin",
-    "pic": "/media/speakers_2019/christopher_laughlin.jpeg",
-    "bio": "All round JavaScript developer who loves working on the latest and greatest web tech. Always looking for the next best tool to make the Job easy.",
+    "city": "Belfast",
+    "country": "🇬🇧",
+    "name": "Chris Laughlin",
+    "pic": "/media/speakers_2023/chris-laughlin.jpeg",
+    "bio": "Javascript developer based in Belfast N.Ireland. Has been making and breaking the web for years. When I'm not writing setTimeouts I can be found behind the lens of a camera taking nature pictures.",
     "links": {
       "web": "https://www.thedyslexicdeveloper.com/",
       "twitter": "https://twitter.com/chrislaughlin",
@@ -31,196 +15,221 @@
       "github": "https://github.com/chrislaughlin"
     },
     "talk": {
-      "title": "Protecting your npm dependencies",
-      "abstract": "As technology advances and the applications we build become more complex, the tools that we use to secure the data shared within these products need to follow suit. We need to ensure that we deliver a high standard of protection to users, allowing them them to seamlessly use the product without thinking about security or any potential threat. Even just a thought of any risk could lose us our customers’ trust and therefore millions in investment and in turn threaten our entire business as a whole (including our jobs). A security breach is a very real problem, both personally as an individual and professionally in a business sense. But we as developers can help fix this problem. In very recent years there has been a number of incidents involving npm dependencies pushing vulnerabilities to consumers or exposing data. This led to the npm team purchasing a security tool to prevent future incidents. These incidents can easily be stopped and further prevented from happening again.  NPM is the first main carrier of personal information and it therefore should be where we start to repair these issues. In this talk we will look back on the previous incidents and do a postmortem investigation on what happened, and how it could have been prevented. We will then take a further look into tools and products that can help protect our applications going forward and some basic best security practices that we all should follow, no matter our application."
+      "title": "Bun, Forrest, BUN!!",
+      "abstract": "<p>Bun is the latest player in the JavaScript runtime game. It claims to be orders of magnitude faster than the more well known rivals such as Node and Deno. In this talk we will look at JavaScript runtimes, engines and how bun is trying to challenge the convention. We will also put to the test the performance claims.</p>"
     }
   },
   {
-    "hide": false,
+    "hide": true,
     "role": "Senior Software Engineer",
-    "company": "HMH",
-    "name": "Cristina Bernardis",
-    "pic": "/media/speakers_2019/cristina_bernardis.jpg",
-    "bio": "Senior Software Engineer, crochet compiler and JavaScript hula hooper.",
+    "company": "Netlify",
+    "name": "Erica Pisani",
+    "city": "Toronto",
+    "country": "🇨🇦",
+    "pic": "/media/speakers_2023/erica-pisani.jpg",
+    "bio": "Erica is a Sr. Software Engineer at Netlify, helping to build tools to make Netlify a core building block for the modern web. She's based out of Toronto, Canada, and when she's not coding, she's camping somewhere in the woods with her dog, Ada.",
     "links": {
-      "medium": "https://medium.com/@crisbern",
-      "linkedin": "https://www.linkedin.com/in/cristinabernardis/"
+      "web": "https://www.ericapisani.dev/",
+      "twitter": "twitter.com/ericapisani",
+      "github": "github.com/ericapisani",
+      "linkedin": "https://www.linkedin.com/in/erica-pisani-5b77ab84"
     },
     "talk": {
-      "title": "JS codeshift, automated refactoring",
-      "abstract": "What hides behind your JavaScript code? In this talk you will learn about how you can see your code as a tree and how can you use this knowledge to write a codemod, a piece of code to manipulate your existing code into some (hopefully better) code."
+      "title": "Moving to the Edge",
+      "abstract": "<p>Web developers have more options than ever to move their site and its data into 'the edge'. Javascript frameworks and various hosting platforms such as Netlify, Cloudflare, and Vercel are increasingly supporting various edge capabilities which, when used, can greatly improve site performance. This talk would be broken down into 4 parts:</p><p>1. What is 'the edge'?<br/>- would cover what it is and how it compares to functionality run on an origin server<br/>- what problems and use cases the edge is meant to address</p><p>2. Web applications on the edge<br/>- would cover edge functions and how they compare to standard serverless functions<br/>- would cover some use cases (e.g: user authentication, a/b split testing)<br/>- limitations around using the edge at this time<p>3. Data on the edge<br/>- would cover some of the challenges of hosting data on the edge<br/>- would cover some of the options available today<br/></p><p>4. Wrap up</p>"
+    }
+  },
+  {
+    "hide": true,
+    "role": "Frontend Developer",
+    "company": "ClearScore",
+    "city": "London",
+    "country": "🇬🇧",
+    "name": "George McCarron",
+    "pic": "/media/speakers_2023/george-mccarron.jpeg",
+    "bio": "George is a frontend developer at ClearScore in London, where he is most often found working with TypeScript and React. He is always looking for ways to make developers lives easier through better tooling and streamlined processes.",
+    "links": {
+      "twitter": "https://twitter.com/george_mccarron",
+      "github": "https://github.com/george1410",
+      "linkedin": "https://www.linkedin.com/in/georgemccarron/"
+    },
+    "talk": {
+      "title": "Building Fast, Maintainable JavaScript Monorepos with Nx",
+      "abstract": "<p>As any org scales, at some stage you'll find yourself wanting to share code between different projects - wouldn't it be great to resuse that React component we built for the client app in our new admin tool! Or maybe you're working in a microfrontend architecture with dozens or hundreds of independently deployable frontend applications. One way of solving these problems is with a monorepo - but that brings problems in itself around scalability and maintainability... enter Nx! In this talk we'll discuss how Nx can help you to manage a monorepo, and why we chose to use it at ClearScore. We will dive into how it can help you to generate new projects, its smart ability to know what's changed and only rebuild what it absolutely needs to, and how its distributed nature can reduce the time you spend waiting for CICD pipelines to run.</p>"
     }
   },
   {
     "hide": false,
-    "role": "Senior Engineer",
-    "company": "Intercom ",
-    "name": "Gavin Joyce",
-    "pic": "/media/speakers_2019/gavin_joyce.jpg",
-    "bio": "I help build amazing products at Intercom with a delightful mix of Ember.js and Ruby. Dabble with music, animation and video production.",
+    "role": "Self-Employed",
+    "company": "Open Source",
+    "city": "New York",
+    "country": "🇺🇸",
+    "name": "Josh Goldberg",
+    "pic": "/media/speakers_2023/josh-goldberg.jpeg",
+    "bio": "Hi, I'm Josh! I'm a frontend developer from New York with a passion for open source, static analysis, and the web. I'm a full time open source maintainer and work on projects in the TypeScript ecosystem such as typescript-eslint and TypeStat. I'm also the author of the Learning TypeScript book, published by O'Reilly. My work focuses on bringing accessible education to the masses in a sustainable way.",
     "links": {
-      "twitter": "https://twitter.com/gavinjoyce",
-      "github": "https://github.com/gavinjoyce",
-      "linkedin": "https://www.linkedin.com/in/gavinjoyce/"
+      "twitter": "https://twitter.com/joshuakgoldberg",
+      "github": "https://github.com/joshuakgoldberg",
+      "web": "https://www.joshuakgoldberg.com/"
     },
     "talk": {
-      "title": "The evolution of Ember.js at Intercom",
-      "abstract": "Intercom took an early bet on Ember.js 5 years ago and we've seen great success with its help. I'll talk about: How Ember's technology has changed over the past 5 years (eg. GlimmerVM, Ember Octane). How we've grown from 3 to 200+ engineers contributing to our Ember app. How our Ember app codebase continues to get better over time. Why we would choose Ember again if we could go back to the beginning of Intercom's web app (and why we chose React for our Messenger). Why I'm confident that Intercom's web app will be the same ember app in 5 years time."
+      "title": "TypeScript Static Analysis Hidden Gems",
+      "abstract": "<p>The TypeScript language adds a suite of services around TypeScript code that enable powerful code analyses and automations. But, most developers only use TypeScript lightly at development time. It can do so much more for you! This talk will present a practical overview of some of the latest and greatest developments in the open source TypeScript tooling space, including:</p><p>• typescript-eslint: features for finding detecting real bugs in your code, and APIs to let you define organization-specific rules</p><p>• eslint-plugin-expect-type: a consumer of typescript-eslint's APIs that</p><p>• ts-prune: detecting unused code with the power of the type system</p><p>• TypeStat: converts JavaScript to TypeScript and TypeScript to better TypeScript</p><p>This will also cover the TypeScript 'program' and 'language service' APIs used to power those tools. Depending on chosen session length, we'll either keep it high-level or give folks hands-on experience with them.</p>"
     }
   },
   {
     "hide": false,
-    "role": "Software Engineer",
-    "company": "Accenture",
-    "name": "Paul Sweeney",
-    "pic": "/media/speakers_2019/paul_sweeney.jpg",
-    "bio": "Paul is a Software Engineer at Accenture The Dock in Dublin, a multidisciplinary research and incubation hub, developing UIs for many innovative projects. Prior to Accenture, Paul worked as a Senior Software Engineer at Ericsson, leading development for the company's UI framework, used in many Ericsson products. Paul was also the lead web developer for the 2018 Fjord Trends, which recently won an IDI Award for Digital Design.",
+    "role": "Head of Developer Relations",
+    "company": "Veriff",
+    "name": "Kateryna Porshnieva",
+    "city": "Tallinn",
+    "country": "🇪🇪",
+    "pic": "/media/speakers_2023/kateryna-porshnieva.png",
+    "bio": "Kateryna is a front-end developer and community activist, currently working on developer productivity at Veriff. She likes to build products, make complex things simple and everything about dogs",
     "links": {
-      "medium": "https://medium.com/@PepsRyuu",
-      "github": "https://github.com/PepsRyuu",
-      "linkedin": "https://www.linkedin.com/in/pepsryuu/"
+      "twitter": "https://twitter.com/krambertech",
+      "github": "https://github.com/krambertech",
+      "linkedin": "https://www.linkedin.com/in/kporshnieva/"
     },
     "talk": {
-      "title": "How to write a bundler",
-      "abstract": "One day I found myself wanting Hot Module Replacement for Rollup, and decided that the best way to achieve that goal, was to write a development bundler from the ground up that supported the feature. In this talk, I'll share what I've learned and cover the fundamental concepts of what goes behind a simple bundler - Parsing, Transforming, HMR, and discuss various issues that can come up such as ESM live-binding and CommonJS interop."
+      "title": "Alice's Adventures in Memoryland",
+      "abstract": "<p>One day I went down the rabbit hole trying to understand how objects we create in JavaScript become 0s and 1s in computer's memory. I found it really fascinating and with this talk I will give you a guided tour around the rabbit hole: from how bits of information are stored in the computer's RAM to V8's memory management strategies and garbage collection.</p>"
     }
   },
   {
-    "hide": false,
-    "role": "Senior CDA",
-    "company": "Microsoft",
-    "name": "Chris Noring",
-    "pic": "/media/speakers_2019/chris_noring.jpg",
-    "bio": "Christoffer Noring Christoffer is a Google Developer Expert, Meetup organizer for 5 meetup groups with over 2000 members in Scandinavia and London and a Fullstack developer with 10 years experience.",
-    "links": {
-      "twitter": "https://twitter.com/chris_noring",
-      "linkedin": "https://www.linkedin.com/in/christoffer-noring-3257061",
-      "web": "https://softchris.github.io"
-    },
-    "talk": {
-      "title": "Serverless, cloud-native JS functions that scales with you without hurting your wallet",
-      "abstract": "This talk will focus on covering what Serverless is, the advantages it brings. It will go through different bindings and triggers that will make authoring your functions even more easy. We will also look at the debugging experience and how to deploy them to the cloud."
-    }
-  },
-  {
-    "hide": false,
-    "role": "Tech Lead",
-    "company": "Oliver Wyman Labs",
-    "name": "Daniel Jimenez",
-    "pic": "/media/speakers_2019/daniel_jimenez.jpg",
-    "bio": "Daniel Jimenez Garcia is a software engineer based in Dublin. His career spans more than 12 years across a varied number of technologies and industries, currently working as a technical lead for Oliver Wyman Labs. Constantly looking to improve himself and help others to learn and improve, he contributes to the DotNetCurry magazine, where he has published 21 articles over the last 3 years, focused on .Net Core and Vue.js. He has also contributed to open source libraries like mockgo and node-apn, published npm packages like sinon-mongo and can be found answering questions in Stack Overflow.",
-    "links": {
-      "twitter": "https://twitter.com/Dani_djg",
-      "github": "https://github.com/DaniJG",
-      "web": "https://www.dotnetcurry.com/author/daniel-jimenez-garcia",
-      "stackoverflow": "https://stackoverflow.com/users/1836935/daniel-j-g",
-      "linkedin": "https://www.linkedin.com/in/daniel-jg/"
-    },
-    "talk": {
-      "title": "Two years developing with Vue. Distilled",
-      "abstract": "I have helped helped my company moving away from knockout.js and adopting Vue.js as their preferred frontend framework. We create dozens of web applications every year, for which I have provided guidance and tooling (including our own CLI tool and templates) while personally leading some of these. The talk will summarize the most important lessons we have learned (often the hard way), the patterns we have adopted and the decisions we made around tooling/libraries. There should be something for everyone, whether you are completely new to Vue.js or whether you already have some experience with it!"
-    }
-  },
-  {
-    "hide": false,
-    "role": "Senior CDA",
-    "company": "Microsoft",
-    "name": "Wassim Chegham",
-    "pic": "/media/speakers_2019/wassim_chegham.jpg",
-    "bio": "Wassim is Senior Cloud Advocate at Microsoft and a member of the Angular core team. He is the author of many open source projects such as xlayers.dev and ngx.tools. He is a GDE for the Angular team, the Google Assistant and the GCP teams at Google. He is also a member of the Node.js Foundation, a former member of the Angular Universal core team and part of the current Angular Console core team. He likes music composition and painting.",
-    "links": {
-      "twitter": "https://twitter.com/manekinekko",
-      "web": "https://dev.to/wassimchegham"
-    },
-    "talk": {
-      "title": "The state of Angular tooling",
-      "abstract": "The Angular CLI has made creating and managing Angular apps a breeze. And it does not stop there. Want to have a glimpse into what the Angular Tools has in store in the future? In this talk, you will learn about Bazel and how the new build system works, what the Angular DevKit is, how to customize the CLI with Schematics. Join me to look at the latest and upcoming features from the Angular Tools team."
-    }
-  },
-  {
-    "hide": false,
-    "role": "DevOps Consultant",
-    "company": "NearForm",
-    "name": "David Gonzalez",
-    "pic": "/media/speakers_2019/david_gonzalez.jpg",
-    "bio": "Author of three books on Javascript. Microservices and DevOps, David Gonzalez is a DevOps Consultant with NearForm. David also lectures in CCT College, Dublin on Cloud and Distributed Systems. He is on a mission to transform companies’ IT processes and culture to allow technology to become an enabler instead of a burden.",
-    "links": {
-      "twitter": "https://twitter.com/dagonzago",
-      "linkedin": "https://www.linkedin.com/in/david-gonzalez-microservices/"
-    },
-    "talk": {
-      "title": "12 Factor Javascript Apps on Kubernetes",
-      "abstract": "Have you ever wondered how to build DevOps friendly applications? Here’s the answer: 12 Factor applications are easy to operate, cross functional friendly and easier to maintain. In his talk, David is going to walk us through the process of building a DevOps friendly Javascript app following best practice."
-    }
-  },
-  {
-    "hide": false,
-    "role": "Tech Lead",
-    "company": "O'Reilly Media",
+    "hide": true,
+    "role": "Senior DSE",
+    "company": "Northwestern Mutual",
     "name": "Kathleen McMahon",
-    "pic": "/media/speakers_2019/kathleen_mcmahon.jpg",
-    "bio": "Kathleen works at O’Reilly Media as a Senior Frontend Engineer and Design System Tech Lead. Her deep industry experience as both a designer and developer fuels her passion for making apps beautifully accessible. In her spare time, she is the Creative Director for the CXsisters network, and the best lanterne rouge cyclocrosser you’ll ever meet. ",
+    "city": "Boston",
+    "country": "🇺🇸",
+    "pic": "/media/speakers_2023/kathleen-mcmahon.png",
+    "bio": "Kathleen is a software engineer, designer, and conference speaker. Her deep industry experience fuels her passion for making apps beautifully accessible. She’s currently a Senior Design Systems Engineer for the Luna Design System at Northwestern Mutual, and also an editor for the W3C Design Tokens Community Group. Kathleen is an experienced speaker at international technical conferences and her talks have some serious gif game! In her spare time, she is the Creative Director for the CXsisters network, and the best lanterne rouge cyclocrosser you’ll ever meet. You can find her on Twitter as @resource11, posting photos on Instagram, and occasionally pulling weeds in her digital garden at kathleenmcmahon.dev.",
     "links": {
+      "web": "https://www.kathleenmcmahon.dev/",
       "twitter": "https://twitter.com/resource11",
-      "linkedin": "https://www.linkedin.com/in/resource11",
-      "github": "https://github.com/resource11"
+      "linkedin": "https://www.linkedin.com/in/resource11/"
     },
     "talk": {
-      "title": "Accessibility-flavored React Components: Make Your Design System Delicious!",
-      "abstract": "Design systems are a popular way for teams to flavor their design and development workflow. However, an often-missing ingredient in many design systems is a focus on accessibility best practices — especially when component libraries are involved. In this talk, we’ll take a look at how you can mix some commonly-used React components with the ingredients of accessibility. Pair this with best practices guidance in your documentation, and you’ll have the recipe for a delectably inclusive design system."
+      "title": "Bye-bye, weeds!  Digital Gardening with Astro, SolidJS, & MDX.",
+      "abstract": "<p>Has your digital garden, become overgrown with weeds? Did you try out that bleeding edge app framework that was perfect for the moment, yet grew too complex to maintain over time for your garden's humble static site needs? What do you do when your app has fallen three major versions behind? Do you upgrade to the latest edition or re-evaluate your choices to an option that aligns with your site's goals? In this talk, you will learn how to breathe new life into your digital garden with Astro, SolidJS, and MDX. Pair this with accessibility best practices, and your garden will thrive.</p>"
     }
   },
   {
     "hide": false,
-    "role": "Tech Evangelist",
-    "company": "AlwaysData",
-    "name": "M4dz",
-    "pic": "/media/speakers_2019/matthias_dugue.jpg",
-    "bio": "M4dz is a strange animal. Through many lives, he always tried to teach to others what he learnt himself. Previously a web developer (nobody's perfect), concerned about privacy, a respect of private data, and cyber security. He's now Tech Evangelist at alwaysdata. He tries to inform about present and future of digital issues. His favorite book always remains 'Alice in Wonderland'.",
+    "role": "Sr. Full-Stack Product Designer",
+    "company": "NodeSource",
+    "name": "Marian Villa",
+    "city": "Medellín",
+    "country": "🇨🇴",
+    "pic": "/media/speakers_2023/marian-villa.jpg",
+    "bio": "Sr. Full-Stack Product Designer at NodeSource. Award-winning Community Builder at @Pionerasdev —recipient of IBM Open Source Community Grant 2020—. Google Launchpad Mentor, Google Developer Expert in Web Technologies and Women Techmakers Ambassador. Passionate developer and designer with a knack for combining technology and community development.",
     "links": {
-      "web": "https://m4dz.net/",
-      "twitter": "https://twitter.com/m4d_z",
-      "linkedin": "https://www.linkedin.com/in/m4d-z/"
+      "twitter": "https://twitter.com/Marianvilla",
+      "github": "https://github.com/marianvilla",
+      "linkedin": "https://www.linkedin.com/in/marianvilla/"
     },
     "talk": {
-      "title": "A State Of WebAssembly: The Browser is now a real VM",
-      "abstract": "WebAssembly is a new virtual machine embedded in the browser. It doesn't transpile to JavaScript like its forerunners; it produces a new binary format, like the old assembler, executed in a dedicated VM into your browser. Genius, it exposes a bridge between JS APIs and WebAssembly executables. Last browsers engines developments allow very fast exchanges between JS and WASM code. So, let's start with a projet that need a huge computing time. We will develop the core code in Rust, compile it to WASM using LLVM, and we will display the results in a front view powered via JavaScript. No need to know how does it work, we will see it together. This talk takes place in a new series named #StartFromNowhere: let's start from front-end developers skills, and deep dive into a new technology. In 45', let's learn the basics."
+      "title": "The new era of ML in JavaScript",
+      "abstract": "<p>This talk discusses the rise of Machine Learning (ML) in the world of JavaScript. It explores the implications for developers and how this new era of ML can be leveraged to create more efficient web applications, products, and services. It also looks at the benefits and challenges of using ML in JavaScript and its potential impact on the future of software development. The talk examines the latest trends in the field of ML and the growing number of open-source libraries and frameworks available for developers to use. Finally, the talk looks at the implications and opportunities of utilizing ML in JavaScript and its implications for the future of software development.</p>"
     }
   },
   {
     "hide": false,
-    "role": "Senior FE Dev",
-    "company": "City of Amsterdam",
-    "name": "Roy Derks",
-    "pic": "/media/speakers_2019/roy_derks.jpg",
-    "bio": "Roy Derks is a serial startup CTO and conference speaker from Amsterdam. He also teaches React and GraphQL at reactjs.academy, and works on open-source JavaScript projects for the City of Amsterdam.",
+    "role": "Freelance",
+    "company": "rowdy.codes",
+    "name": "Rowdy Rabouw",
+    "city": "Gouda",
+    "country": "🇳🇱",
+    "pic": "/media/speakers_2023/rowdy-rabouw.jpg",
+    "bio": "Rowdy Rabouw is a web developer with over 25 years of experience in HTML, CSS, JavaScript and PHP. Currently, he is a Front-End Focused Senior DevOps Engineer working on Vue.js and Node.js projects with special attention for accessibility. Rowdy loves watching superhero movies and Formula One races and enjoys riding on his mountain bike to unwind.",
     "links": {
-      "medium": "https://medium.com/hackteam",
-      "twitter": "https://twitter.com/gethackteam",
-      "linkedin": "https://www.linkedin.com/in/royderks1/"
+      "twitter": "https://twitter.com/rowdyrabouw",
+      "web": "https://rowdy.codes/",
+      "linkedin": "https://www.linkedin.com/in/rowdyrabouw"
     },
     "talk": {
-      "title": "From REST to GraphQL: Wrapping Existing APIs in a Single Endpoint",
-      "abstract": "Your frontend developers are pushing to get started with GraphQL, but you don’t have the backend capacity to migrate your existing REST APIs to GraphQL? Or you want to have a GraphQL API next to your existing endpoints that are based on REST? In this talk I’ll show how to create a Node.js/Express server that wraps existing REST APIs into one single GraphQL endpoint."
+      "title": "Coding Music with JavaScript",
+      "abstract": "<p>Javascript is extremely versatile. We use it to build frontend, backend, desktop and mobile apps. But did you know you can even create music with it ?! In this talk, Rowdy will show you how easy and fun it is to code your own music with the Web Audio API. As a bonus, he will throw in the Web MIDI API and Web Bluetooth API to really get the party started. Let's turn up the bass!</p>"
     }
   },
   {
     "hide": false,
-    "role": "Dataviz/AI Dev",
-    "company": "Data4Change",
-    "name": "Zdenek Hynek",
-    "pic": "/media/speakers_2019/zdenek_hynek.jpg",
-    "bio": "Zdenek is a full-stack developer based in London. After careers in digital advertising and data visualisation, he decided to start putting AI and data science to his bio. To see if he can get away with it. He runs the Visualising Data London meet up and occasionally speaks about how hilarious data and software engineering can be. Occasionally some people believe him. He currently works at Data4Change, trying to figure out how to use data and technology to promote digital rights across the world. Zdenek holds a masters degree in Cartography, yet will struggle to fold a paper map properly.",
+    "role": "Full Stack Developer",
+    "company": "Avanade",
+    "name": "Ruby Jane",
+    "city": "Oslo",
+    "country": "🇳🇴",
+    "pic": "/media/speakers_2023/ruby-jane.jpeg",
+    "bio": "Ruby Jane Cabagnot is a full-stack DotNET/Java/Reactjs developer based in Oslo, Norway, and works for Avanade Norway. She believes that to be interesting; one must BE interested. She is the author of Practical Enterprise React: Become an Effective React Developer in Your Team and has been a speaker at NDC London 2022, NDC Oslo 2020 & 2021, and NDC Sydney 2020.",
     "links": {
-      "web": "https://zdenek.xyz",
-      "twitter": "https://twitter.com/zdenekhynek",
-      "github": "https://github.com/zdenekhynek",
-      "medium": "https://medium.com/@zdenekhynek",
-      "linkedin": "https://www.linkedin.com/in/zdenek-hynek-526a252b/"
+      "web": "https://rubyjanecabagnot.pro",
+      "twitter": "https://twitter.com/rubyjane88",
+      "github": "https://github.com/RubyJane88",
+      "linkedin": "https://www.linkedin.com/in/rubyjane/"
     },
     "talk": {
-      "title": "Quick and easy way to add AI to your CV",
-      "abstract": "This is a talk about Tensorflow.js and mental health. It shows a couple of real-world scenarios where a small amount of basic machine learning can deliver huge value. It tries to cut through the hype and the mystery and present AI as just another tool in the developer toolbox. A tool which can be learned relatively easily. And leveraged effectively almost from the start. In the second half, the talk segues into a reflection on the struggles of learning new technologies and the anxiety and fears of becoming irrelevant in the future job market. Is the constant need to up-skill and re-invent ourselves the price we pay for the premium salaries we get? And is our quest to add more acronyms to our CVs make us lose sight the bigger picture?"
+      "title": "Building resumable websites with Qwik",
+      "abstract": "<p>Qwik is a JavaScript framework that uses a new rendering paradigm called resumability. It can serialize a JavaScript app into HTML, thus eliminating the need for the hydration technique used in meta-frameworks like Next.js. Is Qwik the world's first O(1) JavaScript framework? Let's find out.</p><p>Qwik lets us build 'resumable apps' by requiring nearly zero JavaScript for pages to become interactive + fine-grained lazy loading to only load what's used. I will teach you how to start with Qwik on this topic.</p><p>We will cover the following topics: What is Qwik framework, Qwik vs. React, Qwik vs. Angular, How to make JS bundle smaller, and how to get started building with Qwik.</p>"
+    }
+  },
+  {
+    "hide": false,
+    "role": "Global Head of Engineering",
+    "company": "William Hill",
+    "name": "Serg Hospodarets",
+    "city": "Dublin",
+    "country": "🇮🇪",
+    "pic": "/media/speakers_2023/serg-hospodarets.jpeg",
+    "bio": "Serg went from a developer and architect, to a Director, VP and Global Head of Product and Engineering, so has an understanding of the needs of both developers, business and customers. He built a few Platform Engineering organisations and delivered Web Cloud Platforms, and now open to share his experience in enabling teams, business and customers.",
+    "links": {
+      "web": "http://hospodarets.com",
+      "linkedin": "https://www.linkedin.com/in/shospodarets/",
+      "twitter": "https://twitter.com/shospodarets",
+      "github": "https://github.com/shospodarets"
+    },
+    "talk": {
+      "title": "Front-End Platform Engineering",
+      "abstract": "<p>We are switching from the era of DevOps to a Platform Engineering teams- they are to create company-specific platform to develop and deliver their products.</p><p>It goes through the stages of a Design System creation, integrated in a UI Framework (React, Vue, Angular…), and building an abstraction level on top of Cloud providers (AWS, Azure etc.) and tooling (K8S, Terraform..), and CI/CD pipelines (GitLab, Github) + observability and security enablement, to move the cognitive load from the product delivery teams.</p><p>Picking the right tooling, foster the culture, solution and approaches is complex, but there is a common set of patterns and tools, so this talk is to describe both the reasons why Platform Engineering is a must, and which tooling and approaches will help you in this journey.<p>"
+    }
+  },
+  {
+    "hide": false,
+    "role": "Developer Relations Manager",
+    "company": "Wilco ",
+    "name": "Shedrack Akintayo",
+    "city": "Lagos",
+    "country": "🇳🇬",
+    "pic": "/media/speakers_2023/shedrack-akintayo.jpg",
+    "bio": "Shedrack Akintayo is a Developer Relations Professional and Technical Writer with over 5+ years of experience in Technology and a track record in Web Engineering, Community Management, and Developer Relations on a global scale. He has given talks/workshops at developer conferences like JS Nation Live 2020, DevRel Asia, and All Things Open among many others. He also co-organizes Developer Circles Lagos from Facebook, Open-Source Community Africa, and other communities empowering Africa and the world with Technology.",
+    "links": {
+      "web": "https://www.sheddy.xyz/",
+      "twitter": "https://twitter.com/coder_blvck",
+      "github": "https://github.com/hacktivist123",
+      "linkedin": "https://www.linkedin.com/in/shedrackakintayo/"
+    },
+    "talk": {
+      "title": "The Great Battle of React Build Tools",
+      "abstract": "<p>Build tools have existed since the dawn of the browser era, Javascript has been built because it gets too heavy and causes computational issues for the browser and also affects application performance. ReactJS is a javascript library that was introduced to make building javascript applications faster and easier. When React was introduced to the frontend ecosystem, it heavily promoted Webpack as a build tool for React. The React team included Webpack in the official React boilerplate code generator(create-react-app). All was well until developers started noticing how slow and difficult setting up Webpack from scratch can be if they decided not to use CRA. This frustration led to the birth of several other build tools meant to solve WebPack issues and make building React Apps faster and easier to set up. In this talk, I'll be exploring the following React build tools (Webpack and Babel, Parcel, Vite, Rollup, Turbopack), their benefits, their drawbacks, their speed, etc.</p>"
+    }
+  },
+  {
+    "hide": false,
+    "role": "Angular Engineering Manager",
+    "company": "Google",
+    "name": "Simona Cotin",
+    "city": "Zurich",
+    "country": "🇨🇭",
+    "pic": "/media/speakers_2023/simona-cotin.jpeg",
+    "bio": "Simona Cotin is an engineering manager on the Angular team at Google, where she focuses on the core framework and tooling.",
+    "links": {
+      "twitter": "https://twitter.com/simona_cotin",
+      "github": "https://github.com/simonaco",
+      "linkedin": "https://www.linkedin.com/in/simona-cotin-2ba8747/"
+    },
+    "talk": {
+      "title": "Keynote",
+      "abstract": "Keynote"
     }
   }
 ]

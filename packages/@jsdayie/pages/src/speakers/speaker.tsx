@@ -31,9 +31,9 @@ export const Speaker: React.FC<SpeakerProps> = (props) => {
       <Card>
         <CardHeader>
           <h3 className="blog_entry_preview_title">{details.name}</h3>
-          <span>
-            {details.role} @ {details.company}
-          </span>
+          <p>
+            {details.role} @ {details.company}, {details.city} {details.country}
+          </p>
         </CardHeader>
         <CardBody>
           <div
@@ -73,7 +73,7 @@ export const Speaker: React.FC<SpeakerProps> = (props) => {
         {details.talk.abstract ? (
           <>
             <h5 className="section_h2">Abstract</h5>
-            <p>{details.talk.abstract}</p>
+            <div dangerouslySetInnerHTML={{ __html: details.talk.abstract }} />
             <br />
           </>
         ) : null}

@@ -53,6 +53,8 @@ export const Schedule: React.FC<ScheduleProps> = (props) => {
                 name: "Davy Engone",
                 company: "Hackages & Techlingo",
                 role: "Founder",
+                country: "🇳🇱",
+                city: "Amsterdam",
                 pic: "/media/speakers_2019/davy_engone.jpg",
                 bio: "Davy Engone is the founder and head of engineering at Hackages where he is building a team of developers and designers. He recently launched Techlingo, a brand that helps recruiters learn about the IT landscape and aims to close the gap between devs and recruiters.",
                 links: {
