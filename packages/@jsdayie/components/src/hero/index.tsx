@@ -10,8 +10,7 @@ export const Hero: React.FC = () => {
     <div>
       <div className="hero_bg">
         <div className="container">
-          <div className="col-md-12 hero_img_wrapper">
-          </div>
+          <div className="col-md-12 hero_img_wrapper" />
         </div>
       </div>
       <VideoBgDynamic />

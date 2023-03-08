@@ -149,7 +149,7 @@
       "linkedin": "https://www.linkedin.com/in/rowdyrabouw"
     },
     "talk": {
-      "title": "Coding Music with JavaScript",
+      "title": "Beats in the Browser - Coding Music with JavaScript",
       "abstract": "<p>Javascript is extremely versatile. We use it to build frontend, backend, desktop and mobile apps. But did you know you can even create music with it ?! In this talk, Rowdy will show you how easy and fun it is to code your own music with the Web Audio API. As a bonus, he will throw in the Web MIDI API and Web Bluetooth API to really get the party started. Let's turn up the bass!</p>"
     }
   },
