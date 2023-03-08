@@ -20,7 +20,7 @@
     }
   },
   {
-    "hide": true,
+    "hide": false,
     "role": "Senior Software Engineer",
     "company": "Netlify",
     "name": "Erica Pisani",
@@ -97,25 +97,6 @@
     }
   },
   {
-    "hide": true,
-    "role": "Senior DSE",
-    "company": "Northwestern Mutual",
-    "name": "Kathleen McMahon",
-    "city": "Boston",
-    "country": "🇺🇸",
-    "pic": "/media/speakers_2023/kathleen-mcmahon.png",
-    "bio": "Kathleen is a software engineer, designer, and conference speaker. Her deep industry experience fuels her passion for making apps beautifully accessible. She’s currently a Senior Design Systems Engineer for the Luna Design System at Northwestern Mutual, and also an editor for the W3C Design Tokens Community Group. Kathleen is an experienced speaker at international technical conferences and her talks have some serious gif game! In her spare time, she is the Creative Director for the CXsisters network, and the best lanterne rouge cyclocrosser you’ll ever meet. You can find her on Twitter as @resource11, posting photos on Instagram, and occasionally pulling weeds in her digital garden at kathleenmcmahon.dev.",
-    "links": {
-      "web": "https://www.kathleenmcmahon.dev/",
-      "twitter": "https://twitter.com/resource11",
-      "linkedin": "https://www.linkedin.com/in/resource11/"
-    },
-    "talk": {
-      "title": "Bye-bye, weeds!  Digital Gardening with Astro, SolidJS, & MDX.",
-      "abstract": "<p>Has your digital garden, become overgrown with weeds? Did you try out that bleeding edge app framework that was perfect for the moment, yet grew too complex to maintain over time for your garden's humble static site needs? What do you do when your app has fallen three major versions behind? Do you upgrade to the latest edition or re-evaluate your choices to an option that aligns with your site's goals? In this talk, you will learn how to breathe new life into your digital garden with Astro, SolidJS, and MDX. Pair this with accessibility best practices, and your garden will thrive.</p>"
-    }
-  },
-  {
     "hide": false,
     "role": "Sr. Full-Stack Product Designer",
     "company": "NodeSource",
@@ -132,6 +113,25 @@
     "talk": {
       "title": "The new era of ML in JavaScript",
       "abstract": "<p>This talk discusses the rise of Machine Learning (ML) in the world of JavaScript. It explores the implications for developers and how this new era of ML can be leveraged to create more efficient web applications, products, and services. It also looks at the benefits and challenges of using ML in JavaScript and its potential impact on the future of software development. The talk examines the latest trends in the field of ML and the growing number of open-source libraries and frameworks available for developers to use. Finally, the talk looks at the implications and opportunities of utilizing ML in JavaScript and its implications for the future of software development.</p>"
+    }
+  },
+  {
+    "hide": true,
+    "role": " Technical Writer",
+    "company": "Google",
+    "name": "Milica Mihajlija",
+    "city": "London",
+    "country": "🇬🇧",
+    "pic": "/media/speakers_2023/milica-mihajlija.png",
+    "bio": "Milica is a technical writer at Google working on privacy and identity. She is a big believer in the open web, always exploring new technologies that are moving it forward.",
+    "links": {
+      "web": "https://mihajlija.github.io",
+      "twitter": "https://twitter.com/bibydigital",
+      "linkedin": "https://www.linkedin.com/in/resource11/"
+    },
+    "talk": {
+      "title": "Our future without passwords",
+      "abstract": "<p>Picture the future. What do you see? Flying cars? Vacations in space? How about…not needing to remember passwords anymore? Well, welcome to that future (the no passwords one, not the flying cars).</p><p>Passkeys are here to make our digital lives easier and more secure–they cannot be reused, don't leak in server breaches, and protect users from phishing attacks. I’ll take you on a journey through our future where you can log in to a site or an app by unlocking your phone and show you how you can build your own authentication system using passkeys.</p>"
     }
   },
   {
