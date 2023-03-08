@@ -40,7 +40,7 @@
     }
   },
   {
-    "hide": true,
+    "hide": false,
     "role": "Frontend Developer",
     "company": "ClearScore",
     "city": "London",
@@ -55,7 +55,7 @@
     },
     "talk": {
       "title": "Building Fast, Maintainable JavaScript Monorepos with Nx",
-      "abstract": "<p>As any org scales, at some stage you'll find yourself wanting to share code between different projects - wouldn't it be great to resuse that React component we built for the client app in our new admin tool! Or maybe you're working in a microfrontend architecture with dozens or hundreds of independently deployable frontend applications. One way of solving these problems is with a monorepo - but that brings problems in itself around scalability and maintainability... enter Nx! In this talk we'll discuss how Nx can help you to manage a monorepo, and why we chose to use it at ClearScore. We will dive into how it can help you to generate new projects, its smart ability to know what's changed and only rebuild what it absolutely needs to, and how its distributed nature can reduce the time you spend waiting for CICD pipelines to run.</p>"
+      "abstract": "<p>As any org scales, at some stage you'll find yourself wanting to share code between different projects - wouldn't it be great to resuse that React component we built for the client app in our new admin tool! Or maybe you're working in a microfrontend architecture with dozens or hundreds of independently deployable frontend applications. One way of solving these problems is with a monorepo - but that brings problems in itself around scalability and maintainability... enter Nx! In this talk we'll discuss how Nx can help you to manage a monorepo and the benefits that it brings. We will dive into how it can help you to generate new projects, its smart ability to know what's changed and only rebuild what it absolutely needs to, and how its distributed nature can reduce the time you spend waiting for CICD pipelines to run.</p>"
     }
   },
   {
