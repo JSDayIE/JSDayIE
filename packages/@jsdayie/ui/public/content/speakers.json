@@ -116,12 +116,12 @@
     }
   },
   {
-    "hide": true,
+    "hide": false,
     "role": " Technical Writer",
     "company": "Google",
     "name": "Milica Mihajlija",
-    "city": "London",
-    "country": "🇬🇧",
+    "city": "Belgrade",
+    "country": "🇷🇸",
     "pic": "/media/speakers_2023/milica-mihajlija.png",
     "bio": "Milica is a technical writer at Google working on privacy and identity. She is a big believer in the open web, always exploring new technologies that are moving it forward.",
     "links": {
