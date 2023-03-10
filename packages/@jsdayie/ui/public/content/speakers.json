@@ -66,7 +66,7 @@
     "country": "🇺🇸",
     "name": "Josh Goldberg",
     "pic": "/media/speakers_2023/josh-goldberg.jpeg",
-    "bio": "Hi, I'm Josh! I'm a frontend developer from New York with a passion for open source, static analysis, and the web. I'm a full time open source maintainer and work on projects in the TypeScript ecosystem such as typescript-eslint and TypeStat. I'm also the author of the Learning TypeScript book, published by O'Reilly. My work focuses on bringing accessible education to the masses in a sustainable way.",
+    "bio": "Hi, I'm Josh! I'm a frontend developer with a passion for open source, static analysis, and the web. I'm an independent open source maintainer and work on projects in the TypeScript ecosystem such as typescript-eslint and TypeStat. I'm also the author of the Learning TypeScript book, published by O'Reilly. My work focuses on bringing accessible education to the masses in a sustainable way.",
     "links": {
       "twitter": "https://twitter.com/joshuakgoldberg",
       "github": "https://github.com/joshuakgoldberg",
@@ -74,7 +74,7 @@
     },
     "talk": {
       "title": "TypeScript Static Analysis Hidden Gems",
-      "abstract": "<p>The TypeScript language adds a suite of services around TypeScript code that enable powerful code analyses and automations. But, most developers only use TypeScript lightly at development time. It can do so much more for you! This talk will present a practical overview of some of the latest and greatest developments in the open source TypeScript tooling space, including:</p><p>• typescript-eslint: features for finding detecting real bugs in your code, and APIs to let you define organization-specific rules</p><p>• eslint-plugin-expect-type: a consumer of typescript-eslint's APIs that</p><p>• ts-prune: detecting unused code with the power of the type system</p><p>• TypeStat: converts JavaScript to TypeScript and TypeScript to better TypeScript</p><p>This will also cover the TypeScript 'program' and 'language service' APIs used to power those tools. Depending on chosen session length, we'll either keep it high-level or give folks hands-on experience with them.</p>"
+      "abstract": "<p>The TypeScript language adds a suite of services around TypeScript code that enable powerful code analyses and automations. But, most developers only use TypeScript lightly at development time. It can do so much more for you! This talk will present a practical overview of some of the latest and greatest developments in the open source TypeScript tooling space, including:</p><p>• typescript-eslint: features for finding detecting real bugs in your code, and APIs to let you define organization-specific rules</p><p>• eslint-plugin-expect-type: a consumer of typescript-eslint's APIs that</p><p>• ts-prune: detecting unused code with the power of the type system</p><p>• TypeStat: converts JavaScript to TypeScript and TypeScript to better TypeScript</p><p>This will also cover the TypeScript 'program' and 'language service' APIs used to power those tools.</p>"
     }
   },
   {

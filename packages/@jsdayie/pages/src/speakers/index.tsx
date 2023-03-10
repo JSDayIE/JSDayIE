@@ -18,7 +18,7 @@ export const Speakers: React.FC<SpeakersProps> = (props) => {
       {isCfpOpen ? <Cfp /> : null}
       <Section title="2023 Speakers" size={1}>
         <p>
-          JSDayIE 203 featureds some of the best JavaScript professionals in
+          JSDayIE 2023 features some of the best JavaScript professionals in
           Ireland and the rest of the world
         </p>
         {(() => {
