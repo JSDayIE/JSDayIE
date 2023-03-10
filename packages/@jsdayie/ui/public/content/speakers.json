@@ -79,13 +79,13 @@
   },
   {
     "hide": false,
-    "role": "Head of Developer Relations",
+    "role": "Engineering Manager & Front-End Engineer",
     "company": "Veriff",
     "name": "Kateryna Porshnieva",
     "city": "Tallinn",
     "country": "🇪🇪",
     "pic": "/media/speakers_2023/kateryna-porshnieva.png",
-    "bio": "Kateryna is a front-end developer and community activist, currently working on developer productivity at Veriff. She likes to build products, make complex things simple and everything about dogs",
+    "bio": "Kateryna is an engineer from Ukraine with 9+ years of experience in UI development and design. She is passionate about accessible web, design systems and making complex things simple. Apart from work, she is active in tech community, organises board game nights and known as a coffee snob.",
     "links": {
       "twitter": "https://twitter.com/krambertech",
       "github": "https://github.com/krambertech",
@@ -195,8 +195,8 @@
   },
   {
     "hide": false,
-    "role": "Developer Relations Manager",
-    "company": "Wilco ",
+    "role": "Founder",
+    "company": "DevRel Community Africa ",
     "name": "Shedrack Akintayo",
     "city": "Lagos",
     "country": "🇳🇬",
