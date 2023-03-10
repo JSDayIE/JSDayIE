@@ -30,8 +30,8 @@
     "bio": "Erica is a Sr. Software Engineer at Netlify, helping to build tools to make Netlify a core building block for the modern web. She's based out of Toronto, Canada, and when she's not coding, she's camping somewhere in the woods with her dog, Ada.",
     "links": {
       "web": "https://www.ericapisani.dev/",
-      "twitter": "twitter.com/ericapisani",
-      "github": "github.com/ericapisani",
+      "twitter": "https://twitter.com/ericapisani",
+      "github": "https://github.com/ericapisani",
       "linkedin": "https://www.linkedin.com/in/erica-pisani-5b77ab84"
     },
     "talk": {
@@ -62,7 +62,7 @@
     "hide": false,
     "role": "Self-Employed",
     "company": "Open Source",
-    "city": "New York",
+    "city": "Philadelphia",
     "country": "🇺🇸",
     "name": "Josh Goldberg",
     "pic": "/media/speakers_2023/josh-goldberg.jpeg",
