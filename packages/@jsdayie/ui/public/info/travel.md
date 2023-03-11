@@ -77,7 +77,9 @@ You can get to the venue via multiple transport options:
 
 ## Accommodation
 
-You can find a list of recommended hotels in Dublin [here](https://goo.gl/maps/f5UFXFeMcwS2). If neither of those fit your needs, private accommodation options like AirBnB are great, too.
+The [Clayton Hotel Charlemont](https://www.claytonhotelcharlemont.com/) is our official hotel partner, you can contact [res.charlemont@claytonhotels.com](mailto:res.charlemont@claytonhotels.com) and mention "JSDayIE Conference" for a 10% discount on the room rates.
+
+You can find a list of other recommended hotels in Dublin [here](https://goo.gl/maps/f5UFXFeMcwS2). If neither of those fit your needs, private accommodation options like AirBnB are great, too.
 
 ## Location
 

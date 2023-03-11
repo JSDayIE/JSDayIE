@@ -87,7 +87,7 @@ export const talkValidator = io.partial({
 
 export const speakerValidator = io.type({
   name: io.string,
-  company: io.string,
+  company: io.union([io.string, io.undefined]),
   role: io.string,
   city: io.union([io.string, io.undefined]),
   country: io.union([io.string, io.undefined]),

@@ -32,7 +32,11 @@ export const Speaker: React.FC<SpeakerProps> = (props) => {
         <CardHeader>
           <h3 className="blog_entry_preview_title">{details.name}</h3>
           <p>
-            {details.role} @ {details.company}, {details.city} {details.country}
+            {details.company
+              ? `${details.role} @ ${details.company}`
+              : details.role}
+            {", "}
+            {details.city} {details.country}
           </p>
         </CardHeader>
         <CardBody>
