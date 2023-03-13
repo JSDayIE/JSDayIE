@@ -34,6 +34,7 @@ export const Newsletter: React.FC = () => {
               aria-hidden="true"
             >
               <input
+                disabled
                 type="text"
                 name="b_0ce8d0ae852b92a8957a8d9a7_9ebf6de6c8"
               />

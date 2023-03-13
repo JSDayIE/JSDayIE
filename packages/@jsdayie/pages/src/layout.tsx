@@ -26,12 +26,14 @@ export const Layout: React.FC<LayoutProps> = (props) => {
       <div className="global-ribbon global-ribbon-top-right">
         <div className="global-ribbon-content">
           <Link href={PATHS.awards}>
-            <Image
-              alt="JSAwarsIE"
-              src="/media/awards.png"
-              width="100"
-              height="27"
-            />
+            <a>
+              <Image
+                alt="JSAwardsIE"
+                src="/media/awards.png"
+                width="100"
+                height="27"
+              />
+            </a>
           </Link>
         </div>
       </div>

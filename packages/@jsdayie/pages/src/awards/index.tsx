@@ -24,7 +24,7 @@ export const Awards: React.FC<AwardsProps> = (props) => {
         </p>
         <br />
         <Image
-          alt="JSAwarsIE"
+          alt="JSAwardsIE"
           src="/media/awards_galaxy_2023.png"
           width="500"
           height="458"

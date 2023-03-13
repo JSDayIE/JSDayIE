@@ -58,7 +58,7 @@ export const Speaker: React.FC<SpeakerProps> = (props) => {
         </CardBody>
         {isPreview === true ? null : (
           <CardFooter>
-            <div className="iconroup">
+            <div className="iconGroup">
               <WebIcon links={details.links} />
               <TwitterIcon links={details.links} />
               <GithubIcon links={details.links} />
