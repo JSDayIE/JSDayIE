@@ -517,6 +517,13 @@ img {
   background-color: #000;
 }
 
+@media (prefers-reduced-motion) {
+  .hero_bg,
+  .videoBg {
+    display: none;
+  }
+}
+
 .modal {
   background-color: rgba(0, 0, 0, 0.8);
 }
