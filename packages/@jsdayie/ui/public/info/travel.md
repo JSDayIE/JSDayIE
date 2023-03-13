@@ -6,7 +6,7 @@ We collected a bit of information about travel to and from JSDayIE, how to get a
 
 Dublin International Airport is approximately 6 miles / 12 kilometres north of Dublin city centre, near a large suburban area called Swords. When you arrive at Dublin airport, there are four main ways you can get to the city centre.
 
-## Airlink 
+## Airlink
 
 Airlink is an express coach service operated by Dublin Bus, which also runs the city's public bus service. The Airlink is an express service (fewer stops) that goes from the airport to Dublin's main bus station Busaras, then to O'Connell Street in the city centre and finally to Heuston, one of Dublin's main train stations. 747 buses are frequent, departing every 15 or 20 minutes, from 5am to 11.30pm (11.20pm Sundays). The Airlink costs €6 one-way for adults, €11 return. See the [official website](http://www.dublinbus.ie/Your-Journey1/Timetables/Airport-Services/) for price details.
 
@@ -30,7 +30,7 @@ The main users of the public bus service (known as Dublin Bus) which via the air
 
 The regular public bus service is the cheapest option for getting into the city centre. A single fare from Dublin Airport to the City Centre, at the time of writing, costs €3.30. See the [official site](http://www.dublinbus.ie/). You can pay the driver when you get on the bus but you must have the exact coins. Even if you hand the driver a €20 euro note, he won't be able to give you any change back. Another payment option you can consider is to buy a LEAP visitor card -- although if you purchase the LEAP visitor card, you may want to travel on Airlink -- the public express bus, since the LEAP visitor card gives you unlimited travel on the public network in Dublin for 3 days.
 
-The Dublin Bus journey time from the airport is about 40 minutes. On busier times (the morning and afternoon commuter rush) it can take up to 1 hour.  Although it takes a similar route into the city centre as the Aircoach, one of the private express service, the 41 bus makes more stops along the route. While it uses the bus lane, it doesn't use the motorway. After 6.30pm, traffic lightens considerably and the 41 bus may get from the airport to the city centre in 30 minutes or less.
+The Dublin Bus journey time from the airport is about 40 minutes. On busier times (the morning and afternoon commuter rush) it can take up to 1 hour. Although it takes a similar route into the city centre as the Aircoach, one of the private express service, the 41 bus makes more stops along the route. While it uses the bus lane, it doesn't use the motorway. After 6.30pm, traffic lightens considerably and the 41 bus may get from the airport to the city centre in 30 minutes or less.
 
 ![](/media/dublin-bus.jpg)
 
@@ -39,7 +39,6 @@ The Dublin Bus journey time from the airport is about 40 minutes. On busier time
 It's easy to take a taxi from Dublin airport. The taxi rank is just outside Terminal 1 Arrivals level. Look to the right as you exit Arrivals. As with most airports, if the rank is busy, you get in the queue and wait for the next available taxi. The taxi fare will be around €25 to €30, depending on time/distance. Extras depend mainly on whether you booked the journey, whether it is peak time, and the number of passengers. The taxi will be metered. More information about regulated Irish taxi fares and extras. Most taxis can take a maximum of four passengers. If you have four passengers, it can be a cost-effective way to get to the city centre, especially if you have to go to a specific location, and you have luggage. You are not required to tip the taxi driver, but it's nice to. Personally, I always tip around €1.
 
 Taxis in Dublin are affordable and everywhere. You can usually hail one on the street, or use apps like [MyTaxi](https://mytaxi.com/ie) app, which also supports app payments.
-
 
 ![](/media/taxis.jpg)
 
@@ -55,7 +54,7 @@ The Leap Visitor Card is a pre-paid ticket that allows you unlimited city travel
 
 - **DART** and Commuter Rail in the Short Hop Zone (all of Dublin city and county)
 
-You can buy a Leap Visitor Card for only €19.50 at the SPAR shop (a small grocery shop) in the arrivals hall in Terminal 1 or Terminal 2, or at the Travel Information desk in Terminal 1. 
+You can buy a Leap Visitor Card for only €19.50 at the SPAR shop (a small grocery shop) in the arrivals hall in Terminal 1 or Terminal 2, or at the Travel Information desk in Terminal 1.
 
 Note: the Leap Visitor Card is different to the standard Leap Card used by Dublin's daily commuters. A standard Leap card costs €5 and a pre-paid balance (e.g. €50) must then be loaded onto it. Do not buy a Leap Card anywhere except in the airport -- only the airport sells the Leap visitor card.
 

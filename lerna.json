@@ -1,7 +1,5 @@
 {
-  "packages": [
-    "packages/@jsdayie/*"
-  ],
+  "packages": ["packages/@jsdayie/*"],
   "npmClient": "yarn",
   "private": true,
   "useWorkspaces": true,

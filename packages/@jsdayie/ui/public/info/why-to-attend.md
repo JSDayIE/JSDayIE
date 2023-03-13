@@ -8,7 +8,7 @@ We are inviting the JavaScript community to attend the upcoming JSDayIE (Septemb
 
 JSDayIE 2023 is a 1-day single-track tech conference dedicated to the JavaScript community in Ireland featuring over 450 attendees and some of the best JavaScript professionals and organizations. JSDayIE is the first JavaScript conference in Ireland and will take place in 2023, on September 26th at The Round Room at the Mansion House in Dawson Street, Dublin. JSDayIE is an invitation for the community to come together and for new people to get to know and join the community.
 
-If you have a desire to learn more about your profession or hobby and get energized about JavaScript, then this conference is for you. The heart of the conference is 25min presentations with topics ranging from in-depth technical journeys into JavaScript and what can be done with it to the big question of why we are all doing this and how we could do it better. 
+If you have a desire to learn more about your profession or hobby and get energized about JavaScript, then this conference is for you. The heart of the conference is 25min presentations with topics ranging from in-depth technical journeys into JavaScript and what can be done with it to the big question of why we are all doing this and how we could do it better.
 
 JSDayIE is an intimate event. We don't plan to sell thousands of tickets. By joining a more intimate environment, you will have a better chance to have meaningful conversations with other JavaScript professionals This is rounded off with social coffee breaks and an after-party. The breakfast, lunch, coffee breaks and the after-party are meant as a conductor for people to have the chance to meet each other, discuss the topics of the talks, and, above everything else, make real connections and maybe find new friends.
 
@@ -56,7 +56,7 @@ Please visit the [schedule page](/schedule) for more details.
 
 ## Discover Ireland
 
-Joining JSDayIE 2023 provides you with a great excuse to explore Dublin and the rest of Ireland. Visiting Dublin is like taking a great big breath of fresh air. Always invigorating, this  Viking city is at once modern and historic, exciting and relaxing.
+Joining JSDayIE 2023 provides you with a great excuse to explore Dublin and the rest of Ireland. Visiting Dublin is like taking a great big breath of fresh air. Always invigorating, this Viking city is at once modern and historic, exciting and relaxing.
 
 ![](/media/dublin.jpg)
 

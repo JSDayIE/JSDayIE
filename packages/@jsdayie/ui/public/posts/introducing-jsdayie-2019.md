@@ -1,13 +1,13 @@
 # Introducing JSDayIE 2019!
 
-Welcome to the official announcement of JSDayIE 2019! 
+Welcome to the official announcement of JSDayIE 2019!
 We are very excited to introduce the very first JavaScript conference in Ireland.
 
 JSDayIE 2019 is going to be a day dedicated to the JavaScript community in Ireland with over 450 attendees. The goal of the event is to bring together the JavaScript community for one day and showcase some of the best and most innovative work done by the members of the JavaScript community in Ireland.
 
 ![](/media/sticker_2019.png)
 
-*The JSDayIE 2019 logo above is based on the Dublin logo design by [Kieran Sheehan](https://twitter.com/KSheehan77) and it is licensed under the Creative Commons Attribution-NoDerivatives license.*
+_The JSDayIE 2019 logo above is based on the Dublin logo design by [Kieran Sheehan](https://twitter.com/KSheehan77) and it is licensed under the Creative Commons Attribution-NoDerivatives license._
 
 JSDayIE is presented by [Wolk Software](http://www.wolksoftware.com/). Wolk Software is an Ireland based startup dedicated to empowering developers and teams to achieve their best through consultancy and training services and technical publications and events.
 
@@ -19,7 +19,7 @@ JSDayIE is a single-track 1-day tech conference featuring talks from a diverse r
 
 ![](/media/js_galaxy_2023.png)
 
-We are working together with the JavaScript communities in Ireland such as Node.js Dublin, React Dublin, CorkJS, BelfastJS, DublinJS, Dublin TypeScript and many others to ensure that everybody is represented in this event. 
+We are working together with the JavaScript communities in Ireland such as Node.js Dublin, React Dublin, CorkJS, BelfastJS, DublinJS, Dublin TypeScript and many others to ensure that everybody is represented in this event.
 
 We are also taking an active part in promoting inclusivity and openness, not only at our conference but in the design and tech scene overall. We’re working together with communities such as Woman Who Code towards having a diverse lineup of speakers.
 
