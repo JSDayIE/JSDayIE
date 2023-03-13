@@ -54,7 +54,7 @@ export const Footer: React.FC<FooterProps> = (props) => {
                   href="https://twitter.com/JSDayIE"
                   rel="noreferrer"
                 >
-                  <i className="fab fa-twitter" />
+                  <i title="Twitter logo" className="fab fa-twitter" />
                 </a>
               </div>
               <div className="col-2">
@@ -63,7 +63,7 @@ export const Footer: React.FC<FooterProps> = (props) => {
                   href="https://www.youtube.com/channel/UC6CFGCJjA9GsOwZehQjfarQ"
                   rel="noreferrer"
                 >
-                  <i className="fab fa-youtube" />
+                  <i title="YouTube logo" className="fab fa-youtube" />
                 </a>
               </div>
               <div className="col-2">
@@ -72,7 +72,7 @@ export const Footer: React.FC<FooterProps> = (props) => {
                   href="https://www.facebook.com/Jsdayie-336263463661254"
                   rel="noreferrer"
                 >
-                  <i className="fab fa-facebook" />
+                  <i title="Facebook logo" className="fab fa-facebook" />
                 </a>
               </div>
               <div className="col-2">
@@ -81,7 +81,7 @@ export const Footer: React.FC<FooterProps> = (props) => {
                   href="https://www.linkedin.com/company/jsdayie"
                   rel="noreferrer"
                 >
-                  <i className="fab fa-linkedin-in" />
+                  <i title="LinkedIn logo" className="fab fa-linkedin-in" />
                 </a>
               </div>
               <div className="col-2">
@@ -90,7 +90,7 @@ export const Footer: React.FC<FooterProps> = (props) => {
                   href="https://www.instagram.com/jsdayie/"
                   rel="noreferrer"
                 >
-                  <i className="fab fa-instagram" />
+                  <i title="Instagram logo" className="fab fa-instagram" />
                 </a>
               </div>
             </div>

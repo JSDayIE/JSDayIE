@@ -220,7 +220,11 @@ export const CfpDetails: React.FC = () => {
             Our Code of conduct aims to create a safe and welcoming space for
             our community members, and to protect every attendee, staff member
             and speaker from harassment. We thus need you to read, understand,
-            and comply with our <Link href={PATHS.coc}>code of conduct</Link>.
+            and comply with our{" "}
+            <Link href={PATHS.coc}>
+              <a>code of conduct</a>
+            </Link>
+            .
           </p>
         </Section>
       </Section>

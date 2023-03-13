@@ -70,6 +70,7 @@ export const Navbar: React.FC<NavbarProps> = (props) => {
         <Link href={indexItems[0].href}>
           <a>
             <Image
+              aria-label="JS"
               onClick={() => setIsCollapse(true)}
               onKeyDown={() => setIsCollapse(true)}
               tabIndex={0}

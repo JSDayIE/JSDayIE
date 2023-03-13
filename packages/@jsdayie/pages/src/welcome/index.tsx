@@ -6,7 +6,12 @@ export const Welcome: React.FC = () => {
   return (
     <Container>
       <div className="center mt-5">
-        <Image src="/media/hero.png" width={500} height={182} />
+        <Image
+          alt="26th September 2023, Dublin, Ireland. JSDayIE"
+          src="/media/hero.png"
+          width={500}
+          height={182}
+        />
       </div>
       <Section
         title="The first JavaScript conference in Ireland is back!"

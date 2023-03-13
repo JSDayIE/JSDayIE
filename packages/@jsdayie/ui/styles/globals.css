@@ -38,6 +38,7 @@ body {
 
 a {
   color: #c8a157;
+  font-weight: bold;
 }
 
 a:hover {
@@ -116,8 +117,8 @@ img {
   max-width: 100%;
 }
 
-.iconroup button,
-.iconroup a {
+.iconGroup button,
+.iconGroup a {
   margin-left: 5px;
   border-radius: 50%;
   padding-top: 12px;
@@ -273,7 +274,7 @@ img {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   color: #fff;
   font: 700 18px/1 "Lato", sans-serif;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 3px black;
   text-transform: uppercase;
   text-align: center;
 }
