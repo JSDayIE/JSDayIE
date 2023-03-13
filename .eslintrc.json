@@ -23,11 +23,14 @@
     "react/no-danger": "off",
     "no-console": 1,
     "@typescript-eslint/no-shadow": ["error"],
-    "jsx-a11y/anchor-is-valid": [ "error", {
-      "components": [ "Link" ],
-      "specialLink": [ "hrefLeft", "hrefRight" ],
-      "aspects": [ "invalidHref", "preferButton" ]
-    }],
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["hrefLeft", "hrefRight"],
+        "aspects": ["invalidHref", "preferButton"]
+      }
+    ],
     "import/no-extraneous-dependencies": "off"
   }
 }

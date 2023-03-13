@@ -34,13 +34,13 @@ Your company sells a service or a product that is relevant to web and fullstack 
 
 You might hear one of the following:
 
-> *"We have no budget"*
+> _"We have no budget"_
 
 Don't give up, and be prepared with the numbers. Calculate what the ticket would cost, and consider accommodation and travel costs if you need these covered. Keep in mind that your company can most likely deduct tax from everything.
 
 Is this investment in your training worth it or not? Ask your boss why they think that it isn't.
 
-> *"We have no time"*
+> _"We have no time"_
 
 Perhaps your management thinks that you can't miss a day in the office, and that getting stuff done is more important than professional education and improvement.
 

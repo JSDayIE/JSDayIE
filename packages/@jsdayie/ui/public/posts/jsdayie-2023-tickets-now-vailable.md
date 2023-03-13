@@ -2,7 +2,7 @@
 
 We are proud to announce that the JSDayIE 2023 tickets are now on sale!
 
-We are working very hard to beat the quality that we managed to put together in 2019. This year we are offering the exact tickets in 2019 plus new Remote access. 
+We are working very hard to beat the quality that we managed to put together in 2019. This year we are offering the exact tickets in 2019 plus new Remote access.
 
 To integrate the in-person and remote experiences, we have decided to collaborate with Vi.to. Vi.to is an online tool that allows conferences like JSDayIE to create an online community for our 2023 event. You will be able to use our Vi.to Hub to stream the talks and interact with all attedees (in-person and remote), sponsors and speakers. You can think about it as a private version of Youtube + Twitter.
 

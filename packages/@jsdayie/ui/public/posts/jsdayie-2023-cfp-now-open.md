@@ -14,7 +14,7 @@ We are looking for a multitude of topics and perspectives but most of all we val
 
 We don't have a specific theme for JSDayIE. Instead, we're aiming to select talks that are interesting for as many JavaScript developers as possible. Our audience skill level is intermediate to advanced.
 
-All talks should be in English and 25 minutes long (including optional time for audience questions). 
+All talks should be in English and 25 minutes long (including optional time for audience questions).
 We will be on a tight schedule and will enforce the time limits rigorously. We suggest that you time your presentation accordingly in advance.
 
 ## We can help

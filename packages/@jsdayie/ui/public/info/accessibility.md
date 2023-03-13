@@ -4,7 +4,6 @@ JSDayIE aims to be an inclusive and accessible conference.
 
 We understand that accessibility is a complex field and we realise that every person has their own unique needs. As a result, we do have some accessibility initiatives that help us to set a good baseline. For general services available at our conference, please see the [services page](/info/services).
 
-
 ## Early bird tickets
 
 If you couldn't buy an early bird ticket because your accessibility question couldn’t be resolved in time before they became unavailable, we're happy to make sure you can still buy an early bird ticket. Please get in touch if this is relevant to you.
@@ -12,7 +11,6 @@ If you couldn't buy an early bird ticket because your accessibility question cou
 ## Personal assistance / support person
 
 Any assistant personnel accompanying you won't need to purchase an additional conference ticket. We just need to know they'll be attending, please let us know.
-
 
 A support person is necessary to protect the health and safety of the person with impairments/disabilities during the travel and/or events.
 

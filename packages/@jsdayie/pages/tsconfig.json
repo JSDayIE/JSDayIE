@@ -12,9 +12,7 @@
     "composite": true,
     "outDir": "./lib",
     "isolatedModules": false,
-    "noEmit": false,
+    "noEmit": false
   },
-  "include": [
-    "./src"
-, "index.ts"  ]
- }
+  "include": ["./src", "index.ts"]
+}

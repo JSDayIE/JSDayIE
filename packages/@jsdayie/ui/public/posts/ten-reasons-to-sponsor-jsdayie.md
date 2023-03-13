@@ -14,15 +14,15 @@ Contributing to the healthy growth of the JavaScript community in Ireland benefi
 
 ## 2. Solidify your commitment to the JavaScript community in Ireland
 
-JSDayIE would not be possible without the financial commitment of Sponsors, and so there is inherent respect from all attendees for those that step up and commit funds to enable them to have a forum in which to do business. In turn, that commitment helps to solidify your company as a legitimate resource for industry solutions. 
+JSDayIE would not be possible without the financial commitment of Sponsors, and so there is inherent respect from all attendees for those that step up and commit funds to enable them to have a forum in which to do business. In turn, that commitment helps to solidify your company as a legitimate resource for industry solutions.
 
 ## 3. Improve your brand awareness
 
-Sponsoring gives your business authority in your industry, and this boosts your credibility. Your brand will be seen throughout various elements of the event and attendees eager to learn more about your business will come to find you. 
+Sponsoring gives your business authority in your industry, and this boosts your credibility. Your brand will be seen throughout various elements of the event and attendees eager to learn more about your business will come to find you.
 
 ## 4. Find the best JavaScript talent
- 
-Get a unique chance to access a pool of experienced JavaScript engineers. Meet your potential hires in person. Industry events attract high-caliber attendees, some of whom may be looking to advance their careers when an opportunity arises, and by Sponsoring you are better positioned to attract those talented and experienced professionals to your company. 
+
+Get a unique chance to access a pool of experienced JavaScript engineers. Meet your potential hires in person. Industry events attract high-caliber attendees, some of whom may be looking to advance their careers when an opportunity arises, and by Sponsoring you are better positioned to attract those talented and experienced professionals to your company.
 
 ## 5. Communicate efficiently with top industry professionals
 
@@ -30,13 +30,13 @@ We expect 70% of our attendees to be intermediate level developers with years of
 
 ## 6. Reaffirm confidence among existing clients
 
-Having a significant presence at JSDayIE shows your existing customers that your company is strong, reaffirming their confidence in doing business with you. This is also important for national and international clients that do not see you face to face that often. 
+Having a significant presence at JSDayIE shows your existing customers that your company is strong, reaffirming their confidence in doing business with you. This is also important for national and international clients that do not see you face to face that often.
 
 There is a chance that you will have the opportunity to speak with some of your current customers during the event. This will give you a great chance to reconnect and get feedback on how your service or product is performing. You can also use JsDayIE as an opportunity to educate your customers about any upcoming upgrades or releases.
 
 ## 7. Distract your competition
 
-If you are Sponsoring and your competitors are not, you not only have a distinct advantage, but often your competitors spend more time obsessing over your superior visibility and who is visiting your exhibit space, than networking for themselves, further enhancing your advantage. 
+If you are Sponsoring and your competitors are not, you not only have a distinct advantage, but often your competitors spend more time obsessing over your superior visibility and who is visiting your exhibit space, than networking for themselves, further enhancing your advantage.
 
 ## 8. Benefit from pre-event & post-event exposure
 
@@ -44,7 +44,7 @@ While some conferences do more of this than others, an often overlooked advantag
 
 ## 9. Present your products & technologies to a relevant audience
 
-Sponsoring JSDayIE is a great way to generate quality leads because they’re full of people actively interested in learning and improving aspects of their business operations. Many of the people who attend our events are interested in learning more about new technologies, services, and solutions. 
+Sponsoring JSDayIE is a great way to generate quality leads because they’re full of people actively interested in learning and improving aspects of their business operations. Many of the people who attend our events are interested in learning more about new technologies, services, and solutions.
 
 In the modern software development world, product and infrastructure decisions are often being driven by the actual team. From IDEs to multi-cloud deployment platforms - get a chance to pitch directly to the end user. You will have an opportunity to get out there, interact with event attendees and stand out amongst the crowd.
 
