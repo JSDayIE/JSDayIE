@@ -2,12 +2,12 @@
   {
     "hide": false,
     "title": "Price (EUR)*",
-    "bronze": "2000",
-    "silver": "3000",
-    "gold": "4000",
-    "platinum": "7000",
-    "platinumPlus": "8000",
-    "diamond": "10000"
+    "bronze": "500",
+    "silver": "1000",
+    "gold": "2000",
+    "platinum": "3000",
+    "platinumPlus": "4000",
+    "diamond": "5000"
   },
   {
     "hide": false,

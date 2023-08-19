@@ -35,19 +35,19 @@
       "linkedin": "https://www.linkedin.com/in/erica-pisani-5b77ab84"
     },
     "talk": {
-      "title": "Moving to the Edge",
-      "abstract": "<p>Web developers have more options than ever to move their site and its data into 'the edge'. Javascript frameworks and various hosting platforms such as Netlify, Cloudflare, and Vercel are increasingly supporting various edge capabilities which, when used, can greatly improve site performance. This talk would be broken down into 4 parts:</p><p>1. What is 'the edge'?<br/>- would cover what it is and how it compares to functionality run on an origin server<br/>- what problems and use cases the edge is meant to address</p><p>2. Web applications on the edge<br/>- would cover edge functions and how they compare to standard serverless functions<br/>- would cover some use cases (e.g: user authentication, a/b split testing)<br/>- limitations around using the edge at this time<p>3. Data on the edge<br/>- would cover some of the challenges of hosting data on the edge<br/>- would cover some of the options available today<br/></p><p>4. Wrap up</p>"
+      "title": "Living to the Edge",
+      "abstract": "<p>Edge computing is not a new concept, but in the past few years an increasing number of hosting providers have introduced the ability to run Javascript at the edge such as Edge Functions from Netlify and Vercel, and Workers from Cloudflare. </p><p>Some of the hottest new Javascript frameworks are encouraging the use of 'the edge' when building websites, and companies that host data are increasingly making that data more accessible on edge networks. </p <p>In this session, we'll look at:</p><p>- What the edge is;<br/> - How running code and serving data on the edge can improve site performance;<br/> - How to leverage these options effectively in your site to maximize site performance with minimal architectural changes; and<br/> - How leveraging the edge can reduce the carbon footprint of your software.</p>"
     }
   },
   {
     "hide": false,
     "role": "Frontend Developer",
-    "company": "ClearScore",
+    "company": "Orbital Witness",
     "city": "London",
     "country": "🇬🇧",
     "name": "George McCarron",
     "pic": "/media/speakers_2023/george-mccarron.jpeg",
-    "bio": "George is a frontend developer at ClearScore in London, where he is most often found working with TypeScript and React. He is always looking for ways to make developers lives easier through better tooling and streamlined processes.",
+    "bio": "George is a frontend developer at Orbital Witness in London, where he is most often found working with TypeScript and React. He is always looking for ways to make developers lives easier through better tooling and streamlined processes.",
     "links": {
       "twitter": "https://twitter.com/george_mccarron",
       "github": "https://github.com/george1410",
@@ -154,26 +154,6 @@
   },
   {
     "hide": false,
-    "role": "Full Stack Developer",
-    "company": "Avanade",
-    "name": "Ruby Jane",
-    "city": "Oslo",
-    "country": "🇳🇴",
-    "pic": "/media/speakers_2023/ruby-jane.jpeg",
-    "bio": "Ruby Jane Cabagnot is a full-stack DotNET/Java/Reactjs developer based in Oslo, Norway, and works for Avanade Norway. She believes that to be interesting; one must BE interested. She is the author of Practical Enterprise React: Become an Effective React Developer in Your Team and has been a speaker at NDC London 2022, NDC Oslo 2020 & 2021, and NDC Sydney 2020.",
-    "links": {
-      "web": "https://rubyjanecabagnot.pro",
-      "twitter": "https://twitter.com/rubyjane88",
-      "github": "https://github.com/RubyJane88",
-      "linkedin": "https://www.linkedin.com/in/rubyjane/"
-    },
-    "talk": {
-      "title": "Building resumable websites with Qwik",
-      "abstract": "<p>Qwik is a JavaScript framework that uses a new rendering paradigm called resumability. It can serialize a JavaScript app into HTML, thus eliminating the need for the hydration technique used in meta-frameworks like Next.js. Is Qwik the world's first O(1) JavaScript framework? Let's find out.</p><p>Qwik lets us build 'resumable apps' by requiring nearly zero JavaScript for pages to become interactive + fine-grained lazy loading to only load what's used. I will teach you how to start with Qwik on this topic.</p><p>We will cover the following topics: What is Qwik framework, Qwik vs. React, Qwik vs. Angular, How to make JS bundle smaller, and how to get started building with Qwik.</p>"
-    }
-  },
-  {
-    "hide": false,
     "role": "Global Head of Engineering",
     "company": "William Hill",
     "name": "Serg Hospodarets",
@@ -194,22 +174,20 @@
   },
   {
     "hide": false,
-    "role": "Founder",
-    "company": "DevRel Community Africa",
-    "name": "Shedrack Akintayo",
-    "city": "Lagos",
-    "country": "🇳🇬",
-    "pic": "/media/speakers_2023/shedrack-akintayo.jpg",
-    "bio": "Shedrack Akintayo is a Developer Relations Professional and Technical Writer with over 5+ years of experience in Technology and a track record in Web Engineering, Community Management, and Developer Relations on a global scale. He has given talks/workshops at developer conferences like JS Nation Live 2020, DevRel Asia, and All Things Open among many others. He also co-organizes Developer Circles Lagos from Facebook, Open-Source Community Africa, and other communities empowering Africa and the world with Technology.",
+    "role": "Senior Designer, advocacy and education lead",
+    "company": "Stately",
+    "name": "Laura Kalbag",
+    "city": "Kilkenny",
+    "country": "🇮🇪",
+    "pic": "/media/speakers_2023/laura-kalbag.jpg",
+    "bio": "Laura Kalbag has been in the tech industry for over 15 years, doing development, design, speaking, and writing. Laura works at Stately, where her focus is advocacy and education for Stately and XState. She is also the author of Accessibility for Everyone from A Book Apart and Co-Founder of Small Technology Foundation.",
     "links": {
-      "web": "https://www.sheddy.xyz/",
-      "twitter": "https://twitter.com/coder_blvck",
-      "github": "https://github.com/hacktivist123",
-      "linkedin": "https://www.linkedin.com/in/shedrackakintayo/"
+      "web": "https://laurakalbag.com/",
+      "twitter": "https://twitter.com/laurakalbag"
     },
     "talk": {
-      "title": "The Great Battle of React Build Tools",
-      "abstract": "<p>Build tools have existed since the dawn of the browser era, Javascript has been built because it gets too heavy and causes computational issues for the browser and also affects application performance. ReactJS is a javascript library that was introduced to make building javascript applications faster and easier. When React was introduced to the frontend ecosystem, it heavily promoted Webpack as a build tool for React. The React team included Webpack in the official React boilerplate code generator(create-react-app). All was well until developers started noticing how slow and difficult setting up Webpack from scratch can be if they decided not to use CRA. This frustration led to the birth of several other build tools meant to solve WebPack issues and make building React Apps faster and easier to set up. In this talk, I'll be exploring the following React build tools (Webpack and Babel, Parcel, Vite, Rollup, Turbopack), their benefits, their drawbacks, their speed, etc.</p>"
+      "title": "Modelling a better night's sleep: building a white noise machine with state machines",
+      "abstract": "<p>Join to learn about state machines, stay for the soothing visualisations and relaxing soundscapes.</p><p>In this session, Laura will show you how to build a white noise machine web app, using XState and the Stately visual editor to model, manage, and visualise your states, quickly add new features, and easily collaborate with your coworkers.</p><p>New to state machines and statecharts? Laura will introduce these concepts, giving you all the framework-agnostic resources you need to go back to the office and impress your team.</p>"
     }
   },
   {
@@ -229,6 +207,26 @@
     "talk": {
       "title": "Keynote",
       "abstract": "Keynote"
+    }
+  },
+  {
+    "hide": false,
+    "role": "Senior Design Systems Engineer",
+    "company": "Northwestern Mutual",
+    "name": "Kathleen McMahon",
+    "city": "Boston",
+    "country": "🇺🇸",
+    "pic": "/media/speakers_2023/kathleen-mcmahon.jpg",
+    "bio": "Kathleen is a software engineer, designer, and speaker, with deep industry experience in making apps beautifully accessible. She’s a Sr Design Systems Engineer at Northwestern Mutual, a W3C Design Tokens Community Group Specification Editor, and the best lanterne rouge cyclocrosser you’ll ever meet.",
+    "links": {
+      "web": "https://www.kathleenmcmahon.dev/",
+      "twitter": "https://twitter.com/resource11",
+      "github": "https://github.com/resource11",
+      "linkedin": "https://www.linkedin.com/in/resource11/"
+    },
+    "talk": {
+      "title": "Bye-bye, weeds! Digital Gardening with Astro, SolidJS & MDX",
+      "abstract": "Design System components are like guests at a Venetian Carnival, enjoying the festivities. One guest in particular — the disclosure widget — is known for wearing three distinct masks and elevates a Carnival into the most exclusive Masquerade Ball. Or… is it? What kind of Carnival are you attending if those masks get mixed? In this talk, you’ll learn the secret to creating a reusable — and accessible — component that can masquerade as many, and give your component library access to the most exclusive of Carnival attractions."
     }
   }
 ]

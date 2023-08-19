@@ -14,13 +14,13 @@
   {
     "startTime": "09:30",
     "duration": "25 mins",
-    "title": "Bun, Forrest, BUN!",
-    "speaker": "Chris Laughlin"
+    "title": "The new era of ML in JavaScript",
+    "speaker": "Marian Villa"
   },
   {
     "startTime": "10:00",
     "duration": "25 mins",
-    "title": "Moving to the Edge",
+    "title": "Living to the Edge",
     "speaker": "Erica Pisani"
   },
   {
@@ -62,8 +62,8 @@
   {
     "startTime": "13:20",
     "duration": "25 mins",
-    "title": "The new era of ML in JavaScript",
-    "speaker": "Marian Villa"
+    "title": "Bun, Forrest, BUN!",
+    "speaker": "Chris Laughlin"
   },
   {
     "startTime": "13:50",
@@ -80,8 +80,8 @@
   {
     "startTime": "14:30",
     "duration": "25 mins",
-    "title": "Building resumable websites with Qwik",
-    "speaker": "Ruby Jane"
+    "title": "Modelling a better night's sleep: building a white noise machine with state machines",
+    "speaker": "Laura Kalbag"
   },
   {
     "startTime": "15:00",
@@ -92,8 +92,8 @@
   {
     "startTime": "15:30",
     "duration": "25 mins",
-    "title": "The Great Battle of React Build Tools",
-    "speaker": "Shedrack Akintayo"
+    "title": "Bye-bye, weeds! Digital Gardening with Astro, SolidJS & MDX",
+    "speaker": "Kathleen McMahon"
   },
   {
     "startTime": "15:55",

@@ -14,7 +14,7 @@
   {
     "type": "Early Bird",
     "price": "€165",
-    "isSoldOut": false,
+    "isSoldOut": true,
     "isRemote": false
   },
   {

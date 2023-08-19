@@ -59,11 +59,11 @@ export const Sponsors: React.FC<SponsorsProps> = (props) => {
                 key: "aso_title1",
                 content: "Price (EUR)*",
               },
-              { key: "aso_price1", content: "2000" },
-              { key: "aso_price2", content: "2000" },
-              { key: "aso_price3", content: "5000" },
-              { key: "aso_price4", content: "5000" },
-              { key: "aso_price5", content: "10000" },
+              { key: "aso_price1", content: "500" },
+              { key: "aso_price2", content: "1000" },
+              { key: "aso_price3", content: "1000" },
+              { key: "aso_price4", content: "1000" },
+              { key: "aso_price5", content: "3000" },
             ],
             [
               {
