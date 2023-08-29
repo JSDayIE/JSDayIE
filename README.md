@@ -15,7 +15,7 @@ Update `path` in `images` in `next.config.js` to be able to load images from loc
 // ...
 images: {
     loader: "akamai",
-    path: "http://localhost:3000/",
+    path: "http://localhost:3000/", // https://www.jsday.ie/
 },
 // ...
 ```

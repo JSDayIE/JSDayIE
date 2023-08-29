@@ -46,37 +46,17 @@ export async function getStaticProps(): Promise<HomePageProps> {
   } else {
     return {
       props: {
-        blog: {
-          data: blog,
-        },
         speakers,
-        activity,
         tickets,
         sponsorsingPackages,
         sponsors,
-        info,
-        venue: {
-          isPreview: true,
-          galleryData: {
-            urls: gallery,
-          },
-        },
       },
     };
   }
 }
 
 const HomePage: React.FC<HomeProps> = (props) => {
-  const {
-    blog,
-    speakers,
-    activity,
-    tickets,
-    sponsorsingPackages,
-    sponsors,
-    info,
-    venue,
-  } = props;
+  const { speakers, tickets, sponsorsingPackages, sponsors } = props;
   return (
     <>
       <Seo
@@ -94,14 +74,10 @@ const HomePage: React.FC<HomeProps> = (props) => {
         GA_MEASUREMENT_ID={seoValues.GA_MEASUREMENT_ID}
       />
       <Home
-        blog={blog}
         speakers={speakers}
-        activity={activity}
         tickets={tickets}
         sponsorsingPackages={sponsorsingPackages}
         sponsors={sponsors}
-        info={info}
-        venue={venue}
       />
     </>
   );

@@ -25,13 +25,19 @@ export async function getStaticProps(): Promise<SponsorsPageProps> {
         sponsorsingPackagesData,
         sponsorData,
         displaySponsors: true,
+        displayPackages: true,
       },
     };
   }
 }
 
 const SponsorsPage: React.FC<SponsorsProps> = (props) => {
-  const { displaySponsors, sponsorsingPackagesData, sponsorData } = props;
+  const {
+    displaySponsors,
+    sponsorsingPackagesData,
+    sponsorData,
+    displayPackages,
+  } = props;
   return (
     <>
       <Seo
@@ -50,6 +56,7 @@ const SponsorsPage: React.FC<SponsorsProps> = (props) => {
         sponsorsingPackagesData={sponsorsingPackagesData}
         sponsorData={sponsorData}
         displaySponsors={displaySponsors}
+        displayPackages={displayPackages}
       />
     </>
   );
