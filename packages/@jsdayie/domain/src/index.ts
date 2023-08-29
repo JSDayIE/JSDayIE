@@ -56,6 +56,7 @@ export const sponsorsValidator = io.type({
 export type ISponsors = io.TypeOf<typeof sponsorsValidator>;
 
 export const awardValidator = io.type({
+  id: io.number,
   hide: io.boolean,
   name: io.string,
   description: io.string,
@@ -63,13 +64,6 @@ export const awardValidator = io.type({
   nominationLink: io.string,
   disabled: io.boolean,
 });
-
-export const awardsValidator = io.type({
-  categories: io.array(awardValidator),
-});
-
-export type IAward = io.TypeOf<typeof awardValidator>;
-export type IAwards = io.TypeOf<typeof awardsValidator>;
 
 export const speakerLinksValidator = io.partial({
   twitter: io.string,
@@ -79,6 +73,22 @@ export const speakerLinksValidator = io.partial({
   linkedin: io.string,
   youtube: io.string,
 });
+
+export const awardWinnerValidator = io.type({
+  id: io.number,
+  hide: io.boolean,
+  name: io.string,
+  links: speakerLinksValidator,
+});
+
+export const awardsValidator = io.type({
+  categories: io.array(awardValidator),
+  winners: io.array(awardWinnerValidator),
+});
+
+export type IAward = io.TypeOf<typeof awardValidator>;
+export type IAwardWinner = io.TypeOf<typeof awardWinnerValidator>;
+export type IAwards = io.TypeOf<typeof awardsValidator>;
 
 export const talkValidator = io.partial({
   title: io.string,

@@ -3,13 +3,42 @@ import { Section, Container, Table, Button } from "@jsdayie/components";
 import { IAwards } from "@jsdayie/domain";
 import Image from "next/image";
 import { Award } from "./award";
+import { Winner } from "./winner";
 
 export interface AwardsProps extends IAwards {
   isPreview: boolean;
 }
 
 export const Awards: React.FC<AwardsProps> = (props) => {
-  const { categories, isPreview } = props;
+  const { winners, categories, isPreview } = props;
+  if (winners.length > 0) {
+    return (
+      <Container>
+        <Section title="The JSAwardsIE 2023 winners" size={1}>
+          <p>
+            JSAwardsIE recognizes individuals and businesses for their
+            contributions to open source javascript projects and other kinds of
+            engagements, such as research and innovation, public talks,
+            technical blog posts and tutorials, podcasts, technical books, etc.
+          </p>
+          <br />
+          <div className="row">
+            {categories.map((category) => {
+              const winner = winners.find((w) => w.id === category.id);
+              if (winner) {
+                return (
+                  <div className="col-md-6">
+                    <Winner award={category} winner={winner} />
+                  </div>
+                );
+              }
+              return null;
+            })}
+          </div>
+        </Section>
+      </Container>
+    );
+  }
   return (
     <Container>
       <Section

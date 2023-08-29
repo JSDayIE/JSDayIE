@@ -40,13 +40,7 @@ export const Speaker: React.FC<SpeakerProps> = (props) => {
           </p>
         </CardHeader>
         <CardBody>
-          <div
-            role="button"
-            className="clickcable"
-            onClick={() => toggleHandler()}
-            onKeyDown={() => toggleHandler()}
-            tabIndex={0}
-          >
+          <div>
             <Image
               alt={details.name}
               src={details.pic}
@@ -58,14 +52,13 @@ export const Speaker: React.FC<SpeakerProps> = (props) => {
         </CardBody>
         {isPreview === true ? null : (
           <CardFooter>
-            <div className="iconGroup">
-              <WebIcon links={details.links} />
-              <TwitterIcon links={details.links} />
-              <GithubIcon links={details.links} />
-              <MediumIcon links={details.links} />
-              <LinkedinIcon links={details.links} />
-              <YoutubeIcon links={details.links} />
-            </div>
+            <button
+              type="button"
+              className="btn btn-outline-warning btn-lg"
+              onClick={() => toggleHandler()}
+            >
+              More info
+            </button>
           </CardFooter>
         )}
       </Card>
@@ -83,6 +76,17 @@ export const Speaker: React.FC<SpeakerProps> = (props) => {
         ) : null}
         <h5 className="section_h2">Bio</h5>
         <p>{details.bio}</p>
+        <br />
+        <h5 className="section_h2">Follow</h5>
+        <div className="iconGroup">
+          <WebIcon links={details.links} />
+          <TwitterIcon links={details.links} />
+          <GithubIcon links={details.links} />
+          <MediumIcon links={details.links} />
+          <LinkedinIcon links={details.links} />
+          <YoutubeIcon links={details.links} />
+        </div>
+        <br />
       </Modal>
     </div>
   );

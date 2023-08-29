@@ -35,7 +35,7 @@
       "linkedin": "https://www.linkedin.com/in/erica-pisani-5b77ab84"
     },
     "talk": {
-      "title": "Living to the Edge",
+      "title": "Moving to the Edge",
       "abstract": "<p>Edge computing is not a new concept, but in the past few years an increasing number of hosting providers have introduced the ability to run Javascript at the edge such as Edge Functions from Netlify and Vercel, and Workers from Cloudflare. </p><p>Some of the hottest new Javascript frameworks are encouraging the use of 'the edge' when building websites, and companies that host data are increasingly making that data more accessible on edge networks. </p <p>In this session, we'll look at:</p><p>- What the edge is;<br/> - How running code and serving data on the edge can improve site performance;<br/> - How to leverage these options effectively in your site to maximize site performance with minimal architectural changes; and<br/> - How leveraging the edge can reduce the carbon footprint of your software.</p>"
     }
   },
@@ -154,13 +154,13 @@
   },
   {
     "hide": false,
-    "role": "Global Head of Engineering",
-    "company": "William Hill",
+    "role": "VP of Global Engineering",
+    "company": "Finalsite",
     "name": "Serg Hospodarets",
     "city": "Dublin",
     "country": "🇮🇪",
     "pic": "/media/speakers_2023/serg-hospodarets.jpeg",
-    "bio": "Serg went from a developer and architect, to a Director, VP and Global Head of Product and Engineering, so has an understanding of the needs of both developers, business and customers. He built a few Platform Engineering organisations and delivered Web Cloud Platforms, and now open to share his experience in enabling teams, business and customers.",
+    "bio": "Serg went from a developer and architect to a Director, Executive VP of Engineering, so he understands the needs of both developers, products, sales, and marketing. He built a few Platform Engineering organizations and delivered Cloud Platforms, and now is open to sharing his experience in enabling teams, businesses, and customers.",
     "links": {
       "web": "http://hospodarets.com",
       "linkedin": "https://www.linkedin.com/in/shospodarets/",

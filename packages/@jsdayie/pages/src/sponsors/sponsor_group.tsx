@@ -10,10 +10,10 @@ interface SponsorGroupProps {
 
 export function SponsorGroup({ group, sponsors, label }: SponsorGroupProps) {
   const sponsorsInGroup = sponsors[group];
-  const visibleSponsorsInGroup = sponsorsInGroup.filter(
+  const visibleSponsorsInGroup: any[] = sponsorsInGroup.filter(
     (sponsor) => sponsor.hide === false
   );
-  return (
+  return visibleSponsorsInGroup.length > 0 ? (
     <>
       {visibleSponsorsInGroup.length > 0 ? (
         <h1 className="sponsor_group_title">{label}</h1>
@@ -28,5 +28,5 @@ export function SponsorGroup({ group, sponsors, label }: SponsorGroupProps) {
         })}
       </div>
     </>
-  );
+  ) : null;
 }

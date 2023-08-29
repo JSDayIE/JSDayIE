@@ -541,7 +541,7 @@ img {
 }
 
 .modal-body p {
-  font-size: 14px !important;
+  font-size: 20px !important;
 }
 
 .table_table {
@@ -615,7 +615,7 @@ img {
 }
 
 .speaker .card-body {
-  min-height: 370px;
+  min-height: 350px;
 }
 
 .modal-body {
@@ -662,8 +662,6 @@ img {
 @media (min-width: 768px) {
   .hero_bg {
     border-bottom: 1px solid #c8a157;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-image: url("/media/hero-overlay.svg");
   }
 
   .hero_img_wrapper {

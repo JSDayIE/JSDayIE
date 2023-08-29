@@ -24,7 +24,7 @@ export async function getStaticProps(): Promise<SponsorsPageProps> {
       props: {
         sponsorsingPackagesData,
         sponsorData,
-        displaySponsors: false,
+        displaySponsors: true,
       },
     };
   }

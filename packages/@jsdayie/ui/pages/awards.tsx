@@ -21,7 +21,7 @@ export const getStaticProps: GetStaticProps = async (): Promise<
 };
 
 const SpeakersPage: React.FC<AwardsProps> = (props) => {
-  const { categories, isPreview } = props;
+  const { winners, categories, isPreview } = props;
   return (
     <>
       <Seo
@@ -36,7 +36,7 @@ const SpeakersPage: React.FC<AwardsProps> = (props) => {
         twitterUserName={seoValues.twitterUserName}
         GA_MEASUREMENT_ID={seoValues.GA_MEASUREMENT_ID}
       />
-      <Awards categories={categories} isPreview={isPreview} />
+      <Awards categories={categories} winners={winners} isPreview={isPreview} />
     </>
   );
 };

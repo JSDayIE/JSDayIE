@@ -32,7 +32,7 @@ module.exports = withPlugins([optimizedImages, withTM], {
   trailingSlash: true,
   images: {
     loader: "akamai",
-    path: "https://www.jsday.ie",
+    path: "http://localhost:3000/",
   },
   webpack: (config) => {
     config.resolve.alias = {
