@@ -1,6 +1,7 @@
 import React from "react";
 import { Section, Container } from "@jsdayie/components";
 import Image from "next/image";
+import { VenueMediaItem } from "../venue/venue_media_item";
 
 export const Welcome: React.FC = () => {
   return (
@@ -24,21 +25,30 @@ export const Welcome: React.FC = () => {
           over 300 attendees and some of the best JavaScript professionals and
           organizations.
         </p>
+        <div>
+          <VenueMediaItem
+            type="video"
+            url="https://www.youtube.com/embed/-fpvYWMBixY"
+          />
+        </div>
+        <br />
         <p>
           The 2nd edition of JSDayIE will take place on{" "}
           <span className="remember">September 26th 2023</span> at{" "}
           <span className="remember">The Round Room at the Mansion House</span>{" "}
           in Dawson Street, <span className="remember">Dublin, Ireland</span>.
-          The after party will take place at
+          The after party will take place at{" "}
           <span className="remember">Cafe en Seine</span>, also in Dawson
           Street.
         </p>
-        <a
-          className="btn btn-outline-warning btn-lg"
-          href="https://ti.to/wolk-software-limited/jsdayie-2023/"
-        >
-          Get your ticket now!
-        </a>
+        <div>
+          <a
+            className="btn btn-outline-warning btn-lg"
+            href="https://ti.to/wolk-software-limited/jsdayie-2023/"
+          >
+            Get your ticket now!
+          </a>
+        </div>
       </Section>
     </Container>
   );
